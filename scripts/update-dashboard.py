@@ -5,7 +5,7 @@ Populates data/dashboard.json with real data from:
   - Family schedules (from memory files)
   - Weather (Open-Meteo, no API key needed)
   - Didup registro elettronico (Flavio's school data)
-  - Google Calendar (future)
+  - Google Calendar (family events)
 
 Usage:
     python3 scripts/update-dashboard.py
@@ -13,6 +13,7 @@ Usage:
 
 import json
 import os
+import re
 import sys
 import subprocess
 from datetime import date, datetime, timedelta
@@ -24,6 +25,11 @@ REPO_DIR = SCRIPT_DIR.parent
 WORKSPACE = Path(os.environ.get("PICOCLAW_WORKSPACE", str(REPO_DIR.parent)))
 DATA_PATH = REPO_DIR / "data" / "dashboard.json"
 MEMORY_DIR = WORKSPACE / "memory"
+
+# Google Calendar
+FAMILY_CALENDAR_ID = "family02997430890770199008@group.calendar.google.com"
+GCAL_PYTHON = str(WORKSPACE / ".venv" / "bin" / "python3")
+GCAL_SCRIPT = str(WORKSPACE / "skills" / "google-calendar" / "gcal.py")
 
 # Day names in Italian
 GIORNI_IT = {
@@ -291,6 +297,158 @@ def fetch_didup_data():
     return results
 
 
+# ===== GOOGLE CALENDAR (Family events) =====
+
+# Keywords to associate events with family members
+MEMBER_KEYWORDS = {
+    "flavio":     ["flavio", "pallavolo flavio"],
+    "ada":        ["ada"],
+    "alessandra": ["alessandra", "ale"],
+    "maurizio":   ["maurizio", "papà"],
+}
+
+
+def fetch_calendar_events(target_dates):
+    """Fetch family calendar events for the given dates (list of date objects).
+    
+    Returns a dict keyed by date ISO string, each value is a list of event dicts:
+      {"time": "HH:MM", "end_time": "HH:MM", "event": "...", "all_day": bool, "members": [...]}
+    """
+    if not target_dates:
+        return {}
+
+    # We need enough days to cover today+tomorrow
+    days_ahead = (max(target_dates) - min(target_dates)).days + 1
+    days_ahead = max(days_ahead, 2)
+    from_date = min(target_dates).isoformat()
+
+    cmd = [GCAL_PYTHON, GCAL_SCRIPT, "list",
+           "--from-date", from_date,
+           "--days", str(days_ahead),
+           "--calendar", FAMILY_CALENDAR_ID]
+    
+    try:
+        out = subprocess.run(
+            cmd,
+            capture_output=True, text=True, timeout=30,
+            cwd=str(WORKSPACE)
+        )
+        if out.returncode != 0:
+            print(f"⚠️  Google Calendar fetch failed: {out.stderr.strip()}")
+            return {}
+    except Exception as e:
+        print(f"⚠️  Google Calendar fetch failed: {e}")
+        return {}
+
+    # Parse the gcal.py output
+    events_by_date = {d.isoformat(): [] for d in target_dates}
+    
+    current_event = {}
+    for line in out.stdout.splitlines():
+        line = line.strip()
+        if line.startswith("📅 "):
+            # Save previous event
+            if current_event:
+                _store_event(current_event, events_by_date, target_dates)
+            current_event = {"summary": line[2:].strip()}
+        elif line.startswith("Start: "):
+            current_event["start"] = line[7:].strip()
+        elif line.startswith("End: "):
+            current_event["end"] = line[5:].strip()
+        elif line.startswith("Location: "):
+            current_event["location"] = line[10:].strip()
+        elif line.startswith("ID: "):
+            current_event["id"] = line[4:].strip()
+    
+    # Don't forget last event
+    if current_event:
+        _store_event(current_event, events_by_date, target_dates)
+
+    return events_by_date
+
+
+def _store_event(raw, events_by_date, target_dates):
+    """Parse a raw event dict and store it in events_by_date if it matches target dates."""
+    start_str = raw.get("start", "")
+    end_str = raw.get("end", "")
+    summary = raw.get("summary", "")
+    location = raw.get("location", "")
+
+    all_day = False
+    event_date = None
+    time_str = ""
+    end_time_str = ""
+
+    if "T" in start_str:
+        # Timed event: "2026-09-25T17:00:00+02:00"
+        try:
+            dt = datetime.fromisoformat(start_str)
+            event_date = dt.date()
+            time_str = dt.strftime("%H:%M")
+        except ValueError:
+            return
+        if "T" in end_str:
+            try:
+                dt_end = datetime.fromisoformat(end_str)
+                end_time_str = dt_end.strftime("%H:%M")
+            except ValueError:
+                pass
+    else:
+        # All-day event: "2026-09-27"
+        all_day = True
+        try:
+            event_date = date.fromisoformat(start_str)
+        except ValueError:
+            return
+
+    date_key = event_date.isoformat() if event_date else None
+    if date_key not in events_by_date:
+        return
+
+    # Determine which members this event is relevant to
+    members = _match_members(summary)
+
+    event_label = f"📅 {summary}"
+    if location:
+        event_label += f" ({location})"
+
+    event_obj = {
+        "time": time_str if time_str else "tutto il giorno",
+        "event": event_label,
+        "all_day": all_day,
+        "summary": summary,
+        "members": members,
+    }
+    if end_time_str:
+        event_obj["end_time"] = end_time_str
+
+    events_by_date[date_key].append(event_obj)
+
+
+def _match_members(summary):
+    """Return list of member IDs that match the event summary, or all members if no match."""
+    summary_lower = summary.lower()
+    matched = []
+    for member_id, keywords in MEMBER_KEYWORDS.items():
+        for kw in keywords:
+            if kw in summary_lower:
+                matched.append(member_id)
+                break
+    # If no specific match, it's a family-wide event → all members
+    if not matched:
+        matched = list(MEMBER_KEYWORDS.keys())
+    return matched
+
+
+def _calendar_events_for_member(cal_events_for_date, member_id):
+    """Filter calendar events for a specific member."""
+    return [
+        {"time": e["time"], "event": e["event"]}
+        for e in cal_events_for_date
+        if member_id in e.get("members", [])
+    ]
+
+
 # ===== MAIN UPDATE =====
 
 def build_dashboard():
@@ -311,17 +469,34 @@ def build_dashboard():
     print("📚 Fetching Didup data...")
     didup = fetch_didup_data()
     
+    # Google Calendar (Family)
+    print("📅 Fetching Google Calendar events...")
+    cal_events = fetch_calendar_events([today, tomorrow])
+    cal_today = cal_events.get(today_str, [])
+    cal_tomorrow = cal_events.get(tomorrow_str, [])
+    print(f"   Found {len(cal_today)} events today, {len(cal_tomorrow)} events tomorrow")
+    
     # Flavio
     flavio_today_sched, flavio_today_status, _ = get_flavio_schedule(today)
+    flavio_today_sched += _calendar_events_for_member(cal_today, "flavio")
     flavio_tomorrow_sched, flavio_tomorrow_status, _ = get_flavio_schedule(tomorrow)
+    flavio_tomorrow_sched += _calendar_events_for_member(cal_tomorrow, "flavio")
     
     # Alessandra
     ale_today_sched, ale_today_status = get_alessandra_schedule(today)
+    ale_today_sched += _calendar_events_for_member(cal_today, "alessandra")
     ale_tomorrow_sched, ale_tomorrow_status = get_alessandra_schedule(tomorrow)
+    ale_tomorrow_sched += _calendar_events_for_member(cal_tomorrow, "alessandra")
     
     # Ada
     ada_today_sched, ada_today_status = get_ada_schedule(today)
+    ada_today_sched += _calendar_events_for_member(cal_today, "ada")
     ada_tomorrow_sched, ada_tomorrow_status = get_ada_schedule(tomorrow)
+    ada_tomorrow_sched += _calendar_events_for_member(cal_tomorrow, "ada")
+    
+    # Maurizio (calendar events only)
+    mau_today_sched = _calendar_events_for_member(cal_today, "maurizio")
+    mau_tomorrow_sched = _calendar_events_for_member(cal_tomorrow, "maurizio")
     
     # Build reminders from Didup
     reminders = []
@@ -365,6 +540,26 @@ def build_dashboard():
                 "notes": ""
             },
             "reminders": reminders,
+            "calendar_events": {
+                "today": [
+                    {
+                        "time": e["time"],
+                        "event": e["event"],
+                        "all_day": e.get("all_day", False),
+                        "summary": e.get("summary", ""),
+                    }
+                    for e in cal_today
+                ],
+                "tomorrow": [
+                    {
+                        "time": e["time"],
+                        "event": e["event"],
+                        "all_day": e.get("all_day", False),
+                        "summary": e.get("summary", ""),
+                    }
+                    for e in cal_tomorrow
+                ],
+            },
             "notes": "",
             "weather": weather or {}
         },
@@ -377,13 +572,13 @@ def build_dashboard():
                 "avatar": "assets/images/maurizio.jpg",
                 "today": {
                     "date": today_str,
-                    "schedule": [],
+                    "schedule": mau_today_sched,
                     "status": "💼 Lavoro",
                     "mood": "😊"
                 },
                 "tomorrow": {
                     "date": tomorrow_str,
-                    "schedule": [],
+                    "schedule": mau_tomorrow_sched,
                     "status": ""
                 },
                 "personal_notes": ""
@@ -474,6 +669,11 @@ def main():
     
     reminders = dashboard["shared"].get("reminders", [])
     print(f"   🔔 {len(reminders)} promemoria")
+    
+    cal = dashboard["shared"].get("calendar_events", {})
+    n_cal_today = len(cal.get("today", []))
+    n_cal_tomorrow = len(cal.get("tomorrow", []))
+    print(f"   📅 Calendario: {n_cal_today} eventi oggi, {n_cal_tomorrow} domani")
 
 
 if __name__ == "__main__":

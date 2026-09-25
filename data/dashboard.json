@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-25T18:03:01.179158",
+    "last_updated": "2026-09-25T18:16:58.406353",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,23 +27,40 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-25T18:03:01.178975"
+        "added_at": "2026-09-25T18:16:58.406195"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-25T18:03:01.179063"
+        "added_at": "2026-09-25T18:16:58.406260"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-25T18:03:01.179085"
+        "added_at": "2026-09-25T18:16:58.406282"
       }
     ],
+    "calendar_events": {
+      "today": [
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
+      ],
+      "tomorrow": []
+    },
     "notes": "",
     "weather": {
       "today": {
@@ -52,7 +69,7 @@
         "temp_min": 16,
         "temp_max": 26,
         "icon": "04d",
-        "humidity": 31,
+        "humidity": 32,
         "wind_speed": 15,
         "precipitation_mm": 0.0
       },
@@ -144,6 +161,10 @@
           {
             "time": "12:10",
             "event": "Ritorno: 🚆 Treno (12:31 Stazione → 12:40 Altopascio)"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10",
@@ -189,6 +210,10 @@
           {
             "time": "12:15",
             "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
         "status": "🏫 Scuola — Uscita 12:15",
