@@ -1,0 +1,174 @@
+{
+  "_meta": {
+    "last_updated": "2026-09-25T08:00:00+02:00",
+    "version": "1.0"
+  },
+  "config": {
+    "family_name": "Tallarico",
+    "theme": "warm",
+    "location": {
+      "city": "Altopascio",
+      "country": "IT",
+      "lat": 43.8135,
+      "lon": 10.6773
+    }
+  },
+  "shared": {
+    "menu_of_the_day": {
+      "date": "2026-09-25",
+      "lunch": "Pasta al pomodoro, insalata mista",
+      "dinner": "Pollo arrosto, patate al forno",
+      "notes": "Flavio è allergico alle noci"
+    },
+    "reminders": [
+      {
+        "id": "r1",
+        "text": "Pagare bolletta luce entro il 30",
+        "priority": "high",
+        "added_by": "maurizio",
+        "added_at": "2026-09-25T07:30:00+02:00"
+      },
+      {
+        "id": "r2",
+        "text": "Visita medica Ada - Giovedì 27 ore 15:00",
+        "priority": "medium",
+        "added_by": "alessandra",
+        "added_at": "2026-09-25T07:30:00+02:00"
+      }
+    ],
+    "notes": "Questa settimana arriva la mamma di Alessandra. Prepararsi per il weekend!",
+    "weather": {
+      "today": {
+        "date": "2026-09-25",
+        "description": "Partly cloudy",
+        "temp_min": 14,
+        "temp_max": 24,
+        "icon": "02d",
+        "humidity": 65,
+        "wind_speed": 12,
+        "precipitation_mm": 0
+      },
+      "tomorrow": {
+        "date": "2026-09-26",
+        "description": "Light rain",
+        "temp_min": 13,
+        "temp_max": 20,
+        "icon": "10d",
+        "humidity": 80,
+        "wind_speed": 18,
+        "precipitation_mm": 4.2
+      }
+    }
+  },
+  "members": {
+    "maurizio": {
+      "display_name": "Maurizio",
+      "emoji": "👨‍💻",
+      "color_theme": "blue",
+      "bio": "Software Engineer, amante del caffè e dei gatti. Papà di Flavio e Ada.",
+      "avatar": "assets/images/maurizio.jpg",
+      "today": {
+        "date": "2026-09-25",
+        "schedule": [
+          {"time": "09:00", "event": "Stand-up meeting"},
+          {"time": "11:00", "event": "Review PR backend"},
+          {"time": "14:00", "event": "Chiamata con cliente"},
+          {"time": "18:30", "event": "Palestra"}
+        ],
+        "status": "💼 Lavoro da casa",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-09-26",
+        "schedule": [
+          {"time": "08:30", "event": "Treno per Milano"},
+          {"time": "10:00", "event": "Meeting in ufficio"}
+        ],
+        "status": "🚆 In viaggio"
+      },
+      "personal_notes": "Ricordati di portare il caricatore!"
+    },
+    "alessandra": {
+      "display_name": "Alessandra",
+      "emoji": "👩",
+      "color_theme": "rose",
+      "bio": "Mamma, cuoca straordinaria e giardiniera nel tempo libero.",
+      "avatar": "assets/images/alessandra.jpg",
+      "today": {
+        "date": "2026-09-25",
+        "schedule": [
+          {"time": "08:00", "event": "Portare Ada a scuola"},
+          {"time": "09:30", "event": "Spesa al mercato"},
+          {"time": "15:30", "event": "Ritirare Ada"},
+          {"time": "20:00", "event": "Serata relax"}
+        ],
+        "status": "🏠 A casa",
+        "mood": "😌"
+      },
+      "tomorrow": {
+        "date": "2026-09-26",
+        "schedule": [
+          {"time": "10:00", "event": "Yoga"},
+          {"time": "15:30", "event": "Ritirare Ada"}
+        ],
+        "status": "🧘 Yoga mattino"
+      },
+      "personal_notes": ""
+    },
+    "flavio": {
+      "display_name": "Flavio",
+      "emoji": "🎮",
+      "color_theme": "green",
+      "bio": "Studente universitario, appassionato di videogiochi e musica.",
+      "avatar": "assets/images/flavio.jpg",
+      "today": {
+        "date": "2026-09-25",
+        "schedule": [
+          {"time": "09:00", "event": "Lezione Matematica"},
+          {"time": "11:00", "event": "Laboratorio Fisica"},
+          {"time": "16:00", "event": "Studio in biblioteca"},
+          {"time": "20:30", "event": "Gaming con amici online"}
+        ],
+        "status": "📚 Università",
+        "mood": "🎯"
+      },
+      "tomorrow": {
+        "date": "2026-09-26",
+        "schedule": [
+          {"time": "10:00", "event": "Esame parziale"},
+          {"time": "15:00", "event": "Calcio con i ragazzi"}
+        ],
+        "status": "📝 Esame domani!"
+      },
+      "personal_notes": "Non dimenticare di studiare i capitoli 5-7!"
+    },
+    "ada": {
+      "display_name": "Ada",
+      "emoji": "🎨",
+      "color_theme": "purple",
+      "bio": "Studentessa delle medie, ama disegnare, leggere e ballare.",
+      "avatar": "assets/images/ada.jpg",
+      "today": {
+        "date": "2026-09-25",
+        "schedule": [
+          {"time": "08:00", "event": "Scuola"},
+          {"time": "13:15", "event": "Fine scuola"},
+          {"time": "15:30", "event": "Danza"},
+          {"time": "17:30", "event": "Compiti"}
+        ],
+        "status": "🏫 Scuola",
+        "mood": "😄"
+      },
+      "tomorrow": {
+        "date": "2026-09-26",
+        "schedule": [
+          {"time": "08:00", "event": "Scuola"},
+          {"time": "15:00", "event": "Visita medica"},
+          {"time": "17:30", "event": "Compiti"}
+        ],
+        "status": "🏥 Visita medica"
+      },
+      "personal_notes": "Interrogazione di Storia giovedì!"
+    }
+  }
+}

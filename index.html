@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Family Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    /* ===== CSS VARIABLES & THEMES ===== */
+    :root {
+      --font-main: 'Inter', sans-serif;
+      --font-display: 'Playfair Display', serif;
+      --radius: 16px;
+      --radius-sm: 10px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+      --shadow-lg: 0 8px 40px rgba(0,0,0,0.12);
+      --transition: 0.25s ease;
+
+      /* Default (warm) theme */
+      --bg: #f8f5f0;
+      --bg-card: #ffffff;
+      --bg-header: linear-gradient(135deg, #ff9a56 0%, #ff6b35 50%, #c0392b 100%);
+      --text-primary: #1a1a2e;
+      --text-secondary: #6b7280;
+      --text-light: #9ca3af;
+      --border: #e8e1d8;
+      --accent: #ff6b35;
+    }
+
+    [data-theme="cool"] {
+      --bg: #f0f4ff;
+      --bg-card: #ffffff;
+      --bg-header: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --border: #dde3f0;
+      --accent: #667eea;
+    }
+    [data-theme="nature"] {
+      --bg: #f0f7f0;
+      --bg-card: #ffffff;
+      --bg-header: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+      --border: #d8ecd8;
+      --accent: #56ab2f;
+    }
+    [data-theme="dark"] {
+      --bg: #0f172a;
+      --bg-card: #1e293b;
+      --bg-header: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      --text-primary: #f1f5f9;
+      --text-secondary: #94a3b8;
+      --text-light: #64748b;
+      --border: #334155;
+      --accent: #60a5fa;
+    }
+
+    /* Member color themes */
+    .member-blue  { --member-color: #3b82f6; --member-light: #eff6ff; --member-gradient: linear-gradient(135deg, #3b82f6, #1d4ed8); }
+    .member-rose  { --member-color: #f43f5e; --member-light: #fff1f2; --member-gradient: linear-gradient(135deg, #f43f5e, #be123c); }
+    .member-green { --member-color: #22c55e; --member-light: #f0fdf4; --member-gradient: linear-gradient(135deg, #22c55e, #15803d); }
+    .member-purple{ --member-color: #a855f7; --member-light: #faf5ff; --member-gradient: linear-gradient(135deg, #a855f7, #7e22ce); }
+
+    /* ===== RESET & BASE ===== */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      transition: background var(--transition), color var(--transition);
+    }
+    img { max-width: 100%; display: block; }
+    ul { list-style: none; }
+
+    /* ===== HEADER ===== */
+    .site-header {
+      background: var(--bg-header);
+      color: white;
+      padding: 2rem 2rem 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .site-header::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -10%;
+      width: 120%; height: 200%;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+    .header-title { font-family: var(--font-display); font-size: clamp(1.8rem, 4vw, 2.8rem); letter-spacing: -0.5px; }
+    .header-subtitle { font-size: 0.9rem; opacity: 0.8; margin-top: 0.25rem; }
+    .header-meta { text-align: right; font-size: 0.85rem; opacity: 0.85; }
+    .header-meta .date-display { font-size: 1.1rem; font-weight: 600; }
+    .header-controls { display: flex; gap: 0.5rem; align-items: center; }
+    .theme-btn {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: white;
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background var(--transition);
+      font-family: var(--font-main);
+    }
+    .theme-btn:hover { background: rgba(255,255,255,0.3); }
+    .last-update { font-size: 0.75rem; opacity: 0.7; margin-top: 0.25rem; }
+
+    /* ===== MAIN LAYOUT ===== */
+    .main-wrapper {
+      max-width: 1400px;
+      margin: -1.5rem auto 0;
+      padding: 0 1.5rem 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* ===== SHARED SECTION (Weather + Reminders + Menu + Notes) ===== */
+    .shared-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.25rem;
+      margin-bottom: 1.5rem;
+    }
+    .card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+    .card-header {
+      padding: 1rem 1.25rem 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .card-header h3 { font-size: 0.95rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-secondary); }
+    .card-header .icon { font-size: 1.2rem; }
+    .card-body { padding: 1.25rem; }
+
+    /* ===== WEATHER ===== */
+    .weather-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
+    .weather-day { text-align: center; }
+    .weather-label { font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light); font-weight: 600; margin-bottom: 0.5rem; }
+    .weather-icon-img { width: 56px; height: 56px; margin: 0 auto 0.25rem; }
+    .weather-desc { font-size: 0.8rem; color: var(--text-secondary); margin-bottom: 0.4rem; }
+    .weather-temp { font-size: 1.1rem; font-weight: 700; }
+    .weather-temp-min { color: var(--text-light); font-weight: 400; font-size: 0.95rem; }
+    .weather-details { display: flex; justify-content: center; gap: 0.75rem; margin-top: 0.5rem; font-size: 0.75rem; color: var(--text-light); }
+    .weather-divider { width: 1px; background: var(--border); margin: 0 0.5rem; }
+
+    /* ===== REMINDERS ===== */
+    .reminder-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .reminder-item {
+      display: flex; align-items: flex-start; gap: 0.6rem;
+      padding: 0.6rem 0.75rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      border-left: 3px solid transparent;
+    }
+    .reminder-item.high  { border-left-color: #ef4444; background: #fef2f2; }
+    .reminder-item.medium{ border-left-color: #f59e0b; background: #fffbeb; }
+    .reminder-item.low   { border-left-color: #22c55e; background: #f0fdf4; }
+    .reminder-text { font-size: 0.88rem; flex: 1; line-height: 1.4; }
+    .reminder-meta { font-size: 0.72rem; color: var(--text-light); margin-top: 0.2rem; }
+    .reminder-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; margin-top: 5px; }
+    .high .reminder-dot { background: #ef4444; }
+    .medium .reminder-dot { background: #f59e0b; }
+    .low .reminder-dot { background: #22c55e; }
+    .empty-state { text-align: center; color: var(--text-light); font-size: 0.85rem; padding: 1rem 0; }
+
+    /* ===== MENU ===== */
+    .menu-row { margin-bottom: 0.75rem; }
+    .menu-row:last-child { margin-bottom: 0; }
+    .menu-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-light); font-weight: 600; margin-bottom: 0.2rem; }
+    .menu-value { font-size: 0.92rem; color: var(--text-primary); line-height: 1.4; }
+    .menu-date { font-size: 0.78rem; color: var(--text-light); margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.3rem; }
+
+    /* ===== NOTES ===== */
+    .notes-text { font-size: 0.9rem; line-height: 1.7; color: var(--text-primary); white-space: pre-wrap; }
+
+    /* ===== MEMBERS GRID ===== */
+    .members-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+
+    /* ===== MEMBER CARD ===== */
+    .member-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .member-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-3px); }
+    .member-card-header {
+      padding: 1.5rem;
+      background: var(--member-gradient);
+      color: white;
+      position: relative;
+      overflow: hidden;
+    }
+    .member-card-header::after {
+      content: '';
+      position: absolute;
+      right: -20px; top: -20px;
+      width: 100px; height: 100px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.08);
+    }
+    .member-profile { display: flex; align-items: center; gap: 1rem; }
+    .member-avatar-wrap {
+      width: 68px; height: 68px;
+      border-radius: 50%;
+      border: 3px solid rgba(255,255,255,0.5);
+      overflow: hidden;
+      flex-shrink: 0;
+      background: rgba(255,255,255,0.2);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 2rem;
+    }
+    .member-avatar-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    .member-info .member-name { font-size: 1.4rem; font-weight: 700; font-family: var(--font-display); }
+    .member-info .member-emoji-status { font-size: 0.88rem; opacity: 0.9; margin-top: 0.1rem; }
+    .member-info .member-mood { font-size: 0.85rem; opacity: 0.8; margin-top: 0.2rem; }
+    .member-bio {
+      margin-top: 0.85rem;
+      font-size: 0.82rem;
+      opacity: 0.85;
+      line-height: 1.5;
+      font-style: italic;
+    }
+
+    .member-card-body { padding: 1.25rem; }
+
+    /* Schedule */
+    .section-title {
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      font-weight: 700;
+      color: var(--member-color);
+      margin-bottom: 0.75rem;
+      display: flex; align-items: center; gap: 0.4rem;
+    }
+    .schedule-tabs { display: flex; gap: 0.4rem; margin-bottom: 0.9rem; }
+    .schedule-tab {
+      flex: 1; padding: 0.45rem 0.5rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: transparent;
+      font-size: 0.78rem;
+      font-weight: 600;
+      cursor: pointer;
+      font-family: var(--font-main);
+      color: var(--text-secondary);
+      transition: all var(--transition);
+    }
+    .schedule-tab.active {
+      background: var(--member-gradient);
+      color: white;
+      border-color: transparent;
+    }
+    .schedule-list { display: flex; flex-direction: column; gap: 0.45rem; }
+    .schedule-item {
+      display: flex; align-items: flex-start; gap: 0.75rem;
+      padding: 0.5rem 0.6rem;
+      border-radius: var(--radius-sm);
+      background: var(--member-light);
+      font-size: 0.85rem;
+    }
+    .schedule-time { font-weight: 700; color: var(--member-color); min-width: 42px; font-size: 0.8rem; }
+    .schedule-event { color: var(--text-primary); line-height: 1.3; }
+    .schedule-empty { color: var(--text-light); font-size: 0.82rem; text-align: center; padding: 0.5rem; }
+
+    /* Status row */
+    .member-status-row {
+      display: flex; align-items: center; gap: 0.5rem;
+      padding: 0.5rem 0.75rem;
+      border-radius: var(--radius-sm);
+      background: var(--member-light);
+      margin-bottom: 0.9rem;
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--member-color);
+    }
+
+    /* Personal notes */
+    .personal-notes {
+      margin-top: 1rem;
+      padding: 0.75rem;
+      background: var(--bg);
+      border-radius: var(--radius-sm);
+      border-left: 3px solid var(--member-color);
+      font-size: 0.83rem;
+      color: var(--text-secondary);
+      line-height: 1.5;
+    }
+    .personal-notes-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--member-color); margin-bottom: 0.3rem; }
+
+    /* Divider */
+    .member-divider { height: 1px; background: var(--border); margin: 1rem 0; }
+
+    /* ===== FOOTER ===== */
+    .site-footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ===== SKELETON LOADING ===== */
+    .skeleton {
+      background: linear-gradient(90deg, var(--border) 0%, var(--bg) 50%, var(--border) 100%);
+      background-size: 200% 100%;
+      animation: shimmer 1.5s infinite;
+      border-radius: 6px;
+      height: 1em;
+      margin-bottom: 0.5rem;
+    }
+    @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+    /* ===== BADGE ===== */
+    .badge {
+      display: inline-block;
+      padding: 0.15rem 0.5rem;
+      border-radius: 20px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+    .badge-reset { background: #fef3c7; color: #92400e; }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 768px) {
+      .main-wrapper { padding: 0 1rem 2rem; }
+      .site-header { padding: 1.5rem 1rem 3rem; }
+      .header-inner { flex-direction: column; align-items: flex-start; }
+      .header-meta { text-align: left; }
+      .shared-section { grid-template-columns: 1fr; }
+      .members-grid { grid-template-columns: 1fr; }
+      .weather-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 480px) {
+      .weather-grid { grid-template-columns: 1fr; }
+      .weather-divider { display: none; }
+    }
+
+    /* ===== PULSE dot ===== */
+    .live-dot {
+      display: inline-block; width: 8px; height: 8px;
+      border-radius: 50%; background: #22c55e;
+      animation: pulse-dot 2s infinite;
+      margin-right: 5px;
+    }
+    @keyframes pulse-dot {
+      0%,100% { opacity:1; transform:scale(1); }
+      50% { opacity:0.5; transform:scale(1.3); }
+    }
+  </style>
+</head>
+<body data-theme="warm">
+
+<!-- ===== HEADER ===== -->
+<header class="site-header">
+  <div class="header-inner">
+    <div>
+      <h1 class="header-title" id="family-name">🏡 Family Dashboard</h1>
+      <p class="header-subtitle" id="header-subtitle">Il nostro spazio condiviso ogni giorno</p>
+    </div>
+    <div class="header-meta">
+      <div class="date-display" id="current-date">—</div>
+      <div id="current-time">—</div>
+      <div class="last-update"><span class="live-dot"></span>Aggiornato: <span id="last-update-time">—</span></div>
+    </div>
+    <div class="header-controls">
+      <button class="theme-btn" onclick="setTheme('warm')">🌅 Warm</button>
+      <button class="theme-btn" onclick="setTheme('cool')">🌊 Cool</button>
+      <button class="theme-btn" onclick="setTheme('nature')">🌿 Nature</button>
+      <button class="theme-btn" onclick="setTheme('dark')">🌙 Dark</button>
+    </div>
+  </div>
+</header>
+
+<!-- ===== MAIN ===== -->
+<main class="main-wrapper">
+
+  <!-- Shared Row: Weather + Reminders + Menu + Notes -->
+  <div class="shared-section" id="shared-section">
+
+    <!-- WEATHER -->
+    <div class="card" id="weather-card">
+      <div class="card-header">
+        <span class="icon">🌤️</span>
+        <h3>Meteo — <span id="weather-location">Altopascio</span></h3>
+      </div>
+      <div class="card-body">
+        <div class="weather-grid" id="weather-grid">
+          <div class="skeleton" style="height:120px"></div>
+          <div class="skeleton" style="height:120px"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MENU OF THE DAY -->
+    <div class="card">
+      <div class="card-header">
+        <span class="icon">🍽️</span>
+        <h3>Menu del Giorno <span class="badge badge-reset" title="Reset giornaliero">reset daily</span></h3>
+      </div>
+      <div class="card-body" id="menu-body">
+        <div class="skeleton"></div><div class="skeleton"></div>
+      </div>
+    </div>
+
+    <!-- REMINDERS -->
+    <div class="card">
+      <div class="card-header">
+        <span class="icon">🔔</span>
+        <h3>Promemoria</h3>
+      </div>
+      <div class="card-body" id="reminders-body">
+        <div class="skeleton"></div><div class="skeleton"></div><div class="skeleton" style="width:70%"></div>
+      </div>
+    </div>
+
+    <!-- NOTES -->
+    <div class="card">
+      <div class="card-header">
+        <span class="icon">📝</span>
+        <h3>Note della Famiglia</h3>
+      </div>
+      <div class="card-body" id="notes-body">
+        <div class="skeleton"></div><div class="skeleton"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Members Grid -->
+  <div class="members-grid" id="members-grid">
+    <!-- Populated dynamically -->
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  <span id="footer-family">Family Dashboard</span> &bull; Aggiornato automaticamente 2x/giorno &bull;
+  Dati via Telegram Bot &bull; Meteo: OpenWeatherMap
+</footer>
+
+<script>
+// ===== THEME =====
+function setTheme(t) {
+  document.body.setAttribute('data-theme', t);
+  localStorage.setItem('fd-theme', t);
+}
+(function() {
+  const saved = localStorage.getItem('fd-theme');
+  if (saved) setTheme(saved);
+})();
+
+// ===== CLOCK =====
+function updateClock() {
+  const now = new Date();
+  document.getElementById('current-time').textContent =
+    now.toLocaleTimeString('it-IT', {hour:'2-digit', minute:'2-digit'});
+  document.getElementById('current-date').textContent =
+    now.toLocaleDateString('it-IT', {weekday:'long', year:'numeric', month:'long', day:'numeric'});
+}
+updateClock();
+setInterval(updateClock, 60000);
+
+// ===== WEATHER ICON (OpenWeatherMap codes) =====
+function weatherIconURL(code) {
+  return `https://openweathermap.org/img/wn/${code}@2x.png`;
+}
+
+function windDir(deg) {
+  const dirs = ['N','NE','E','SE','S','SW','W','NW'];
+  return dirs[Math.round(deg/45)%8] || '';
+}
+
+function renderWeather(weather) {
+  if (!weather) return;
+  const grid = document.getElementById('weather-grid');
+  function dayHTML(d, label) {
+    return `
+      <div class="weather-day">
+        <div class="weather-label">${label}</div>
+        <img class="weather-icon-img" src="${weatherIconURL(d.icon)}" alt="${d.description}" />
+        <div class="weather-desc">${d.description}</div>
+        <div class="weather-temp">
+          ${d.temp_max}° <span class="weather-temp-min">/ ${d.temp_min}°</span>
+        </div>
+        <div class="weather-details">
+          <span>💧 ${d.humidity}%</span>
+          <span>💨 ${d.wind_speed} km/h</span>
+          ${d.precipitation_mm > 0 ? `<span>🌧 ${d.precipitation_mm}mm</span>` : ''}
+        </div>
+      </div>`;
+  }
+  grid.innerHTML = `
+    ${dayHTML(weather.today, 'Oggi')}
+    <div class="weather-divider"></div>
+    ${dayHTML(weather.tomorrow, 'Domani')}
+  `;
+}
+
+// ===== MENU =====
+function renderMenu(menu) {
+  const body = document.getElementById('menu-body');
+  if (!menu) { body.innerHTML = '<p class="empty-state">Nessun menu disponibile</p>'; return; }
+  const dateStr = menu.date ? new Date(menu.date).toLocaleDateString('it-IT',{weekday:'long',day:'numeric',month:'long'}) : '';
+  body.innerHTML = `
+    <div class="menu-date">📅 ${dateStr}</div>
+    ${menu.lunch ? `<div class="menu-row"><div class="menu-label">🌞 Pranzo</div><div class="menu-value">${menu.lunch}</div></div>` : ''}
+    ${menu.dinner ? `<div class="menu-row"><div class="menu-label">🌙 Cena</div><div class="menu-value">${menu.dinner}</div></div>` : ''}
+    ${menu.notes ? `<div class="menu-row"><div class="menu-label">ℹ️ Note</div><div class="menu-value" style="font-size:0.82rem;color:var(--text-secondary)">${menu.notes}</div></div>` : ''}
+  `;
+}
+
+// ===== REMINDERS =====
+function renderReminders(reminders) {
+  const body = document.getElementById('reminders-body');
+  if (!reminders || reminders.length === 0) {
+    body.innerHTML = '<p class="empty-state">✅ Nessun promemoria attivo</p>';
+    return;
+  }
+  body.innerHTML = `<ul class="reminder-list">` +
+    reminders.map(r => `
+      <li class="reminder-item ${r.priority}">
+        <span class="reminder-dot"></span>
+        <div>
+          <div class="reminder-text">${r.text}</div>
+          <div class="reminder-meta">da ${r.added_by} &bull; ${formatRelativeTime(r.added_at)}</div>
+        </div>
+      </li>`).join('') +
+    `</ul>`;
+}
+
+// ===== NOTES =====
+function renderNotes(notes) {
+  const body = document.getElementById('notes-body');
+  if (!notes || notes.trim() === '') {
+    body.innerHTML = '<p class="empty-state">Nessuna nota disponibile</p>';
+    return;
+  }
+  body.innerHTML = `<p class="notes-text">${escapeHTML(notes)}</p>`;
+}
+
+// ===== MEMBER CARDS =====
+const MEMBER_ORDER = ['maurizio','alessandra','flavio','ada'];
+
+function renderSchedule(schedule, memberId, day) {
+  if (!schedule || schedule.length === 0) {
+    return `<p class="schedule-empty">Nessun impegno</p>`;
+  }
+  return `<ul class="schedule-list">` +
+    schedule.map(s => `
+      <li class="schedule-item">
+        <span class="schedule-time">${s.time}</span>
+        <span class="schedule-event">${escapeHTML(s.event)}</span>
+      </li>`).join('') +
+    `</ul>`;
+}
+
+function renderMemberCard(id, member) {
+  const colorClass = `member-${member.color_theme || 'blue'}`;
+  const avatarHTML = member.avatar
+    ? `<img src="${member.avatar}" alt="${member.display_name}" onerror="this.style.display='none';this.nextElementSibling.style.display='flex'" /><span style="display:none;font-size:2rem">${member.emoji}</span>`
+    : `<span>${member.emoji}</span>`;
+
+  const todaySched = renderSchedule(member.today?.schedule, id, 'today');
+  const tomorrowSched = renderSchedule(member.tomorrow?.schedule, id, 'tomorrow');
+
+  return `
+    <div class="member-card ${colorClass}">
+      <div class="member-card-header">
+        <div class="member-profile">
+          <div class="member-avatar-wrap">${avatarHTML}</div>
+          <div class="member-info">
+            <div class="member-name">${member.display_name} ${member.emoji}</div>
+            <div class="member-emoji-status">${member.today?.status || ''}</div>
+            ${member.today?.mood ? `<div class="member-mood">Mood: ${member.today.mood}</div>` : ''}
+          </div>
+        </div>
+        ${member.bio ? `<p class="member-bio">"${escapeHTML(member.bio)}"</p>` : ''}
+      </div>
+      <div class="member-card-body">
+        <div class="schedule-tabs">
+          <button class="schedule-tab active" onclick="switchTab(this,'today-${id}','tomorrow-${id}')">📅 Oggi</button>
+          <button class="schedule-tab" onclick="switchTab(this,'tomorrow-${id}','today-${id}')">📆 Domani</button>
+        </div>
+        <div id="today-${id}" class="schedule-panel">
+          <div class="section-title">🕐 Programma</div>
+          ${todaySched}
+        </div>
+        <div id="tomorrow-${id}" class="schedule-panel" style="display:none">
+          ${member.tomorrow?.status ? `<div class="member-status-row">${member.tomorrow.status}</div>` : ''}
+          <div class="section-title">🕐 Programma</div>
+          ${tomorrowSched}
+        </div>
+        ${member.personal_notes && member.personal_notes.trim() !== '' ? `
+          <div class="member-divider"></div>
+          <div class="personal-notes">
+            <div class="personal-notes-label">📌 Note personali</div>
+            ${escapeHTML(member.personal_notes)}
+          </div>` : ''}
+      </div>
+    </div>`;
+}
+
+function switchTab(btn, showId, hideId) {
+  document.getElementById(showId).style.display = '';
+  document.getElementById(hideId).style.display = 'none';
+  const tabs = btn.closest('.schedule-tabs').querySelectorAll('.schedule-tab');
+  tabs.forEach(t => t.classList.remove('active'));
+  btn.classList.add('active');
+}
+
+// ===== HELPERS =====
+function escapeHTML(str) {
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function formatRelativeTime(isoStr) {
+  if (!isoStr) return '';
+  const d = new Date(isoStr);
+  const diff = (Date.now() - d.getTime()) / 1000;
+  if (diff < 60) return 'adesso';
+  if (diff < 3600) return `${Math.floor(diff/60)} min fa`;
+  if (diff < 86400) return `${Math.floor(diff/3600)} ore fa`;
+  return d.toLocaleDateString('it-IT');
+}
+
+// ===== LOAD DATA =====
+async function loadDashboard() {
+  try {
+    const cacheBust = `?t=${Math.floor(Date.now()/60000)}`; // 1-min cache key
+    const res = await fetch(`data/dashboard.json${cacheBust}`);
+    if (!res.ok) throw new Error('Failed to fetch dashboard data');
+    const data = await res.json();
+    renderDashboard(data);
+  } catch(e) {
+    console.error('Dashboard load error:', e);
+    document.getElementById('members-grid').innerHTML =
+      `<div style="padding:2rem;color:var(--text-secondary);text-align:center">
+        ⚠️ Impossibile caricare i dati. Riprova tra poco.
+      </div>`;
+  }
+}
+
+function renderDashboard(data) {
+  // Header
+  if (data.config?.family_name) {
+    document.getElementById('family-name').textContent = `🏡 ${data.config.family_name} Dashboard`;
+    document.getElementById('footer-family').textContent = `${data.config.family_name} Family Dashboard`;
+    document.title = `${data.config.family_name} Dashboard`;
+  }
+  if (data.config?.location?.city) {
+    document.getElementById('weather-location').textContent = data.config.location.city;
+  }
+
+  // Last update
+  if (data._meta?.last_updated) {
+    const d = new Date(data._meta.last_updated);
+    document.getElementById('last-update-time').textContent =
+      d.toLocaleString('it-IT', {day:'2-digit',month:'short',hour:'2-digit',minute:'2-digit'});
+  }
+
+  // Shared
+  if (data.shared) {
+    renderWeather(data.shared.weather);
+    renderMenu(data.shared.menu_of_the_day);
+    renderReminders(data.shared.reminders);
+    renderNotes(data.shared.notes);
+  }
+
+  // Members
+  const grid = document.getElementById('members-grid');
+  const members = data.members || {};
+  const order = MEMBER_ORDER.filter(id => id in members);
+  // Append any members not in default order
+  Object.keys(members).forEach(id => { if (!order.includes(id)) order.push(id); });
+  grid.innerHTML = order.map(id => renderMemberCard(id, members[id])).join('');
+}
+
+// Init
+loadDashboard();
+// Auto-refresh every 10 minutes
+setInterval(loadDashboard, 10 * 60 * 1000);
+</script>
+
+</body>
+</html>

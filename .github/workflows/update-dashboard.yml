@@ -1,0 +1,57 @@
+name: Update Dashboard
+
+on:
+  schedule:
+    # Runs at 07:00 and 19:00 Italian time (05:00 and 17:00 UTC in summer, +1h in winter)
+    - cron: '0 5 * * *'    # ~07:00 CEST / ~08:00 CET
+    - cron: '0 17 * * *'   # ~19:00 CEST / ~18:00 CET
+  push:
+    branches: [ main ]
+  workflow_dispatch:        # Manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  update-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests pytz
+
+      - name: Fetch weather data
+        env:
+          OWM_API_KEY: ${{ secrets.OWM_API_KEY }}
+          LAT: '43.8135'
+          LON: '10.6773'
+        run: python bot/fetch_weather.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "Family Dashboard Bot"
+          git config user.email "dashboard-bot@github-actions"
+          git add data/dashboard.json
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🔄 Dashboard update $(date -u '+%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: .
+          exclude_assets: '.github,bot,*.md,*.txt'
+          keep_files: false
