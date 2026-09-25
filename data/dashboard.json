@@ -1,7 +1,8 @@
 {
   "_meta": {
-    "last_updated": "2026-09-25T08:00:00+02:00",
-    "version": "1.0"
+    "last_updated": "2026-09-25T17:38:16.948931",
+    "version": "2.0",
+    "updated_by": "picoclaw"
   },
   "config": {
     "family_name": "Tallarico",
@@ -16,47 +17,54 @@
   "shared": {
     "menu_of_the_day": {
       "date": "2026-09-25",
-      "lunch": "Pasta al pomodoro, insalata mista",
-      "dinner": "Pollo arrosto, patate al forno",
-      "notes": "Flavio è allergico alle noci"
+      "lunch": "",
+      "dinner": "",
+      "notes": ""
     },
     "reminders": [
       {
-        "id": "r1",
-        "text": "Pagare bolletta luce entro il 30",
+        "id": "didup_0",
+        "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
-        "added_by": "maurizio",
-        "added_at": "2026-09-25T07:30:00+02:00"
+        "added_by": "picoclaw",
+        "added_at": "2026-09-25T17:38:16.944861"
       },
       {
-        "id": "r2",
-        "text": "Visita medica Ada - Giovedì 27 ore 15:00",
-        "priority": "medium",
-        "added_by": "alessandra",
-        "added_at": "2026-09-25T07:30:00+02:00"
+        "id": "didup_1",
+        "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-09-25T17:38:16.948818"
+      },
+      {
+        "id": "didup_2",
+        "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-09-25T17:38:16.948848"
       }
     ],
-    "notes": "Questa settimana arriva la mamma di Alessandra. Prepararsi per il weekend!",
+    "notes": "",
     "weather": {
       "today": {
         "date": "2026-09-25",
-        "description": "Partly cloudy",
-        "temp_min": 14,
-        "temp_max": 24,
-        "icon": "02d",
-        "humidity": 65,
-        "wind_speed": 12,
-        "precipitation_mm": 0
+        "description": "Nuvoloso",
+        "temp_min": 16,
+        "temp_max": 26,
+        "icon": "04d",
+        "humidity": 30,
+        "wind_speed": 16,
+        "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-09-26",
-        "description": "Light rain",
-        "temp_min": 13,
-        "temp_max": 20,
-        "icon": "10d",
-        "humidity": 80,
-        "wind_speed": 18,
-        "precipitation_mm": 4.2
+        "description": "Parzialmente nuvoloso",
+        "temp_min": 11,
+        "temp_max": 28,
+        "icon": "03d",
+        "humidity": 0,
+        "wind_speed": 0,
+        "precipitation_mm": 0.0
       }
     }
   },
@@ -65,110 +73,133 @@
       "display_name": "Maurizio",
       "emoji": "👨‍💻",
       "color_theme": "blue",
-      "bio": "Software Engineer, amante del caffè e dei gatti. Papà di Flavio e Ada.",
+      "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
         "date": "2026-09-25",
-        "schedule": [
-          {"time": "09:00", "event": "Stand-up meeting"},
-          {"time": "11:00", "event": "Review PR backend"},
-          {"time": "14:00", "event": "Chiamata con cliente"},
-          {"time": "18:30", "event": "Palestra"}
-        ],
-        "status": "💼 Lavoro da casa",
+        "schedule": [],
+        "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
         "date": "2026-09-26",
-        "schedule": [
-          {"time": "08:30", "event": "Treno per Milano"},
-          {"time": "10:00", "event": "Meeting in ufficio"}
-        ],
-        "status": "🚆 In viaggio"
+        "schedule": [],
+        "status": ""
       },
-      "personal_notes": "Ricordati di portare il caricatore!"
+      "personal_notes": ""
     },
     "alessandra": {
       "display_name": "Alessandra",
-      "emoji": "👩",
+      "emoji": "👩‍🏫",
       "color_theme": "rose",
-      "bio": "Mamma, cuoca straordinaria e giardiniera nel tempo libero.",
+      "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
         "date": "2026-09-25",
         "schedule": [
-          {"time": "08:00", "event": "Portare Ada a scuola"},
-          {"time": "09:30", "event": "Spesa al mercato"},
-          {"time": "15:30", "event": "Ritirare Ada"},
-          {"time": "20:00", "event": "Serata relax"}
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          }
         ],
-        "status": "🏠 A casa",
-        "mood": "😌"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
       },
       "tomorrow": {
         "date": "2026-09-26",
-        "schedule": [
-          {"time": "10:00", "event": "Yoga"},
-          {"time": "15:30", "event": "Ritirare Ada"}
-        ],
-        "status": "🧘 Yoga mattino"
+        "schedule": [],
+        "status": "🏠 A casa"
       },
       "personal_notes": ""
     },
     "flavio": {
       "display_name": "Flavio",
-      "emoji": "🎮",
+      "emoji": "🎷",
       "color_theme": "green",
-      "bio": "Studente universitario, appassionato di videogiochi e musica.",
+      "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
         "date": "2026-09-25",
         "schedule": [
-          {"time": "09:00", "event": "Lezione Matematica"},
-          {"time": "11:00", "event": "Laboratorio Fisica"},
-          {"time": "16:00", "event": "Studio in biblioteca"},
-          {"time": "20:30", "event": "Gaming con amici online"}
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno (12:31 Stazione → 12:40 Altopascio)"
+          }
         ],
-        "status": "📚 Università",
-        "mood": "🎯"
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
       },
       "tomorrow": {
         "date": "2026-09-26",
         "schedule": [
-          {"time": "10:00", "event": "Esame parziale"},
-          {"time": "15:00", "event": "Calcio con i ragazzi"}
+          {
+            "time": "08:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "09:10",
+            "event": "Italiano (2h) — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno (12:31 Stazione → 12:40 Altopascio)"
+          }
         ],
-        "status": "📝 Esame domani!"
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
-      "personal_notes": "Non dimenticare di studiare i capitoli 5-7!"
+      "personal_notes": "📝 2026-09-25: SCIENZE MOTORIE E SPORTIVE: Scrivi un elenco di almeno 4/5 benefici dell'attività motoria, spiegando\n📝 2026-09-26: STORIA DELL' ARTE: Studiare da pagina 2 a pagina 6  e scaricare la versione e-book del libro di test\n📝 2026-09-26: STORIA DELL' ARTE: Studiare da pg 2 a pg 6.\n📝 2026-09-26: STORIA E GEOGRAFIA: Storia: riguardare gli appunti e risistemarli confrontandoli con le pagine del l\n📝 2026-09-28: STORIA E GEOGRAFIA: Geografia: ripassare gli argomenti affrontati a lezione (etimologia e significat\n📝 2026-09-28: STORIA DELLA MUSICA: Controllo del materiale; la classificazione delle voci e spiegazione delle voci\n📝 2026-09-28: LINGUA STRANIERA-ING: studia  e sottolinea,p 174-175-176, fai p 177 n2, p 179 n3 e n4\n📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione"
     },
     "ada": {
       "display_name": "Ada",
       "emoji": "🎨",
       "color_theme": "purple",
-      "bio": "Studentessa delle medie, ama disegnare, leggere e ballare.",
+      "bio": "Scuola primaria. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
         "date": "2026-09-25",
         "schedule": [
-          {"time": "08:00", "event": "Scuola"},
-          {"time": "13:15", "event": "Fine scuola"},
-          {"time": "15:30", "event": "Danza"},
-          {"time": "17:30", "event": "Compiti"}
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
+          }
         ],
-        "status": "🏫 Scuola",
-        "mood": "😄"
+        "status": "🏫 Scuola — Uscita 12:15",
+        "mood": ""
       },
       "tomorrow": {
         "date": "2026-09-26",
-        "schedule": [
-          {"time": "08:00", "event": "Scuola"},
-          {"time": "15:00", "event": "Visita medica"},
-          {"time": "17:30", "event": "Compiti"}
-        ],
-        "status": "🏥 Visita medica"
+        "schedule": [],
+        "status": "🏠 A casa"
       },
-      "personal_notes": "Interrogazione di Storia giovedì!"
+      "personal_notes": ""
     }
   }
 }
