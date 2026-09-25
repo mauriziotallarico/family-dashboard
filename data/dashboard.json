@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-25T18:16:07.562497",
+    "last_updated": "2026-09-25T18:16:58.406353",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-25T18:16:07.562318"
+        "added_at": "2026-09-25T18:16:58.406195"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-25T18:16:07.562384"
+        "added_at": "2026-09-25T18:16:58.406260"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-25T18:16:07.562407"
+        "added_at": "2026-09-25T18:16:58.406282"
       }
     ],
     "calendar_events": {
