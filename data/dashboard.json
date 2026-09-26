@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-26T07:30:23.230785",
+    "last_updated": "2026-09-26T15:00:22.904263",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-26T07:30:23.230613"
+        "added_at": "2026-09-26T15:00:22.904109"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-26T07:30:23.230686"
+        "added_at": "2026-09-26T15:00:22.904171"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-26T07:30:23.230709"
+        "added_at": "2026-09-26T15:00:22.904193"
       }
     ],
     "calendar_events": {
@@ -60,11 +60,11 @@
       "today": {
         "date": "2026-09-26",
         "description": "Prevalentemente sereno",
-        "temp_min": 12,
+        "temp_min": 11,
         "temp_max": 28,
         "icon": "02d",
-        "humidity": 71,
-        "wind_speed": 3,
+        "humidity": 31,
+        "wind_speed": 5,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -167,7 +167,7 @@
         ],
         "status": "🏠 A casa"
       },
-      "personal_notes": "📝 2026-09-26: STORIA DELL' ARTE: Studiare da pagina 2 a pagina 6  e scaricare la versione e-book del libro di test\n📝 2026-09-26: STORIA DELL' ARTE: Studiare da pg 2 a pg 6.\n📝 2026-09-26: STORIA E GEOGRAFIA: Storia: riguardare gli appunti e risistemarli confrontandoli con le pagine del l\n📝 2026-09-28: STORIA E GEOGRAFIA: Geografia: ripassare gli argomenti affrontati a lezione (etimologia e significat\n📝 2026-09-28: STORIA DELLA MUSICA: Controllo del materiale; la classificazione delle voci e spiegazione delle voci\n📝 2026-09-28: LINGUA STRANIERA-ING: studia  e sottolinea,p 174-175-176, fai p 177 n2, p 179 n3 e n4\n📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione\n📝 2026-09-29: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare quanto spiegato fino ad ora. Li"
+      "personal_notes": "📝 2026-09-26: STORIA DELL' ARTE: Studiare da pagina 2 a pagina 6  e scaricare la versione e-book del libro di test\n📝 2026-09-26: STORIA DELL' ARTE: Studiare da pg 2 a pg 6.\n📝 2026-09-26: STORIA E GEOGRAFIA: Storia: riguardare gli appunti e risistemarli confrontandoli con le pagine del l\n📝 2026-09-28: STORIA E GEOGRAFIA: Geografia: ripassare gli argomenti affrontati a lezione (etimologia e significat\n📝 2026-09-28: STORIA DELLA MUSICA: Controllo del materiale; la classificazione delle voci e spiegazione delle voci\n📝 2026-09-28: LINGUA STRANIERA-ING: studia  e sottolinea,p 174-175-176, fai p 177 n2, p 179 n3 e n4\n📝 2026-09-28: STORIA E GEOGRAFIA: Studiare per il test di ingresso: STORIA: definizione di storia, periodizzazione\n📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione"
     },
     "ada": {
       "display_name": "Ada",
