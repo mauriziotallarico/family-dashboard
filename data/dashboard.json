@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-26T15:00:22.904263",
+    "last_updated": "2026-09-27T21:39:37.731420",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -16,7 +16,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-09-26",
+      "date": "2026-09-27",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -27,52 +27,52 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-26T15:00:22.904109"
+        "added_at": "2026-09-27T21:39:37.731237"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-26T15:00:22.904171"
+        "added_at": "2026-09-27T21:39:37.731323"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-26T15:00:22.904193"
+        "added_at": "2026-09-27T21:39:37.731346"
       }
     ],
     "calendar_events": {
-      "today": [],
-      "tomorrow": [
+      "today": [
         {
           "time": "tutto il giorno",
           "event": "📅 Luciana Ventura - compleanno",
           "all_day": true,
           "summary": "Luciana Ventura - compleanno"
         }
-      ]
+      ],
+      "tomorrow": []
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-09-26",
+        "date": "2026-09-27",
         "description": "Prevalentemente sereno",
         "temp_min": 11,
-        "temp_max": 28,
+        "temp_max": 29,
         "icon": "02d",
-        "humidity": 31,
-        "wind_speed": 5,
+        "humidity": 71,
+        "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-09-27",
-        "description": "Parzialmente nuvoloso",
-        "temp_min": 11,
-        "temp_max": 29,
-        "icon": "03d",
+        "date": "2026-09-28",
+        "description": "Prevalentemente sereno",
+        "temp_min": 13,
+        "temp_max": 30,
+        "icon": "02d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -87,12 +87,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-09-26",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-09-27",
         "schedule": [
           {
@@ -100,6 +94,12 @@
             "event": "📅 Luciana Ventura - compleanno"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-09-28",
+        "schedule": [],
         "status": ""
       },
       "personal_notes": ""
@@ -111,12 +111,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-09-26",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-09-27",
         "schedule": [
           {
@@ -124,7 +118,30 @@
             "event": "📅 Luciana Ventura - compleanno"
           }
         ],
-        "status": "🏠 A casa"
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-09-28",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 2B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "personal_notes": ""
     },
@@ -135,29 +152,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-09-26",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "09:10",
-            "event": "Italiano (2h) — Moncini M."
-          },
-          {
-            "time": "11:10",
-            "event": "Storia dell'Arte — Lorenzini M."
-          },
-          {
-            "time": "12:10",
-            "event": "Ritorno: 🚆 Treno (12:31 Stazione → 12:40 Altopascio)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~12:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-09-27",
         "schedule": [
           {
@@ -165,9 +159,48 @@
             "event": "📅 Luciana Ventura - compleanno"
           }
         ],
-        "status": "🏠 A casa"
+        "status": "🏠 A casa",
+        "mood": ""
       },
-      "personal_notes": "📝 2026-09-26: STORIA DELL' ARTE: Studiare da pagina 2 a pagina 6  e scaricare la versione e-book del libro di test\n📝 2026-09-26: STORIA DELL' ARTE: Studiare da pg 2 a pg 6.\n📝 2026-09-26: STORIA E GEOGRAFIA: Storia: riguardare gli appunti e risistemarli confrontandoli con le pagine del l\n📝 2026-09-28: STORIA E GEOGRAFIA: Geografia: ripassare gli argomenti affrontati a lezione (etimologia e significat\n📝 2026-09-28: STORIA DELLA MUSICA: Controllo del materiale; la classificazione delle voci e spiegazione delle voci\n📝 2026-09-28: LINGUA STRANIERA-ING: studia  e sottolinea,p 174-175-176, fai p 177 n2, p 179 n3 e n4\n📝 2026-09-28: STORIA E GEOGRAFIA: Studiare per il test di ingresso: STORIA: definizione di storia, periodizzazione\n📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione"
+      "tomorrow": {
+        "date": "2026-09-28",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "09:10",
+            "event": "TAC — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Inglese — Febi R."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia della Musica — Mascolo F."
+          },
+          {
+            "time": "12:10",
+            "event": "Religione — Battaglia M."
+          },
+          {
+            "time": "14:10",
+            "event": "Pianoforte (2° str.) — Pieruccioni L."
+          },
+          {
+            "time": "15:10",
+            "event": "Sax — Mazzola M."
+          },
+          {
+            "time": "16:20",
+            "event": "Ritorno: 🚌 Bus 851 (16:35 P.le Verdi → 16:49 Altopascio)"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~16:20"
+      },
+      "personal_notes": "📝 2026-09-28: STORIA E GEOGRAFIA: Geografia: ripassare gli argomenti affrontati a lezione (etimologia e significat\n📝 2026-09-28: STORIA DELLA MUSICA: Controllo del materiale; la classificazione delle voci e spiegazione delle voci\n📝 2026-09-28: LINGUA STRANIERA-ING: studia  e sottolinea,p 174-175-176, fai p 177 n2, p 179 n3 e n4\n📝 2026-09-28: STORIA E GEOGRAFIA: Studiare per il test di ingresso: STORIA: definizione di storia, periodizzazione\n📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione\n📝 2026-09-29: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare quanto spiegato fino ad ora. Li\n📝 2026-09-29: MATEMATICA: Es. 4 pag. 31, es. 201 pag. 33, es. 263 pag. 36 e es. 275 pag. 37\n📝 2026-09-29: LING. LETT. ITALIANA: vol.narrativa pag. 12/13"
     },
     "ada": {
       "display_name": "Ada",
@@ -176,12 +209,6 @@
       "bio": "Scuola primaria. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-09-26",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-09-27",
         "schedule": [
           {
@@ -189,7 +216,22 @@
             "event": "📅 Luciana Ventura - compleanno"
           }
         ],
-        "status": "🏠 A casa"
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-09-28",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "16:15",
+            "event": "Uscita scuola (giorno lungo)"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 16:15"
       },
       "personal_notes": ""
     }
