@@ -503,7 +503,11 @@ function windDir(deg) {
 }
 
 function renderWeather(weather) {
-  if (!weather) return;
+  if (!weather || !weather.today || !weather.tomorrow) {
+    const grid = document.getElementById('weather-grid');
+    if (grid) grid.innerHTML = '<p class="empty-state">Meteo non disponibile</p>';
+    return;
+  }
   const grid = document.getElementById('weather-grid');
   function dayHTML(d, label) {
     return `
