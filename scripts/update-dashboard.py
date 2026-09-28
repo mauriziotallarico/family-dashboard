@@ -114,7 +114,7 @@ FLAVIO_ORARIO = {
         {"time": "11:10", "event": "Storia della Musica — Mascolo F."},
         {"time": "12:10", "event": "Religione — Battaglia M."},
         {"time": "14:10", "event": "Pianoforte (2° str.) — Pieruccioni L."},
-        {"time": "15:10", "event": "Sax — Mazzola M."},
+        {"time": "15:30", "event": "Sax — Mazzola M. 📍 Fillungo"},
     ],
     "Martedì": [
         {"time": "08:10", "event": "Scienze — Lovi I."},
@@ -127,8 +127,8 @@ FLAVIO_ORARIO = {
         {"time": "08:10", "event": "Scienze — Lovi I."},
         {"time": "09:10", "event": "Inglese — Febi R."},
         {"time": "10:10", "event": "Matematica (2h) — Marini F."},
-        {"time": "13:10", "event": "Sax — Mazzola M."},
-        {"time": "14:10", "event": "Quartetto Sax Junior — Mazzola M."},
+        {"time": "13:30", "event": "Sax — Mazzola M. 📍 Fillungo"},
+        {"time": "14:30", "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"},
     ],
     "Giovedì": [
         {"time": "08:10", "event": "TEM (2h) — Giusti M."},
@@ -149,16 +149,16 @@ FLAVIO_ORARIO = {
 }
 
 FLAVIO_TRASPORTI = {
-    "Lunedì": "🚌 Bus 851 (16:35 P.le Verdi → 16:49 Altopascio)",
+    "Lunedì": "🚆 Treno 17:31 (Stazione FS → 17:40 Altopascio) — ~40 min attesa in stazione",
     "Martedì": "🚌 Bus 851 (14:15 P.le Verdi → 14:29 Altopascio)",
-    "Mercoledì": "🚆 Treno (15:39 Stazione → 15:54 Altopascio)",
+    "Mercoledì": "🚌 Bus 851 (16:35 P.le Verdi → 16:49 Altopascio) — ~1h attesa",
     "Giovedì": "🚌 Bus 851 (14:15 P.le Verdi → 14:29 Altopascio)",
     "Venerdì": "🚆 Treno (12:31 Stazione → 12:40 Altopascio)",
     "Sabato": "🚆 Treno (12:31 Stazione → 12:40 Altopascio)",
 }
 
 FLAVIO_USCITA = {
-    "Lunedì": "~16:20", "Martedì": "~13:10", "Mercoledì": "~15:20",
+    "Lunedì": "~16:30", "Martedì": "~13:10", "Mercoledì": "~15:30",
     "Giovedì": "~14:10", "Venerdì": "~12:10", "Sabato": "~12:10",
 }
 

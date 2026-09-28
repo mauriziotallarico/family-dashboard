@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-28T15:13:34.369346",
+    "last_updated": "2026-09-28T15:16:43.534010",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-28T15:13:34.369200"
+        "added_at": "2026-09-28T15:16:43.533869"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-28T15:13:34.369257"
+        "added_at": "2026-09-28T15:16:43.533922"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-28T15:13:34.369279"
+        "added_at": "2026-09-28T15:16:43.533943"
       }
     ],
     "calendar_events": {
@@ -200,15 +200,15 @@
             "event": "Pianoforte (2° str.) — Pieruccioni L."
           },
           {
-            "time": "15:10",
-            "event": "Sax — Mazzola M."
+            "time": "15:30",
+            "event": "Sax — Mazzola M. 📍 Fillungo"
           },
           {
-            "time": "16:20",
-            "event": "Ritorno: 🚌 Bus 851 (16:35 P.le Verdi → 16:49 Altopascio)"
+            "time": "16:30",
+            "event": "Ritorno: 🚆 Treno 17:31 (Stazione FS → 17:40 Altopascio) — ~40 min attesa in stazione"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~16:20",
+        "status": "🏫 Scuola — Uscita ~16:30",
         "mood": ""
       },
       "tomorrow": {
