@@ -78,8 +78,9 @@ def main():
     base = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     
     files = [
-        ("data/dashboard.json", "🦞 Update dashboard with real family data"),
-        ("scripts/update-dashboard.py", "🦞 Add PicoClaw update script"),
+        ("data/dashboard.json", "🦞 Update dashboard data"),
+        ("index.html", "🦞 Update dashboard frontend"),
+        ("scripts/update-dashboard.py", "🦞 Update dashboard script"),
     ]
     
     for repo_path, msg in files:
