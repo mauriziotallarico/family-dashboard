@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-29T07:30:21.825292",
+    "last_updated": "2026-09-29T15:00:22.356197",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-29T07:30:21.825145"
+        "added_at": "2026-09-29T15:00:22.355997"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-29T07:30:21.825204"
+        "added_at": "2026-09-29T15:00:22.356075"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-29T07:30:21.825226"
+        "added_at": "2026-09-29T15:00:22.356106"
       }
     ],
     "calendar_events": {
@@ -69,8 +69,8 @@
         "temp_min": 13,
         "temp_max": 30,
         "icon": "50d",
-        "humidity": 98,
-        "wind_speed": 3,
+        "humidity": 23,
+        "wind_speed": 4,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -225,7 +225,7 @@
         ],
         "status": "🏫 Scuola — Uscita ~15:30"
       },
-      "personal_notes": "📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione\n📝 2026-09-29: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare quanto spiegato fino ad ora. Li\n📝 2026-09-29: MATEMATICA: Es. 4 pag. 31, es. 201 pag. 33, es. 263 pag. 36 e es. 275 pag. 37\n📝 2026-09-29: LING. LETT. ITALIANA: vol.narrativa pag. 12/13\n📝 2026-09-29: STORIA DELLA MUSICA: la classificazione degli strumenti secondo Sachs; le varie tipologie di orchest\n📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt."
+      "personal_notes": "📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione\n📝 2026-09-29: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare quanto spiegato fino ad ora. Li\n📝 2026-09-29: MATEMATICA: Es. 4 pag. 31, es. 201 pag. 33, es. 263 pag. 36 e es. 275 pag. 37\n📝 2026-09-29: LING. LETT. ITALIANA: vol.narrativa pag. 12/13\n📝 2026-09-29: STORIA DELLA MUSICA: la classificazione degli strumenti secondo Sachs; le varie tipologie di orchest\n📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-09-30: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare elementi, miscugli e composti + \n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica"
     },
     "ada": {
       "display_name": "Ada",
