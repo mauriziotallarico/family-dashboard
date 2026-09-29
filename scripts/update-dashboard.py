@@ -162,6 +162,88 @@ FLAVIO_USCITA = {
     "Giovedì": "~14:10", "Venerdì": "~12:10", "Sabato": "~12:10",
 }
 
+# Structured transport recommendations for dashboard table
+FLAVIO_TRASPORTI_TABLE = [
+    {
+        "day": "Lunedì",
+        "exit_time": "~16:30",
+        "exit_place": "Fillungo",
+        "mode": "train",
+        "mode_label": "🚆 Treno",
+        "departure": "17:31",
+        "departure_place": "Stazione FS Lucca",
+        "arrival": "17:40",
+        "arrival_place": "Altopascio",
+        "line": "REG 18527",
+        "notes": "~40 min attesa in stazione. Backup: treno 17:39",
+    },
+    {
+        "day": "Martedì",
+        "exit_time": "~13:10",
+        "exit_place": "S. Agostino",
+        "mode": "bus",
+        "mode_label": "🚌 Bus 851",
+        "departure": "14:15",
+        "departure_place": "P.le Verdi",
+        "arrival": "14:29",
+        "arrival_place": "Altopascio",
+        "line": "Bus 851",
+        "notes": "Alternativa: treno 13:31 se cammina svelto",
+    },
+    {
+        "day": "Mercoledì",
+        "exit_time": "~15:30",
+        "exit_place": "Fillungo",
+        "mode": "bus",
+        "mode_label": "🚌 Bus 851",
+        "departure": "16:35",
+        "departure_place": "P.le Verdi",
+        "arrival": "16:49",
+        "arrival_place": "Altopascio",
+        "line": "Bus 851",
+        "notes": "~1h attesa. Alternativa: treno 16:31 (20 min cammino)",
+    },
+    {
+        "day": "Giovedì",
+        "exit_time": "~14:10",
+        "exit_place": "S. Agostino",
+        "mode": "bus",
+        "mode_label": "🚌 Bus 851",
+        "departure": "14:15",
+        "departure_place": "P.le Verdi",
+        "arrival": "14:29",
+        "arrival_place": "Altopascio",
+        "line": "Bus 851",
+        "notes": "⚡ Stretto ma fattibile! Backup: treno 14:31",
+    },
+    {
+        "day": "Venerdì",
+        "exit_time": "~12:10",
+        "exit_place": "Cavallerizza",
+        "mode": "train",
+        "mode_label": "🚆 Treno",
+        "departure": "12:31",
+        "departure_place": "Stazione FS Lucca",
+        "arrival": "12:40",
+        "arrival_place": "Altopascio",
+        "line": "Treno regionale",
+        "notes": "Treno nettamente migliore (bus solo alle 14:15)",
+    },
+    {
+        "day": "Sabato",
+        "exit_time": "~12:10",
+        "exit_place": "S. Agostino",
+        "mode": "train",
+        "mode_label": "🚆 Treno",
+        "departure": "12:31",
+        "departure_place": "Stazione FS Lucca",
+        "arrival": "12:40",
+        "arrival_place": "Altopascio",
+        "line": "Treno regionale",
+        "notes": "Treno nettamente migliore (bus solo alle 14:15)",
+    },
+]
+
 
 def get_flavio_schedule(d):
     giorno = day_name(d)
@@ -619,6 +701,7 @@ def build_dashboard():
                     "schedule": flavio_tomorrow_sched,
                     "status": flavio_tomorrow_status
                 },
+                "transport": FLAVIO_TRASPORTI_TABLE,
                 "personal_notes": flavio_notes
             },
             "ada": {
