@@ -346,6 +346,10 @@
       font-weight: 600;
       border-left: 3px solid var(--member-color);
     }
+    [data-theme="warm"] .transport-table tr.transport-today { background: #f0fdf4; border-left-color: #22c55e; }
+    [data-theme="cool"] .transport-table tr.transport-today { background: #f0fdf4; border-left-color: #22c55e; }
+    [data-theme="nature"] .transport-table tr.transport-today { background: #f0fdf4; border-left-color: #22c55e; }
+    [data-theme="dark"] .transport-table tr.transport-today { background: #1a3a2a; border-left-color: #22c55e; }
     .transport-table tr.transport-today td:first-child {
       position: relative;
     }
@@ -405,6 +409,9 @@
       .shared-section { grid-template-columns: 1fr; }
       .members-grid { grid-template-columns: 1fr; }
       .weather-grid { grid-template-columns: 1fr 1fr; }
+      .transport-table { font-size: 0.72rem; }
+      .transport-table th, .transport-table td { padding: 0.35rem 0.3rem; }
+      #transport-box .card-body { padding: 0.75rem; overflow-x: auto; }
     }
     @media (max-width: 480px) {
       .weather-grid { grid-template-columns: 1fr; }
@@ -505,6 +512,16 @@
   <!-- Members Grid -->
   <div class="members-grid" id="members-grid">
     <!-- Populated dynamically -->
+  </div>
+
+  <!-- Transport Box (standalone, bottom of page) -->
+  <div id="transport-box" class="card" style="margin-top:1.5rem; display:none;">
+    <div class="card-header" style="background: linear-gradient(135deg, #22c55e, #15803d); color: white; border-bottom: none;">
+      <span class="icon">🚏</span>
+      <h3 style="color: white;">Trasporti Flavio — Lucca → Altopascio</h3>
+    </div>
+    <div class="card-body" id="transport-box-body">
+    </div>
   </div>
 
 </main>
@@ -618,9 +635,15 @@ function renderNotes(notes) {
   body.innerHTML = `<p class="notes-text">${escapeHTML(notes)}</p>`;
 }
 
-// ===== TRANSPORT TABLE =====
-function renderTransportTable(transport) {
-  if (!transport || transport.length === 0) return '';
+// ===== TRANSPORT TABLE (standalone box) =====
+function renderTransportBox(transport) {
+  const box = document.getElementById('transport-box');
+  const body = document.getElementById('transport-box-body');
+  if (!transport || transport.length === 0) {
+    box.style.display = 'none';
+    return;
+  }
+  box.style.display = '';
   
   const now = new Date();
   const dayNames = ['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato'];
@@ -632,27 +655,33 @@ function renderTransportTable(transport) {
     const modeClass = t.mode === 'train' ? 'train' : 'bus';
     return `
       <tr class="${rowClass}">
-        <td>${isToday ? '👉 ' : ''}${t.day.substring(0,3)}</td>
+        <td style="white-space:nowrap">${isToday ? '👉 ' : ''}<strong>${t.day}</strong></td>
+        <td style="white-space:nowrap">${t.exit_time} <span style="color:var(--text-light);font-size:0.72rem">${t.exit_place}</span></td>
         <td><span class="transport-mode-badge ${modeClass}">${t.mode_label}</span></td>
-        <td>${t.departure}<span class="transport-time-arrow">→</span>${t.arrival}</td>
-        <td>${t.departure_place}${t.notes ? `<div class="transport-notes">${escapeHTML(t.notes)}</div>` : ''}</td>
+        <td style="white-space:nowrap">${t.departure}<span class="transport-time-arrow"> → </span>${t.arrival}</td>
+        <td>${t.departure_place}</td>
+        <td><span class="transport-notes" style="display:block">${t.notes ? escapeHTML(t.notes) : ''}</span></td>
       </tr>`;
   }).join('');
   
-  return `
-    <div class="transport-section">
-      <div class="section-title">🚏 Trasporti Lucca → Altopascio</div>
-      <table class="transport-table">
-        <thead>
-          <tr>
-            <th>Giorno</th>
-            <th>Mezzo</th>
-            <th>Orario</th>
-            <th>Da / Note</th>
-          </tr>
-        </thead>
-        <tbody>${rows}</tbody>
-      </table>
+  body.innerHTML = `
+    <table class="transport-table">
+      <thead>
+        <tr>
+          <th>Giorno</th>
+          <th>Uscita</th>
+          <th>Mezzo</th>
+          <th>Partenza → Arrivo</th>
+          <th>Da</th>
+          <th>Note</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <div style="margin-top:0.75rem;font-size:0.72rem;color:var(--text-light);display:flex;gap:1rem;align-items:center;flex-wrap:wrap">
+      <span><span class="transport-mode-badge train" style="font-size:0.65rem">🚆 Treno</span> = Stazione FS Lucca</span>
+      <span><span class="transport-mode-badge bus" style="font-size:0.65rem">🚌 Bus 851</span> = Piazzale Verdi</span>
+      <span style="margin-left:auto">👉 = oggi</span>
     </div>`;
 }
 
@@ -708,7 +737,6 @@ function renderMemberCard(id, member) {
           <div class="section-title">🕐 Programma</div>
           ${tomorrowSched}
         </div>
-        ${member.transport ? renderTransportTable(member.transport) : ''}
         ${member.personal_notes && member.personal_notes.trim() !== '' ? `
           <div class="member-divider"></div>
           <div class="personal-notes">
@@ -792,6 +820,11 @@ function renderDashboard(data) {
   // Append any members not in default order
   Object.keys(members).forEach(id => { if (!order.includes(id)) order.push(id); });
   grid.innerHTML = order.map(id => renderMemberCard(id, members[id])).join('');
+
+  // Transport standalone box (from flavio.transport)
+  if (members.flavio && members.flavio.transport) {
+    renderTransportBox(members.flavio.transport);
+  }
 }
 
 // Init
