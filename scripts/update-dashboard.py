@@ -338,54 +338,108 @@ def get_ada_schedule(d):
 # ===== CLASSEVIVA (Ada's school data) =====
 
 def fetch_classeviva_data():
-    """Fetch lessons, agenda, grades from ClasseViva for Ada."""
-    cv_cmd = "python3 skills/classeviva/classeviva-query"
-    results = {"lezioni_oggi": [], "agenda": [], "voti": []}
+    """Fetch lessons, agenda, grades, absences, noticeboard from ClasseViva for Ada.
+    
+    Uses the Python API directly for structured data instead of CLI parsing.
+    """
+    results = {
+        "lezioni_oggi": [],       # list of {"ora": int, "materia": str, "docente": str, "argomento": str}
+        "lezioni_domani": [],     # same structure
+        "agenda": [],             # list of {"data": str, "testo": str, "autore": str}
+        "voti": [],               # list of {"data": str, "materia": str, "voto": str, "note": str, "colore": str}
+        "assenze": [],            # list of {"data": str, "tipo": str, "giustificata": bool}
+        "bacheca": [],            # list of {"data": str, "titolo": str, "letta": bool}
+        "note": [],               # list of {"data": str, "tipo": str, "autore": str, "testo": str}
+    }
 
     try:
+        import importlib.machinery
+        mod = importlib.machinery.SourceFileLoader(
+            'classeviva_mod',
+            str(WORKSPACE / 'skills' / 'classeviva' / 'classeviva-query')
+        ).load_module()
+        
+        creds = mod.load_credentials()
+        client = mod.ClasseVivaClient(creds['CLASSEVIVA_USERNAME'], creds['CLASSEVIVA_PASSWORD'])
+        client.login()
+        
+        today = date.today()
+        tomorrow = today + timedelta(days=1)
+        
         # Lezioni di oggi
-        out = subprocess.run(
-            f"{cv_cmd} lezioni".split(),
-            capture_output=True, text=True, timeout=30,
-            cwd=str(WORKSPACE)
-        )
-        if out.returncode == 0:
-            for line in out.stdout.strip().splitlines():
-                line = line.strip()
-                if line.startswith("Ora "):
-                    # e.g. "Ora 1: ITALIANO (GOZZINI ANGELA)"
-                    results["lezioni_oggi"].append(line)
-                elif line.startswith("→"):
-                    # Topic line — append to last lesson
-                    if results["lezioni_oggi"]:
-                        results["lezioni_oggi"][-1] += f"\n    {line}"
-
-        # Agenda prossimi 14 giorni
-        out = subprocess.run(
-            f"{cv_cmd} agenda 14".split(),
-            capture_output=True, text=True, timeout=30,
-            cwd=str(WORKSPACE)
-        )
-        if out.returncode == 0:
-            for line in out.stdout.strip().splitlines():
-                line = line.strip()
-                if line.startswith("📅"):
-                    results["agenda"].append(line)
-
-        # Voti recenti
-        out = subprocess.run(
-            f"{cv_cmd} voti".split(),
-            capture_output=True, text=True, timeout=30,
-            cwd=str(WORKSPACE)
-        )
-        if out.returncode == 0:
-            for line in out.stdout.strip().splitlines():
-                line = line.strip()
-                if line and not line.startswith("Nessun"):
-                    results["voti"].append(line)
-
+        for lesson in client.lessons_today():
+            results["lezioni_oggi"].append({
+                "ora": lesson.get("evtHPos", 0),
+                "materia": lesson.get("subjectDesc", "?"),
+                "docente": lesson.get("authorName", "?"),
+                "argomento": lesson.get("lessonArg", ""),
+            })
+        results["lezioni_oggi"].sort(key=lambda x: x["ora"])
+        
+        # Lezioni di domani
+        for lesson in client.lessons_day(tomorrow.isoformat()):
+            results["lezioni_domani"].append({
+                "ora": lesson.get("evtHPos", 0),
+                "materia": lesson.get("subjectDesc", "?"),
+                "docente": lesson.get("authorName", "?"),
+                "argomento": lesson.get("lessonArg", ""),
+            })
+        results["lezioni_domani"].sort(key=lambda x: x["ora"])
+        
+        # Agenda prossimi 14 giorni (compiti e impegni)
+        start = today.isoformat()
+        end = (today + timedelta(days=14)).isoformat()
+        for item in client.agenda(start, end):
+            results["agenda"].append({
+                "data": item.get("evtDatetimeBegin", "")[:10],
+                "testo": item.get("notes", ""),
+                "autore": item.get("authorName", ""),
+            })
+        
+        # Voti
+        for g in client.grades():
+            results["voti"].append({
+                "data": g.get("evtDate", ""),
+                "materia": g.get("subjectDesc", "?"),
+                "voto": g.get("displayValue", g.get("decimalValue", "?")),
+                "note": g.get("notesForFamily", ""),
+                "colore": g.get("color", ""),
+            })
+        results["voti"].sort(key=lambda x: x["data"], reverse=True)
+        
+        # Assenze
+        for e in client.absences():
+            results["assenze"].append({
+                "data": e.get("evtDate", ""),
+                "tipo": e.get("evtCode", ""),
+                "giustificata": e.get("isJustified", False),
+            })
+        
+        # Bacheca (ultime 5 comunicazioni)
+        for b in client.noticeboard()[:5]:
+            results["bacheca"].append({
+                "data": b.get("pubDT", "")[:10],
+                "titolo": b.get("cntTitle", ""),
+                "letta": b.get("readStatus", False),
+            })
+        
+        # Note disciplinari
+        notes_data = client.notes()
+        if notes_data:
+            for key, label in [("NTTE", "Docente"), ("NTCL", "Classe"),
+                               ("NTWN", "Richiamo"), ("NTST", "Sanzione")]:
+                for n in notes_data.get(key, []):
+                    results["note"].append({
+                        "data": n.get("evtDate", ""),
+                        "tipo": label,
+                        "autore": n.get("authorName", ""),
+                        "testo": n.get("readNote", n.get("evtText", "")),
+                    })
+    
     except Exception as e:
         print(f"⚠️  ClasseViva fetch failed: {e}")
+        import traceback
+        traceback.print_exc()
 
     return results
 
@@ -650,11 +704,11 @@ def build_dashboard():
             "added_at": datetime.now().isoformat(),
         })
     
-    # Add ClasseViva reminders (Ada agenda)
+    # Add ClasseViva reminders (Ada agenda items = compiti/impegni)
     for i, a in enumerate(classeviva.get("agenda", [])):
         reminders.append({
             "id": f"classeviva_{i}",
-            "text": f"🎨 Ada: {a}",
+            "text": f"🎨 Ada: {a['data']} — {a['testo'][:150]}",
             "priority": "high",
             "added_by": "picoclaw",
             "added_at": datetime.now().isoformat(),
@@ -666,16 +720,43 @@ def build_dashboard():
         compiti_lines.append(f"📝 {c['date']}: {c['text'][:100]}")
     flavio_notes = "\n".join(compiti_lines) if compiti_lines else "Nessun compito registrato"
     
-    # Build Ada personal notes from ClasseViva
+    # Build Ada personal notes from ClasseViva (structured)
+    ada_school_data = {
+        "lezioni_oggi": classeviva.get("lezioni_oggi", []),
+        "lezioni_domani": classeviva.get("lezioni_domani", []),
+        "agenda": classeviva.get("agenda", []),
+        "voti": classeviva.get("voti", [])[:10],
+        "assenze_count": len(classeviva.get("assenze", [])),
+        "bacheca": classeviva.get("bacheca", []),
+        "note": classeviva.get("note", []),
+    }
+    
+    # Also build a text summary for personal_notes (fallback)
     ada_notes_parts = []
     if classeviva.get("lezioni_oggi"):
         ada_notes_parts.append("📚 Lezioni di oggi:")
         for lesson in classeviva["lezioni_oggi"]:
-            ada_notes_parts.append(f"  {lesson}")
+            line = f"  Ora {lesson['ora']}: {lesson['materia']} ({lesson['docente']})"
+            if lesson.get("argomento"):
+                line += f"\n    → {lesson['argomento'][:120]}"
+            ada_notes_parts.append(line)
+    if classeviva.get("agenda"):
+        ada_notes_parts.append("\n📅 Compiti/Impegni:")
+        for a in classeviva["agenda"][:5]:
+            ada_notes_parts.append(f"  {a['data']} — {a['testo'][:100]}")
     if classeviva.get("voti"):
         ada_notes_parts.append("\n🎯 Voti recenti:")
-        for v in classeviva["voti"][-5:]:  # last 5 grades
-            ada_notes_parts.append(f"  {v}")
+        for v in classeviva["voti"][:5]:
+            ada_notes_parts.append(f"  {v['data']} | {v['materia']} | {v['voto']}")
+    if classeviva.get("bacheca"):
+        ada_notes_parts.append("\n📋 Bacheca:")
+        for b in classeviva["bacheca"][:3]:
+            status = "🆕" if not b["letta"] else "✅"
+            ada_notes_parts.append(f"  {status} {b['data']} — {b['titolo'][:80]}")
+    if classeviva.get("note"):
+        ada_notes_parts.append("\n⚠️ Note disciplinari:")
+        for n in classeviva["note"]:
+            ada_notes_parts.append(f"  {n['data']} | {n['tipo']}: {n['testo'][:100]}")
     ada_notes = "\n".join(ada_notes_parts) if ada_notes_parts else ""
     
     # Dashboard JSON
@@ -802,6 +883,7 @@ def build_dashboard():
                     "schedule": ada_tomorrow_sched,
                     "status": ada_tomorrow_status
                 },
+                "school_data": ada_school_data,
                 "personal_notes": ada_notes
             }
         }

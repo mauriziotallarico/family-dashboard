@@ -459,6 +459,141 @@
       0%,100% { opacity:1; transform:scale(1); }
       50% { opacity:0.5; transform:scale(1.3); }
     }
+
+    /* ===== SCHOOL DATA (ClasseViva) ===== */
+    .school-data-wrapper {
+      margin-top: 0.5rem;
+    }
+    .school-data-header {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--member-color);
+      margin-bottom: 0.75rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .school-section {
+      margin-bottom: 0.85rem;
+    }
+    .school-section:last-child { margin-bottom: 0; }
+    
+    /* Lessons */
+    .school-lesson {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.6rem;
+      padding: 0.45rem 0.6rem;
+      border-radius: var(--radius-sm);
+      background: var(--member-light);
+      margin-bottom: 0.35rem;
+    }
+    .school-lesson:last-child { margin-bottom: 0; }
+    .school-lesson-ora {
+      font-weight: 700;
+      color: var(--member-color);
+      min-width: 42px;
+      font-size: 0.78rem;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .school-lesson-info {
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+      flex: 1;
+    }
+    .school-lesson-materia {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--text-primary);
+    }
+    .school-lesson-docente {
+      font-size: 0.72rem;
+      color: var(--text-light);
+    }
+    .school-lesson-argomento {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      font-style: italic;
+      line-height: 1.3;
+      margin-top: 0.15rem;
+    }
+    
+    /* Agenda/Compiti */
+    .school-agenda-item {
+      padding: 0.45rem 0.6rem;
+      border-radius: var(--radius-sm);
+      background: var(--member-light);
+      margin-bottom: 0.35rem;
+      font-size: 0.85rem;
+      border-left: 3px solid var(--member-color);
+    }
+    .school-agenda-date {
+      font-weight: 600;
+      color: var(--member-color);
+      margin-right: 0.5rem;
+      font-size: 0.78rem;
+    }
+    .school-agenda-text {
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+    .school-agenda-author {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      display: block;
+      margin-top: 0.15rem;
+    }
+    
+    /* Grades */
+    .school-grade {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.6rem;
+      border-radius: var(--radius-sm);
+      background: var(--member-light);
+      margin-bottom: 0.3rem;
+      font-size: 0.85rem;
+    }
+    .school-grade-emoji { font-size: 0.9rem; flex-shrink: 0; }
+    .school-grade-date { font-size: 0.72rem; color: var(--text-light); min-width: 72px; }
+    .school-grade-subject { font-weight: 600; flex: 1; }
+    .school-grade-value { font-weight: 700; font-size: 1rem; color: var(--member-color); }
+    .school-grade-note { font-size: 0.72rem; color: var(--text-secondary); }
+    
+    /* Bacheca */
+    .school-bb-item {
+      padding: 0.35rem 0.6rem;
+      font-size: 0.82rem;
+      color: var(--text-primary);
+      line-height: 1.4;
+    }
+    .school-bb-date {
+      font-size: 0.72rem;
+      color: var(--text-light);
+    }
+    
+    /* Note disciplinari */
+    .school-note-item {
+      padding: 0.4rem 0.6rem;
+      font-size: 0.82rem;
+      color: #dc2626;
+      background: #fef2f2;
+      border-radius: var(--radius-sm);
+      margin-bottom: 0.3rem;
+    }
+    
+    /* Assenze badge */
+    .school-absence-badge {
+      display: inline-block;
+      padding: 0.3rem 0.75rem;
+      border-radius: 20px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      background: #fef2f2;
+      color: #dc2626;
+    }
   </style>
 </head>
 <body data-theme="warm">
@@ -760,6 +895,12 @@ function renderMemberCard(id, member) {
   const todaySched = renderSchedule(member.today?.schedule, id, 'today');
   const tomorrowSched = renderSchedule(member.tomorrow?.schedule, id, 'tomorrow');
 
+  // School data section (for Ada's ClasseViva data)
+  let schoolHTML = '';
+  if (member.school_data) {
+    schoolHTML = renderSchoolData(member.school_data, member.color_theme || 'purple');
+  }
+
   return `
     <div class="member-card ${colorClass}">
       <div class="member-card-header">
@@ -787,6 +928,7 @@ function renderMemberCard(id, member) {
           <div class="section-title">🕐 Programma</div>
           ${tomorrowSched}
         </div>
+        ${schoolHTML}
         ${member.personal_notes && member.personal_notes.trim() !== '' ? `
           <div class="member-divider"></div>
           <div class="personal-notes">
@@ -794,6 +936,126 @@ function renderMemberCard(id, member) {
             ${escapeHTML(member.personal_notes)}
           </div>` : ''}
       </div>
+    </div>`;
+}
+
+// ===== SCHOOL DATA (ClasseViva for Ada) =====
+function renderSchoolData(sd, colorTheme) {
+  if (!sd) return '';
+  
+  const sections = [];
+  
+  // Lezioni di oggi con argomenti
+  if (sd.lezioni_oggi && sd.lezioni_oggi.length > 0) {
+    const lessonRows = sd.lezioni_oggi.map(l => `
+      <div class="school-lesson">
+        <span class="school-lesson-ora">Ora ${l.ora}</span>
+        <div class="school-lesson-info">
+          <span class="school-lesson-materia">${escapeHTML(l.materia)}</span>
+          <span class="school-lesson-docente">${escapeHTML(l.docente)}</span>
+          ${l.argomento ? `<span class="school-lesson-argomento">📖 ${escapeHTML(l.argomento)}</span>` : ''}
+        </div>
+      </div>`).join('');
+    sections.push(`
+      <div class="school-section">
+        <div class="section-title">📚 Lezioni di oggi</div>
+        ${lessonRows}
+      </div>`);
+  }
+  
+  // Lezioni di domani
+  if (sd.lezioni_domani && sd.lezioni_domani.length > 0) {
+    const lessonRows = sd.lezioni_domani.map(l => `
+      <div class="school-lesson">
+        <span class="school-lesson-ora">Ora ${l.ora}</span>
+        <div class="school-lesson-info">
+          <span class="school-lesson-materia">${escapeHTML(l.materia)}</span>
+          <span class="school-lesson-docente">${escapeHTML(l.docente)}</span>
+          ${l.argomento ? `<span class="school-lesson-argomento">📖 ${escapeHTML(l.argomento)}</span>` : ''}
+        </div>
+      </div>`).join('');
+    sections.push(`
+      <div class="school-section">
+        <div class="section-title">📖 Lezioni di domani</div>
+        ${lessonRows}
+      </div>`);
+  }
+  
+  // Compiti/Agenda
+  if (sd.agenda && sd.agenda.length > 0) {
+    const agendaRows = sd.agenda.map(a => `
+      <div class="school-agenda-item">
+        <span class="school-agenda-date">${escapeHTML(a.data)}</span>
+        <span class="school-agenda-text">${escapeHTML(a.testo)}</span>
+        ${a.autore ? `<span class="school-agenda-author">— ${escapeHTML(a.autore)}</span>` : ''}
+      </div>`).join('');
+    sections.push(`
+      <div class="school-section">
+        <div class="section-title">📝 Compiti e Impegni</div>
+        ${agendaRows}
+      </div>`);
+  }
+  
+  // Voti
+  if (sd.voti && sd.voti.length > 0) {
+    const gradeRows = sd.voti.slice(0, 5).map(v => {
+      const emoji = {green: '🟢', red: '🔴', blue: '🔵'}[v.colore] || '⚪';
+      return `
+        <div class="school-grade">
+          <span class="school-grade-emoji">${emoji}</span>
+          <span class="school-grade-date">${escapeHTML(v.data)}</span>
+          <span class="school-grade-subject">${escapeHTML(v.materia)}</span>
+          <span class="school-grade-value">${escapeHTML(String(v.voto))}</span>
+          ${v.note ? `<span class="school-grade-note">${escapeHTML(v.note)}</span>` : ''}
+        </div>`;
+    }).join('');
+    sections.push(`
+      <div class="school-section">
+        <div class="section-title">🎯 Voti</div>
+        ${gradeRows}
+      </div>`);
+  }
+  
+  // Bacheca
+  if (sd.bacheca && sd.bacheca.length > 0) {
+    const bbRows = sd.bacheca.map(b => {
+      const icon = b.letta ? '✅' : '🆕';
+      return `<div class="school-bb-item">${icon} <span class="school-bb-date">${escapeHTML(b.data)}</span> — ${escapeHTML(b.titolo)}</div>`;
+    }).join('');
+    sections.push(`
+      <div class="school-section">
+        <div class="section-title">📋 Bacheca Scuola</div>
+        ${bbRows}
+      </div>`);
+  }
+  
+  // Note disciplinari
+  if (sd.note && sd.note.length > 0) {
+    const noteRows = sd.note.map(n =>
+      `<div class="school-note-item">⚠️ ${escapeHTML(n.data)} | ${escapeHTML(n.tipo)}: ${escapeHTML(n.testo)}</div>`
+    ).join('');
+    sections.push(`
+      <div class="school-section">
+        <div class="section-title">⚠️ Note Disciplinari</div>
+        ${noteRows}
+      </div>`);
+  }
+  
+  // Assenze summary
+  if (sd.assenze_count > 0) {
+    sections.push(`
+      <div class="school-section">
+        <div class="school-absence-badge">❌ ${sd.assenze_count} assenz${sd.assenze_count === 1 ? 'a' : 'e'} registrat${sd.assenze_count === 1 ? 'a' : 'e'}</div>
+      </div>`);
+  }
+  
+  if (sections.length === 0) return '';
+  
+  return `
+    <div class="member-divider"></div>
+    <div class="school-data-wrapper">
+      <div class="school-data-header">🏫 Registro Elettronico</div>
+      ${sections.join('')}
     </div>`;
 }
 
