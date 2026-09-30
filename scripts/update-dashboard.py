@@ -693,19 +693,38 @@ def build_dashboard():
     mau_today_sched = _calendar_events_for_member(cal_today, "maurizio")
     mau_tomorrow_sched = _calendar_events_for_member(cal_tomorrow, "maurizio")
     
-    # Build reminders from Didup (Flavio)
+    # Build reminders from Didup (Flavio) — skip past-due items
     reminders = []
-    for i, p in enumerate(didup.get("promemoria", [])):
+    _date_prefix_re = re.compile(r"^(\d{4}-\d{2}-\d{2})")
+    reminder_idx = 0
+    for p in didup.get("promemoria", []):
+        m = _date_prefix_re.match(p)
+        if m:
+            try:
+                item_date = date.fromisoformat(m.group(1))
+                if item_date < today:
+                    print(f"   ⏭️  Skipping past-due promemoria: {p[:60]}")
+                    continue
+            except ValueError:
+                pass  # malformed date → include it anyway
         reminders.append({
-            "id": f"didup_{i}",
+            "id": f"didup_{reminder_idx}",
             "text": f"📚 {p}",
             "priority": "high",
             "added_by": "picoclaw",
             "added_at": datetime.now().isoformat(),
         })
+        reminder_idx += 1
     
-    # Add ClasseViva reminders (Ada agenda items = compiti/impegni)
+    # Add ClasseViva reminders (Ada agenda items = compiti/impegni) — skip past-due items
     for i, a in enumerate(classeviva.get("agenda", [])):
+        try:
+            item_date = date.fromisoformat(a["data"])
+            if item_date < today:
+                print(f"   ⏭️  Skipping past-due ClasseViva agenda: {a['data']} {a['testo'][:40]}")
+                continue
+        except (ValueError, KeyError):
+            pass  # malformed date → include it anyway
         reminders.append({
             "id": f"classeviva_{i}",
             "text": f"🎨 Ada: {a['data']} — {a['testo'][:150]}",
@@ -714,10 +733,19 @@ def build_dashboard():
             "added_at": datetime.now().isoformat(),
         })
     
-    # Build Flavio personal notes from homework
+    # Build Flavio personal notes from homework — skip past-due items
     compiti_lines = []
-    for c in didup.get("compiti", [])[:8]:
+    for c in didup.get("compiti", []):
+        try:
+            item_date = date.fromisoformat(c["date"])
+            if item_date < today:
+                print(f"   ⏭️  Skipping past-due compito: {c['date']} {c['text'][:40]}")
+                continue
+        except (ValueError, KeyError):
+            pass  # malformed date → include it anyway
         compiti_lines.append(f"📝 {c['date']}: {c['text'][:100]}")
+        if len(compiti_lines) >= 8:
+            break
     flavio_notes = "\n".join(compiti_lines) if compiti_lines else "Nessun compito registrato"
     
     # Build Ada personal notes from ClasseViva (structured)
