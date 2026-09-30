@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-30T13:42:35.090768",
+    "last_updated": "2026-09-30T13:56:46.979676",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T13:42:35.090587"
+        "added_at": "2026-09-30T13:56:46.979443"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T13:42:35.090647"
+        "added_at": "2026-09-30T13:56:46.979505"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T13:42:35.090675"
+        "added_at": "2026-09-30T13:56:46.979529"
       }
     ],
     "calendar_events": {
@@ -324,6 +324,46 @@
           }
         ],
         "status": "🏫 Scuola — Uscita 16:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Il riassunto: mappa, sequenze e le frasi-chiave"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Il riassunto: mappa, sequenze e le frasi-chiave"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Le prime civiltà: i popoli della Mesopotamia. I Sumeri"
+          }
+        ],
+        "lezioni_domani": [],
+        "agenda": [],
+        "voti": [],
+        "assenze_count": 0,
+        "bacheca": [],
+        "note": []
       },
       "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Le prime civiltà: i popoli della Mesopotamia. I Sumeri"
     }
