@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-30T14:17:55.854704",
+    "last_updated": "2026-09-30T15:00:32.482913",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T14:17:55.854480"
+        "added_at": "2026-09-30T15:00:32.482673"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T14:17:55.854541"
+        "added_at": "2026-09-30T15:00:32.482737"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T14:17:55.854563"
+        "added_at": "2026-09-30T15:00:32.482760"
       }
     ],
     "calendar_events": {
@@ -56,8 +56,8 @@
         "temp_min": 14,
         "temp_max": 30,
         "icon": "04d",
-        "humidity": 30,
-        "wind_speed": 3,
+        "humidity": 29,
+        "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -356,6 +356,24 @@
             "materia": "STORIA",
             "docente": "GOZZINI ANGELA",
             "argomento": "Le prime civiltà: i popoli della Mesopotamia. I Sumeri"
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "STORIA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "SUPPLENZA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
           }
         ],
         "lezioni_domani": [],
@@ -365,7 +383,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Le prime civiltà: i popoli della Mesopotamia. I Sumeri"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Le prime civiltà: i popoli della Mesopotamia. I Sumeri\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: STORIA (FONTANA ROBERTO)\n  Ora 5: SUPPLENZA (FONTANA ROBERTO)"
     }
   }
 }
