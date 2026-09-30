@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-30T07:32:00.532016",
+    "last_updated": "2026-09-30T13:42:35.090768",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -27,21 +27,21 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T07:32:00.531868"
+        "added_at": "2026-09-30T13:42:35.090587"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T07:32:00.531928"
+        "added_at": "2026-09-30T13:42:35.090647"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-30T07:32:00.531951"
+        "added_at": "2026-09-30T13:42:35.090675"
       }
     ],
     "calendar_events": {
@@ -54,16 +54,16 @@
         "date": "2026-09-30",
         "description": "Nuvoloso",
         "temp_min": 14,
-        "temp_max": 29,
+        "temp_max": 30,
         "icon": "04d",
-        "humidity": 89,
-        "wind_speed": 2,
+        "humidity": 30,
+        "wind_speed": 4,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-01",
         "description": "Nuvoloso",
-        "temp_min": 17,
+        "temp_min": 16,
         "temp_max": 28,
         "icon": "04d",
         "humidity": 0,
@@ -288,13 +288,13 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-09-30: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare elementi, miscugli e composti + \n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8."
+      "personal_notes": "📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-09-30: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare elementi, miscugli e composti + \n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3  Devi scaricare L'E-BOOK."
     },
     "ada": {
       "display_name": "Ada",
       "emoji": "🎨",
       "color_theme": "purple",
-      "bio": "Scuola primaria. Ama disegnare e giocare.",
+      "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
         "date": "2026-09-30",
@@ -325,7 +325,7 @@
         ],
         "status": "🏫 Scuola — Uscita 16:15"
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Le prime civiltà: i popoli della Mesopotamia. I Sumeri"
     }
   }
 }

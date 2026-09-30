@@ -335,6 +335,61 @@ def get_ada_schedule(d):
     return schedule, status
 
 
+# ===== CLASSEVIVA (Ada's school data) =====
+
+def fetch_classeviva_data():
+    """Fetch lessons, agenda, grades from ClasseViva for Ada."""
+    cv_cmd = "python3 skills/classeviva/classeviva-query"
+    results = {"lezioni_oggi": [], "agenda": [], "voti": []}
+
+    try:
+        # Lezioni di oggi
+        out = subprocess.run(
+            f"{cv_cmd} lezioni".split(),
+            capture_output=True, text=True, timeout=30,
+            cwd=str(WORKSPACE)
+        )
+        if out.returncode == 0:
+            for line in out.stdout.strip().splitlines():
+                line = line.strip()
+                if line.startswith("Ora "):
+                    # e.g. "Ora 1: ITALIANO (GOZZINI ANGELA)"
+                    results["lezioni_oggi"].append(line)
+                elif line.startswith("→"):
+                    # Topic line — append to last lesson
+                    if results["lezioni_oggi"]:
+                        results["lezioni_oggi"][-1] += f"\n    {line}"
+
+        # Agenda prossimi 14 giorni
+        out = subprocess.run(
+            f"{cv_cmd} agenda 14".split(),
+            capture_output=True, text=True, timeout=30,
+            cwd=str(WORKSPACE)
+        )
+        if out.returncode == 0:
+            for line in out.stdout.strip().splitlines():
+                line = line.strip()
+                if line.startswith("📅"):
+                    results["agenda"].append(line)
+
+        # Voti recenti
+        out = subprocess.run(
+            f"{cv_cmd} voti".split(),
+            capture_output=True, text=True, timeout=30,
+            cwd=str(WORKSPACE)
+        )
+        if out.returncode == 0:
+            for line in out.stdout.strip().splitlines():
+                line = line.strip()
+                if line and not line.startswith("Nessun"):
+                    results["voti"].append(line)
+
+    except Exception as e:
+        print(f"⚠️  ClasseViva fetch failed: {e}")
+
+    return results
+
+
 # ===== DIDUP (Flavio's school data) =====
 
 def fetch_didup_data():
@@ -551,6 +606,10 @@ def build_dashboard():
     print("📚 Fetching Didup data...")
     didup = fetch_didup_data()
     
+    # ClasseViva (Ada)
+    print("🎨 Fetching ClasseViva data (Ada)...")
+    classeviva = fetch_classeviva_data()
+    
     # Google Calendar (Family)
     print("📅 Fetching Google Calendar events...")
     cal_events = fetch_calendar_events([today, tomorrow])
@@ -580,7 +639,7 @@ def build_dashboard():
     mau_today_sched = _calendar_events_for_member(cal_today, "maurizio")
     mau_tomorrow_sched = _calendar_events_for_member(cal_tomorrow, "maurizio")
     
-    # Build reminders from Didup
+    # Build reminders from Didup (Flavio)
     reminders = []
     for i, p in enumerate(didup.get("promemoria", [])):
         reminders.append({
@@ -591,11 +650,33 @@ def build_dashboard():
             "added_at": datetime.now().isoformat(),
         })
     
+    # Add ClasseViva reminders (Ada agenda)
+    for i, a in enumerate(classeviva.get("agenda", [])):
+        reminders.append({
+            "id": f"classeviva_{i}",
+            "text": f"🎨 Ada: {a}",
+            "priority": "high",
+            "added_by": "picoclaw",
+            "added_at": datetime.now().isoformat(),
+        })
+    
     # Build Flavio personal notes from homework
     compiti_lines = []
     for c in didup.get("compiti", [])[:8]:
         compiti_lines.append(f"📝 {c['date']}: {c['text'][:100]}")
     flavio_notes = "\n".join(compiti_lines) if compiti_lines else "Nessun compito registrato"
+    
+    # Build Ada personal notes from ClasseViva
+    ada_notes_parts = []
+    if classeviva.get("lezioni_oggi"):
+        ada_notes_parts.append("📚 Lezioni di oggi:")
+        for lesson in classeviva["lezioni_oggi"]:
+            ada_notes_parts.append(f"  {lesson}")
+    if classeviva.get("voti"):
+        ada_notes_parts.append("\n🎯 Voti recenti:")
+        for v in classeviva["voti"][-5:]:  # last 5 grades
+            ada_notes_parts.append(f"  {v}")
+    ada_notes = "\n".join(ada_notes_parts) if ada_notes_parts else ""
     
     # Dashboard JSON
     dashboard = {
@@ -708,7 +789,7 @@ def build_dashboard():
                 "display_name": "Ada",
                 "emoji": "🎨",
                 "color_theme": "purple",
-                "bio": "Scuola primaria. Ama disegnare e giocare.",
+                "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
                 "avatar": "assets/images/ada.jpg",
                 "today": {
                     "date": today_str,
@@ -721,7 +802,7 @@ def build_dashboard():
                     "schedule": ada_tomorrow_sched,
                     "status": ada_tomorrow_status
                 },
-                "personal_notes": ""
+                "personal_notes": ada_notes
             }
         }
     }
