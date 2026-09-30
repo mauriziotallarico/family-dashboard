@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-29T21:55:03.289837",
+    "last_updated": "2026-09-30T07:32:00.532016",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -16,7 +16,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-09-29",
+      "date": "2026-09-30",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -27,57 +27,44 @@
         "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-29T21:55:03.289694"
+        "added_at": "2026-09-30T07:32:00.531868"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-29T21:55:03.289750"
+        "added_at": "2026-09-30T07:32:00.531928"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-09-29T21:55:03.289772"
+        "added_at": "2026-09-30T07:32:00.531951"
       }
     ],
     "calendar_events": {
-      "today": [
-        {
-          "time": "17:00",
-          "event": "📅 Ada ginnastica",
-          "all_day": false,
-          "summary": "Ada ginnastica"
-        },
-        {
-          "time": "17:30",
-          "event": "📅 Pallavolo Flavio",
-          "all_day": false,
-          "summary": "Pallavolo Flavio"
-        }
-      ],
+      "today": [],
       "tomorrow": []
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-09-29",
-        "description": "Nebbia",
-        "temp_min": 13,
-        "temp_max": 30,
-        "icon": "50d",
-        "humidity": 73,
+        "date": "2026-09-30",
+        "description": "Nuvoloso",
+        "temp_min": 14,
+        "temp_max": 29,
+        "icon": "04d",
+        "humidity": 89,
         "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-09-30",
+        "date": "2026-10-01",
         "description": "Nuvoloso",
-        "temp_min": 15,
-        "temp_max": 29,
+        "temp_min": 17,
+        "temp_max": 28,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -93,13 +80,13 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-09-29",
+        "date": "2026-09-30",
         "schedule": [],
         "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
-        "date": "2026-09-30",
+        "date": "2026-10-01",
         "schedule": [],
         "status": ""
       },
@@ -112,25 +99,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-09-29",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 2B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 1B (3ª ora)"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-09-30",
         "schedule": [
           {
@@ -150,7 +118,26 @@
             "event": "Scuola: 2B (6ª ora)"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-01",
+        "schedule": [
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 2B (4ª ora)"
+          },
+          {
+            "time": "13:00",
+            "event": "Scuola: 1B (6ª ora)"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "personal_notes": ""
     },
@@ -161,41 +148,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-09-29",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Storia della Musica — Mascolo F."
-          },
-          {
-            "time": "10:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "11:10",
-            "event": "Storia dell'Arte — Lorenzini M."
-          },
-          {
-            "time": "12:10",
-            "event": "Matematica — Marini F."
-          },
-          {
-            "time": "13:10",
-            "event": "Ritorno: 🚌 Bus 851 (14:15 P.le Verdi → 14:29 Altopascio)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~13:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-09-30",
         "schedule": [
           {
@@ -223,7 +175,38 @@
             "event": "Ritorno: 🚌 Bus 851 (16:35 P.le Verdi → 16:49 Altopascio) — ~1h attesa"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~15:30"
+        "status": "🏫 Scuola — Uscita ~15:30",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-01",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TEM (2h) — Giusti M."
+          },
+          {
+            "time": "10:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "11:10",
+            "event": "Inglese — Febi R."
+          },
+          {
+            "time": "12:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "13:10",
+            "event": "Orchestra di Fiati — Gaggini E."
+          },
+          {
+            "time": "14:10",
+            "event": "Ritorno: 🚌 Bus 851 (14:15 P.le Verdi → 14:29 Altopascio)"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~14:10"
       },
       "transport": [
         {
@@ -305,7 +288,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-09-29: LING. LETT. ITALIANA: Testo narrativo pag.8-11 (studiare), pag. 654 lettura del brano e applicazione\n📝 2026-09-29: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare quanto spiegato fino ad ora. Li\n📝 2026-09-29: MATEMATICA: Es. 4 pag. 31, es. 201 pag. 33, es. 263 pag. 36 e es. 275 pag. 37\n📝 2026-09-29: LING. LETT. ITALIANA: vol.narrativa pag. 12/13\n📝 2026-09-29: STORIA DELLA MUSICA: la classificazione degli strumenti secondo Sachs; le varie tipologie di orchest\n📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-09-30: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare elementi, miscugli e composti + \n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica"
+      "personal_notes": "📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-09-30: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare elementi, miscugli e composti + \n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8."
     },
     "ada": {
       "display_name": "Ada",
@@ -314,25 +297,6 @@
       "bio": "Scuola primaria. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-09-29",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-09-30",
         "schedule": [
           {
@@ -344,7 +308,22 @@
             "event": "Uscita scuola (giorno corto)"
           }
         ],
-        "status": "🏫 Scuola — Uscita 13:15"
+        "status": "🏫 Scuola — Uscita 13:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-01",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "16:15",
+            "event": "Uscita scuola (giorno lungo)"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 16:15"
       },
       "personal_notes": ""
     }
