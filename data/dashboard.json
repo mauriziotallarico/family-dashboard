@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-01T07:30:25.690942",
+    "last_updated": "2026-10-01T15:03:57.227716",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -59,8 +59,8 @@
         "temp_min": 16,
         "temp_max": 27,
         "icon": "04d",
-        "humidity": 74,
-        "wind_speed": 2,
+        "humidity": 32,
+        "wind_speed": 3,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -292,7 +292,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3  Devi scaricare L'E-BOOK.\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato"
+      "personal_notes": "Nessun compito registrato"
     },
     "ada": {
       "display_name": "Ada",
