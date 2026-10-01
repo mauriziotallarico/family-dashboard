@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-09-30T15:58:32.750857",
+    "last_updated": "2026-10-01T07:30:25.690942",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -16,55 +16,58 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-09-30",
+      "date": "2026-10-01",
       "lunch": "",
       "dinner": "",
       "notes": ""
     },
-    "reminders": [
-      {
-        "id": "didup_0",
-        "text": "📚 2026-09-28 (08:10-09:10) — Test d'ingresso di storia e geografia [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-09-30T15:58:32.750625"
-      },
-      {
-        "id": "didup_1",
-        "text": "📚 2026-09-26 (09:00-11:00) — Testo d'ingresso in Italiano [M. MONCINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-09-30T15:58:32.750684"
-      },
-      {
-        "id": "didup_2",
-        "text": "📚 2026-09-23 — TEST D'INGRESSO DI INGLESE. [R. FEBI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-09-30T15:58:32.750706"
-      }
-    ],
+    "reminders": [],
     "calendar_events": {
       "today": [],
-      "tomorrow": []
+      "tomorrow": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Compleanno Papà - Nonno Totò",
+          "all_day": true,
+          "summary": "Compleanno Papà - Nonno Totò"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
+      ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-09-30",
-        "description": "Nuvoloso",
-        "temp_min": 14,
-        "temp_max": 30,
-        "icon": "04d",
-        "humidity": 27,
-        "wind_speed": 5,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-01",
         "description": "Nuvoloso",
         "temp_min": 16,
-        "temp_max": 28,
+        "temp_max": 27,
+        "icon": "04d",
+        "humidity": 74,
+        "wind_speed": 2,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-02",
+        "description": "Nuvoloso",
+        "temp_min": 16,
+        "temp_max": 29,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -80,14 +83,19 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-09-30",
+        "date": "2026-10-01",
         "schedule": [],
         "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
-        "date": "2026-10-01",
-        "schedule": [],
+        "date": "2026-10-02",
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Papà - Nonno Totò"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -99,29 +107,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-09-30",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-01",
         "schedule": [
           {
@@ -137,7 +122,30 @@
             "event": "Scuola: 1B (6ª ora)"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-02",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "personal_notes": ""
     },
@@ -148,37 +156,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-09-30",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "13:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "14:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚌 Bus 851 (16:35 P.le Verdi → 16:49 Altopascio) — ~1h attesa"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-01",
         "schedule": [
           {
@@ -206,7 +183,34 @@
             "event": "Ritorno: 🚌 Bus 851 (14:15 P.le Verdi → 14:29 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-02",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno (12:31 Stazione → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -288,7 +292,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-09-30: LINGUA STRANIERA-ING: fai p 22 n1,2, 3, 4\n📝 2026-09-30: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare elementi, miscugli e composti + \n📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3  Devi scaricare L'E-BOOK."
+      "personal_notes": "📝 2026-10-01: LING. LETT. ITALIANA: portare il libro di grammatica\n📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3  Devi scaricare L'E-BOOK.\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato"
     },
     "ada": {
       "display_name": "Ada",
@@ -297,21 +301,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-09-30",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-01",
         "schedule": [
           {
@@ -323,59 +312,29 @@
             "event": "Uscita scuola (giorno lungo)"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-02",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Il riassunto: mappa, sequenze e le frasi-chiave"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 2,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Il riassunto: mappa, sequenze e le frasi-chiave"
-          },
-          {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Le prime civiltà: i popoli della Mesopotamia. I Sumeri"
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "STORIA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 5,
-            "materia": "SUPPLENZA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -383,7 +342,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Il riassunto: mappa, sequenze e le frasi-chiave\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Le prime civiltà: i popoli della Mesopotamia. I Sumeri\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: STORIA (FONTANA ROBERTO)\n  Ora 5: SUPPLENZA (FONTANA ROBERTO)"
+      "personal_notes": ""
     }
   }
 }
