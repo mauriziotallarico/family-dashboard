@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-02T07:30:51.290181",
+    "last_updated": "2026-10-02T15:01:01.454978",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -59,8 +59,8 @@
         "temp_min": 17,
         "temp_max": 29,
         "icon": "04d",
-        "humidity": 64,
-        "wind_speed": 2,
+        "humidity": 25,
+        "wind_speed": 8,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -271,7 +271,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "Nessun compito registrato"
+      "personal_notes": "📝 2026-10-02: LABORATORIO DI MUSICA D'INSIEME: ORCHESTRA DI CHITARRE: A. York - Pacific Coast Highway fino a batt.\n📝 2026-10-02: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: libro \"Grammatica della musica\" studiare pp. 39-41\n📝 2026-10-03: STORIA DELL' ARTE: Pagine 6 e 7\n📝 2026-10-03: STORIA E GEOGRAFIA: Studia la preistoria; la teoria dell'evoluzione di Darwin; verso la comparsa del\n📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3 , p 190 n1,2,3 Devi scaricare L'E\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato"
     },
     "ada": {
       "display_name": "Ada",
@@ -304,7 +304,38 @@
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Risoluzione di un problema con due domande e correzione alla lim"
+          },
+          {
+            "ora": 3,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Risoluzione di un problema con due domande e correzione alla lim"
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Risoluzione di un problema con due domande e correzione alla lim"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -312,7 +343,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → Risoluzione di un problema con due domande e correzione alla lim\n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → Risoluzione di un problema con due domande e correzione alla lim\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → Risoluzione di un problema con due domande e correzione alla lim\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)"
     }
   }
 }
