@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-01T15:03:57.227716",
+    "last_updated": "2026-10-02T07:30:51.290181",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -16,15 +16,14 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-01",
+      "date": "2026-10-02",
       "lunch": "",
       "dinner": "",
       "notes": ""
     },
     "reminders": [],
     "calendar_events": {
-      "today": [],
-      "tomorrow": [
+      "today": [
         {
           "time": "tutto il giorno",
           "event": "📅 Compleanno Papà - Nonno Totò",
@@ -49,25 +48,26 @@
           "all_day": false,
           "summary": "Ada ginnastica"
         }
-      ]
+      ],
+      "tomorrow": []
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-01",
+        "date": "2026-10-02",
         "description": "Nuvoloso",
-        "temp_min": 16,
-        "temp_max": 27,
+        "temp_min": 17,
+        "temp_max": 29,
         "icon": "04d",
-        "humidity": 32,
-        "wind_speed": 3,
+        "humidity": 64,
+        "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-10-02",
+        "date": "2026-10-03",
         "description": "Nuvoloso",
-        "temp_min": 16,
-        "temp_max": 29,
+        "temp_min": 11,
+        "temp_max": 28,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -83,12 +83,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-01",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-02",
         "schedule": [
           {
@@ -96,6 +90,12 @@
             "event": "📅 Compleanno Papà - Nonno Totò"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-03",
+        "schedule": [],
         "status": ""
       },
       "personal_notes": ""
@@ -107,25 +107,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-01",
-        "schedule": [
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 2B (4ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 1B (6ª ora)"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-02",
         "schedule": [
           {
@@ -145,7 +126,13 @@
             "event": "Scuola: 1B (5ª ora)"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-03",
+        "schedule": [],
+        "status": "🏠 A casa"
       },
       "personal_notes": ""
     },
@@ -156,37 +143,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-01",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TEM (2h) — Giusti M."
-          },
-          {
-            "time": "10:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "11:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "12:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "13:10",
-            "event": "Orchestra di Fiati — Gaggini E."
-          },
-          {
-            "time": "14:10",
-            "event": "Ritorno: 🚌 Bus 851 (14:15 P.le Verdi → 14:29 Altopascio)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~14:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-02",
         "schedule": [
           {
@@ -208,6 +164,29 @@
           {
             "time": "16:10",
             "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-03",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "09:10",
+            "event": "Italiano (2h) — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno (12:31 Stazione → 12:40 Altopascio)"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10"
@@ -301,21 +280,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-01",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "16:15",
-            "event": "Uscita scuola (giorno lungo)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 16:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-02",
         "schedule": [
           {
@@ -331,7 +295,13 @@
             "event": "📅 Ada ginnastica"
           }
         ],
-        "status": "🏫 Scuola — Uscita 12:15"
+        "status": "🏫 Scuola — Uscita 12:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-03",
+        "schedule": [],
+        "status": "🏠 A casa"
       },
       "school_data": {
         "lezioni_oggi": [],
