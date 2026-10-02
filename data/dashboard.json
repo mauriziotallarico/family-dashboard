@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-02T15:01:01.454978",
+    "last_updated": "2026-10-02T15:34:31.200723",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -56,19 +56,19 @@
       "today": {
         "date": "2026-10-02",
         "description": "Nuvoloso",
-        "temp_min": 17,
+        "temp_min": 18,
         "temp_max": 29,
         "icon": "04d",
-        "humidity": 25,
-        "wind_speed": 8,
+        "humidity": 27,
+        "wind_speed": 1,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-03",
-        "description": "Nuvoloso",
+        "description": "Sereno",
         "temp_min": 11,
         "temp_max": 28,
-        "icon": "04d",
+        "icon": "01d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
