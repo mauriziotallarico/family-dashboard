@@ -189,7 +189,7 @@
           },
           {
             "time": "15:10",
-            "event": "Ritorno: 🚌 Bus 851 (16:35 P.le Verdi → Altopascio) — oppure 🚆 treno 16:31"
+            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → Altopascio 15:40) ⭐"
           }
         ],
         "status": "🏫 Scuola — Uscita ~15:10",
@@ -224,7 +224,7 @@
           },
           {
             "time": "15:10",
-            "event": "Ritorno: 🚌 Bus 851 (16:35 P.le Verdi → Altopascio) — oppure 🚆 treno 16:31"
+            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → Altopascio 15:40) ⭐"
           },
           {
             "time": "14:30",
@@ -242,53 +242,53 @@
           "day": "Lunedì",
           "exit_time": "~15:10",
           "exit_place": "S. Agostino",
-          "mode": "bus",
-          "mode_label": "🚌 Bus 851",
-          "departure": "16:35",
-          "departure_place": "P.le Verdi",
-          "arrival": "16:49",
+          "mode": "train",
+          "mode_label": "🚆 Treno",
+          "departure": "15:31",
+          "departure_place": "Stazione FS Lucca",
+          "arrival": "15:40",
           "arrival_place": "Altopascio",
-          "line": "Bus 851",
-          "notes": "~1h20 attesa. Alternativa: treno 16:31 (~1h attesa + 15 min cammino)"
+          "line": "Treno regionale",
+          "notes": "⭐ Ideale! 15 min a piedi per stazione, treno 15:31. Backup: treno 15:39 (arrivo 15:54)"
         },
         {
           "day": "Martedì",
           "exit_time": "~15:10",
           "exit_place": "S. Agostino",
-          "mode": "bus",
-          "mode_label": "🚌 Bus 851",
-          "departure": "16:35",
-          "departure_place": "P.le Verdi",
-          "arrival": "16:49",
+          "mode": "train",
+          "mode_label": "🚆 Treno",
+          "departure": "15:31",
+          "departure_place": "Stazione FS Lucca",
+          "arrival": "15:40",
           "arrival_place": "Altopascio",
-          "line": "Bus 851",
-          "notes": "~1h20 attesa. Alternativa: treno 16:31"
+          "line": "Treno regionale",
+          "notes": "⭐ Ideale! 15 min a piedi per stazione, treno 15:31. Backup: treno 15:39 (arrivo 15:54)"
         },
         {
           "day": "Mercoledì",
-          "exit_time": "~16:30",
+          "exit_time": "~15:30",
           "exit_place": "Fillungo",
-          "mode": "bus",
-          "mode_label": "🚌 Bus 851",
-          "departure": "16:35",
-          "departure_place": "P.le Verdi",
-          "arrival": "16:49",
+          "mode": "train",
+          "mode_label": "🚆 Treno",
+          "departure": "16:31",
+          "departure_place": "Stazione FS Lucca",
+          "arrival": "16:40",
           "arrival_place": "Altopascio",
-          "line": "Bus 851",
-          "notes": "⚡ Stretto! ~10 min a piedi. Backup: treno 17:31 (REG 18527, arrivo 17:40)"
+          "line": "Treno regionale",
+          "notes": "20 min a piedi per stazione, ~40 min attesa. Alternativa: bus 851 (16:35 P.le Verdi)"
         },
         {
           "day": "Giovedì",
-          "exit_time": "~15:10",
+          "exit_time": "~14:10",
           "exit_place": "S. Agostino",
-          "mode": "bus",
-          "mode_label": "🚌 Bus 851",
-          "departure": "16:35",
-          "departure_place": "P.le Verdi",
-          "arrival": "16:49",
+          "mode": "train",
+          "mode_label": "🚆 Treno",
+          "departure": "14:31",
+          "departure_place": "Stazione FS Lucca",
+          "arrival": "14:40",
           "arrival_place": "Altopascio",
-          "line": "Bus 851",
-          "notes": "~1h20 attesa. Alternativa: treno 16:31"
+          "line": "Treno regionale",
+          "notes": "15 min a piedi per stazione. Alternativa: bus 851 (14:15 P.le Verdi, strettissimo)"
         },
         {
           "day": "Venerdì",
