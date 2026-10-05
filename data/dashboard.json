@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-05T10:58:20.178210",
+    "last_updated": "2026-10-05T15:24:18.135207",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -60,16 +60,16 @@
         "temp_min": 15,
         "temp_max": 25,
         "icon": "04d",
-        "humidity": 57,
-        "wind_speed": 3,
+        "humidity": 46,
+        "wind_speed": 8,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-06",
-        "description": "Parzialmente nuvoloso",
-        "temp_min": 14,
+        "description": "Nebbia",
+        "temp_min": 12,
         "temp_max": 27,
-        "icon": "03d",
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -317,7 +317,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3 , p 190 n1,2,3 Devi scaricare L'E\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato\n📝 2026-10-06: MATEMATICA: Es. 346 pag. 44, es. 22 pag. 48 e es. 31, 32 pag. 49\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Ripassare il Canone Laudemus Virginem, da Libre de Vermelle. Studia\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Studiare le parti date in classe\n📝 2026-10-07: LINGUA STRANIERA-ING: studia p 186-187 188, sottolinea le parti significative, fai p 194 n1,2,3,4"
+      "personal_notes": "📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3 , p 190 n1,2,3 Devi scaricare L'E\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato\n📝 2026-10-06: MATEMATICA: Es. 346 pag. 44, es. 22 pag. 48 e es. 31, 32 pag. 49\n📝 2026-10-06: STORIA DELLA MUSICA: La linea del tempo, i principali periodi storici da studiare nel corso dell'ann\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Ripassare il Canone Laudemus Virginem, da Libre de Vermelle. Studia\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Studiare le parti date in classe"
     },
     "ada": {
       "display_name": "Ada",
