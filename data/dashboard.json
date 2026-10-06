@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-06T07:30:31.467567",
+    "last_updated": "2026-10-06T09:26:11.404122",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -66,19 +66,19 @@
         "temp_min": 12,
         "temp_max": 27,
         "icon": "50d",
-        "humidity": 94,
-        "wind_speed": 3,
+        "humidity": 77,
+        "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-07",
-        "description": "Nebbia",
+        "description": "Pioggia leggera",
         "temp_min": 13,
         "temp_max": 24,
-        "icon": "50d",
+        "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.0
+        "precipitation_mm": 0.3
       }
     }
   },
@@ -95,6 +95,14 @@
           {
             "time": "14:30",
             "event": "📅 SECONDARIA: Consigli di classe"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": "💼 Lavoro",
@@ -102,7 +110,16 @@
       },
       "tomorrow": {
         "date": "2026-10-07",
-        "schedule": [],
+        "schedule": [
+          {
+            "time": "14:00",
+            "event": "📅 Team digitale"
+          },
+          {
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -131,6 +148,14 @@
           {
             "time": "14:30",
             "event": "📅 SECONDARIA: Consigli di classe"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
@@ -158,6 +183,10 @@
           {
             "time": "14:00",
             "event": "📅 Team digitale"
+          },
+          {
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
           }
         ],
         "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
