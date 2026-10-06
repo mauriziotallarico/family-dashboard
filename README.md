@@ -1,126 +1,128 @@
-# 🏡 Family Dashboard
+> 🇬🇧 [English version](README.en.md)
 
-A self-updating family dashboard published on GitHub Pages, with a Telegram bot for data entry.
+# 🏡 Dashboard Familiare
 
-## Features
+Una dashboard familiare che si aggiorna automaticamente, pubblicata su GitHub Pages, con un bot Telegram per l'inserimento dei dati.
 
-- **4 member cards** (Maurizio, Alessandra, Flavio, Ada) each with avatar, bio, today/tomorrow schedule, status, mood, personal notes
-- **Shared sections**: Weather (Altopascio), Menu of the Day (daily reset), Reminders, Family Notes
-- **4 visual themes**: Warm 🌅, Cool 🌊, Nature 🌿, Dark 🌙 (persisted per-browser)
-- **Auto-updates** via GitHub Actions: 2× per day (07:00 + 19:00 CET)
-- **Telegram bot** for all family members to update content from their phones
-- **Weather** via OpenWeatherMap free tier
-- **Zero backend** — pure static site + JSON + GitHub Actions
+## Funzionalità
+
+- **4 schede membro** (Maurizio, Alessandra, Flavio, Ada) ciascuna con avatar, bio, programma di oggi/domani, stato, umore, note personali
+- **Sezioni condivise**: Meteo (Altopascio), Menu del Giorno (reset giornaliero), Promemoria, Note Familiari
+- **4 temi visivi**: Caldo 🌅, Freddo 🌊, Natura 🌿, Scuro 🌙 (salvato per browser)
+- **Aggiornamento automatico** tramite GitHub Actions: 2× al giorno (07:00 + 19:00 CET)
+- **Bot Telegram** per tutti i membri della famiglia, per aggiornare i contenuti dal telefono
+- **Meteo** tramite OpenWeatherMap (piano gratuito)
+- **Zero backend** — sito statico puro + JSON + GitHub Actions
 
 ---
 
-## Directory Structure
+## Struttura delle Directory
 
 ```
 family-dashboard/
-├── index.html                    ← The dashboard (GitHub Pages root)
+├── index.html                    ← La dashboard (root di GitHub Pages)
 ├── data/
-│   └── dashboard.json            ← All content data (auto-updated)
+│   └── dashboard.json            ← Tutti i dati dei contenuti (aggiornati automaticamente)
 ├── assets/
-│   └── images/                   ← Profile pictures (upload here)
+│   └── images/                   ← Foto profilo (caricare qui)
 │       ├── maurizio.jpg
 │       ├── alessandra.jpg
 │       ├── flavio.jpg
 │       └── ada.jpg
 ├── bot/
-│   ├── bot.py                    ← Telegram bot (run on Raspberry Pi / VPS)
-│   ├── fetch_weather.py          ← Weather fetcher (used by GitHub Actions)
+│   ├── bot.py                    ← Bot Telegram (da eseguire su Raspberry Pi / VPS)
+│   ├── fetch_weather.py          ← Raccolta dati meteo (usato da GitHub Actions)
 │   └── requirements.txt
 └── .github/
     └── workflows/
-        └── update-dashboard.yml  ← Auto-update workflow
+        └── update-dashboard.yml  ← Workflow di aggiornamento automatico
 ```
 
 ---
 
-## Setup Guide
+## Guida alla Configurazione
 
-### 1. Create GitHub Repository
+### 1. Creare il Repository GitHub
 
 ```bash
 cd C:\Projects\Git-Personal\family-dashboard
 git init
 git add .
 git commit -m "🏡 Initial family dashboard"
-# Create repo on GitHub, then:
+# Creare il repo su GitHub, poi:
 git remote add origin https://github.com/YOURUSERNAME/family-dashboard.git
 git push -u origin main
 ```
 
-### 2. Enable GitHub Pages
+### 2. Abilitare GitHub Pages
 
-- Go to repo **Settings → Pages**
+- Andare nelle **Settings → Pages** del repo
 - Source: **Deploy from a branch**
 - Branch: `gh-pages` / `root`
 
-> The workflow uses `peaceiris/actions-gh-pages` which auto-creates the `gh-pages` branch.
+> Il workflow usa `peaceiris/actions-gh-pages` che crea automaticamente il branch `gh-pages`.
 
-### 3. Get API Keys & Tokens
+### 3. Ottenere Chiavi API e Token
 
-#### OpenWeatherMap (free)
-1. Sign up at https://openweathermap.org/api
-2. Copy your API key
+#### OpenWeatherMap (gratuito)
+1. Registrarsi su https://openweathermap.org/api
+2. Copiare la propria chiave API
 
-#### Telegram Bot
-1. Message `@BotFather` on Telegram
-2. `/newbot` → choose name and username
-3. Copy the token
+#### Bot Telegram
+1. Scrivere a `@BotFather` su Telegram
+2. `/newbot` → scegliere nome e username
+3. Copiare il token
 
 #### GitHub Personal Access Token
 1. GitHub → Settings → Developer settings → Personal access tokens → Fine-grained tokens
-2. Give `Contents: Read and Write` permission on your dashboard repo
-3. Copy the token
+2. Assegnare il permesso `Contents: Read and Write` sul repo della dashboard
+3. Copiare il token
 
-### 4. Add GitHub Secrets
+### 4. Aggiungere i Secrets su GitHub
 
-In your repo → **Settings → Secrets and variables → Actions**:
+Nel repo → **Settings → Secrets and variables → Actions**:
 
-| Secret name    | Value                          |
-|---------------|-------------------------------|
-| `OWM_API_KEY` | Your OpenWeatherMap API key   |
-| `GITHUB_TOKEN` | (already provided by Actions) |
+| Nome del secret | Valore                          |
+|----------------|-------------------------------|
+| `OWM_API_KEY`  | La propria chiave API OpenWeatherMap |
+| `GITHUB_TOKEN` | (già fornito da Actions)       |
 
-> The bot also needs `GITHUB_TOKEN` and `TELEGRAM_TOKEN` as environment variables where it runs.
+> Il bot necessita anche di `GITHUB_TOKEN` e `TELEGRAM_TOKEN` come variabili d'ambiente sulla macchina dove viene eseguito.
 
-### 5. Add Profile Pictures
+### 5. Aggiungere le Foto Profilo
 
-Upload photos as:
+Caricare le foto come:
 - `assets/images/maurizio.jpg`
 - `assets/images/alessandra.jpg`
 - `assets/images/flavio.jpg`
 - `assets/images/ada.jpg`
 
-Recommended: square images, minimum 200×200px. The dashboard falls back to emoji if the image is missing.
+Consigliato: immagini quadrate, minimo 200×200px. La dashboard usa un'emoji come fallback se l'immagine è mancante.
 
-### 6. Register Family Members in the Bot
+### 6. Registrare i Membri della Famiglia nel Bot
 
-1. Start the bot — each family member messages it on Telegram
-2. Each member uses `/whoami` to get their Telegram user ID
-3. Edit `bot/bot.py` → `FAMILY_MEMBERS` dict:
+1. Avviare il bot — ogni membro della famiglia gli scrive su Telegram
+2. Ogni membro usa `/whoami` per ottenere il proprio ID Telegram
+3. Modificare `bot/bot.py` → dizionario `FAMILY_MEMBERS`:
 
 ```python
 FAMILY_MEMBERS = {
-    123456789: "maurizio",    # ← replace with real IDs
+    123456789: "maurizio",    # ← sostituire con gli ID reali
     234567890: "alessandra",
     345678901: "flavio",
     456789012: "ada",
 }
 ```
 
-### 7. Run the Telegram Bot
+### 7. Eseguire il Bot Telegram
 
-**On Raspberry Pi or any Linux server:**
+**Su Raspberry Pi o qualsiasi server Linux:**
 
 ```bash
 cd bot/
 pip install -r requirements.txt
 
-# Set environment variables
+# Impostare le variabili d'ambiente
 export TELEGRAM_TOKEN="your_token"
 export GITHUB_TOKEN="your_github_token"
 export GITHUB_REPO="yourusername/family-dashboard"
@@ -129,7 +131,7 @@ export OWM_API_KEY="your_owm_key"
 python bot.py
 ```
 
-**Run as a systemd service (recommended for Raspberry Pi):**
+**Eseguire come servizio systemd (consigliato per Raspberry Pi):**
 
 ```ini
 # /etc/systemd/system/family-dashboard-bot.service
@@ -159,33 +161,33 @@ sudo systemctl start family-dashboard-bot
 
 ---
 
-## Telegram Bot Commands
+## Comandi del Bot Telegram
 
-| Command | Description |
+| Comando | Descrizione |
 |---------|-------------|
-| `/start` | Open the interactive menu |
-| `/whoami` | Show your Telegram ID |
-| `/status 🏠 A casa` | Quick-update your status |
-| `/reminder <text> [alta/media/bassa]` | Add a shared reminder |
-| `/menu pranzo: pasta \| cena: pollo` | Update today's menu |
-| `/clearreminders` | Clear all reminders (admin only) |
-| `/help` | Show all commands |
-| `/cancel` | Cancel current operation |
+| `/start` | Aprire il menu interattivo |
+| `/whoami` | Mostrare il proprio ID Telegram |
+| `/status 🏠 A casa` | Aggiornamento rapido del proprio stato |
+| `/reminder <testo> [alta/media/bassa]` | Aggiungere un promemoria condiviso |
+| `/menu pranzo: pasta \| cena: pollo` | Aggiornare il menu di oggi |
+| `/clearreminders` | Cancellare tutti i promemoria (solo admin) |
+| `/help` | Mostrare tutti i comandi |
+| `/cancel` | Annullare l'operazione in corso |
 
-**Interactive menu** (via `/start`):
-- Update today's / tomorrow's schedule
-- Change status and mood
-- Edit personal notes and bio
-- Add reminders
-- Update family menu and notes
-- Refresh weather
+**Menu interattivo** (tramite `/start`):
+- Aggiornare il programma di oggi / domani
+- Cambiare stato e umore
+- Modificare note personali e bio
+- Aggiungere promemoria
+- Aggiornare menu e note familiari
+- Aggiornare il meteo
 
 ---
 
-## Customizing the Dashboard
+## Personalizzare la Dashboard
 
-### Change family name / location
-Edit `data/dashboard.json`:
+### Cambiare nome della famiglia / località
+Modificare `data/dashboard.json`:
 ```json
 "config": {
   "family_name": "YourName",
@@ -193,32 +195,32 @@ Edit `data/dashboard.json`:
 }
 ```
 
-### Add/remove a member
-Add a new key under `members` in `dashboard.json` following the existing structure.
-Also add them to `MEMBER_ORDER` in `index.html` and `FAMILY_MEMBERS` in `bot.py`.
+### Aggiungere/rimuovere un membro
+Aggiungere una nuova chiave sotto `members` in `dashboard.json` seguendo la struttura esistente.
+Aggiungerlo anche in `MEMBER_ORDER` in `index.html` e in `FAMILY_MEMBERS` in `bot.py`.
 
-### Change update schedule
-Edit `.github/workflows/update-dashboard.yml` → the `cron` lines.
+### Cambiare la frequenza di aggiornamento
+Modificare `.github/workflows/update-dashboard.yml` → le righe `cron`.
 
-### Themes
-Four built-in themes (Warm, Cool, Nature, Dark) selectable from the header.
-The choice is saved in `localStorage` per browser.
-To add custom themes, extend the CSS variables in `index.html`.
+### Temi
+Quattro temi integrati (Caldo, Freddo, Natura, Scuro) selezionabili dall'intestazione.
+La scelta viene salvata nel `localStorage` per ogni browser.
+Per aggiungere temi personalizzati, estendere le variabili CSS in `index.html`.
 
 ---
 
-## Data Format Summary
+## Riepilogo del Formato Dati
 
-`data/dashboard.json` is the single source of truth.
+`data/dashboard.json` è l'unica fonte di verità.
 
 ```
-_meta          → last_updated timestamp, version
+_meta          → timestamp last_updated, versione
 config         → family_name, location (city, lat, lon)
 shared
-  ├── weather         → today + tomorrow (temp, description, icon, humidity, wind)
-  ├── menu_of_the_day → date, lunch, dinner, notes  [auto-reset daily]
+  ├── weather         → oggi + domani (temp, description, icon, humidity, wind)
+  ├── menu_of_the_day → date, lunch, dinner, notes  [reset giornaliero automatico]
   ├── reminders[]     → id, text, priority, added_by, added_at
-  └── notes           → free text
+  └── notes           → testo libero
 members
   └── <id>
        ├── display_name, emoji, color_theme (blue/rose/green/purple)
@@ -230,6 +232,6 @@ members
 
 ---
 
-## License
+## Licenza
 
-MIT — free to use and adapt for your family!
+MIT — libero di usare e adattare per la propria famiglia!
