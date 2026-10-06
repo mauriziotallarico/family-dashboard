@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-06T09:26:11.404122",
+    "last_updated": "2026-10-06T15:01:29.710395",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -55,6 +55,12 @@
           "event": "📅 Teatro Ada",
           "all_day": false,
           "summary": "Teatro Ada"
+        },
+        {
+          "time": "18:45",
+          "event": "📅 Maurizio da Patrizia",
+          "all_day": false,
+          "summary": "Maurizio da Patrizia"
         }
       ]
     },
@@ -66,19 +72,19 @@
         "temp_min": 12,
         "temp_max": 27,
         "icon": "50d",
-        "humidity": 77,
-        "wind_speed": 2,
+        "humidity": 37,
+        "wind_speed": 10,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-07",
         "description": "Pioggia leggera",
-        "temp_min": 13,
-        "temp_max": 24,
+        "temp_min": 14,
+        "temp_max": 23,
         "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.3
+        "precipitation_mm": 3.4
       }
     }
   },
@@ -118,6 +124,10 @@
           {
             "time": "16:45",
             "event": "📅 Teatro Ada"
+          },
+          {
+            "time": "18:45",
+            "event": "📅 Maurizio da Patrizia"
           }
         ],
         "status": ""
@@ -187,6 +197,10 @@
           {
             "time": "16:45",
             "event": "📅 Teatro Ada"
+          },
+          {
+            "time": "18:45",
+            "event": "📅 Maurizio da Patrizia"
           }
         ],
         "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
@@ -352,7 +366,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato\n📝 2026-10-06: MATEMATICA: Es. 346 pag. 44, es. 22 pag. 48 e es. 31, 32 pag. 49\n📝 2026-10-06: STORIA DELLA MUSICA: La linea del tempo, i principali periodi storici da studiare nel corso dell'ann\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Ripassare il Canone Laudemus Virginem, da Libre de Vermelle. Studia\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Studiare le parti date in classe\n📝 2026-10-07: LINGUA STRANIERA-ING: studia p 186-187 188, sottolinea le parti significative, fai p 194 n1,2,3,4\n📝 2026-10-08: LING. LETT. ITALIANA: vol.grammatica, tutti gli esercizi da pag.184/186"
+      "personal_notes": "Nessun compito registrato"
     },
     "ada": {
       "display_name": "Ada",
