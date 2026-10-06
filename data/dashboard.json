@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-06T09:26:11.404122",
+    "last_updated": "2026-10-06T17:44:29.718603",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -21,7 +21,15 @@
       "dinner": "",
       "notes": ""
     },
-    "reminders": [],
+    "reminders": [
+      {
+        "id": "didup_0",
+        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-06T17:44:29.718351"
+      }
+    ],
     "calendar_events": {
       "today": [
         {
@@ -55,6 +63,12 @@
           "event": "📅 Teatro Ada",
           "all_day": false,
           "summary": "Teatro Ada"
+        },
+        {
+          "time": "18:45",
+          "event": "📅 Maurizio da Patrizia",
+          "all_day": false,
+          "summary": "Maurizio da Patrizia"
         }
       ]
     },
@@ -66,19 +80,19 @@
         "temp_min": 12,
         "temp_max": 27,
         "icon": "50d",
-        "humidity": 77,
-        "wind_speed": 2,
+        "humidity": 45,
+        "wind_speed": 7,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-07",
         "description": "Pioggia leggera",
-        "temp_min": 13,
-        "temp_max": 24,
+        "temp_min": 14,
+        "temp_max": 23,
         "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.3
+        "precipitation_mm": 0.5
       }
     }
   },
@@ -118,6 +132,10 @@
           {
             "time": "16:45",
             "event": "📅 Teatro Ada"
+          },
+          {
+            "time": "18:45",
+            "event": "📅 Maurizio da Patrizia"
           }
         ],
         "status": ""
@@ -187,6 +205,10 @@
           {
             "time": "16:45",
             "event": "📅 Teatro Ada"
+          },
+          {
+            "time": "18:45",
+            "event": "📅 Maurizio da Patrizia"
           }
         ],
         "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
