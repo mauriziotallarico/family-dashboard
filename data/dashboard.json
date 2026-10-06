@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-05T15:24:18.135207",
+    "last_updated": "2026-10-06T06:29:06.217864",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -16,7 +16,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-05",
+      "date": "2026-10-06",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -24,14 +24,6 @@
     "reminders": [],
     "calendar_events": {
       "today": [
-        {
-          "time": "17:30",
-          "event": "📅 Piano Ada",
-          "all_day": false,
-          "summary": "Piano Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "14:30",
           "event": "📅 SECONDARIA: Consigli di classe",
@@ -50,25 +42,39 @@
           "all_day": false,
           "summary": "Pallavolo Flavio"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "14:00",
+          "event": "📅 Team digitale",
+          "all_day": false,
+          "summary": "Team digitale"
+        },
+        {
+          "time": "16:45",
+          "event": "📅 Teatro Ada",
+          "all_day": false,
+          "summary": "Teatro Ada"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-05",
-        "description": "Nuvoloso",
-        "temp_min": 15,
-        "temp_max": 25,
-        "icon": "04d",
-        "humidity": 46,
-        "wind_speed": 8,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-06",
         "description": "Nebbia",
         "temp_min": 12,
         "temp_max": 27,
+        "icon": "50d",
+        "humidity": 97,
+        "wind_speed": 3,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-07",
+        "description": "Nebbia",
+        "temp_min": 13,
+        "temp_max": 24,
         "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
@@ -84,12 +90,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-05",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-06",
         "schedule": [
           {
@@ -97,6 +97,12 @@
             "event": "📅 SECONDARIA: Consigli di classe"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-07",
+        "schedule": [],
         "status": ""
       },
       "personal_notes": ""
@@ -108,29 +114,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-05",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 2B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 2B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 1B (4ª ora)"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-06",
         "schedule": [
           {
@@ -150,7 +133,34 @@
             "event": "📅 SECONDARIA: Consigli di classe"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-07",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 1B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 1B (2ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 2B (5ª ora)"
+          },
+          {
+            "time": "13:00",
+            "event": "Scuola: 2B (6ª ora)"
+          },
+          {
+            "time": "14:00",
+            "event": "📅 Team digitale"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "personal_notes": ""
     },
@@ -161,41 +171,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-05",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "09:10",
-            "event": "TAC — Meli A."
-          },
-          {
-            "time": "10:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "11:10",
-            "event": "Storia della Musica — Mascolo F."
-          },
-          {
-            "time": "12:10",
-            "event": "Religione — Battaglia M."
-          },
-          {
-            "time": "14:10",
-            "event": "Pianoforte (2° str.) — Pieruccioni L."
-          },
-          {
-            "time": "15:10",
-            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → Altopascio 15:40) ⭐"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-06",
         "schedule": [
           {
@@ -224,7 +199,7 @@
           },
           {
             "time": "15:10",
-            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → Altopascio 15:40) ⭐"
+            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio) ⭐"
           },
           {
             "time": "14:30",
@@ -235,7 +210,38 @@
             "event": "📅 Pallavolo Flavio"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~15:10"
+        "status": "🏫 Scuola — Uscita ~15:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-07",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Scienze — Lovi I."
+          },
+          {
+            "time": "09:10",
+            "event": "Inglese — Febi R."
+          },
+          {
+            "time": "10:10",
+            "event": "Matematica (2h) — Marini F."
+          },
+          {
+            "time": "14:30",
+            "event": "Sax — Mazzola M. 📍 Fillungo"
+          },
+          {
+            "time": "15:30",
+            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
+          },
+          {
+            "time": "15:30",
+            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~15:30"
       },
       "transport": [
         {
@@ -249,7 +255,7 @@
           "arrival": "15:40",
           "arrival_place": "Altopascio",
           "line": "Treno regionale",
-          "notes": "⭐ Ideale! 15 min a piedi per stazione, treno 15:31. Backup: treno 15:39 (arrivo 15:54)"
+          "notes": "⭐ Ideale! 15 min a piedi per stazione. Backup: treno 15:39 (arrivo 15:54)"
         },
         {
           "day": "Martedì",
@@ -262,7 +268,7 @@
           "arrival": "15:40",
           "arrival_place": "Altopascio",
           "line": "Treno regionale",
-          "notes": "⭐ Ideale! 15 min a piedi per stazione, treno 15:31. Backup: treno 15:39 (arrivo 15:54)"
+          "notes": "⭐ Ideale! 15 min a piedi per stazione. Backup: treno 15:39 (arrivo 15:54)"
         },
         {
           "day": "Mercoledì",
@@ -317,7 +323,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-10-05: STORIA DELLA MUSICA: I ruoli vocali nelle opere in musica. convenzioni nel teatro ottocentesco. Su c\n📝 2026-10-05: LINGUA STRANIERA-ING: studia p 186-187,  fai p 188, p 189 n  1,2,3 , p 190 n1,2,3 Devi scaricare L'E\n📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato\n📝 2026-10-06: MATEMATICA: Es. 346 pag. 44, es. 22 pag. 48 e es. 31, 32 pag. 49\n📝 2026-10-06: STORIA DELLA MUSICA: La linea del tempo, i principali periodi storici da studiare nel corso dell'ann\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Ripassare il Canone Laudemus Virginem, da Libre de Vermelle. Studia\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Studiare le parti date in classe"
+      "personal_notes": "📝 2026-10-06: STORIA DELL' ARTE: Studiare pg 7 e 8.\n📝 2026-10-06: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare stati fisici e passaggi di stato\n📝 2026-10-06: MATEMATICA: Es. 346 pag. 44, es. 22 pag. 48 e es. 31, 32 pag. 49\n📝 2026-10-06: STORIA DELLA MUSICA: La linea del tempo, i principali periodi storici da studiare nel corso dell'ann\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Ripassare il Canone Laudemus Virginem, da Libre de Vermelle. Studia\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Studiare le parti date in classe\n📝 2026-10-07: LINGUA STRANIERA-ING: studia p 186-187 188, sottolinea le parti significative, fai p 194 n1,2,3,4\n📝 2026-10-08: LING. LETT. ITALIANA: vol.grammatica, tutti gli esercizi da pag.184/186"
     },
     "ada": {
       "display_name": "Ada",
@@ -326,25 +332,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-05",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "16:15",
-            "event": "Uscita scuola (giorno lungo)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Piano Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 16:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-06",
         "schedule": [
           {
@@ -364,23 +351,29 @@
             "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 13:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-07",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "13:15",
+            "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
+          }
+        ],
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [
-          {
-            "ora": 1,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "L'addizione e le sue proprietà \nRipassiamo le equivalenze con le misure di lunghezza ,capacità e peso.Correzione compito"
-          },
-          {
-            "ora": 2,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "L'addizione e le sue proprietà \nRipassiamo le equivalenze con le misure di lunghezza ,capacità e peso.Correzione compito"
-          }
-        ],
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -388,7 +381,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → L'addizione e le sue proprietà \nRipassiamo le equivalenze con le misure di lunghezza ,capacità e peso.Correzione compito\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → L'addizione e le sue proprietà \nRipassiamo le equivalenze con le misure di lunghezza ,capacità e peso.Correzione compito"
+      "personal_notes": ""
     }
   }
 }
