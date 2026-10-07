@@ -62,6 +62,78 @@ WMO_ICONS = {
 def today_date():
     return date.today()
 
+
+# ===== DOMOTICZ SENSORS =====
+
+DOMOTICZ_ROOM_ICONS = {
+    "Corridoio": "🚪",
+    "Studio": "💻",
+    "Camera Matrimoniale": "🛏️",
+}
+
+
+def fetch_domoticz_sensors():
+    """Fetch temperature/humidity sensors from Domoticz."""
+    import urllib.request
+    import base64
+
+    creds_path = WORKSPACE / ".domoticz-credentials"
+    if not creds_path.exists():
+        print("⚠️  Domoticz credentials not found")
+        return []
+
+    creds = {}
+    for line in creds_path.read_text().strip().splitlines():
+        if "=" in line:
+            k, v = line.split("=", 1)
+            creds[k.strip()] = v.strip()
+
+    domoticz_url = creds.get("DOMOTICZ_URL", "http://localhost:9090")
+    domoticz_user = creds.get("DOMOTICZ_USER", "")
+    domoticz_pass = creds.get("DOMOTICZ_PASS", "")
+
+    url = f"{domoticz_url}/json.htm?type=command&param=getdevices&used=true&order=Name"
+
+    try:
+        req = urllib.request.Request(url)
+        if domoticz_user:
+            auth_str = base64.b64encode(f"{domoticz_user}:{domoticz_pass}".encode()).decode()
+            req.add_header("Authorization", f"Basic {auth_str}")
+
+        with urllib.request.urlopen(req, timeout=10) as resp:
+            data = json.loads(resp.read())
+
+        sensors = []
+        for device in data.get("result", []):
+            # Only Temp+Humidity sensors
+            if device.get("Type", "") not in ("Temp + Humidity",):
+                continue
+
+            idx = str(device.get("idx", ""))
+            name = device.get("Name", f"Sensor {idx}")
+            temp = device.get("Temp", 0)
+            humidity = device.get("Humidity", 0)
+            battery = device.get("BatteryLevel", 255)
+            last_update = device.get("LastUpdate", "")
+            icon = DOMOTICZ_ROOM_ICONS.get(name, "🏠")
+
+            sensors.append({
+                "id": idx,
+                "name": name,
+                "icon": icon,
+                "temp": round(temp, 1),
+                "humidity": int(humidity),
+                "battery": int(battery),
+                "last_update": last_update,
+                "battery_warning": battery < 20,
+            })
+
+        return sensors
+
+    except Exception as e:
+        print(f"⚠️  Domoticz fetch failed: {e}")
+        return []
+
 def tomorrow_date():
     return date.today() + timedelta(days=1)
 
@@ -632,12 +704,24 @@ def _match_members(summary):
 
 
 def _calendar_events_for_member(cal_events_for_date, member_id):
-    """Filter calendar events for a specific member."""
-    return [
-        {"time": e["time"], "event": e["event"]}
-        for e in cal_events_for_date
-        if member_id in e.get("members", [])
-    ]
+    """Filter calendar events for a specific member.
+    
+    Parents (maurizio, alessandra) see ALL family calendar events,
+    regardless of member matching. Children only see events matched to them.
+    """
+    PARENTS = {"maurizio", "alessandra"}
+    if member_id in PARENTS:
+        # Parents see every event from the family calendar
+        return [
+            {"time": e["time"], "event": e["event"]}
+            for e in cal_events_for_date
+        ]
+    else:
+        return [
+            {"time": e["time"], "event": e["event"]}
+            for e in cal_events_for_date
+            if member_id in e.get("members", [])
+        ]
 
 
 # ===== MAIN UPDATE =====
@@ -664,6 +748,11 @@ def build_dashboard():
     print("🎨 Fetching ClasseViva data (Ada)...")
     classeviva = fetch_classeviva_data()
     
+    # Domoticz sensors
+    print("🌡️  Fetching Domoticz sensors...")
+    sensors = fetch_domoticz_sensors()
+    print(f"   Found {len(sensors)} sensors")
+
     # Google Calendar (Family)
     print("📅 Fetching Google Calendar events...")
     cal_events = fetch_calendar_events([today, tomorrow])
@@ -833,7 +922,8 @@ def build_dashboard():
                 ],
             },
             "notes": "",
-            "weather": weather or {}
+            "weather": weather or {},
+            "sensors": sensors or [],
         },
         "members": {
             "maurizio": {

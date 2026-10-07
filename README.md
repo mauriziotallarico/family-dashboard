@@ -8,11 +8,16 @@ Una dashboard familiare che si aggiorna automaticamente, pubblicata su GitHub Pa
 
 - **4 schede membro** (Maurizio, Alessandra, Flavio, Ada) ciascuna con avatar, bio, programma di oggi/domani, stato, umore, note personali
 - **Sezioni condivise**: Meteo (Altopascio), Menu del Giorno (reset giornaliero), Promemoria, Note Familiari
+- **🌡️ Sensori Casa (Domoticz)**: temperatura, umidità e livello batteria per ogni stanza, con card colorate e icone dedicate, alert visivo batteria scarica
+- **📚 Registro Elettronico Flavio (Argo Didup)**: compiti della settimana, promemoria, integrati automaticamente nelle note personali e nei promemoria condivisi
+- **🎨 Registro Elettronico Ada (ClasseViva)**: lezioni di oggi/domani con argomenti, compiti, voti, bacheca, note disciplinari, assenze — tutto visualizzato nella scheda di Ada
+- **📅 Google Calendar (Famiglia)**: eventi dal calendario condiviso distribuiti automaticamente nelle schede dei membri
+- **🚏 Trasporti Flavio**: tabella raccomandazioni treni Lucca → Altopascio con evidenziazione del giorno corrente
 - **4 temi visivi**: Caldo 🌅, Freddo 🌊, Natura 🌿, Scuro 🌙 (salvato per browser)
-- **Aggiornamento automatico** tramite GitHub Actions: 2× al giorno (07:00 + 19:00 CET)
+- **Aggiornamento automatico**: 2× al giorno (07:30 + 15:00) tramite PicoClaw 🦞 su Raspberry Pi
 - **Bot Telegram** per tutti i membri della famiglia, per aggiornare i contenuti dal telefono
-- **Meteo** tramite OpenWeatherMap (piano gratuito)
-- **Zero backend** — sito statico puro + JSON + GitHub Actions
+- **Meteo** tramite Open-Meteo (gratuito, senza API key)
+- **Zero backend** — sito statico puro + JSON + script di aggiornamento locale
 
 ---
 
@@ -29,9 +34,12 @@ family-dashboard/
 │       ├── alessandra.jpg
 │       ├── flavio.jpg
 │       └── ada.jpg
+├── scripts/
+│   ├── update-dashboard.py       ← Script principale di aggiornamento dati
+│   └── github-push.py            ← Push automatico su GitHub
 ├── bot/
 │   ├── bot.py                    ← Bot Telegram (da eseguire su Raspberry Pi / VPS)
-│   ├── fetch_weather.py          ← Raccolta dati meteo (usato da GitHub Actions)
+│   ├── fetch_weather.py          ← Raccolta dati meteo
 │   └── requirements.txt
 └── .github/
     └── workflows/
@@ -209,6 +217,67 @@ Per aggiungere temi personalizzati, estendere le variabili CSS in `index.html`.
 
 ---
 
+## Integrazioni Dati
+
+### 🌡️ Domoticz (Sensori Casa)
+
+La dashboard legge i sensori di temperatura e umidità da un'istanza [Domoticz](https://www.domoticz.com/) locale.
+
+**Configurazione:**
+1. Creare il file `.domoticz-credentials` nella root del workspace PicoClaw:
+```
+DOMOTICZ_URL=http://localhost:9090
+DOMOTICZ_USER=admin
+DOMOTICZ_PASS=your_password
+```
+2. I sensori Temp+Humidity vengono rilevati automaticamente
+3. Le card mostrano: temperatura (con barra colorata in base al range), umidità, livello batteria con alert visivo
+
+**Soglie batteria:**
+- 🔋 > 30% → normale (grigio)
+- 🔋 15–30% → bassa (arancione)
+- 🪫 < 15% → critica (rosso lampeggiante)
+
+### 📚 Argo Didup (Registro Flavio)
+
+Integrazione con il registro elettronico Argo Didup Famiglia per il Liceo Passaglia.
+- **Compiti della settimana** → note personali di Flavio
+- **Promemoria** → sezione promemoria condivisa (con filtro date passate)
+
+Credenziali salvate in `.argo-credentials`.
+
+### 🎨 ClasseViva (Registro Ada)
+
+Integrazione con il registro elettronico ClasseViva (Spaggiari) per la scuola primaria.
+- **Lezioni di oggi/domani** con argomenti e docenti
+- **Compiti e impegni** (agenda 14 giorni)
+- **Voti** con colore indicativo
+- **Bacheca** comunicazioni scuola
+- **Note disciplinari** e **assenze**
+
+Credenziali salvate in `.classeviva-credentials`.
+
+### 📅 Google Calendar
+
+Eventi dal calendario famiglia Google, distribuiti automaticamente nelle schede dei membri.
+- I genitori (Maurizio, Alessandra) vedono **tutti** gli eventi
+- I figli vedono solo gli eventi che li riguardano (match per nome)
+- Service Account configurato con accesso al calendario condiviso
+
+### 🌤️ Meteo (Open-Meteo)
+
+Previsioni meteo gratuite tramite [Open-Meteo](https://open-meteo.com/), senza API key.
+- Oggi e domani: temperatura min/max, umidità, vento, precipitazioni
+- Icone OpenWeatherMap per compatibilità visiva
+
+### 🚏 Trasporti Flavio
+
+Tabella raccomandazioni treni Lucca → Altopascio per ogni giorno della settimana.
+- Evidenziazione automatica del giorno corrente
+- Orari uscita, mezzo consigliato, note e alternative
+
+---
+
 ## Riepilogo del Formato Dati
 
 `data/dashboard.json` è l'unica fonte di verità.
@@ -217,16 +286,20 @@ Per aggiungere temi personalizzati, estendere le variabili CSS in `index.html`.
 _meta          → timestamp last_updated, versione
 config         → family_name, location (city, lat, lon)
 shared
-  ├── weather         → oggi + domani (temp, description, icon, humidity, wind)
-  ├── menu_of_the_day → date, lunch, dinner, notes  [reset giornaliero automatico]
-  ├── reminders[]     → id, text, priority, added_by, added_at
-  └── notes           → testo libero
+  ├── weather           → oggi + domani (temp, description, icon, humidity, wind, precipitation)
+  ├── sensors[]         → Domoticz: id, name, icon, temp, humidity, battery, last_update, battery_warning
+  ├── menu_of_the_day   → date, lunch, dinner, notes  [reset giornaliero automatico]
+  ├── reminders[]       → id, text, priority, added_by, added_at
+  ├── calendar_events   → today[], tomorrow[] (time, event, all_day, summary)
+  └── notes             → testo libero
 members
   └── <id>
        ├── display_name, emoji, color_theme (blue/rose/green/purple)
        ├── bio, avatar (path)
-       ├── today   → date, schedule[], status, mood
-       ├── tomorrow→ date, schedule[], status
+       ├── today       → date, schedule[], status, mood
+       ├── tomorrow    → date, schedule[], status
+       ├── transport[] → [solo Flavio] day, exit_time, mode, departure, arrival, notes
+       ├── school_data → [solo Ada] lezioni_oggi[], lezioni_domani[], agenda[], voti[], bacheca[], note[], assenze_count
        └── personal_notes
 ```
 

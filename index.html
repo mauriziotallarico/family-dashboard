@@ -400,6 +400,90 @@
     }
     .badge-reset { background: #fef3c7; color: #92400e; }
 
+    /* ===== SENSORS (Domoticz) ===== */
+    .sensors-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 0.75rem;
+    }
+    .sensor-card {
+      padding: 1rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      transition: all var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .sensor-card:hover {
+      box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+      transform: translateY(-2px);
+    }
+    .sensor-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 3px;
+    }
+    .sensor-card.temp-cold::before { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
+    .sensor-card.temp-cool::before { background: linear-gradient(90deg, #22c55e, #86efac); }
+    .sensor-card.temp-warm::before { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+    .sensor-card.temp-hot::before  { background: linear-gradient(90deg, #ef4444, #f87171); }
+    .sensor-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.75rem;
+    }
+    .sensor-room-icon { font-size: 1.5rem; }
+    .sensor-room-name {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .sensor-readings {
+      display: flex;
+      gap: 1rem;
+      align-items: baseline;
+    }
+    .sensor-temp {
+      font-size: 1.8rem;
+      font-weight: 800;
+      line-height: 1;
+    }
+    .sensor-temp-unit {
+      font-size: 0.9rem;
+      font-weight: 400;
+      color: var(--text-secondary);
+    }
+    .sensor-humidity {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+    .sensor-footer {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 0.6rem;
+      font-size: 0.72rem;
+      color: var(--text-light);
+    }
+    .sensor-battery {
+      display: flex;
+      align-items: center;
+      gap: 0.25rem;
+    }
+    .sensor-battery.warning {
+      color: #ef4444;
+      font-weight: 700;
+      animation: pulse-dot 2s infinite;
+    }
+    .sensor-battery.low {
+      color: #f59e0b;
+      font-weight: 600;
+    }
+
     /* ===== CONTENT + SIDEBAR LAYOUT ===== */
     .content-with-sidebar {
       display: grid;
@@ -722,6 +806,21 @@
       </div>
     </div>
 
+    <!-- SENSORS (Domoticz) -->
+    <div class="card" id="sensors-card" style="grid-column: 1 / -1;">
+      <div class="card-header">
+        <span class="icon">🌡️</span>
+        <h3>Sensori Casa</h3>
+      </div>
+      <div class="card-body">
+        <div class="sensors-grid" id="sensors-grid">
+          <div class="skeleton" style="height:100px"></div>
+          <div class="skeleton" style="height:100px"></div>
+          <div class="skeleton" style="height:100px"></div>
+        </div>
+      </div>
+    </div>
+
   </div>
 
   <!-- Content + Sidebar Layout -->
@@ -974,6 +1073,65 @@ function renderTransportBox(transport) {
       <span><span class="transport-mode-badge bus" style="font-size:0.65rem">🚌 Bus 851</span> = Piazzale Verdi</span>
       <span style="margin-left:auto">👉 = oggi</span>
     </div>`;
+}
+
+// ===== SENSORS (Domoticz) =====
+function renderSensors(sensors) {
+  const grid = document.getElementById('sensors-grid');
+  if (!sensors || sensors.length === 0) {
+    grid.innerHTML = '<p class="empty-state">Nessun sensore disponibile</p>';
+    return;
+  }
+  
+  grid.innerHTML = sensors.map(s => {
+    // Temperature color class
+    let tempClass = 'temp-cool';
+    if (s.temp < 16) tempClass = 'temp-cold';
+    else if (s.temp >= 16 && s.temp < 22) tempClass = 'temp-cool';
+    else if (s.temp >= 22 && s.temp < 27) tempClass = 'temp-warm';
+    else if (s.temp >= 27) tempClass = 'temp-hot';
+    
+    // Battery status
+    let batteryClass = '';
+    let batteryIcon = '🔋';
+    if (s.battery <= 15) {
+      batteryClass = 'warning';
+      batteryIcon = '🪫';
+    } else if (s.battery <= 30) {
+      batteryClass = 'low';
+      batteryIcon = '🔋';
+    }
+    
+    // Last update relative
+    const lastUpdate = s.last_update ? formatSensorTime(s.last_update) : '—';
+    
+    return `
+      <div class="sensor-card ${tempClass}">
+        <div class="sensor-header">
+          <span class="sensor-room-icon">${s.icon || '🏠'}</span>
+          <span class="sensor-room-name">${escapeHTML(s.name)}</span>
+        </div>
+        <div class="sensor-readings">
+          <span class="sensor-temp">${s.temp}<span class="sensor-temp-unit">°C</span></span>
+          <span class="sensor-humidity">💧 ${s.humidity}%</span>
+        </div>
+        <div class="sensor-footer">
+          <span class="sensor-battery ${batteryClass}">${batteryIcon} ${s.battery}%</span>
+          <span>🕐 ${lastUpdate}</span>
+        </div>
+      </div>`;
+  }).join('');
+}
+
+function formatSensorTime(timeStr) {
+  // timeStr like "2026-10-07 14:44:02"
+  try {
+    const parts = timeStr.split(' ');
+    if (parts.length >= 2) {
+      return parts[1].substring(0, 5); // "14:44"
+    }
+  } catch(e) {}
+  return timeStr;
 }
 
 // ===== MEMBER CARDS =====
@@ -1229,6 +1387,12 @@ function renderDashboard(data) {
     renderMenu(data.shared.menu_of_the_day);
     renderReminders(data.shared.reminders);
     renderNotes(data.shared.notes);
+    // Sensors
+    if (data.shared && data.shared.sensors) {
+      renderSensors(data.shared.sensors);
+    } else {
+      document.getElementById('sensors-card').style.display = 'none';
+    }
   }
 
   // Members

@@ -8,11 +8,16 @@ A self-updating family dashboard published on GitHub Pages, with a Telegram bot 
 
 - **4 member cards** (Maurizio, Alessandra, Flavio, Ada) each with avatar, bio, today/tomorrow schedule, status, mood, personal notes
 - **Shared sections**: Weather (Altopascio), Menu of the Day (daily reset), Reminders, Family Notes
+- **🌡️ Home Sensors (Domoticz)**: temperature, humidity and battery level per room, with colored cards, room icons, and low-battery visual alerts
+- **📚 Flavio's School Register (Argo Didup)**: weekly homework, reminders — auto-integrated into personal notes and shared reminders
+- **🎨 Ada's School Register (ClasseViva)**: today/tomorrow lessons with topics, homework, grades, noticeboard, disciplinary notes, absences — all rendered in Ada's card
+- **📅 Google Calendar (Family)**: events from the shared family calendar automatically distributed to member cards
+- **🚏 Flavio's Transport**: recommended trains Lucca → Altopascio table with current-day highlighting
 - **4 visual themes**: Warm 🌅, Cool 🌊, Nature 🌿, Dark 🌙 (persisted per-browser)
-- **Auto-updates** via GitHub Actions: 2× per day (07:00 + 19:00 CET)
+- **Auto-updates**: 2× per day (07:30 + 15:00) via PicoClaw 🦞 on Raspberry Pi
 - **Telegram bot** for all family members to update content from their phones
-- **Weather** via OpenWeatherMap free tier
-- **Zero backend** — pure static site + JSON + GitHub Actions
+- **Weather** via Open-Meteo (free, no API key required)
+- **Zero backend** — pure static site + JSON + local update script
 
 ---
 
@@ -29,9 +34,12 @@ family-dashboard/
 │       ├── alessandra.jpg
 │       ├── flavio.jpg
 │       └── ada.jpg
+├── scripts/
+│   ├── update-dashboard.py       ← Main data update script
+│   └── github-push.py            ← Auto-push to GitHub
 ├── bot/
 │   ├── bot.py                    ← Telegram bot (run on Raspberry Pi / VPS)
-│   ├── fetch_weather.py          ← Weather fetcher (used by GitHub Actions)
+│   ├── fetch_weather.py          ← Weather fetcher
 │   └── requirements.txt
 └── .github/
     └── workflows/
@@ -209,6 +217,63 @@ To add custom themes, extend the CSS variables in `index.html`.
 
 ---
 
+## Data Integrations
+
+### 🌡️ Domoticz (Home Sensors)
+
+The dashboard reads temperature and humidity sensors from a local [Domoticz](https://www.domoticz.com/) instance.
+
+**Setup:**
+1. Create `.domoticz-credentials` in the PicoClaw workspace root:
+```
+DOMOTICZ_URL=http://localhost:9090
+DOMOTICZ_USER=admin
+DOMOTICZ_PASS=your_password
+```
+2. Temp+Humidity sensors are auto-detected
+3. Cards show: temperature (with color-coded top bar by range), humidity, battery level with visual alert
+
+**Battery thresholds:**
+- 🔋 > 30% → normal (grey)
+- 🔋 15–30% → low (orange)
+- 🪫 < 15% → critical (red, pulsing)
+
+### 📚 Argo Didup (Flavio's School Register)
+
+Integration with the Argo Didup Famiglia electronic register for Liceo Passaglia.
+- **Weekly homework** → Flavio's personal notes
+- **Reminders** → shared reminders section (past-due items filtered out)
+
+### 🎨 ClasseViva (Ada's School Register)
+
+Integration with the ClasseViva (Spaggiari) electronic register for primary school.
+- **Today/tomorrow lessons** with topics and teachers
+- **Homework and agenda** (14-day lookahead)
+- **Grades** with color indicator
+- **Noticeboard** communications
+- **Disciplinary notes** and **absences**
+
+### 📅 Google Calendar
+
+Family calendar events automatically distributed to member cards.
+- Parents (Maurizio, Alessandra) see **all** events
+- Children see only events matching their name
+- Service Account configured with shared calendar access
+
+### 🌤️ Weather (Open-Meteo)
+
+Free weather forecasts via [Open-Meteo](https://open-meteo.com/), no API key needed.
+- Today and tomorrow: min/max temperature, humidity, wind, precipitation
+- OpenWeatherMap icons for visual compatibility
+
+### 🚏 Flavio's Transport
+
+Recommended trains Lucca → Altopascio table for each day of the week.
+- Auto-highlighting of the current day
+- Exit times, recommended transport, notes and alternatives
+
+---
+
 ## Data Format Summary
 
 `data/dashboard.json` is the single source of truth.
@@ -217,16 +282,20 @@ To add custom themes, extend the CSS variables in `index.html`.
 _meta          → last_updated timestamp, version
 config         → family_name, location (city, lat, lon)
 shared
-  ├── weather         → today + tomorrow (temp, description, icon, humidity, wind)
-  ├── menu_of_the_day → date, lunch, dinner, notes  [auto-reset daily]
-  ├── reminders[]     → id, text, priority, added_by, added_at
-  └── notes           → free text
+  ├── weather           → today + tomorrow (temp, description, icon, humidity, wind, precipitation)
+  ├── sensors[]         → Domoticz: id, name, icon, temp, humidity, battery, last_update, battery_warning
+  ├── menu_of_the_day   → date, lunch, dinner, notes  [auto-reset daily]
+  ├── reminders[]       → id, text, priority, added_by, added_at
+  ├── calendar_events   → today[], tomorrow[] (time, event, all_day, summary)
+  └── notes             → free text
 members
   └── <id>
        ├── display_name, emoji, color_theme (blue/rose/green/purple)
        ├── bio, avatar (path)
-       ├── today   → date, schedule[], status, mood
-       ├── tomorrow→ date, schedule[], status
+       ├── today       → date, schedule[], status, mood
+       ├── tomorrow    → date, schedule[], status
+       ├── transport[] → [Flavio only] day, exit_time, mode, departure, arrival, notes
+       ├── school_data → [Ada only] lezioni_oggi[], lezioni_domani[], agenda[], voti[], bacheca[], note[], assenze_count
        └── personal_notes
 ```
 
