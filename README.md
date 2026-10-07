@@ -14,6 +14,8 @@ Una dashboard familiare che si aggiorna automaticamente, pubblicata su GitHub Pa
 - **📅 Google Calendar (Famiglia)**: eventi dal calendario condiviso distribuiti automaticamente nelle schede dei membri
 - **🚏 Trasporti Flavio**: tabella raccomandazioni treni Lucca → Altopascio con evidenziazione del giorno corrente
 - **4 temi visivi**: Caldo 🌅, Freddo 🌊, Natura 🌿, Scuro 🌙 (salvato per browser)
+- **Layout full-width**: tutte le card dei membri alla stessa larghezza, link utili in barra orizzontale in basso
+- **🔗 Link Utili**: accesso rapido a ClasseViva, Argo, Google Calendar, Gmail, GitHub, Autolinee Toscane, Trenitalia — disposti in griglia orizzontale sotto le card
 - **Aggiornamento automatico**: 2× al giorno (07:30 + 15:00) tramite PicoClaw 🦞 su Raspberry Pi
 - **Bot Telegram** per tutti i membri della famiglia, per aggiornare i contenuti dal telefono
 - **Meteo** tramite Open-Meteo (gratuito, senza API key)
@@ -214,6 +216,22 @@ Modificare `.github/workflows/update-dashboard.yml` → le righe `cron`.
 Quattro temi integrati (Caldo, Freddo, Natura, Scuro) selezionabili dall'intestazione.
 La scelta viene salvata nel `localStorage` per ogni browser.
 Per aggiungere temi personalizzati, estendere le variabili CSS in `index.html`.
+
+---
+
+## Layout della Dashboard
+
+La pagina è organizzata in sezioni verticali a larghezza piena:
+
+1. **Header** — Nome famiglia, data/ora, selettore tema
+2. **Sezione condivisa** — Griglia 4 colonne: Meteo, Menu, Promemoria, Note
+3. **Sensori Casa** — Card Domoticz a larghezza piena (temperatura, umidità, batteria)
+4. **Card Membri** — Griglia responsive: Maurizio, Alessandra, Flavio, Ada — tutte allo stesso livello
+5. **Trasporti Flavio** — Tabella raccomandazioni treni (visibile solo se ci sono dati)
+6. **Link Utili** — Barra orizzontale con link rapidi (registri, calendario, mail, trasporti)
+7. **Footer**
+
+> Le card dei membri occupano tutta la larghezza disponibile (no sidebar laterale), così anche la card di Ada con i dati ClasseViva ha lo stesso spazio delle altre.
 
 ---
 
