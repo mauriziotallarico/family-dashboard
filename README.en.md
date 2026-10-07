@@ -14,6 +14,8 @@ A self-updating family dashboard published on GitHub Pages, with a Telegram bot 
 - **📅 Google Calendar (Family)**: events from the shared family calendar automatically distributed to member cards
 - **🚏 Flavio's Transport**: recommended trains Lucca → Altopascio table with current-day highlighting
 - **4 visual themes**: Warm 🌅, Cool 🌊, Nature 🌿, Dark 🌙 (persisted per-browser)
+- **Full-width layout**: all member cards at the same level, useful links in a horizontal bar at the bottom
+- **🔗 Useful Links**: quick access to ClasseViva, Argo, Google Calendar, Gmail, GitHub, bus/train services — arranged in a horizontal grid below the cards
 - **Auto-updates**: 2× per day (07:30 + 15:00) via PicoClaw 🦞 on Raspberry Pi
 - **Telegram bot** for all family members to update content from their phones
 - **Weather** via Open-Meteo (free, no API key required)
@@ -214,6 +216,22 @@ Edit `.github/workflows/update-dashboard.yml` → the `cron` lines.
 Four built-in themes (Warm, Cool, Nature, Dark) selectable from the header.
 The choice is saved in `localStorage` per browser.
 To add custom themes, extend the CSS variables in `index.html`.
+
+---
+
+## Dashboard Layout
+
+The page is organized in full-width vertical sections:
+
+1. **Header** — Family name, date/time, theme selector
+2. **Shared section** — 4-column grid: Weather, Menu, Reminders, Notes
+3. **Home Sensors** — Full-width Domoticz cards (temperature, humidity, battery)
+4. **Member Cards** — Responsive grid: Maurizio, Alessandra, Flavio, Ada — all at the same level
+5. **Flavio's Transport** — Train recommendations table (visible only when data is present)
+6. **Useful Links** — Horizontal bar with quick links (school registers, calendar, mail, transport)
+7. **Footer**
+
+> Member cards use the full available width (no sidebar), so Ada's card with ClasseViva data has the same space as the others.
 
 ---
 
