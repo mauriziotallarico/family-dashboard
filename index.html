@@ -484,6 +484,59 @@
       font-weight: 600;
     }
 
+    /* ===== FETCH ERRORS BANNER ===== */
+    .fetch-errors-banner {
+      background: linear-gradient(135deg, #fef3c7, #fde68a);
+      border: 1px solid #f59e0b;
+      border-left: 4px solid #d97706;
+      border-radius: var(--radius-sm);
+      padding: 0.85rem 1.25rem;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+    [data-theme="dark"] .fetch-errors-banner {
+      background: linear-gradient(135deg, #422006, #451a03);
+      border-color: #92400e;
+    }
+    .fetch-errors-icon {
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+    .fetch-errors-content { flex: 1; }
+    .fetch-errors-title {
+      font-size: 0.85rem;
+      font-weight: 700;
+      color: #92400e;
+      margin-bottom: 0.35rem;
+    }
+    [data-theme="dark"] .fetch-errors-title { color: #fbbf24; }
+    .fetch-errors-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+    .fetch-error-item {
+      font-size: 0.8rem;
+      color: #78350f;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    [data-theme="dark"] .fetch-error-item { color: #fde68a; }
+    .fetch-error-source {
+      font-weight: 600;
+    }
+    .fetch-error-time {
+      font-size: 0.7rem;
+      color: #a16207;
+      margin-left: auto;
+      white-space: nowrap;
+    }
+    [data-theme="dark"] .fetch-error-time { color: #d97706; }
+
     /* ===== FULL-WIDTH LAYOUT (no sidebar) ===== */
     .content-full {
       display: flex;
@@ -758,6 +811,15 @@
 
 <!-- ===== MAIN ===== -->
 <main class="main-wrapper">
+
+  <!-- Fetch Errors Banner (shown only when data sources fail) -->
+  <div id="fetch-errors-banner" class="fetch-errors-banner" style="display:none;">
+    <span class="fetch-errors-icon">⚠️</span>
+    <div class="fetch-errors-content">
+      <div class="fetch-errors-title">Alcuni dati potrebbero non essere aggiornati</div>
+      <div class="fetch-errors-list" id="fetch-errors-list"></div>
+    </div>
+  </div>
 
   <!-- Shared Row: Weather + Reminders + Menu + Notes -->
   <div class="shared-section" id="shared-section">
@@ -1343,6 +1405,27 @@ function formatRelativeTime(isoStr) {
   return d.toLocaleDateString('it-IT');
 }
 
+// ===== FETCH ERRORS BANNER =====
+function renderFetchErrors(errors) {
+  const banner = document.getElementById('fetch-errors-banner');
+  const list = document.getElementById('fetch-errors-list');
+  if (!errors || errors.length === 0) {
+    banner.style.display = 'none';
+    return;
+  }
+  banner.style.display = '';
+  list.innerHTML = errors.map(e => {
+    const timeStr = e.timestamp ? formatSensorTime(e.timestamp.replace('T', ' ')) : '';
+    return `
+      <div class="fetch-error-item">
+        <span>❌</span>
+        <span class="fetch-error-source">${escapeHTML(e.source)}</span>
+        <span>— ${escapeHTML(e.message)}</span>
+        ${timeStr ? `<span class="fetch-error-time">🕐 ${timeStr}</span>` : ''}
+      </div>`;
+  }).join('');
+}
+
 // ===== LOAD DATA =====
 async function loadDashboard() {
   try {
@@ -1361,6 +1444,13 @@ async function loadDashboard() {
 }
 
 function renderDashboard(data) {
+  // Fetch errors banner
+  if (data._meta?.fetch_errors) {
+    renderFetchErrors(data._meta.fetch_errors);
+  } else {
+    renderFetchErrors([]);
+  }
+
   // Header
   if (data.config?.family_name) {
     document.getElementById('family-name').textContent = `🏡 ${data.config.family_name} Dashboard`;

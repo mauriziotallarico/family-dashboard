@@ -736,22 +736,58 @@ def build_dashboard():
     
     print(f"📊 Building dashboard for {today_str} ({giorno_oggi})")
     
+    # Track fetch errors for transparency on the dashboard
+    fetch_errors = []  # list of {"source": str, "message": str, "timestamp": str}
+    
     # Weather
     print("🌤️  Fetching weather...")
     weather = fetch_weather()
+    if weather is None:
+        fetch_errors.append({
+            "source": "Meteo (Open-Meteo)",
+            "message": "Impossibile recuperare dati meteo",
+            "timestamp": datetime.now().isoformat(),
+        })
     
     # Didup
     print("📚 Fetching Didup data...")
     didup = fetch_didup_data()
+    if not didup.get("compiti") and not didup.get("promemoria"):
+        fetch_errors.append({
+            "source": "Registro Flavio (Argo Didup)",
+            "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
+            "timestamp": datetime.now().isoformat(),
+        })
     
     # ClasseViva (Ada)
     print("🎨 Fetching ClasseViva data (Ada)...")
     classeviva = fetch_classeviva_data()
+    _cv_has_data = any([
+        classeviva.get("lezioni_oggi"),
+        classeviva.get("lezioni_domani"),
+        classeviva.get("agenda"),
+        classeviva.get("voti"),
+        classeviva.get("bacheca"),
+        classeviva.get("note"),
+        classeviva.get("assenze"),
+    ])
+    if not _cv_has_data:
+        fetch_errors.append({
+            "source": "Registro Ada (ClasseViva)",
+            "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
+            "timestamp": datetime.now().isoformat(),
+        })
     
     # Domoticz sensors
     print("🌡️  Fetching Domoticz sensors...")
     sensors = fetch_domoticz_sensors()
     print(f"   Found {len(sensors)} sensors")
+    if not sensors:
+        fetch_errors.append({
+            "source": "Sensori Casa (Domoticz)",
+            "message": "Nessun sensore disponibile — Domoticz potrebbe essere offline",
+            "timestamp": datetime.now().isoformat(),
+        })
 
     # Google Calendar (Family)
     print("📅 Fetching Google Calendar events...")
@@ -759,6 +795,11 @@ def build_dashboard():
     cal_today = cal_events.get(today_str, [])
     cal_tomorrow = cal_events.get(tomorrow_str, [])
     print(f"   Found {len(cal_today)} events today, {len(cal_tomorrow)} events tomorrow")
+    
+    if fetch_errors:
+        print(f"⚠️  {len(fetch_errors)} fetch error(s) detected:")
+        for fe in fetch_errors:
+            print(f"   ❌ {fe['source']}: {fe['message']}")
     
     # Flavio
     flavio_today_sched, flavio_today_status, _ = get_flavio_schedule(today)
@@ -880,8 +921,9 @@ def build_dashboard():
     dashboard = {
         "_meta": {
             "last_updated": datetime.now().isoformat(),
-            "version": "2.0",
-            "updated_by": "picoclaw"
+            "version": "2.1",
+            "updated_by": "picoclaw",
+            "fetch_errors": fetch_errors,
         },
         "config": {
             "family_name": "Tallarico",
