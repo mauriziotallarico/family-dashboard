@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-07T15:00:29.016274",
+    "last_updated": "2026-10-08T07:30:59.632442",
     "version": "2.0",
     "updated_by": "picoclaw"
   },
@@ -16,7 +16,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-07",
+      "date": "2026-10-08",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -27,38 +27,18 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-07T15:00:29.015926"
+        "added_at": "2026-10-08T07:30:59.632165"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-07T15:00:29.016021"
+        "added_at": "2026-10-08T07:30:59.632248"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "14:00",
-          "event": "📅 Team digitale",
-          "all_day": false,
-          "summary": "Team digitale"
-        },
-        {
-          "time": "16:45",
-          "event": "📅 Teatro Ada",
-          "all_day": false,
-          "summary": "Teatro Ada"
-        },
-        {
-          "time": "18:45",
-          "event": "📅 Maurizio da Patrizia",
-          "all_day": false,
-          "summary": "Maurizio da Patrizia"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "14:30",
           "event": "📅 Replica introduttivo A — sessione 1",
@@ -71,29 +51,55 @@
           "all_day": false,
           "summary": "Ale da Patrizia"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Compleanno Ada",
+          "all_day": true,
+          "summary": "Compleanno Ada"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-07",
-        "description": "Pioggia leggera",
-        "temp_min": 13,
-        "temp_max": 25,
-        "icon": "10d",
-        "humidity": 46,
-        "wind_speed": 7,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-08",
         "description": "Rovesci leggeri",
         "temp_min": 18,
         "temp_max": 22,
         "icon": "09d",
+        "humidity": 95,
+        "wind_speed": 3,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-09",
+        "description": "Nebbia",
+        "temp_min": 17,
+        "temp_max": 23,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.9
+        "precipitation_mm": 0.0
       }
     },
     "sensors": [
@@ -101,10 +107,10 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 23.8,
-        "humidity": 61,
+        "temp": 23.9,
+        "humidity": 67,
         "battery": 100,
-        "last_update": "2026-10-07 14:44:02",
+        "last_update": "2026-10-08 06:45:39",
         "battery_warning": false
       },
       {
@@ -112,9 +118,9 @@
         "name": "Studio",
         "icon": "💻",
         "temp": 22.7,
-        "humidity": 67,
-        "battery": 61,
-        "last_update": "2026-10-07 14:02:09",
+        "humidity": 68,
+        "battery": 56,
+        "last_update": "2026-10-08 07:04:21",
         "battery_warning": false
       },
       {
@@ -122,9 +128,9 @@
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
         "temp": 23.9,
-        "humidity": 55,
-        "battery": 83,
-        "last_update": "2026-10-07 14:00:43",
+        "humidity": 61,
+        "battery": 89,
+        "last_update": "2026-10-08 07:03:43",
         "battery_warning": false
       }
     ]
@@ -137,25 +143,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-07",
-        "schedule": [
-          {
-            "time": "14:00",
-            "event": "📅 Team digitale"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          },
-          {
-            "time": "18:45",
-            "event": "📅 Maurizio da Patrizia"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-08",
         "schedule": [
           {
@@ -165,6 +152,29 @@
           {
             "time": "17:00",
             "event": "📅 Ale da Patrizia"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-09",
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Ada"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
         "status": ""
@@ -178,41 +188,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-07",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          },
-          {
-            "time": "14:00",
-            "event": "📅 Team digitale"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          },
-          {
-            "time": "18:45",
-            "event": "📅 Maurizio da Patrizia"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-08",
         "schedule": [
           {
@@ -236,7 +211,46 @@
             "event": "📅 Ale da Patrizia"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-09",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Ada"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "personal_notes": ""
     },
@@ -247,37 +261,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-07",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "14:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-08",
         "schedule": [
           {
@@ -309,7 +292,34 @@
             "event": "📅 Replica introduttivo A — sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-09",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -391,7 +401,7 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Ripassare il Canone Laudemus Virginem, da Libre de Vermelle. Studia\n📝 2026-10-07: LABORATORIO DI MUSICA D'INSIEME: Studiare le parti date in classe\n📝 2026-10-07: LINGUA STRANIERA-ING: studia p 186-187 188, sottolinea le parti significative, fai p 194 n1,2,3,4\n📝 2026-10-08: LING. LETT. ITALIANA: vol.grammatica, tutti gli esercizi da pag.184/186\n📝 2026-10-08: STORIA E GEOGRAFIA: Studiare: processo di ominazione, australopitechi, bipedismo, homo habilis e erg\n📝 2026-10-08: STORIA E GEOGRAFIA: Ricercare e segnare sul quaderno: 1) perché si ricordano il 25 aprile 1945 e il \n📝 2026-10-09: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: nel libro \"Grammatica della musica\" studiare pp. 53-55\n📝 2026-10-10: LING. LETT. ITALIANA: Vol.narrativa pag.13/18"
+      "personal_notes": "📝 2026-10-08: LING. LETT. ITALIANA: vol.grammatica, tutti gli esercizi da pag.184/186\n📝 2026-10-08: STORIA E GEOGRAFIA: Studiare: processo di ominazione, australopitechi, bipedismo, homo habilis e erg\n📝 2026-10-08: STORIA E GEOGRAFIA: Ricercare e segnare sul quaderno: 1) perché si ricordano il 25 aprile 1945 e il \n📝 2026-10-09: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: nel libro \"Grammatica della musica\" studiare pp. 53-55\n📝 2026-10-10: LING. LETT. ITALIANA: Vol.narrativa pag.13/18\n📝 2026-10-10: LING. LETT. ITALIANA: Vol. narrativa \"Il velo nero \" pag.23/31\n📝 2026-10-10: STORIA DELL' ARTE: Studiare da pg 10 a pg 14 sistemando le informazioni relative alle 2 opere da esa\n📝 2026-10-12: STORIA DELLA MUSICA: vedi lezione precedente"
     },
     "ada": {
       "display_name": "Ada",
@@ -400,25 +410,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-07",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-08",
         "schedule": [
           {
@@ -434,53 +425,33 @@
             "event": "📅 Replica introduttivo A — sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-09",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Riassunto: collegare e scrivere le frasi-chiave, aggiungendo le parole-legame. Disegno"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 2,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Riassunto: collegare e scrivere le frasi-chiave, aggiungendo le parole-legame. Disegno"
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": ""
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Ada"
           },
           {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "MUSICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "MUSICA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 5,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -488,7 +459,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Riassunto: collegare e scrivere le frasi-chiave, aggiungendo le parole-legame. Disegno\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Riassunto: collegare e scrivere le frasi-chiave, aggiungendo le parole-legame. Disegno\n  Ora 3: STORIA (GOZZINI ANGELA)\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: MUSICA (LETIZIA ELVIRA)\n  Ora 4: MUSICA (FONTANA ROBERTO)\n  Ora 5: ARTE E IMMAGINE (LETIZIA ELVIRA)"
+      "personal_notes": ""
     }
   }
 }
