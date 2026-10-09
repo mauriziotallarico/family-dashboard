@@ -1,18 +1,18 @@
 {
   "_meta": {
-    "last_updated": "2026-10-09T07:45:37.320104",
+    "last_updated": "2026-10-09T15:00:33.590593",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
-        "source": "Registro Flavio (Argo Didup)",
-        "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-09T07:44:32.094285"
+        "source": "Meteo (Open-Meteo)",
+        "message": "Impossibile recuperare dati meteo",
+        "timestamp": "2026-10-09T15:00:04.213078"
       },
       {
         "source": "Registro Ada (ClasseViva)",
         "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-09T07:45:07.256307"
+        "timestamp": "2026-10-09T15:00:21.849640"
       }
     ]
   },
@@ -33,63 +33,96 @@
       "dinner": "",
       "notes": ""
     },
-    "reminders": [],
+    "reminders": [
+      {
+        "id": "didup_0",
+        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-09T15:00:33.590353"
+      },
+      {
+        "id": "didup_1",
+        "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-09T15:00:33.590438"
+      },
+      {
+        "id": "didup_2",
+        "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-09T15:00:33.590476"
+      }
+    ],
     "calendar_events": {
-      "today": [],
-      "tomorrow": []
+      "today": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Compleanno Ada",
+          "all_day": true,
+          "summary": "Compleanno Ada"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
+      ],
+      "tomorrow": [
+        {
+          "time": "11:00",
+          "event": "📅 Catechismo Ada",
+          "all_day": false,
+          "summary": "Catechismo Ada"
+        }
+      ]
     },
     "notes": "",
-    "weather": {
-      "today": {
-        "date": "2026-10-09",
-        "description": "Pioggia leggera",
-        "temp_min": 17,
-        "temp_max": 23,
-        "icon": "10d",
-        "humidity": 98,
-        "wind_speed": 4,
-        "precipitation_mm": 0.1
-      },
-      "tomorrow": {
-        "date": "2026-10-10",
-        "description": "Nebbia",
-        "temp_min": 13,
-        "temp_max": 23,
-        "icon": "50d",
-        "humidity": 0,
-        "wind_speed": 0,
-        "precipitation_mm": 0.0
-      }
-    },
+    "weather": {},
     "sensors": [
       {
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 23.7,
-        "humidity": 70,
-        "battery": 96,
-        "last_update": "2026-10-09 06:47:56",
+        "temp": 23.5,
+        "humidity": 69,
+        "battery": 95,
+        "last_update": "2026-10-09 14:02:11",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 22.9,
-        "humidity": 70,
+        "temp": 23.1,
+        "humidity": 72,
         "battery": 56,
-        "last_update": "2026-10-09 07:07:58",
+        "last_update": "2026-10-09 14:01:02",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 23.9,
+        "temp": 23.8,
         "humidity": 64,
         "battery": 89,
-        "last_update": "2026-10-09 07:07:55",
+        "last_update": "2026-10-09 14:01:12",
         "battery_warning": false
       }
     ]
@@ -103,13 +136,35 @@
       "avatar": "assets/images/maurizio.jpg",
       "today": {
         "date": "2026-10-09",
-        "schedule": [],
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Ada"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
         "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
         "date": "2026-10-10",
-        "schedule": [],
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -138,6 +193,22 @@
           {
             "time": "12:00",
             "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Ada"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
         "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
@@ -145,7 +216,12 @@
       },
       "tomorrow": {
         "date": "2026-10-10",
-        "schedule": [],
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
         "status": "🏠 A casa"
       },
       "personal_notes": ""
@@ -170,6 +246,14 @@
           {
             "time": "12:10",
             "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10",
@@ -277,7 +361,15 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
-      "personal_notes": "Nessun compito registrato"
+      "jazz_pick": {
+        "artist": "Joshua Redman",
+        "track": "Hide and Seek",
+        "album": "Mood Swing",
+        "year": "1994",
+        "context": "Groove irresistibile e assolo brillante — Redman è il ponte tra tradizione e modernità.",
+        "youtube_url": "https://www.youtube.com/watch?v=hAgK_27CQTw"
+      },
+      "personal_notes": "📝 2026-10-09: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: nel libro \"Grammatica della musica\" studiare pp. 53-55\n📝 2026-10-10: LING. LETT. ITALIANA: Vol.narrativa pag.13/18\n📝 2026-10-10: LING. LETT. ITALIANA: Vol. narrativa \"Il velo nero \" pag.23/31\n📝 2026-10-10: STORIA DELL' ARTE: Studiare da pg 10 a pg 14 sistemando le informazioni relative alle 2 opere da esa\n📝 2026-10-10: STORIA E GEOGRAFIA: Studiare la distinzione tra fonti primarie o dirette e secondarie o indirette a \n📝 2026-10-12: STORIA DELLA MUSICA: vedi lezione precedente\n📝 2026-10-12: LINGUA STRANIERA-ING: p 30-31 fai  n1,2,3,4\n📝 2026-10-12: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: scegliere due solfeggi ritmici a piacere e studiarli m"
     },
     "ada": {
       "display_name": "Ada",
@@ -295,6 +387,14 @@
           {
             "time": "12:15",
             "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Compleanno Ada"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
         "status": "🏫 Scuola — Uscita 12:15",
@@ -302,7 +402,12 @@
       },
       "tomorrow": {
         "date": "2026-10-10",
-        "schedule": [],
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
         "status": "🏠 A casa"
       },
       "school_data": {
