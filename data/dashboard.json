@@ -1,13 +1,18 @@
 {
   "_meta": {
-    "last_updated": "2026-10-10T07:30:30.385356",
+    "last_updated": "2026-10-10T15:00:34.317403",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
+        "source": "Meteo (Open-Meteo)",
+        "message": "Impossibile recuperare dati meteo",
+        "timestamp": "2026-10-10T15:00:04.483907"
+      },
+      {
         "source": "Registro Ada (ClasseViva)",
         "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-10T07:30:23.424010"
+        "timestamp": "2026-10-10T15:00:26.014606"
       }
     ]
   },
@@ -34,21 +39,21 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-10T07:30:30.385132"
+        "added_at": "2026-10-10T15:00:34.317170"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-10T07:30:30.385204"
+        "added_at": "2026-10-10T15:00:34.317247"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-10T07:30:30.385234"
+        "added_at": "2026-10-10T15:00:34.317280"
       }
     ],
     "calendar_events": {
@@ -63,57 +68,36 @@
       "tomorrow": []
     },
     "notes": "",
-    "weather": {
-      "today": {
-        "date": "2026-10-10",
-        "description": "Nebbia",
-        "temp_min": 12,
-        "temp_max": 23,
-        "icon": "50d",
-        "humidity": 100,
-        "wind_speed": 2,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
-        "date": "2026-10-11",
-        "description": "Nebbia",
-        "temp_min": 11,
-        "temp_max": 24,
-        "icon": "50d",
-        "humidity": 0,
-        "wind_speed": 0,
-        "precipitation_mm": 0.0
-      }
-    },
+    "weather": {},
     "sensors": [
       {
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 23.0,
-        "humidity": 70,
-        "battery": 93,
-        "last_update": "2026-10-10 07:04:38",
+        "temp": 22.5,
+        "humidity": 67,
+        "battery": 92,
+        "last_update": "2026-10-10 14:05:17",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 22.0,
-        "humidity": 69,
-        "battery": 56,
-        "last_update": "2026-10-10 07:03:55",
+        "temp": 21.5,
+        "humidity": 70,
+        "battery": 59,
+        "last_update": "2026-10-10 14:05:10",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 23.4,
+        "temp": 23.3,
         "humidity": 63,
         "battery": 89,
-        "last_update": "2026-10-10 07:04:12",
+        "last_update": "2026-10-10 14:05:25",
         "battery_warning": false
       }
     ]
