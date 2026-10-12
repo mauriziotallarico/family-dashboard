@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-12T13:17:05.452055",
+    "last_updated": "2026-10-12T13:27:33.686890",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": [
-      {
-        "source": "Registro Ada (ClasseViva)",
-        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-12T13:16:50.463359"
-      }
-    ]
+    "fetch_errors": []
   },
   "config": {
     "family_name": "Tallarico",
@@ -34,35 +28,35 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:17:05.451696"
+        "added_at": "2026-10-12T13:27:33.686529"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:17:05.451780"
+        "added_at": "2026-10-12T13:27:33.686618"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:17:05.451839"
+        "added_at": "2026-10-12T13:27:33.686657"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:17:05.451873"
+        "added_at": "2026-10-12T13:27:33.686686"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:17:05.451912"
+        "added_at": "2026-10-12T13:27:33.686715"
       }
     ],
     "calendar_events": {
@@ -453,7 +447,56 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Prove d'ingresso sul libro di testo \"TEST\"\nCorrezione compito"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Prove d'ingresso sul libro di testo \"TEST\"\nCorrezione compito"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "MENSA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 6,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 7,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -461,7 +504,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Prove d'ingresso sul libro di testo \"TEST\"\nCorrezione compito\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → Prove d'ingresso sul libro di testo \"TEST\"\nCorrezione compito\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 5: MENSA (LETIZIA ELVIRA)\n  Ora 6: SOSTEGNO (IACOMINI VERONICA)\n  Ora 7: SOSTEGNO (IACOMINI VERONICA)"
     }
   }
 }
