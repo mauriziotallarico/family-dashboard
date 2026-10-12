@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-10-11T15:34:40.431836",
+    "last_updated": "2026-10-12T13:17:05.452055",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Ada (ClasseViva)",
         "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-11T15:34:31.941462"
+        "timestamp": "2026-10-12T13:16:50.463359"
       }
     ]
   },
@@ -23,7 +23,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-11",
+      "date": "2026-10-12",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -34,52 +34,79 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-11T15:34:40.431617"
+        "added_at": "2026-10-12T13:17:05.451696"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-11T15:34:40.431687"
+        "added_at": "2026-10-12T13:17:05.451780"
       },
       {
         "id": "didup_2",
+        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-12T13:17:05.451839"
+      },
+      {
+        "id": "didup_3",
+        "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-12T13:17:05.451873"
+      },
+      {
+        "id": "didup_4",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-11T15:34:40.431717"
+        "added_at": "2026-10-12T13:17:05.451912"
       }
     ],
     "calendar_events": {
-      "today": [],
-      "tomorrow": [
+      "today": [
         {
           "time": "17:30",
           "event": "📅 Piano Ada",
           "all_day": false,
           "summary": "Piano Ada"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        },
+        {
+          "time": "17:30",
+          "event": "📅 Pallavolo Flavio",
+          "all_day": false,
+          "summary": "Pallavolo Flavio"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-11",
-        "description": "Nebbia",
-        "temp_min": 13,
+        "date": "2026-10-12",
+        "description": "Nuvoloso",
+        "temp_min": 15,
         "temp_max": 23,
-        "icon": "50d",
-        "humidity": 64,
-        "wind_speed": 12,
+        "icon": "04d",
+        "humidity": 58,
+        "wind_speed": 10,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-10-12",
-        "description": "Nuvoloso",
-        "temp_min": 16,
-        "temp_max": 23,
-        "icon": "04d",
+        "date": "2026-10-13",
+        "description": "Prevalentemente sereno",
+        "temp_min": 10,
+        "temp_max": 22,
+        "icon": "02d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -90,30 +117,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.6,
+        "temp": 22.5,
         "humidity": 68,
-        "battery": 89,
-        "last_update": "2026-10-11 15:00:46",
+        "battery": 88,
+        "last_update": "2026-10-12 13:03:39",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 21.1,
-        "humidity": 71,
+        "temp": 20.9,
+        "humidity": 70,
         "battery": 59,
-        "last_update": "2026-10-11 15:01:10",
+        "last_update": "2026-10-12 13:04:29",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 23.0,
-        "humidity": 62,
-        "battery": 89,
-        "last_update": "2026-10-11 15:01:05",
+        "temp": 22.9,
+        "humidity": 64,
+        "battery": 88,
+        "last_update": "2026-10-12 13:04:57",
         "battery_warning": false
       }
     ]
@@ -126,17 +153,26 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-11",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-12",
         "schedule": [
           {
             "time": "17:30",
             "event": "📅 Piano Ada"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-13",
+        "schedule": [
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": ""
@@ -150,12 +186,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-11",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-12",
         "schedule": [
           {
@@ -179,7 +209,34 @@
             "event": "📅 Piano Ada"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-13",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 2B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 1B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 1B (3ª ora)"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "personal_notes": ""
     },
@@ -190,12 +247,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-11",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-12",
         "schedule": [
           {
@@ -225,6 +276,45 @@
           {
             "time": "15:10",
             "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio) ⭐"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~15:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-13",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Scienze — Lovi I."
+          },
+          {
+            "time": "09:10",
+            "event": "Storia della Musica — Mascolo F."
+          },
+          {
+            "time": "10:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Matematica — Marini F."
+          },
+          {
+            "time": "14:10",
+            "event": "Sax — Mazzola M."
+          },
+          {
+            "time": "15:10",
+            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio) ⭐"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": "🏫 Scuola — Uscita ~15:10"
@@ -310,14 +400,14 @@
         }
       ],
       "jazz_pick": {
-        "artist": "Dexter Gordon",
-        "track": "Body and Soul",
-        "album": "Ballads",
-        "year": "1961",
-        "context": "Lo standard per eccellenza, suonato con un tono enorme e caldo.",
-        "youtube_url": "https://www.youtube.com/watch?v=rDy1wrK-gCc"
+        "artist": "Cannonball Adderley",
+        "track": "Autumn Leaves",
+        "album": "Somethin' Else",
+        "year": "1958",
+        "context": "Con Miles Davis. La versione definitiva di questo standard immortale.",
+        "youtube_url": "https://www.youtube.com/watch?v=CpB7-8SGlJ0"
       },
-      "personal_notes": "📝 2026-10-12: STORIA DELLA MUSICA: vedi lezione precedente\n📝 2026-10-12: LINGUA STRANIERA-ING: p 30-31 fai  n1,2,3,4\n📝 2026-10-12: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: scegliere due solfeggi ritmici a piacere e studiarli m\n📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Ascolto integrale della Abdelazer Suite seguendo con lo spartito la\n📝 2026-10-15: LABORATORIO DI MUSICA D'INSIEME: Studiare I brani : \"O love di Elaine Hagenberg\" e \"And so it goes\" "
+      "personal_notes": "📝 2026-10-12: STORIA DELLA MUSICA: vedi lezione precedente\n📝 2026-10-12: LINGUA STRANIERA-ING: p 30-31 fai  n1,2,3,4\n📝 2026-10-12: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: scegliere due solfeggi ritmici a piacere e studiarli m\n📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-13: STORIA DELLA MUSICA: Interrogazioni e spiegazione dei singoli periodi della linea del tempo; la nasc\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Come già spiegato a lezione, studiare il brano consegnato a lezione"
     },
     "ada": {
       "display_name": "Ada",
@@ -326,12 +416,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-11",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-12",
         "schedule": [
           {
@@ -347,7 +431,26 @@
             "event": "📅 Piano Ada"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-13",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "13:15",
+            "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
         "lezioni_oggi": [],
