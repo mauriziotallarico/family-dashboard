@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-10-12T07:31:03.331291",
+    "last_updated": "2026-10-12T13:17:05.452055",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Ada (ClasseViva)",
         "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-12T07:30:44.623440"
+        "timestamp": "2026-10-12T13:16:50.463359"
       }
     ]
   },
@@ -34,21 +34,35 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T07:31:03.331041"
+        "added_at": "2026-10-12T13:17:05.451696"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T07:31:03.331126"
+        "added_at": "2026-10-12T13:17:05.451780"
       },
       {
         "id": "didup_2",
+        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-12T13:17:05.451839"
+      },
+      {
+        "id": "didup_3",
+        "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-12T13:17:05.451873"
+      },
+      {
+        "id": "didup_4",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T07:31:03.331161"
+        "added_at": "2026-10-12T13:17:05.451912"
       }
     ],
     "calendar_events": {
@@ -81,16 +95,16 @@
         "date": "2026-10-12",
         "description": "Nuvoloso",
         "temp_min": 15,
-        "temp_max": 24,
+        "temp_max": 23,
         "icon": "04d",
-        "humidity": 92,
-        "wind_speed": 1,
+        "humidity": 58,
+        "wind_speed": 10,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-13",
         "description": "Prevalentemente sereno",
-        "temp_min": 11,
+        "temp_min": 10,
         "temp_max": 22,
         "icon": "02d",
         "humidity": 0,
@@ -103,30 +117,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.9,
-        "humidity": 70,
-        "battery": 89,
-        "last_update": "2026-10-12 07:02:46",
+        "temp": 22.5,
+        "humidity": 68,
+        "battery": 88,
+        "last_update": "2026-10-12 13:03:39",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 21.1,
-        "humidity": 71,
-        "battery": 56,
-        "last_update": "2026-10-12 07:03:35",
+        "temp": 20.9,
+        "humidity": 70,
+        "battery": 59,
+        "last_update": "2026-10-12 13:04:29",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 23.0,
-        "humidity": 65,
-        "battery": 89,
-        "last_update": "2026-10-12 07:03:54",
+        "temp": 22.9,
+        "humidity": 64,
+        "battery": 88,
+        "last_update": "2026-10-12 13:04:57",
         "battery_warning": false
       }
     ]
@@ -393,7 +407,7 @@
         "context": "Con Miles Davis. La versione definitiva di questo standard immortale.",
         "youtube_url": "https://www.youtube.com/watch?v=CpB7-8SGlJ0"
       },
-      "personal_notes": "📝 2026-10-12: STORIA DELLA MUSICA: vedi lezione precedente\n📝 2026-10-12: LINGUA STRANIERA-ING: p 30-31 fai  n1,2,3,4\n📝 2026-10-12: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: scegliere due solfeggi ritmici a piacere e studiarli m\n📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Ascolto integrale della Abdelazer Suite seguendo con lo spartito la\n📝 2026-10-15: LABORATORIO DI MUSICA D'INSIEME: Studiare I brani : \"O love di Elaine Hagenberg\" e \"And so it goes\" "
+      "personal_notes": "📝 2026-10-12: STORIA DELLA MUSICA: vedi lezione precedente\n📝 2026-10-12: LINGUA STRANIERA-ING: p 30-31 fai  n1,2,3,4\n📝 2026-10-12: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: scegliere due solfeggi ritmici a piacere e studiarli m\n📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-13: STORIA DELLA MUSICA: Interrogazioni e spiegazione dei singoli periodi della linea del tempo; la nasc\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Come già spiegato a lezione, studiare il brano consegnato a lezione"
     },
     "ada": {
       "display_name": "Ada",
