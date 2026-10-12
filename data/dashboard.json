@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "last_updated": "2026-10-12T13:27:33.686890",
+    "last_updated": "2026-10-12T15:00:55.130316",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "source": "Meteo (Open-Meteo)",
+        "message": "Impossibile recuperare dati meteo",
+        "timestamp": "2026-10-12T15:00:06.549783"
+      }
+    ]
   },
   "config": {
     "family_name": "Tallarico",
@@ -28,35 +34,35 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:27:33.686529"
+        "added_at": "2026-10-12T15:00:55.129953"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:27:33.686618"
+        "added_at": "2026-10-12T15:00:55.130035"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:27:33.686657"
+        "added_at": "2026-10-12T15:00:55.130068"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:27:33.686686"
+        "added_at": "2026-10-12T15:00:55.130097"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-12T13:27:33.686715"
+        "added_at": "2026-10-12T15:00:55.130126"
       }
     ],
     "calendar_events": {
@@ -84,37 +90,16 @@
       ]
     },
     "notes": "",
-    "weather": {
-      "today": {
-        "date": "2026-10-12",
-        "description": "Nuvoloso",
-        "temp_min": 15,
-        "temp_max": 23,
-        "icon": "04d",
-        "humidity": 58,
-        "wind_speed": 10,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
-        "date": "2026-10-13",
-        "description": "Prevalentemente sereno",
-        "temp_min": 10,
-        "temp_max": 22,
-        "icon": "02d",
-        "humidity": 0,
-        "wind_speed": 0,
-        "precipitation_mm": 0.0
-      }
-    },
+    "weather": {},
     "sensors": [
       {
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.5,
+        "temp": 22.6,
         "humidity": 68,
         "battery": 88,
-        "last_update": "2026-10-12 13:03:39",
+        "last_update": "2026-10-12 14:03:43",
         "battery_warning": false
       },
       {
@@ -123,18 +108,18 @@
         "icon": "💻",
         "temp": 20.9,
         "humidity": 70,
-        "battery": 59,
-        "last_update": "2026-10-12 13:04:29",
+        "battery": 56,
+        "last_update": "2026-10-12 14:04:37",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.9,
-        "humidity": 64,
+        "temp": 22.8,
+        "humidity": 63,
         "battery": 88,
-        "last_update": "2026-10-12 13:04:57",
+        "last_update": "2026-10-12 14:05:07",
         "battery_warning": false
       }
     ]
