@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-13T09:24:35.741744",
+    "last_updated": "2026-10-13T15:00:40.943137",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -25,38 +25,38 @@
     "reminders": [
       {
         "id": "didup_0",
-        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
+        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:24:35.741355"
+        "added_at": "2026-10-13T15:00:40.942787"
       },
       {
         "id": "didup_1",
-        "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mater",
+        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:24:35.741458"
+        "added_at": "2026-10-13T15:00:40.942878"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:24:35.741492"
+        "added_at": "2026-10-13T15:00:40.942911"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:24:35.741526"
+        "added_at": "2026-10-13T15:00:40.942940"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:24:35.741558"
+        "added_at": "2026-10-13T15:00:40.942969"
       }
     ],
     "calendar_events": {
@@ -91,7 +91,7 @@
         "temp_min": 10,
         "temp_max": 22,
         "icon": "04d",
-        "humidity": 76,
+        "humidity": 42,
         "wind_speed": 2,
         "precipitation_mm": 0.0
       },
@@ -111,30 +111,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.9,
-        "humidity": 65,
+        "temp": 21.8,
+        "humidity": 63,
         "battery": 87,
-        "last_update": "2026-10-13 09:05:30",
+        "last_update": "2026-10-13 14:08:50",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.2,
-        "humidity": 65,
+        "temp": 20.0,
+        "humidity": 66,
         "battery": 56,
-        "last_update": "2026-10-13 09:07:05",
+        "last_update": "2026-10-13 14:09:10",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.6,
-        "humidity": 59,
+        "temp": 22.4,
+        "humidity": 60,
         "battery": 88,
-        "last_update": "2026-10-13 08:08:15",
+        "last_update": "2026-10-13 14:09:19",
         "battery_warning": false
       }
     ]
@@ -596,7 +596,7 @@
         "context": "Avanguardia accessibile — ritmi spezzati e melodie aliene. Un album fondamentale.",
         "youtube_url": "https://www.youtube.com/watch?v=7tnPkQufnZY"
       },
-      "personal_notes": "📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-13: STORIA DELLA MUSICA: Interrogazioni e spiegazione dei singoli periodi della linea del tempo; la nasc\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Come già spiegato a lezione, studiare il brano consegnato a lezione\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Ascolto integrale della Abdelazer Suite seguendo con lo spartito la\n📝 2026-10-15: LABORATORIO DI MUSICA D'INSIEME: Studiare I brani : \"O love di Elaine Hagenberg\" e \"And so it goes\" \n📝 2026-10-15: EDUCAZIONE CIVICA: Sistemare e integrare con quanto detto in classe gli appunti sul quaderno relativ"
+      "personal_notes": "📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-13: STORIA DELLA MUSICA: Interrogazioni e spiegazione dei singoli periodi della linea del tempo; la nasc\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Come già spiegato a lezione, studiare il brano consegnato a lezione\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Ascolto integrale della Abdelazer Suite seguendo con lo spartito la\n📝 2026-10-14: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare gli argomenti verifica riportat\n📝 2026-10-14: MATEMATICA: Si vedano i compiti assegnati per il 13/10"
     },
     "ada": {
       "display_name": "Ada",
@@ -650,6 +650,18 @@
             "argomento": "Prove d'ingresso sul libro di testo \" TEST\""
           },
           {
+            "ora": 2,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”."
+          },
+          {
+            "ora": 3,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”."
+          },
+          {
             "ora": 4,
             "materia": "ITALIANO",
             "docente": "LETIZIA ELVIRA",
@@ -663,7 +675,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Prove d'ingresso sul libro di testo \" TEST\"\n  Ora 4: ITALIANO (LETIZIA ELVIRA)"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Prove d'ingresso sul libro di testo \" TEST\"\n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”.\n  Ora 4: ITALIANO (LETIZIA ELVIRA)"
     }
   }
 }
