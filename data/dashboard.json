@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-13T09:18:17.145840",
+    "last_updated": "2026-10-13T09:24:35.741744",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,35 +28,35 @@
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:18:17.145501"
+        "added_at": "2026-10-13T09:24:35.741355"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-20 (08:30-09:00) — Verifica scienze ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mater",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:18:17.145599"
+        "added_at": "2026-10-13T09:24:35.741458"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:18:17.145633"
+        "added_at": "2026-10-13T09:24:35.741492"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:18:17.145662"
+        "added_at": "2026-10-13T09:24:35.741526"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-13T09:18:17.145692"
+        "added_at": "2026-10-13T09:24:35.741558"
       }
     ],
     "calendar_events": {
@@ -385,6 +385,209 @@
           "notes": "Treno nettamente migliore (bus solo alle 14:15)"
         }
       ],
+      "full_schedule": {
+        "updated": "2026-10-13 (Orario 4, dal 12/10/2026)",
+        "school": "Liceo Artistico Musicale Passaglia — Classe 1M",
+        "days": [
+          {
+            "day": "Lunedì",
+            "slots": [
+              {
+                "time": "08:10–09:10",
+                "subject": "Storia e Geografia",
+                "teacher": "Rossi M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "09:10–10:10",
+                "subject": "TAC",
+                "teacher": "Meli A.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "10:10–11:10",
+                "subject": "Inglese",
+                "teacher": "Febi R.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "11:10–12:10",
+                "subject": "Storia della Musica",
+                "teacher": "Mascolo F.",
+                "room": "S. Agostino 13"
+              },
+              {
+                "time": "12:10–13:10",
+                "subject": "Religione",
+                "teacher": "Battaglia M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "14:10–15:10",
+                "subject": "Pianoforte (2° str.)",
+                "teacher": "Pieruccioni L.",
+                "room": "S. Agostino 01",
+                "afternoon": true
+              },
+              {
+                "time": "15:10–16:10",
+                "subject": "Sax",
+                "teacher": "Mazzola M.",
+                "room": "Fillungo",
+                "afternoon": true
+              }
+            ]
+          },
+          {
+            "day": "Martedì",
+            "slots": [
+              {
+                "time": "08:10–09:10",
+                "subject": "Scienze",
+                "teacher": "Lovi I.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "09:10–10:10",
+                "subject": "Storia della Musica",
+                "teacher": "Mascolo F.",
+                "room": "S. Agostino 13"
+              },
+              {
+                "time": "10:10–11:10",
+                "subject": "Italiano",
+                "teacher": "Moncini M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "11:10–12:10",
+                "subject": "Storia dell'Arte",
+                "teacher": "Lorenzini M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "12:10–13:10",
+                "subject": "Matematica",
+                "teacher": "Marini F.",
+                "room": "S. Agostino 04"
+              }
+            ]
+          },
+          {
+            "day": "Mercoledì",
+            "slots": [
+              {
+                "time": "08:10–09:10",
+                "subject": "Scienze",
+                "teacher": "Lovi I.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "09:10–10:10",
+                "subject": "Inglese",
+                "teacher": "Febi R.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "10:10–12:10",
+                "subject": "Matematica (2h)",
+                "teacher": "Marini F.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "13:10–14:10",
+                "subject": "Sax",
+                "teacher": "Mazzola M.",
+                "room": "Fillungo",
+                "afternoon": true
+              },
+              {
+                "time": "14:10–15:10",
+                "subject": "Quartetto Sax Junior",
+                "teacher": "Mazzola M.",
+                "room": "Fillungo",
+                "afternoon": true
+              }
+            ]
+          },
+          {
+            "day": "Giovedì",
+            "slots": [
+              {
+                "time": "08:10–10:10",
+                "subject": "TEM (2h)",
+                "teacher": "Giusti M.",
+                "room": "S. Agostino 14 Lab"
+              },
+              {
+                "time": "10:10–11:10",
+                "subject": "Storia e Geografia",
+                "teacher": "Rossi M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "11:10–12:10",
+                "subject": "Inglese",
+                "teacher": "Febi R.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "12:10–13:10",
+                "subject": "Italiano",
+                "teacher": "Moncini M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "13:10–14:10",
+                "subject": "Orchestra di Fiati",
+                "teacher": "Cesari/Fortino/Gaggini/Manente",
+                "room": "S. Agostino Auditorium",
+                "afternoon": true
+              }
+            ]
+          },
+          {
+            "day": "Venerdì",
+            "slots": [
+              {
+                "time": "08:10–10:10",
+                "subject": "TAC (2h)",
+                "teacher": "Meli A.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "10:10–12:10",
+                "subject": "Motorie (2h)",
+                "teacher": "Tedeschi B.",
+                "room": "Palestra Cavallerizza"
+              }
+            ]
+          },
+          {
+            "day": "Sabato",
+            "slots": [
+              {
+                "time": "08:10–09:10",
+                "subject": "Storia e Geografia",
+                "teacher": "Rossi M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "09:10–11:10",
+                "subject": "Italiano (2h)",
+                "teacher": "Moncini M.",
+                "room": "S. Agostino 04"
+              },
+              {
+                "time": "11:10–12:10",
+                "subject": "Storia dell'Arte",
+                "teacher": "Lorenzini M.",
+                "room": "S. Agostino 04"
+              }
+            ]
+          }
+        ]
+      },
       "jazz_pick": {
         "artist": "Eric Dolphy",
         "track": "Hat and Beard",

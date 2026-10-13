@@ -364,6 +364,68 @@
     .transport-mode-badge.train { background: #dbeafe; color: #1d4ed8; }
     .transport-mode-badge.bus { background: #fef3c7; color: #92400e; }
     .transport-notes { font-size: 0.72rem; color: var(--text-light); margin-top: 0.15rem; line-height: 1.3; }
+
+    /* Jazz Pick of the Day */
+    .jazz-pick-box {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: #e0e0e0;
+      border-radius: 12px;
+      padding: 0.85rem 1rem;
+      margin-bottom: 0.85rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .jazz-pick-box::before {
+      content: '🎷';
+      position: absolute;
+      right: -5px;
+      top: -5px;
+      font-size: 3rem;
+      opacity: 0.12;
+    }
+    .jazz-pick-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #fbbf24;
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .jazz-pick-track {
+      font-size: 1rem;
+      font-weight: 700;
+      color: #ffffff;
+      margin-bottom: 0.15rem;
+    }
+    .jazz-pick-artist {
+      font-size: 0.85rem;
+      color: #93c5fd;
+    }
+    .jazz-pick-album {
+      font-size: 0.72rem;
+      color: #9ca3af;
+      margin-top: 0.1rem;
+    }
+    .jazz-pick-context {
+      font-size: 0.72rem;
+      color: #d1d5db;
+      margin-top: 0.4rem;
+      line-height: 1.4;
+      font-style: italic;
+    }
+    .jazz-pick-link {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #ef4444;
+      color: #fff !important;
+      text-decoration: none;
+      font-size: 0.72rem;
+      font-weight: 600;
+      padding: 0.3rem 0.7rem;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .jazz-pick-link:hover { background: #dc2626; }
     .transport-time-arrow { color: var(--text-light); margin: 0 0.15rem; }
 
     /* Divider */
@@ -482,6 +544,102 @@
     .sensor-battery.low {
       color: #f59e0b;
       font-weight: 600;
+    }
+
+    /* ===== FULL SCHEDULE TABLE (Flavio timetable) ===== */
+    .full-schedule-section { margin-top: 0; }
+    .full-schedule-meta {
+      font-size: 0.75rem;
+      color: var(--text-light);
+      margin-bottom: 0.75rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .full-schedule-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+    .full-schedule-table thead th {
+      text-align: left;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-light);
+      font-weight: 700;
+      padding: 0.5rem 0.5rem;
+      border-bottom: 2px solid var(--border);
+      position: sticky;
+      top: 0;
+      background: var(--bg-card);
+      z-index: 1;
+    }
+    .full-schedule-table td {
+      padding: 0.45rem 0.5rem;
+      border-bottom: 1px solid var(--border);
+      vertical-align: top;
+    }
+    .full-schedule-table tr:last-child td { border-bottom: none; }
+    .full-schedule-table .fs-day-header {
+      background: linear-gradient(135deg, #22c55e15, #22c55e08);
+      font-weight: 700;
+      font-size: 0.85rem;
+      color: var(--text-primary);
+      padding: 0.6rem 0.5rem;
+      border-bottom: 2px solid #22c55e40;
+    }
+    [data-theme="dark"] .full-schedule-table .fs-day-header {
+      background: linear-gradient(135deg, #22c55e15, transparent);
+    }
+    .full-schedule-table .fs-day-header td { border-bottom: 2px solid #22c55e40; }
+    .full-schedule-table .fs-afternoon {
+      background: #fef3c710;
+      border-left: 3px solid #f59e0b50;
+    }
+    [data-theme="dark"] .full-schedule-table .fs-afternoon {
+      background: #f59e0b08;
+    }
+    .full-schedule-table .fs-today-row {
+      background: #22c55e10;
+    }
+    [data-theme="dark"] .full-schedule-table .fs-today-row {
+      background: #22c55e15;
+    }
+    .fs-subject { font-weight: 600; color: var(--text-primary); }
+    .fs-teacher { font-size: 0.72rem; color: var(--text-secondary); }
+    .fs-room { font-size: 0.72rem; color: var(--text-light); }
+    .fs-time { font-weight: 600; color: var(--text-secondary); white-space: nowrap; min-width: 85px; }
+    .fs-badge-pm {
+      display: inline-block;
+      padding: 0.05rem 0.35rem;
+      border-radius: 8px;
+      font-size: 0.62rem;
+      font-weight: 700;
+      background: #fef3c7;
+      color: #92400e;
+      margin-left: 0.3rem;
+      vertical-align: middle;
+    }
+    [data-theme="dark"] .fs-badge-pm { background: #422006; color: #fbbf24; }
+    .fs-badge-fillungo {
+      display: inline-block;
+      padding: 0.05rem 0.35rem;
+      border-radius: 8px;
+      font-size: 0.62rem;
+      font-weight: 700;
+      background: #dbeafe;
+      color: #1d4ed8;
+      margin-left: 0.3rem;
+      vertical-align: middle;
+    }
+    [data-theme="dark"] .fs-badge-fillungo { background: #1e3a5f; color: #93c5fd; }
+    @media (max-width: 768px) {
+      .full-schedule-table { font-size: 0.72rem; }
+      .full-schedule-table th, .full-schedule-table td { padding: 0.35rem 0.3rem; }
+      .fs-time { min-width: 70px; }
+      #full-schedule-box .card-body { padding: 0.75rem; overflow-x: auto; }
     }
 
     /* ===== FETCH ERRORS BANNER ===== */
@@ -904,6 +1062,16 @@
       </div>
     </div>
 
+    <!-- Full Schedule Box (Flavio complete timetable) -->
+    <div id="full-schedule-box" class="card" style="display:none;">
+      <div class="card-header" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; border-bottom: none;">
+        <span class="icon">📋</span>
+        <h3 style="color: white;">Orario Completo Flavio — Liceo Musicale Passaglia</h3>
+      </div>
+      <div class="card-body" id="full-schedule-box-body">
+      </div>
+    </div>
+
     <!-- Link Utili (horizontal bar, bottom) -->
     <div class="links-bar" id="useful-links">
       <div class="card-header">
@@ -1085,6 +1253,23 @@ function renderNotes(notes) {
 }
 
 // ===== TRANSPORT TABLE (standalone box) =====
+// ===== JAZZ PICK OF THE DAY =====
+function renderJazzPick(jp) {
+  if (!jp || !jp.track) return '';
+  const linkHTML = jp.youtube_url
+    ? `<a class="jazz-pick-link" href="${escapeHTML(jp.youtube_url)}" target="_blank" rel="noopener">▶ Ascolta su YouTube</a>`
+    : '';
+  return `
+    <div class="jazz-pick-box">
+      <div class="jazz-pick-label">🎷 Ascolto del giorno</div>
+      <div class="jazz-pick-track">"${escapeHTML(jp.track)}"</div>
+      <div class="jazz-pick-artist">${escapeHTML(jp.artist)}</div>
+      <div class="jazz-pick-album">${escapeHTML(jp.album)} (${escapeHTML(jp.year)})</div>
+      ${jp.context ? `<div class="jazz-pick-context">${escapeHTML(jp.context)}</div>` : ''}
+      ${linkHTML}
+    </div>`;
+}
+
 function renderTransportBox(transport) {
   const box = document.getElementById('transport-box');
   const body = document.getElementById('transport-box-body');
@@ -1131,6 +1316,80 @@ function renderTransportBox(transport) {
       <span><span class="transport-mode-badge train" style="font-size:0.65rem">🚆 Treno</span> = Stazione FS Lucca</span>
       <span><span class="transport-mode-badge bus" style="font-size:0.65rem">🚌 Bus 851</span> = Piazzale Verdi</span>
       <span style="margin-left:auto">👉 = oggi</span>
+    </div>`;
+}
+
+// ===== FULL SCHEDULE TABLE (Flavio timetable) =====
+function renderFullSchedule(fs) {
+  const box = document.getElementById('full-schedule-box');
+  const body = document.getElementById('full-schedule-box-body');
+  if (!fs || !fs.days || fs.days.length === 0) {
+    box.style.display = 'none';
+    return;
+  }
+  box.style.display = '';
+
+  const now = new Date();
+  const dayNames = ['Domenica','Lunedì','Martedì','Mercoledì','Giovedì','Venerdì','Sabato'];
+  const todayName = dayNames[now.getDay()];
+
+  let rows = '';
+  for (const day of fs.days) {
+    const isToday = (day.day === todayName);
+    const dayIcon = isToday ? '👉 ' : '';
+    const nSlots = day.slots.length;
+    
+    // Day header row
+    rows += `<tr class="fs-day-header ${isToday ? 'fs-today-row' : ''}">
+      <td colspan="4" style="font-size:0.9rem">${dayIcon}<strong>${day.day}</strong>
+        <span style="font-weight:400;font-size:0.72rem;color:var(--text-secondary);margin-left:0.5rem">${nSlots} ore</span>
+        ${isToday ? '<span style="font-size:0.65rem;background:#22c55e;color:white;padding:0.1rem 0.4rem;border-radius:10px;margin-left:0.5rem;font-weight:600">OGGI</span>' : ''}
+      </td>
+    </tr>`;
+
+    for (const slot of day.slots) {
+      const isAfternoon = slot.afternoon === true;
+      const isFillungo = slot.room && slot.room.toLowerCase().includes('fillungo');
+      const rowClass = isAfternoon ? 'fs-afternoon' : '';
+      const todayClass = isToday ? 'fs-today-row' : '';
+
+      let badges = '';
+      if (isAfternoon) badges += '<span class="fs-badge-pm">PM</span>';
+      if (isFillungo) badges += '<span class="fs-badge-fillungo">📍 Fillungo</span>';
+
+      rows += `<tr class="${rowClass} ${todayClass}">
+        <td class="fs-time">${escapeHTML(slot.time)}</td>
+        <td><span class="fs-subject">${escapeHTML(slot.subject)}</span>${badges}</td>
+        <td class="fs-teacher">${escapeHTML(slot.teacher)}</td>
+        <td class="fs-room">${escapeHTML(slot.room)}</td>
+      </tr>`;
+    }
+  }
+
+  const metaHTML = fs.updated
+    ? `<div class="full-schedule-meta">
+        <span>🏫 ${escapeHTML(fs.school || '')}</span>
+        <span>📅 Aggiornato: ${escapeHTML(fs.updated)}</span>
+      </div>`
+    : '';
+
+  body.innerHTML = `
+    ${metaHTML}
+    <table class="full-schedule-table">
+      <thead>
+        <tr>
+          <th>Orario</th>
+          <th>Materia</th>
+          <th>Docente</th>
+          <th>Aula</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <div style="margin-top:0.75rem;font-size:0.72rem;color:var(--text-light);display:flex;gap:1rem;align-items:center;flex-wrap:wrap">
+      <span><span class="fs-badge-pm" style="font-size:0.6rem">PM</span> = lezione pomeridiana</span>
+      <span><span class="fs-badge-fillungo" style="font-size:0.6rem">📍 Fillungo</span> = sede Via Fillungo</span>
+      <span style="margin-left:auto">👉 = giorno corrente</span>
     </div>`;
 }
 
@@ -1238,6 +1497,7 @@ function renderMemberCard(id, member) {
         ${member.bio ? `<p class="member-bio">"${escapeHTML(member.bio)}"</p>` : ''}
       </div>
       <div class="member-card-body">
+        ${member.jazz_pick ? renderJazzPick(member.jazz_pick) : ''}
         <div class="schedule-tabs">
           <button class="schedule-tab active" onclick="switchTab(this,'today-${id}','tomorrow-${id}')">📅 Oggi</button>
           <button class="schedule-tab" onclick="switchTab(this,'tomorrow-${id}','today-${id}')">📆 Domani</button>
@@ -1493,6 +1753,11 @@ function renderDashboard(data) {
   // Transport standalone box (from flavio.transport)
   if (members.flavio && members.flavio.transport) {
     renderTransportBox(members.flavio.transport);
+  }
+
+  // Full schedule table (from flavio.full_schedule)
+  if (members.flavio && members.flavio.full_schedule) {
+    renderFullSchedule(members.flavio.full_schedule);
   }
 }
 
