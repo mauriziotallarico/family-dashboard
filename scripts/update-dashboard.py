@@ -63,6 +63,24 @@ def today_date():
     return date.today()
 
 
+# ===== JAZZ PICK OF THE DAY (Flavio) =====
+
+def fetch_jazz_pick():
+    """Fetch today's jazz recommendation for Flavio."""
+    jazz_script = str(WORKSPACE / "scripts" / "jazz-pick-of-the-day.py")
+    try:
+        out = subprocess.run(
+            ["python3", jazz_script, "--json"],
+            capture_output=True, text=True, timeout=20,
+            cwd=str(WORKSPACE)
+        )
+        if out.returncode == 0 and out.stdout.strip():
+            return json.loads(out.stdout.strip())
+    except Exception as e:
+        print(f"⚠️  Jazz pick failed: {e}")
+    return None
+
+
 # ===== DOMOTICZ SENSORS =====
 
 DOMOTICZ_ROOM_ICONS = {
@@ -186,6 +204,7 @@ FLAVIO_ORARIO = {
         {"time": "11:10", "event": "Storia della Musica — Mascolo F."},
         {"time": "12:10", "event": "Religione — Battaglia M."},
         {"time": "14:10", "event": "Pianoforte (2° str.) — Pieruccioni L."},
+        {"time": "15:10", "event": "Sax — Mazzola M. 📍 Fillungo"},
     ],
     "Martedì": [
         {"time": "08:10", "event": "Scienze — Lovi I."},
@@ -193,14 +212,13 @@ FLAVIO_ORARIO = {
         {"time": "10:10", "event": "Italiano — Moncini M."},
         {"time": "11:10", "event": "Storia dell'Arte — Lorenzini M."},
         {"time": "12:10", "event": "Matematica — Marini F."},
-        {"time": "14:10", "event": "Sax — Mazzola M."},
     ],
     "Mercoledì": [
         {"time": "08:10", "event": "Scienze — Lovi I."},
         {"time": "09:10", "event": "Inglese — Febi R."},
         {"time": "10:10", "event": "Matematica (2h) — Marini F."},
-        {"time": "14:30", "event": "Sax — Mazzola M. 📍 Fillungo"},
-        {"time": "15:30", "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"},
+        {"time": "13:10", "event": "Sax — Mazzola M. 📍 Fillungo"},
+        {"time": "14:10", "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"},
     ],
     "Giovedì": [
         {"time": "08:10", "event": "TEM (2h) — Giusti M."},
@@ -221,50 +239,89 @@ FLAVIO_ORARIO = {
 }
 
 FLAVIO_TRASPORTI = {
-    "Lunedì": "🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio) ⭐",
-    "Martedì": "🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio) ⭐",
-    "Mercoledì": "🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)",
+    "Lunedì": "🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)",
+    "Martedì": "🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)",
+    "Mercoledì": "🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio)",
     "Giovedì": "🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)",
     "Venerdì": "🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)",
     "Sabato": "🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)",
 }
 
 FLAVIO_USCITA = {
-    "Lunedì": "~15:10", "Martedì": "~15:10", "Mercoledì": "~15:30",
+    "Lunedì": "~16:10", "Martedì": "~13:10", "Mercoledì": "~15:10",
     "Giovedì": "~14:10", "Venerdì": "~12:10", "Sabato": "~12:10",
 }
 
 # Structured transport recommendations for dashboard table
+# Full weekly schedule for Flavio (timetable view: Lun-Sab, mattina+pomeriggio)
+FLAVIO_FULL_SCHEDULE = {
+    "updated": "2026-10-13 (Orario 4, dal 12/10/2026)",
+    "school": "Liceo Artistico Musicale Passaglia — Classe 1M",
+    "days": [
+        {
+            "day": "Lunedì",
+            "slots": [
+                {"time": "08:10–09:10", "subject": "Storia e Geografia", "teacher": "Rossi M.", "room": "S. Agostino 04"},
+                {"time": "09:10–10:10", "subject": "TAC", "teacher": "Meli A.", "room": "S. Agostino 04"},
+                {"time": "10:10–11:10", "subject": "Inglese", "teacher": "Febi R.", "room": "S. Agostino 04"},
+                {"time": "11:10–12:10", "subject": "Storia della Musica", "teacher": "Mascolo F.", "room": "S. Agostino 13"},
+                {"time": "12:10–13:10", "subject": "Religione", "teacher": "Battaglia M.", "room": "S. Agostino 04"},
+                {"time": "14:10–15:10", "subject": "Pianoforte (2° str.)", "teacher": "Pieruccioni L.", "room": "S. Agostino 01", "afternoon": True},
+                {"time": "15:10–16:10", "subject": "Sax", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
+            ]
+        },
+        {
+            "day": "Martedì",
+            "slots": [
+                {"time": "08:10–09:10", "subject": "Scienze", "teacher": "Lovi I.", "room": "S. Agostino 04"},
+                {"time": "09:10–10:10", "subject": "Storia della Musica", "teacher": "Mascolo F.", "room": "S. Agostino 13"},
+                {"time": "10:10–11:10", "subject": "Italiano", "teacher": "Moncini M.", "room": "S. Agostino 04"},
+                {"time": "11:10–12:10", "subject": "Storia dell'Arte", "teacher": "Lorenzini M.", "room": "S. Agostino 04"},
+                {"time": "12:10–13:10", "subject": "Matematica", "teacher": "Marini F.", "room": "S. Agostino 04"},
+            ]
+        },
+        {
+            "day": "Mercoledì",
+            "slots": [
+                {"time": "08:10–09:10", "subject": "Scienze", "teacher": "Lovi I.", "room": "S. Agostino 04"},
+                {"time": "09:10–10:10", "subject": "Inglese", "teacher": "Febi R.", "room": "S. Agostino 04"},
+                {"time": "10:10–12:10", "subject": "Matematica (2h)", "teacher": "Marini F.", "room": "S. Agostino 04"},
+                {"time": "13:10–14:10", "subject": "Sax", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
+                {"time": "14:10–15:10", "subject": "Quartetto Sax Junior", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
+            ]
+        },
+        {
+            "day": "Giovedì",
+            "slots": [
+                {"time": "08:10–10:10", "subject": "TEM (2h)", "teacher": "Giusti M.", "room": "S. Agostino 14 Lab"},
+                {"time": "10:10–11:10", "subject": "Storia e Geografia", "teacher": "Rossi M.", "room": "S. Agostino 04"},
+                {"time": "11:10–12:10", "subject": "Inglese", "teacher": "Febi R.", "room": "S. Agostino 04"},
+                {"time": "12:10–13:10", "subject": "Italiano", "teacher": "Moncini M.", "room": "S. Agostino 04"},
+                {"time": "13:10–14:10", "subject": "Orchestra di Fiati", "teacher": "Cesari/Fortino/Gaggini/Manente", "room": "S. Agostino Auditorium", "afternoon": True},
+            ]
+        },
+        {
+            "day": "Venerdì",
+            "slots": [
+                {"time": "08:10–10:10", "subject": "TAC (2h)", "teacher": "Meli A.", "room": "S. Agostino 04"},
+                {"time": "10:10–12:10", "subject": "Motorie (2h)", "teacher": "Tedeschi B.", "room": "Palestra Cavallerizza"},
+            ]
+        },
+        {
+            "day": "Sabato",
+            "slots": [
+                {"time": "08:10–09:10", "subject": "Storia e Geografia", "teacher": "Rossi M.", "room": "S. Agostino 04"},
+                {"time": "09:10–11:10", "subject": "Italiano (2h)", "teacher": "Moncini M.", "room": "S. Agostino 04"},
+                {"time": "11:10–12:10", "subject": "Storia dell'Arte", "teacher": "Lorenzini M.", "room": "S. Agostino 04"},
+            ]
+        },
+    ]
+}
+
 FLAVIO_TRASPORTI_TABLE = [
     {
         "day": "Lunedì",
-        "exit_time": "~15:10",
-        "exit_place": "S. Agostino",
-        "mode": "train",
-        "mode_label": "🚆 Treno",
-        "departure": "15:31",
-        "departure_place": "Stazione FS Lucca",
-        "arrival": "15:40",
-        "arrival_place": "Altopascio",
-        "line": "Treno regionale",
-        "notes": "⭐ Ideale! 15 min a piedi per stazione. Backup: treno 15:39 (arrivo 15:54)",
-    },
-    {
-        "day": "Martedì",
-        "exit_time": "~15:10",
-        "exit_place": "S. Agostino",
-        "mode": "train",
-        "mode_label": "🚆 Treno",
-        "departure": "15:31",
-        "departure_place": "Stazione FS Lucca",
-        "arrival": "15:40",
-        "arrival_place": "Altopascio",
-        "line": "Treno regionale",
-        "notes": "⭐ Ideale! 15 min a piedi per stazione. Backup: treno 15:39 (arrivo 15:54)",
-    },
-    {
-        "day": "Mercoledì",
-        "exit_time": "~15:30",
+        "exit_time": "~16:10",
         "exit_place": "Fillungo",
         "mode": "train",
         "mode_label": "🚆 Treno",
@@ -273,7 +330,33 @@ FLAVIO_TRASPORTI_TABLE = [
         "arrival": "16:40",
         "arrival_place": "Altopascio",
         "line": "Treno regionale",
-        "notes": "20 min a piedi per stazione, ~40 min attesa. Alternativa: bus 851 (16:35 P.le Verdi)",
+        "notes": "20 min a piedi per stazione. Alternativa: bus 851 (16:35 P.le Verdi)",
+    },
+    {
+        "day": "Martedì",
+        "exit_time": "~13:10",
+        "exit_place": "S. Agostino",
+        "mode": "train",
+        "mode_label": "🚆 Treno",
+        "departure": "13:31",
+        "departure_place": "Stazione FS Lucca",
+        "arrival": "13:40",
+        "arrival_place": "Altopascio",
+        "line": "Treno regionale",
+        "notes": "Solo mattina! 15 min a piedi per stazione. Backup: treno 13:39",
+    },
+    {
+        "day": "Mercoledì",
+        "exit_time": "~15:10",
+        "exit_place": "Fillungo",
+        "mode": "train",
+        "mode_label": "🚆 Treno",
+        "departure": "15:31",
+        "departure_place": "Stazione FS Lucca",
+        "arrival": "15:40",
+        "arrival_place": "Altopascio",
+        "line": "Treno regionale",
+        "notes": "20 min a piedi per stazione. Alternativa: bus 851 (15:15 P.le Verdi, stretto) o treno 16:31",
     },
     {
         "day": "Giovedì",
@@ -796,6 +879,14 @@ def build_dashboard():
     cal_tomorrow = cal_events.get(tomorrow_str, [])
     print(f"   Found {len(cal_today)} events today, {len(cal_tomorrow)} events tomorrow")
     
+    # Jazz pick of the day (Flavio)
+    print("🎷 Fetching jazz pick of the day...")
+    jazz_pick = fetch_jazz_pick()
+    if jazz_pick:
+        print(f"   🎵 {jazz_pick['artist']} — {jazz_pick['track']}")
+    else:
+        print("   ⚠️  No jazz pick available")
+    
     if fetch_errors:
         print(f"⚠️  {len(fetch_errors)} fetch error(s) detected:")
         for fe in fetch_errors:
@@ -1024,6 +1115,8 @@ def build_dashboard():
                     "status": flavio_tomorrow_status
                 },
                 "transport": FLAVIO_TRASPORTI_TABLE,
+                "full_schedule": FLAVIO_FULL_SCHEDULE,
+                "jazz_pick": jazz_pick,
                 "personal_notes": flavio_notes
             },
             "ada": {
