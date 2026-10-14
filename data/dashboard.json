@@ -1,20 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-14T07:33:46.511314",
+    "last_updated": "2026-10-14T13:00:23.591625",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": [
-      {
-        "source": "Registro Flavio (Argo Didup)",
-        "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-14T07:33:00.730931"
-      },
-      {
-        "source": "Registro Ada (ClasseViva)",
-        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-14T07:33:13.799188"
-      }
-    ]
+    "fetch_errors": []
   },
   "config": {
     "family_name": "Tallarico",
@@ -33,7 +22,50 @@
       "dinner": "",
       "notes": ""
     },
-    "reminders": [],
+    "reminders": [
+      {
+        "id": "didup_0",
+        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-14T13:00:23.591175"
+      },
+      {
+        "id": "didup_1",
+        "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-14T13:00:23.591284"
+      },
+      {
+        "id": "didup_2",
+        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-14T13:00:23.591321"
+      },
+      {
+        "id": "didup_3",
+        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-14T13:00:23.591352"
+      },
+      {
+        "id": "didup_4",
+        "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-14T13:00:23.591382"
+      },
+      {
+        "id": "didup_5",
+        "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-14T13:00:23.591412"
+      }
+    ],
     "calendar_events": {
       "today": [
         {
@@ -63,17 +95,17 @@
       "today": {
         "date": "2026-10-14",
         "description": "Nuvoloso",
-        "temp_min": 10,
+        "temp_min": 11,
         "temp_max": 23,
         "icon": "04d",
-        "humidity": 91,
-        "wind_speed": 4,
+        "humidity": 52,
+        "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-15",
         "description": "Nebbia",
-        "temp_min": 11,
+        "temp_min": 10,
         "temp_max": 24,
         "icon": "50d",
         "humidity": 0,
@@ -86,30 +118,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.4,
-        "humidity": 68,
+        "temp": 21.7,
+        "humidity": 60,
         "battery": 86,
-        "last_update": "2026-10-14 07:10:22",
+        "last_update": "2026-10-14 12:11:19",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 19.9,
-        "humidity": 68,
+        "temp": 20.1,
+        "humidity": 67,
         "battery": 56,
-        "last_update": "2026-10-14 07:11:41",
+        "last_update": "2026-10-14 12:12:26",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.4,
-        "humidity": 62,
+        "temp": 21.9,
+        "humidity": 54,
         "battery": 87,
-        "last_update": "2026-10-14 07:12:16",
+        "last_update": "2026-10-14 12:13:08",
         "battery_warning": false
       }
     ]
@@ -231,19 +263,19 @@
             "event": "Matematica (2h) — Marini F."
           },
           {
-            "time": "13:10",
+            "time": "13:30",
             "event": "Sax — Mazzola M. 📍 Fillungo"
           },
           {
-            "time": "14:10",
+            "time": "14:30",
             "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
           },
           {
-            "time": "15:10",
-            "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio)"
+            "time": "15:30",
+            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~15:10",
+        "status": "🏫 Scuola — Uscita ~15:30",
         "mood": ""
       },
       "tomorrow": {
@@ -287,16 +319,16 @@
       "transport": [
         {
           "day": "Lunedì",
-          "exit_time": "~16:10",
+          "exit_time": "~16:30",
           "exit_place": "Fillungo",
           "mode": "train",
           "mode_label": "🚆 Treno",
-          "departure": "16:31",
+          "departure": "17:31",
           "departure_place": "Stazione FS Lucca",
-          "arrival": "16:40",
+          "arrival": "17:40",
           "arrival_place": "Altopascio",
           "line": "Treno regionale",
-          "notes": "20 min a piedi per stazione. Alternativa: bus 851 (16:35 P.le Verdi)"
+          "notes": "20 min a piedi per stazione. Treni 16:31 e 16:46 non raggiungibili! Alternativa: bus 851 (16:35, 10 min a piedi, stretto)"
         },
         {
           "day": "Martedì",
@@ -313,16 +345,16 @@
         },
         {
           "day": "Mercoledì",
-          "exit_time": "~15:10",
+          "exit_time": "~15:30",
           "exit_place": "Fillungo",
           "mode": "train",
           "mode_label": "🚆 Treno",
-          "departure": "15:31",
+          "departure": "16:31",
           "departure_place": "Stazione FS Lucca",
-          "arrival": "15:40",
+          "arrival": "16:40",
           "arrival_place": "Altopascio",
           "line": "Treno regionale",
-          "notes": "20 min a piedi per stazione. Alternativa: bus 851 (15:15 P.le Verdi, stretto) o treno 16:31"
+          "notes": "Sax 13:30 + Quartetto 14:30 a Fillungo. Uscita ~15:30, 20 min a piedi → stazione ~15:50. Treni 15:31 e 15:39 non raggiungibili! Backup: bus 851 16:35 (10 min a piedi)"
         },
         {
           "day": "Giovedì",
@@ -409,7 +441,7 @@
                 "afternoon": true
               },
               {
-                "time": "15:10–16:10",
+                "time": "15:30–16:30",
                 "subject": "Sax",
                 "teacher": "Mazzola M.",
                 "room": "Fillungo",
@@ -474,14 +506,14 @@
                 "room": "S. Agostino 04"
               },
               {
-                "time": "13:10–14:10",
+                "time": "13:30–14:30",
                 "subject": "Sax",
                 "teacher": "Mazzola M.",
                 "room": "Fillungo",
                 "afternoon": true
               },
               {
-                "time": "14:10–15:10",
+                "time": "14:30–15:30",
                 "subject": "Quartetto Sax Junior",
                 "teacher": "Mazzola M.",
                 "room": "Fillungo",
@@ -567,8 +599,15 @@
           }
         ]
       },
-      "jazz_pick": null,
-      "personal_notes": "Nessun compito registrato"
+      "jazz_pick": {
+        "artist": "Pharoah Sanders",
+        "track": "You've Got to Have Freedom",
+        "album": "Rejoice",
+        "year": "1981",
+        "context": "Tema gioioso e liberatorio — il free jazz diventa accessibile e festoso.",
+        "youtube_url": "https://www.youtube.com/watch?v=bYKHCvmu1z4"
+      },
+      "personal_notes": "📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Come già spiegato a lezione, studiare il brano consegnato a lezione\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Ascolto integrale della Abdelazer Suite seguendo con lo spartito la\n📝 2026-10-14: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare gli argomenti verifica riportat\n📝 2026-10-14: MATEMATICA: Si vedano i compiti assegnati per il 13/10\n📝 2026-10-15: LABORATORIO DI MUSICA D'INSIEME: Studiare I brani : \"O love di Elaine Hagenberg\" e \"And so it goes\" \n📝 2026-10-15: EDUCAZIONE CIVICA: Sistemare e integrare con quanto detto in classe gli appunti sul quaderno relativ\n📝 2026-10-15: LINGUA STRANIERA-ING: test orale  anche su p 30-31\n📝 2026-10-16: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: finire esercizi sul tono e sul semitono (caricati il 1"
     },
     "ada": {
       "display_name": "Ada",
@@ -618,7 +657,44 @@
         "status": "🏫 Scuola — Uscita 16:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Lettura, analisi e comprensione di un testo fantastico"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "I Sumeri un popolo di inventori"
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "L'albero con i colori dell'autunno "
+          },
+          {
+            "ora": 5,
+            "materia": "MUSICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Ascolto di canzoni sull'autunno"
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -626,7 +702,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Lettura, analisi e comprensione di un testo fantastico\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → I Sumeri un popolo di inventori\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → L'albero con i colori dell'autunno \n  Ora 5: MUSICA (LETIZIA ELVIRA)\n    → Ascolto di canzoni sull'autunno"
     }
   }
 }
