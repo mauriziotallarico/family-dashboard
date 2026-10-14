@@ -1,9 +1,20 @@
 {
   "_meta": {
-    "last_updated": "2026-10-13T15:00:40.943137",
+    "last_updated": "2026-10-14T07:33:46.511314",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "source": "Registro Flavio (Argo Didup)",
+        "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
+        "timestamp": "2026-10-14T07:33:00.730931"
+      },
+      {
+        "source": "Registro Ada (ClasseViva)",
+        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
+        "timestamp": "2026-10-14T07:33:13.799188"
+      }
+    ]
   },
   "config": {
     "family_name": "Tallarico",
@@ -17,90 +28,54 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-13",
+      "date": "2026-10-14",
       "lunch": "",
       "dinner": "",
       "notes": ""
     },
-    "reminders": [
-      {
-        "id": "didup_0",
-        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-13T15:00:40.942787"
-      },
-      {
-        "id": "didup_1",
-        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-13T15:00:40.942878"
-      },
-      {
-        "id": "didup_2",
-        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-13T15:00:40.942911"
-      },
-      {
-        "id": "didup_3",
-        "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-13T15:00:40.942940"
-      },
-      {
-        "id": "didup_4",
-        "text": "📚 2026-10-14 — INGLESE VERIFICA SCRITTA  SU UNIT 1 [R. FEBI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-13T15:00:40.942969"
-      }
-    ],
+    "reminders": [],
     "calendar_events": {
       "today": [
-        {
-          "time": "17:00",
-          "event": "📅 Ada ginnastica",
-          "all_day": false,
-          "summary": "Ada ginnastica"
-        },
-        {
-          "time": "17:30",
-          "event": "📅 Pallavolo Flavio",
-          "all_day": false,
-          "summary": "Pallavolo Flavio"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "16:45",
           "event": "📅 Teatro Ada",
           "all_day": false,
           "summary": "Teatro Ada"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "08:30",
+          "event": "📅 Tagliando auto MAU",
+          "all_day": false,
+          "summary": "Tagliando auto MAU"
+        },
+        {
+          "time": "16:00",
+          "event": "📅 Pediatra Flavio e Ada",
+          "all_day": false,
+          "summary": "Pediatra Flavio e Ada"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "description": "Nuvoloso",
         "temp_min": 10,
-        "temp_max": 22,
+        "temp_max": 23,
         "icon": "04d",
-        "humidity": 42,
-        "wind_speed": 2,
+        "humidity": 91,
+        "wind_speed": 4,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-10-14",
-        "description": "Nuvoloso",
+        "date": "2026-10-15",
+        "description": "Nebbia",
         "temp_min": 11,
-        "temp_max": 23,
-        "icon": "04d",
+        "temp_max": 24,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -111,20 +86,20 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.8,
-        "humidity": 63,
-        "battery": 87,
-        "last_update": "2026-10-13 14:08:50",
+        "temp": 22.4,
+        "humidity": 68,
+        "battery": 86,
+        "last_update": "2026-10-14 07:10:22",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.0,
-        "humidity": 66,
+        "temp": 19.9,
+        "humidity": 68,
         "battery": 56,
-        "last_update": "2026-10-13 14:09:10",
+        "last_update": "2026-10-14 07:11:41",
         "battery_warning": false
       },
       {
@@ -132,9 +107,9 @@
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
         "temp": 22.4,
-        "humidity": 60,
-        "battery": 88,
-        "last_update": "2026-10-13 14:09:19",
+        "humidity": 62,
+        "battery": 87,
+        "last_update": "2026-10-14 07:12:16",
         "battery_warning": false
       }
     ]
@@ -147,26 +122,26 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-13",
+        "date": "2026-10-14",
         "schedule": [
           {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
           }
         ],
         "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
-        "date": "2026-10-14",
+        "date": "2026-10-15",
         "schedule": [
           {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
+            "time": "08:30",
+            "event": "📅 Tagliando auto MAU"
+          },
+          {
+            "time": "16:00",
+            "event": "📅 Pediatra Flavio e Ada"
           }
         ],
         "status": ""
@@ -180,33 +155,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-13",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 2B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 1B (3ª ora)"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-14",
         "schedule": [
           {
@@ -230,7 +178,34 @@
             "event": "📅 Teatro Ada"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-15",
+        "schedule": [
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 2B (4ª ora)"
+          },
+          {
+            "time": "13:00",
+            "event": "Scuola: 1B (6ª ora)"
+          },
+          {
+            "time": "08:30",
+            "event": "📅 Tagliando auto MAU"
+          },
+          {
+            "time": "16:00",
+            "event": "📅 Pediatra Flavio e Ada"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "personal_notes": ""
     },
@@ -241,41 +216,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-13",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Storia della Musica — Mascolo F."
-          },
-          {
-            "time": "10:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "11:10",
-            "event": "Storia dell'Arte — Lorenzini M."
-          },
-          {
-            "time": "12:10",
-            "event": "Matematica — Marini F."
-          },
-          {
-            "time": "13:10",
-            "event": "Ritorno: 🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~13:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-14",
         "schedule": [
           {
@@ -303,7 +243,46 @@
             "event": "Ritorno: 🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~15:10"
+        "status": "🏫 Scuola — Uscita ~15:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-15",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TEM (2h) — Giusti M."
+          },
+          {
+            "time": "10:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "11:10",
+            "event": "Inglese — Febi R."
+          },
+          {
+            "time": "12:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "14:10",
+            "event": "Orchestra di Fiati — Cesari D., Fortino S., Gaggini E., Manente D."
+          },
+          {
+            "time": "14:10",
+            "event": "Ritorno: 🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)"
+          },
+          {
+            "time": "08:30",
+            "event": "📅 Tagliando auto MAU"
+          },
+          {
+            "time": "16:00",
+            "event": "📅 Pediatra Flavio e Ada"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~14:10"
       },
       "transport": [
         {
@@ -588,15 +567,8 @@
           }
         ]
       },
-      "jazz_pick": {
-        "artist": "Eric Dolphy",
-        "track": "Hat and Beard",
-        "album": "Out to Lunch!",
-        "year": "1964",
-        "context": "Avanguardia accessibile — ritmi spezzati e melodie aliene. Un album fondamentale.",
-        "youtube_url": "https://www.youtube.com/watch?v=7tnPkQufnZY"
-      },
-      "personal_notes": "📝 2026-10-13: LING. LETT. ITALIANA: vol.Narrativa: cap.3 pag12\n📝 2026-10-13: MATEMATICA: Es. 265 pag. 36, 271 pag. 37, es. 339 pag. 42, es. 348 pag. 44 e es. 35 pag. 49\n📝 2026-10-13: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p.10-13 + esercizi di pag.12 + 1\n📝 2026-10-13: STORIA DELLA MUSICA: Interrogazioni e spiegazione dei singoli periodi della linea del tempo; la nasc\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Come già spiegato a lezione, studiare il brano consegnato a lezione\n📝 2026-10-14: LABORATORIO DI MUSICA D'INSIEME: Ascolto integrale della Abdelazer Suite seguendo con lo spartito la\n📝 2026-10-14: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare gli argomenti verifica riportat\n📝 2026-10-14: MATEMATICA: Si vedano i compiti assegnati per il 13/10"
+      "jazz_pick": null,
+      "personal_notes": "Nessun compito registrato"
     },
     "ada": {
       "display_name": "Ada",
@@ -605,25 +577,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-13",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-14",
         "schedule": [
           {
@@ -639,35 +592,33 @@
             "event": "📅 Teatro Ada"
           }
         ],
-        "status": "🏫 Scuola — Uscita 13:15"
+        "status": "🏫 Scuola — Uscita 13:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-15",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Prove d'ingresso sul libro di testo \" TEST\""
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 2,
-            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
-            "docente": "LEONI MARTINA",
-            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”."
+            "time": "16:15",
+            "event": "Uscita scuola (giorno lungo)"
           },
           {
-            "ora": 3,
-            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
-            "docente": "LEONI MARTINA",
-            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”."
+            "time": "08:30",
+            "event": "📅 Tagliando auto MAU"
           },
           {
-            "ora": 4,
-            "materia": "ITALIANO",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "16:00",
+            "event": "📅 Pediatra Flavio e Ada"
           }
         ],
+        "status": "🏫 Scuola — Uscita 16:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -675,7 +626,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Prove d'ingresso sul libro di testo \" TEST\"\n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla bersaglio”.\n  Ora 4: ITALIANO (LETIZIA ELVIRA)"
+      "personal_notes": ""
     }
   }
 }
