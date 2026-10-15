@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-15T09:43:19.820193",
+    "last_updated": "2026-10-15T15:00:30.694703",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,35 +28,42 @@
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-15T09:43:19.819820"
+        "added_at": "2026-10-15T15:00:30.694321"
       },
       {
         "id": "didup_1",
-        "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
+        "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-15T09:43:19.819931"
+        "added_at": "2026-10-15T15:00:30.694410"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
+        "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-15T09:43:19.819964"
+        "added_at": "2026-10-15T15:00:30.694443"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-15T09:43:19.819994"
+        "added_at": "2026-10-15T15:00:30.694473"
       },
       {
         "id": "didup_4",
+        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-15T15:00:30.694502"
+      },
+      {
+        "id": "didup_5",
         "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-15T09:43:19.820023"
+        "added_at": "2026-10-15T15:00:30.694531"
       }
     ],
     "calendar_events": {
@@ -103,15 +110,15 @@
         "temp_min": 10,
         "temp_max": 24,
         "icon": "50d",
-        "humidity": 96,
-        "wind_speed": 2,
+        "humidity": 52,
+        "wind_speed": 8,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-16",
         "description": "Nebbia",
         "temp_min": 12,
-        "temp_max": 23,
+        "temp_max": 24,
         "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
@@ -123,30 +130,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.9,
-        "humidity": 67,
+        "temp": 22.2,
+        "humidity": 62,
         "battery": 86,
-        "last_update": "2026-10-15 07:12:37",
+        "last_update": "2026-10-15 14:20:57",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.0,
+        "temp": 20.1,
         "humidity": 69,
         "battery": 56,
-        "last_update": "2026-10-15 07:15:14",
+        "last_update": "2026-10-15 14:21:29",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.0,
+        "temp": 21.9,
         "humidity": 58,
         "battery": 87,
-        "last_update": "2026-10-15 07:16:27",
+        "last_update": "2026-10-15 14:21:39",
         "battery_warning": false
       }
     ]
@@ -624,7 +631,7 @@
         "context": "Ballad sensuale e misteriosa — il tono di Henderson è pura seta.",
         "youtube_url": "https://www.youtube.com/watch?v=MigYYKlttV8"
       },
-      "personal_notes": "📝 2026-10-15: LABORATORIO DI MUSICA D'INSIEME: Studiare I brani : \"O love di Elaine Hagenberg\" e \"And so it goes\" \n📝 2026-10-15: EDUCAZIONE CIVICA: Sistemare e integrare con quanto detto in classe gli appunti sul quaderno relativ\n📝 2026-10-15: LINGUA STRANIERA-ING: test orale  anche su p 30-31\n📝 2026-10-16: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: finire esercizi sul tono e sul semitono (caricati il 1\n📝 2026-10-17: LING. LETT. ITALIANA: vol.narrativa pag.33/36 con esercizi\n📝 2026-10-19: STORIA E GEOGRAFIA: Studiare il reticolato geografico, i meridiani e i paralleli, la latitudine e la\n📝 2026-10-19: STORIA DELLA MUSICA: L'evoluzione delle chiavi musicali e della scrittura; dalla trasmissione orale \n📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n"
+      "personal_notes": "📝 2026-10-15: LABORATORIO DI MUSICA D'INSIEME: Studiare I brani : \"O love di Elaine Hagenberg\" e \"And so it goes\" \n📝 2026-10-15: EDUCAZIONE CIVICA: Sistemare e integrare con quanto detto in classe gli appunti sul quaderno relativ\n📝 2026-10-15: LINGUA STRANIERA-ING: test orale  anche su p 30-31\n📝 2026-10-16: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: finire esercizi sul tono e sul semitono (caricati il 1\n📝 2026-10-17: LING. LETT. ITALIANA: vol.narrativa pag.33/36 con esercizi\n📝 2026-10-19: STORIA E GEOGRAFIA: Studiare il reticolato geografico, i meridiani e i paralleli, la latitudine e la\n📝 2026-10-19: STORIA DELLA MUSICA: L'evoluzione delle chiavi musicali e della scrittura; dalla trasmissione orale \n📝 2026-10-19: LINGUA STRANIERA-ING: verifica orale: studia a voce alta e riascolta sull'ebook i testi  a p 22 e a "
     },
     "ada": {
       "display_name": "Ada",
@@ -691,7 +698,7 @@
             "ora": 3,
             "materia": "SCIENZE",
             "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "argomento": "Lettura e spiegazione della materia\nInterrogazione orale"
           },
           {
             "ora": 3,
@@ -703,7 +710,7 @@
             "ora": 4,
             "materia": "SCIENZE",
             "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "argomento": "Lettura e spiegazione della materia\nInterrogazione orale"
           },
           {
             "ora": 4,
@@ -719,7 +726,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: RELIGIONE (ORABONA MARIA)\n    → La civiltà egizia \n  Ora 2: RELIGIONE (ORABONA MARIA)\n    → La civiltà egizia \n  Ora 3: SCIENZE (LETIZIA ELVIRA)\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SCIENZE (LETIZIA ELVIRA)\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: RELIGIONE (ORABONA MARIA)\n    → La civiltà egizia \n  Ora 2: RELIGIONE (ORABONA MARIA)\n    → La civiltà egizia \n  Ora 3: SCIENZE (LETIZIA ELVIRA)\n    → Lettura e spiegazione della materia\nInterrogazione orale\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SCIENZE (LETIZIA ELVIRA)\n    → Lettura e spiegazione della materia\nInterrogazione orale\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)"
     }
   }
 }
