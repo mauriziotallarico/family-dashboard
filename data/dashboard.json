@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-16T07:30:30.608609",
+    "last_updated": "2026-10-16T15:01:18.808940",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": [
-      {
-        "source": "Registro Ada (ClasseViva)",
-        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-16T07:30:22.863256"
-      }
-    ]
+    "fetch_errors": []
   },
   "config": {
     "family_name": "Tallarico",
@@ -31,45 +25,52 @@
     "reminders": [
       {
         "id": "didup_0",
-        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
+        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-16T07:30:30.608269"
+        "added_at": "2026-10-16T15:01:18.808512"
       },
       {
         "id": "didup_1",
-        "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-16T07:30:30.608364"
+        "added_at": "2026-10-16T15:01:18.808605"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
+        "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-16T07:30:30.608398"
+        "added_at": "2026-10-16T15:01:18.808638"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
+        "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-16T07:30:30.608428"
+        "added_at": "2026-10-16T15:01:18.808668"
       },
       {
         "id": "didup_4",
-        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-16T07:30:30.608458"
+        "added_at": "2026-10-16T15:01:18.808698"
       },
       {
         "id": "didup_5",
+        "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-16T15:01:18.808726"
+      },
+      {
+        "id": "didup_6",
         "text": "📚 2026-10-16 (08:30-09:00) — Interrogazione  programmata di TAC: Bacci; Bonuccelli; Satta [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-16T07:30:30.608487"
+        "added_at": "2026-10-16T15:01:18.808761"
       }
     ],
     "calendar_events": {
@@ -107,10 +108,10 @@
       "today": {
         "date": "2026-10-16",
         "description": "Nebbia",
-        "temp_min": 13,
+        "temp_min": 12,
         "temp_max": 24,
         "icon": "50d",
-        "humidity": 98,
+        "humidity": 63,
         "wind_speed": 1,
         "precipitation_mm": 0.0
       },
@@ -130,30 +131,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.1,
-        "humidity": 68,
-        "battery": 86,
-        "last_update": "2026-10-16 07:21:52",
+        "temp": 21.8,
+        "humidity": 67,
+        "battery": 85,
+        "last_update": "2026-10-16 14:22:15",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.1,
-        "humidity": 70,
-        "battery": 56,
-        "last_update": "2026-10-16 07:23:47",
+        "temp": 20.4,
+        "humidity": 72,
+        "battery": 57,
+        "last_update": "2026-10-16 14:24:46",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.0,
-        "humidity": 61,
+        "temp": 21.9,
+        "humidity": 63,
         "battery": 87,
-        "last_update": "2026-10-16 07:24:35",
+        "last_update": "2026-10-16 14:25:48",
         "battery_warning": false
       }
     ]
@@ -593,7 +594,7 @@
         "album": "Dial Sessions",
         "year": "1946",
         "context": "Basato su \"How High the Moon\" — velocità, inventiva e genio puro.",
-        "youtube_url": "https://www.youtube.com/watch?v=uPWfWyI0Drw"
+        "youtube_url": "https://www.youtube.com/watch?v=uCeu1tD0yEo"
       },
       "personal_notes": "📝 2026-10-16: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: finire esercizi sul tono e sul semitono (caricati il 1\n📝 2026-10-17: LING. LETT. ITALIANA: vol.narrativa pag.33/36 con esercizi\n📝 2026-10-17: STORIA E GEOGRAFIA: Studiare il processo di ominazione da p.5 a p.9, il popolamento del globo carta \n📝 2026-10-19: STORIA E GEOGRAFIA: Studiare il reticolato geografico, i meridiani e i paralleli, la latitudine e la\n📝 2026-10-19: STORIA DELLA MUSICA: L'evoluzione delle chiavi musicali e della scrittura; dalla trasmissione orale \n📝 2026-10-19: LINGUA STRANIERA-ING: verifica orale: studia a voce alta e riascolta sull'ebook i testi  a p 22 e a \n📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n\n📝 2026-10-20: MATEMATICA: Es. 5 e 6 pag.81"
     },
@@ -633,7 +634,50 @@
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": " Sumeri ripasso"
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "La proprietà distributiva della moltiplicazione \nEsercizi sul quaderno.  Moltiplicazioni e divisioni alla lim"
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "La proprietà distributiva della moltiplicazione \nEsercizi sul quaderno.  Moltiplicazioni e divisioni alla lim"
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "La proprietà distributiva della moltiplicazione \nEsercizi sul quaderno.  Moltiplicazioni e divisioni alla lim"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -641,7 +685,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: STORIA (GOZZINI ANGELA)\n    →  Sumeri ripasso\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → La proprietà distributiva della moltiplicazione \nEsercizi sul quaderno.  Moltiplicazioni e divisioni alla lim\n  Ora 2: MATEMATICA (GOZZINI ANGELA)\n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → La proprietà distributiva della moltiplicazione \nEsercizi sul quaderno.  Moltiplicazioni e divisioni alla lim\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → La proprietà distributiva della moltiplicazione \nEsercizi sul quaderno.  Moltiplicazioni e divisioni alla lim\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)"
     }
   }
 }
