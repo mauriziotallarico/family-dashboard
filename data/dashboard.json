@@ -1,13 +1,18 @@
 {
   "_meta": {
-    "last_updated": "2026-10-17T07:30:37.116428",
+    "last_updated": "2026-10-17T15:00:35.059408",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
+        "source": "Meteo (Open-Meteo)",
+        "message": "Impossibile recuperare dati meteo",
+        "timestamp": "2026-10-17T15:00:06.088562"
+      },
+      {
         "source": "Registro Ada (ClasseViva)",
         "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-17T07:30:26.640846"
+        "timestamp": "2026-10-17T15:00:25.989038"
       }
     ]
   },
@@ -34,42 +39,42 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-17T07:30:37.116104"
+        "added_at": "2026-10-17T15:00:35.059037"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-17T07:30:37.116177"
+        "added_at": "2026-10-17T15:00:35.059122"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-17T07:30:37.116210"
+        "added_at": "2026-10-17T15:00:35.059155"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-17T07:30:37.116240"
+        "added_at": "2026-10-17T15:00:35.059186"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-17T07:30:37.116277"
+        "added_at": "2026-10-17T15:00:35.059218"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-17T07:30:37.116306"
+        "added_at": "2026-10-17T15:00:35.059272"
       }
     ],
     "calendar_events": {
@@ -84,57 +89,36 @@
       "tomorrow": []
     },
     "notes": "",
-    "weather": {
-      "today": {
-        "date": "2026-10-17",
-        "description": "Nebbia",
-        "temp_min": 13,
-        "temp_max": 24,
-        "icon": "50d",
-        "humidity": 100,
-        "wind_speed": 3,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
-        "date": "2026-10-18",
-        "description": "Nuvoloso",
-        "temp_min": 16,
-        "temp_max": 23,
-        "icon": "04d",
-        "humidity": 0,
-        "wind_speed": 0,
-        "precipitation_mm": 0.0
-      }
-    },
+    "weather": {},
     "sensors": [
       {
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.3,
-        "humidity": 71,
+        "temp": 22.1,
+        "humidity": 69,
         "battery": 85,
-        "last_update": "2026-10-17 07:23:37",
+        "last_update": "2026-10-17 14:24:12",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.4,
+        "temp": 20.0,
         "humidity": 71,
         "battery": 56,
-        "last_update": "2026-10-17 07:27:28",
+        "last_update": "2026-10-17 14:28:36",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.1,
-        "humidity": 63,
+        "temp": 22.5,
+        "humidity": 64,
         "battery": 87,
-        "last_update": "2026-10-17 07:28:49",
+        "last_update": "2026-10-17 14:30:03",
         "battery_warning": false
       }
     ]
@@ -513,7 +497,7 @@
         "context": "Spiritual jazz moderno dall'Inghilterra — Shabaka è la nuova voce del jazz UK.",
         "youtube_url": "https://www.youtube.com/watch?v=Uby8JG3PdBs"
       },
-      "personal_notes": "📝 2026-10-17: LING. LETT. ITALIANA: vol.narrativa pag.33/36 con esercizi\n📝 2026-10-17: STORIA E GEOGRAFIA: Studiare il processo di ominazione da p.5 a p.9, il popolamento del globo carta \n📝 2026-10-19: STORIA E GEOGRAFIA: Studiare il reticolato geografico, i meridiani e i paralleli, la latitudine e la\n📝 2026-10-19: STORIA DELLA MUSICA: L'evoluzione delle chiavi musicali e della scrittura; dalla trasmissione orale \n📝 2026-10-19: LINGUA STRANIERA-ING: verifica orale: studia a voce alta e riascolta sull'ebook i testi  a p 22 e a \n📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n\n📝 2026-10-20: MATEMATICA: Es. 5 e 6 pag.81\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Studiare la propria parte, per ciascuna sezione fino a battuta n. 1"
+      "personal_notes": "📝 2026-10-17: LING. LETT. ITALIANA: vol.narrativa pag.33/36 con esercizi\n📝 2026-10-17: STORIA E GEOGRAFIA: Studiare il processo di ominazione da p.5 a p.9, il popolamento del globo carta \n📝 2026-10-19: STORIA E GEOGRAFIA: Studiare il reticolato geografico, i meridiani e i paralleli, la latitudine e la\n📝 2026-10-19: STORIA DELLA MUSICA: L'evoluzione delle chiavi musicali e della scrittura; dalla trasmissione orale \n📝 2026-10-19: LINGUA STRANIERA-ING: verifica orale: studia a voce alta e riascolta sull'ebook i testi  a p 22 e a \n📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n\n📝 2026-10-20: MATEMATICA: Es. 5 e 6 pag.81\n📝 2026-10-20: LING. LETT. ITALIANA: Vol.Narrativa pag.96/98 e lettura di pag.99/107 con esercizi n.6 e 7"
     },
     "ada": {
       "display_name": "Ada",
