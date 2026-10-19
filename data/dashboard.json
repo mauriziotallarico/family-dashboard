@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-10-18T16:01:44.424302",
+    "last_updated": "2026-10-19T07:30:30.958896",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Ada (ClasseViva)",
         "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-18T16:01:34.569521"
+        "timestamp": "2026-10-19T07:30:22.285618"
       }
     ]
   },
@@ -23,7 +23,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-18",
+      "date": "2026-10-19",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -34,76 +34,95 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-18T16:01:44.423983"
+        "added_at": "2026-10-19T07:30:30.958580"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-18T16:01:44.424054"
+        "added_at": "2026-10-19T07:30:30.958646"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-18T16:01:44.424087"
+        "added_at": "2026-10-19T07:30:30.958679"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-18T16:01:44.424117"
+        "added_at": "2026-10-19T07:30:30.958709"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-18T16:01:44.424147"
+        "added_at": "2026-10-19T07:30:30.958739"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-10-19 (09:30-10:00) — Interrogazione programmata di TAC: Bertoli; Focosi; Tallarico [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-18T16:01:44.424177"
+        "added_at": "2026-10-19T07:30:30.958769"
       }
     ],
     "calendar_events": {
-      "today": [],
-      "tomorrow": [
+      "today": [
         {
           "time": "17:30",
           "event": "📅 Piano Ada",
           "all_day": false,
           "summary": "Piano Ada"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Maurizio Milano",
+          "all_day": true,
+          "summary": "Maurizio Milano"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        },
+        {
+          "time": "17:30",
+          "event": "📅 Pallavolo Flavio",
+          "all_day": false,
+          "summary": "Pallavolo Flavio"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-18",
-        "description": "Nuvoloso",
-        "temp_min": 15,
-        "temp_max": 22,
-        "icon": "04d",
-        "humidity": 72,
-        "wind_speed": 8,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-19",
         "description": "Nebbia",
         "temp_min": 12,
-        "temp_max": 24,
+        "temp_max": 25,
         "icon": "50d",
+        "humidity": 100,
+        "wind_speed": 2,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-20",
+        "description": "Pioggia leggera",
+        "temp_min": 11,
+        "temp_max": 22,
+        "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.0
+        "precipitation_mm": 10.6
       }
     },
     "sensors": [
@@ -111,30 +130,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.2,
-        "humidity": 70,
+        "temp": 22.0,
+        "humidity": 72,
         "battery": 85,
-        "last_update": "2026-10-18 15:02:25",
+        "last_update": "2026-10-19 07:03:43",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.7,
-        "humidity": 79,
-        "battery": 56,
-        "last_update": "2026-10-18 15:02:16",
+        "temp": 20.5,
+        "humidity": 72,
+        "battery": 55,
+        "last_update": "2026-10-19 07:04:38",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.4,
+        "temp": 22.3,
         "humidity": 68,
         "battery": 87,
-        "last_update": "2026-10-18 15:02:01",
+        "last_update": "2026-10-19 07:04:50",
         "battery_warning": false
       }
     ]
@@ -147,17 +166,30 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-18",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-19",
         "schedule": [
           {
             "time": "17:30",
             "event": "📅 Piano Ada"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-20",
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Maurizio Milano"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": ""
@@ -171,12 +203,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-18",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-19",
         "schedule": [
           {
@@ -200,7 +226,38 @@
             "event": "📅 Piano Ada"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-20",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 2B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 1B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 1B (3ª ora)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Maurizio Milano"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "personal_notes": ""
     },
@@ -211,12 +268,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-18",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-19",
         "schedule": [
           {
@@ -252,7 +303,42 @@
             "event": "Ritorno: 🚆 Treno 17:31 (Stazione FS → 17:40 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~16:30"
+        "status": "🏫 Scuola — Uscita ~16:30",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-20",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Scienze — Lovi I."
+          },
+          {
+            "time": "09:10",
+            "event": "Storia della Musica — Mascolo F."
+          },
+          {
+            "time": "10:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Matematica — Marini F."
+          },
+          {
+            "time": "13:10",
+            "event": "Ritorno: 🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~13:10"
       },
       "transport": [
         {
@@ -538,12 +624,12 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Joe Henderson",
-        "track": "Recorda Me",
-        "album": "Page One",
-        "year": "1963",
-        "context": "Bossa nova meets hard bop — una melodia che resta in testa per giorni.",
-        "youtube_url": "https://www.youtube.com/watch?v=3c9zSAVWKEs"
+        "artist": "Sonny Rollins",
+        "track": "St. Thomas",
+        "album": "Saxophone Colossus",
+        "year": "1956",
+        "context": "Un calypso irresistibile che ha definito il suono del tenor sax moderno. Registrato al Van Gelder Studio.",
+        "youtube_url": "https://www.youtube.com/watch?v=fdakJqKPRDE"
       },
       "personal_notes": "📝 2026-10-19: STORIA E GEOGRAFIA: Studiare il reticolato geografico, i meridiani e i paralleli, la latitudine e la\n📝 2026-10-19: STORIA DELLA MUSICA: L'evoluzione delle chiavi musicali e della scrittura; dalla trasmissione orale \n📝 2026-10-19: LINGUA STRANIERA-ING: verifica orale: studia a voce alta e riascolta sull'ebook i testi  a p 22 e a \n📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n\n📝 2026-10-20: MATEMATICA: Es. 5 e 6 pag.81\n📝 2026-10-20: LING. LETT. ITALIANA: Vol.Narrativa pag.96/98 e lettura di pag.99/107 con esercizi n.6 e 7\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Studiare la propria parte, per ciascuna sezione fino a battuta n. 1\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Lab. Archi JR. Studio individuale dei brani finora assegnati. Ascol"
     },
@@ -554,12 +640,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-18",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-19",
         "schedule": [
           {
@@ -575,7 +655,26 @@
             "event": "📅 Piano Ada"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-20",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "13:15",
+            "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
         "lezioni_oggi": [],
