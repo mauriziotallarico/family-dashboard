@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-20T07:30:30.231794",
+    "last_updated": "2026-10-20T15:00:44.694297",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": [
-      {
-        "source": "Registro Ada (ClasseViva)",
-        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-20T07:30:23.525893"
-      }
-    ]
+    "fetch_errors": []
   },
   "config": {
     "family_name": "Tallarico",
@@ -34,35 +28,42 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-20T07:30:30.231494"
+        "added_at": "2026-10-20T15:00:44.693890"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-20T07:30:30.231574"
+        "added_at": "2026-10-20T15:00:44.693996"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-20T07:30:30.231607"
+        "added_at": "2026-10-20T15:00:44.694031"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-20T07:30:30.231637"
+        "added_at": "2026-10-20T15:00:44.694061"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-20T07:30:30.231667"
+        "added_at": "2026-10-20T15:00:44.694092"
+      },
+      {
+        "id": "didup_5",
+        "text": "📚 2026-10-20 (10:00-11:00) — Dal giorno 27/10/2026 iniziano le interrogazioni di Italiano (tutto il programma svolto) [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-20T15:00:44.694128"
       }
     ],
     "calendar_events": {
@@ -101,21 +102,21 @@
         "date": "2026-10-20",
         "description": "Pioggia leggera",
         "temp_min": 11,
-        "temp_max": 22,
+        "temp_max": 21,
         "icon": "10d",
-        "humidity": 99,
-        "wind_speed": 2,
-        "precipitation_mm": 3.0
+        "humidity": 61,
+        "wind_speed": 9,
+        "precipitation_mm": 5.4
       },
       "tomorrow": {
         "date": "2026-10-21",
         "description": "Rovesci leggeri",
-        "temp_min": 15,
-        "temp_max": 20,
+        "temp_min": 17,
+        "temp_max": 21,
         "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 4.7
+        "precipitation_mm": 4.9
       }
     },
     "sensors": [
@@ -123,30 +124,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 22.4,
-        "humidity": 70,
-        "battery": 85,
-        "last_update": "2026-10-19 13:03:17",
+        "temp": 22.1,
+        "humidity": 69,
+        "battery": 84,
+        "last_update": "2026-10-20 14:00:49",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.7,
+        "temp": 20.1,
         "humidity": 72,
         "battery": 55,
-        "last_update": "2026-10-20 07:00:22",
+        "last_update": "2026-10-20 14:01:31",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.6,
-        "humidity": 65,
-        "battery": 86,
-        "last_update": "2026-10-20 07:00:22",
+        "temp": 22.3,
+        "humidity": 63,
+        "battery": 85,
+        "last_update": "2026-10-20 14:01:35",
         "battery_warning": false
       }
     ]
@@ -616,7 +617,7 @@
         "context": "La canzone di Brecht/Weill trasformata in hard bop. Rollins rende tutto swing.",
         "youtube_url": "https://www.youtube.com/watch?v=oqPV9_DF6so"
       },
-      "personal_notes": "📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n\n📝 2026-10-20: MATEMATICA: Es. 5 e 6 pag.81\n📝 2026-10-20: LING. LETT. ITALIANA: Vol.Narrativa pag.96/98 e lettura di pag.99/107 con esercizi n.6 e 7\n📝 2026-10-20: STORIA DELLA MUSICA: Interrogazioni; prosegue la spiegazione della linea del tempo: la Polifonia del\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Studiare la propria parte, per ciascuna sezione fino a battuta n. 1\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Lab. Archi JR. Studio individuale dei brani finora assegnati. Ascol\n📝 2026-10-21: LINGUA STRANIERA-ING: fai p 34  dal n1 al n5\n📝 2026-10-22: STORIA E GEOGRAFIA: Leggere il paragrafo \"Le razze umane non esistono\" che trovate su Classroom. Cer"
+      "personal_notes": "📝 2026-10-20: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): riguardare tutti gli argomenti previsti n\n📝 2026-10-20: MATEMATICA: Es. 5 e 6 pag.81\n📝 2026-10-20: LING. LETT. ITALIANA: Vol.Narrativa pag.96/98 e lettura di pag.99/107 con esercizi n.6 e 7\n📝 2026-10-20: STORIA DELLA MUSICA: Interrogazioni; prosegue la spiegazione della linea del tempo: la Polifonia del\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Studiare la propria parte, per ciascuna sezione fino a battuta n. 1\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Lab. Archi JR. Studio individuale dei brani finora assegnati. Ascol\n📝 2026-10-21: LINGUA STRANIERA-ING: fai p 34  dal n1 al n5\n📝 2026-10-21: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare per verifica e provare a trovar"
     },
     "ada": {
       "display_name": "Ada",
@@ -662,7 +663,32 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "La divisione e la sua proprietà. Attività sul quaderno e correzione alla lim"
+          },
+          {
+            "ora": 2,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla riga” e “Guardie e ladri”."
+          },
+          {
+            "ora": 3,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla riga” e “Guardie e ladri”."
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [],
@@ -670,7 +696,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → La divisione e la sua proprietà. Attività sul quaderno e correzione alla lim\n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla riga” e “Guardie e ladri”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla riga” e “Guardie e ladri”.\n  Ora 4: ITALIANO (LETIZIA ELVIRA)"
     }
   }
 }
