@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-21T07:30:29.128567",
+    "last_updated": "2026-10-21T15:00:43.042061",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,35 +28,35 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T07:30:29.128221"
+        "added_at": "2026-10-21T15:00:43.041668"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T07:30:29.128342"
+        "added_at": "2026-10-21T15:00:43.041760"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T07:30:29.128375"
+        "added_at": "2026-10-21T15:00:43.041794"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T07:30:29.128405"
+        "added_at": "2026-10-21T15:00:43.041824"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T07:30:29.128435"
+        "added_at": "2026-10-21T15:00:43.041854"
       }
     ],
     "calendar_events": {
@@ -87,20 +87,20 @@
     "weather": {
       "today": {
         "date": "2026-10-21",
-        "description": "Rovesci leggeri",
+        "description": "Rovesci",
         "temp_min": 16,
-        "temp_max": 20,
+        "temp_max": 21,
         "icon": "09d",
-        "humidity": 93,
-        "wind_speed": 3,
-        "precipitation_mm": 0.8
+        "humidity": 71,
+        "wind_speed": 20,
+        "precipitation_mm": 1.2
       },
       "tomorrow": {
         "date": "2026-10-22",
-        "description": "Nebbia",
+        "description": "Nuvoloso",
         "temp_min": 12,
-        "temp_max": 21,
-        "icon": "50d",
+        "temp_max": 20,
+        "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -111,30 +111,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.4,
-        "humidity": 71,
+        "temp": 21.2,
+        "humidity": 73,
         "battery": 85,
-        "last_update": "2026-10-21 07:02:05",
+        "last_update": "2026-10-21 14:02:32",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.0,
-        "humidity": 74,
-        "battery": 56,
-        "last_update": "2026-10-21 07:04:08",
+        "temp": 20.3,
+        "humidity": 79,
+        "battery": 49,
+        "last_update": "2026-10-21 14:05:13",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 21.9,
-        "humidity": 68,
-        "battery": 85,
-        "last_update": "2026-10-21 07:04:32",
+        "temp": 22.4,
+        "humidity": 66,
+        "battery": 84,
+        "last_update": "2026-10-21 14:05:44",
         "battery_warning": false
       }
     ]
@@ -650,7 +650,74 @@
         "status": "🏫 Scuola — Uscita 16:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Prove d'ingresso d'Istituto"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Prove d'ingresso d'Istituto"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Interrogazione: prima parte - I Sumeri: dove e quando; le attività; città-stato; piramide sociale; dentro la città; la religione."
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MUSICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Ascolto di brani musicali con il violino"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MUSICA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -666,7 +733,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Prove d'ingresso d'Istituto\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Prove d'ingresso d'Istituto\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Interrogazione: prima parte - I Sumeri: dove e quando; le attività; città-stato; piramide sociale; dentro la città; la r\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: MUSICA (LETIZIA ELVIRA)\n    → Ascolto di brani musicali con il violino\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MUSICA (FONTANA ROBERTO)\n  Ora 5: ARTE E IMMAGINE (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
