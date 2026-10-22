@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-21T15:00:43.042061",
+    "last_updated": "2026-10-22T07:30:29.712523",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,47 +28,32 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T15:00:43.041668"
+        "added_at": "2026-10-22T07:30:29.712239"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T15:00:43.041760"
+        "added_at": "2026-10-22T07:30:29.712331"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T15:00:43.041794"
+        "added_at": "2026-10-22T07:30:29.712364"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-21T15:00:43.041824"
-      },
-      {
-        "id": "didup_4",
-        "text": "📚 2026-10-21 (10:00-12:00) — Verifica scritta di matematica. [F. MARINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-21T15:00:43.041854"
+        "added_at": "2026-10-22T07:30:29.712394"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "16:45",
-          "event": "📅 Teatro Ada",
-          "all_day": false,
-          "summary": "Teatro Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "14:30",
           "event": "📅 Replica introduttivo A — sessione 2",
@@ -81,29 +66,55 @@
           "all_day": false,
           "summary": "Replica introduttivo B - Sessione 1"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        },
+        {
+          "time": "18:30",
+          "event": "📅 Patrizia Mau",
+          "all_day": false,
+          "summary": "Patrizia Mau"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-21",
-        "description": "Rovesci",
-        "temp_min": 16,
+        "date": "2026-10-22",
+        "description": "Nebbia",
+        "temp_min": 13,
         "temp_max": 21,
-        "icon": "09d",
-        "humidity": 71,
-        "wind_speed": 20,
-        "precipitation_mm": 1.2
+        "icon": "50d",
+        "humidity": 95,
+        "wind_speed": 4,
+        "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-10-22",
-        "description": "Nuvoloso",
-        "temp_min": 12,
-        "temp_max": 20,
-        "icon": "04d",
+        "date": "2026-10-23",
+        "description": "Pioggia leggera",
+        "temp_min": 10,
+        "temp_max": 18,
+        "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.0
+        "precipitation_mm": 0.7
       }
     },
     "sensors": [
@@ -111,30 +122,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.2,
-        "humidity": 73,
+        "temp": 21.4,
+        "humidity": 74,
         "battery": 85,
-        "last_update": "2026-10-21 14:02:32",
+        "last_update": "2026-10-22 07:04:43",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.3,
-        "humidity": 79,
-        "battery": 49,
-        "last_update": "2026-10-21 14:05:13",
+        "temp": 20.2,
+        "humidity": 75,
+        "battery": 45,
+        "last_update": "2026-10-22 07:07:48",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 22.4,
-        "humidity": 66,
+        "temp": 21.8,
+        "humidity": 68,
         "battery": 84,
-        "last_update": "2026-10-21 14:05:44",
+        "last_update": "2026-10-22 07:08:42",
         "battery_warning": false
       }
     ]
@@ -147,17 +158,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-21",
-        "schedule": [
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-22",
         "schedule": [
           {
@@ -167,6 +167,29 @@
           {
             "time": "16:30",
             "event": "📅 Replica introduttivo B - Sessione 1"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-23",
+        "schedule": [
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "18:30",
+            "event": "📅 Patrizia Mau"
           }
         ],
         "status": ""
@@ -180,33 +203,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-21",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-22",
         "schedule": [
           {
@@ -230,7 +226,46 @@
             "event": "📅 Replica introduttivo B - Sessione 1"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-23",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "18:30",
+            "event": "📅 Patrizia Mau"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "personal_notes": ""
     },
@@ -241,37 +276,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-21",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "13:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "14:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-22",
         "schedule": [
           {
@@ -307,7 +311,38 @@
             "event": "📅 Replica introduttivo B - Sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-23",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "18:30",
+            "event": "📅 Patrizia Mau"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -594,13 +629,13 @@
       },
       "jazz_pick": {
         "artist": "John Coltrane",
-        "track": "A Love Supreme, Pt. 1: Acknowledgement",
-        "album": "A Love Supreme",
-        "year": "1964",
-        "context": "L'inizio di una suite spirituale che è il cuore del jazz. Il mantra \"A Love Supreme\" ripetuto in tutte le tonalità.",
-        "youtube_url": "https://www.youtube.com/watch?v=Dmx2WuUPVcs"
+        "track": "Mr. P.C.",
+        "album": "Giant Steps",
+        "year": "1959",
+        "context": "Blues in minore dedicato al bassista Paul Chambers. Perfetto per capire il blues nel jazz.",
+        "youtube_url": "https://www.youtube.com/watch?v=Jv5j_Lx2R4g"
       },
-      "personal_notes": "📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Studiare la propria parte, per ciascuna sezione fino a battuta n. 1\n📝 2026-10-21: LABORATORIO DI MUSICA D'INSIEME: Lab. Archi JR. Studio individuale dei brani finora assegnati. Ascol\n📝 2026-10-21: LINGUA STRANIERA-ING: fai p 34  dal n1 al n5\n📝 2026-10-21: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): ripassare per verifica e provare a trovar\n📝 2026-10-22: STORIA E GEOGRAFIA: Leggere il paragrafo \"Le razze umane non esistono\" che trovate su Classroom. Cer\n📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città"
+      "personal_notes": "📝 2026-10-22: STORIA E GEOGRAFIA: Leggere il paragrafo \"Le razze umane non esistono\" che trovate su Classroom. Cer\n📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
     },
     "ada": {
       "display_name": "Ada",
@@ -609,25 +644,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-21",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-22",
         "schedule": [
           {
@@ -647,77 +663,33 @@
             "event": "📅 Replica introduttivo B - Sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-23",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Prove d'ingresso d'Istituto"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 2,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Prove d'ingresso d'Istituto"
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           },
           {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Interrogazione: prima parte - I Sumeri: dove e quando; le attività; città-stato; piramide sociale; dentro la città; la religione."
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "MUSICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Ascolto di brani musicali con il violino"
-          },
-          {
-            "ora": 4,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "MUSICA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 5,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "18:30",
+            "event": "📅 Patrizia Mau"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -733,7 +705,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Prove d'ingresso d'Istituto\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Prove d'ingresso d'Istituto\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Interrogazione: prima parte - I Sumeri: dove e quando; le attività; città-stato; piramide sociale; dentro la città; la r\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: MUSICA (LETIZIA ELVIRA)\n    → Ascolto di brani musicali con il violino\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MUSICA (FONTANA ROBERTO)\n  Ora 5: ARTE E IMMAGINE (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
