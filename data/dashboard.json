@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "last_updated": "2026-10-22T15:00:32.132691",
+    "last_updated": "2026-10-23T07:30:35.515331",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "source": "Registro Ada (ClasseViva)",
+        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
+        "timestamp": "2026-10-23T07:30:26.884643"
+      }
+    ]
   },
   "config": {
     "family_name": "Tallarico",
@@ -17,7 +23,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,46 +34,32 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-22T15:00:32.132365"
+        "added_at": "2026-10-23T07:30:35.514989"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-22T15:00:32.132458"
+        "added_at": "2026-10-23T07:30:35.515153"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-22T15:00:32.132490"
+        "added_at": "2026-10-23T07:30:35.515189"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-22T15:00:32.132526"
+        "added_at": "2026-10-23T07:30:35.515219"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "14:30",
-          "event": "📅 Replica introduttivo A — sessione 2",
-          "all_day": false,
-          "summary": "Replica introduttivo A — sessione 2"
-        },
-        {
-          "time": "16:30",
-          "event": "📅 Replica introduttivo B - Sessione 1",
-          "all_day": false,
-          "summary": "Replica introduttivo B - Sessione 1"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "15:00",
           "event": "📅 Batteria Flavio",
@@ -92,29 +84,37 @@
           "all_day": false,
           "summary": "Patrizia Mau"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "11:00",
+          "event": "📅 Catechismo Ada",
+          "all_day": false,
+          "summary": "Catechismo Ada"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-22",
-        "description": "Nebbia",
-        "temp_min": 13,
-        "temp_max": 21,
-        "icon": "50d",
-        "humidity": 62,
-        "wind_speed": 2,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-23",
         "description": "Rovesci leggeri",
-        "temp_min": 11,
+        "temp_min": 9,
         "temp_max": 17,
         "icon": "09d",
+        "humidity": 87,
+        "wind_speed": 3,
+        "precipitation_mm": 0.8
+      },
+      "tomorrow": {
+        "date": "2026-10-24",
+        "description": "Nebbia",
+        "temp_min": 8,
+        "temp_max": 19,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 1.2
+        "precipitation_mm": 0.0
       }
     },
     "sensors": [
@@ -122,30 +122,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.2,
-        "humidity": 70,
+        "temp": 21.1,
+        "humidity": 73,
         "battery": 85,
-        "last_update": "2026-10-22 14:05:44",
+        "last_update": "2026-10-23 07:13:08",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.4,
-        "humidity": 76,
-        "battery": 45,
-        "last_update": "2026-10-22 14:08:54",
+        "temp": 19.9,
+        "humidity": 75,
+        "battery": 49,
+        "last_update": "2026-10-23 07:12:00",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 21.8,
-        "humidity": 69,
+        "temp": 21.4,
+        "humidity": 64,
         "battery": 84,
-        "last_update": "2026-10-22 14:09:55",
+        "last_update": "2026-10-23 07:12:53",
         "battery_warning": false
       }
     ]
@@ -158,21 +158,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-22",
-        "schedule": [
-          {
-            "time": "14:30",
-            "event": "📅 Replica introduttivo A — sessione 2"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Replica introduttivo B - Sessione 1"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-23",
         "schedule": [
           {
@@ -192,6 +177,17 @@
             "event": "📅 Patrizia Mau"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-24",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -203,33 +199,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-22",
-        "schedule": [
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 2B (4ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 1B (6ª ora)"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Replica introduttivo A — sessione 2"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Replica introduttivo B - Sessione 1"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-23",
         "schedule": [
           {
@@ -265,7 +234,18 @@
             "event": "📅 Patrizia Mau"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-24",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
+        "status": "🏠 A casa"
       },
       "personal_notes": ""
     },
@@ -276,45 +256,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-22",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TEM (2h) — Giusti M."
-          },
-          {
-            "time": "10:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "11:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "12:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "14:10",
-            "event": "Orchestra di Fiati — Cesari D., Fortino S., Gaggini E., Manente D."
-          },
-          {
-            "time": "14:10",
-            "event": "Ritorno: 🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Replica introduttivo A — sessione 2"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Replica introduttivo B - Sessione 1"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~14:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-23",
         "schedule": [
           {
@@ -340,6 +281,29 @@
           {
             "time": "18:30",
             "event": "📅 Patrizia Mau"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-24",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "09:10",
+            "event": "Italiano (2h) — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10"
@@ -628,14 +592,14 @@
         ]
       },
       "jazz_pick": {
-        "artist": "John Coltrane",
-        "track": "Mr. P.C.",
-        "album": "Giant Steps",
-        "year": "1959",
-        "context": "Blues in minore dedicato al bassista Paul Chambers. Perfetto per capire il blues nel jazz.",
-        "youtube_url": "https://www.youtube.com/watch?v=Jv5j_Lx2R4g"
+        "artist": "Joshua Redman",
+        "track": "Wish",
+        "album": "Wish",
+        "year": "1993",
+        "context": "Con Pat Metheny alla chitarra. Jazz contemporaneo elegante e accessibile.",
+        "youtube_url": "https://www.youtube.com/watch?v=3vTD8rnrlYk"
       },
-      "personal_notes": "📝 2026-10-22: STORIA E GEOGRAFIA: Leggere il paragrafo \"Le razze umane non esistono\" che trovate su Classroom. Cer\n📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
+      "personal_notes": "📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
     },
     "ada": {
       "display_name": "Ada",
@@ -644,29 +608,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-22",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "16:15",
-            "event": "Uscita scuola (giorno lungo)"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Replica introduttivo A — sessione 2"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Replica introduttivo B - Sessione 1"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 16:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-23",
         "schedule": [
           {
@@ -686,51 +627,29 @@
             "event": "📅 Patrizia Mau"
           }
         ],
-        "status": "🏫 Scuola — Uscita 12:15"
+        "status": "🏫 Scuola — Uscita 12:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-24",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
+        "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [
-          {
-            "ora": 1,
-            "materia": "RELIGIONE",
-            "docente": "ORABONA MARIA",
-            "argomento": "Completamento dell'attività e approfondimento su i popoli mesopotamici"
-          },
-          {
-            "ora": 2,
-            "materia": "RELIGIONE",
-            "docente": "ORABONA MARIA",
-            "argomento": "Completamento dell'attività e approfondimento su i popoli mesopotamici"
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          }
-        ],
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
-        "voti": [
-          {
-            "data": "2026-10-20",
-            "materia": "GEOGRAFIA",
-            "voto": "ds",
-            "note": "Elementi e fattori climatici",
-            "colore": "green"
-          }
-        ],
+        "voti": [],
         "assenze_count": 0,
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: RELIGIONE (ORABONA MARIA)\n    → Completamento dell'attività e approfondimento su i popoli mesopotamici\n  Ora 2: RELIGIONE (ORABONA MARIA)\n    → Completamento dell'attività e approfondimento su i popoli mesopotamici\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": ""
     }
   }
 }
