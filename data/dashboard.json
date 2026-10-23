@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-23T07:30:35.515331",
+    "last_updated": "2026-10-23T13:07:46.972643",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": [
-      {
-        "source": "Registro Ada (ClasseViva)",
-        "message": "Nessun dato ricevuto — ClasseViva potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-23T07:30:26.884643"
-      }
-    ]
+    "fetch_errors": []
   },
   "config": {
     "family_name": "Tallarico",
@@ -34,28 +28,28 @@
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T07:30:35.514989"
+        "added_at": "2026-10-23T13:07:46.972288"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T07:30:35.515153"
+        "added_at": "2026-10-23T13:07:46.972394"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T07:30:35.515189"
+        "added_at": "2026-10-23T13:07:46.972427"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T07:30:35.515219"
+        "added_at": "2026-10-23T13:07:46.972457"
       }
     ],
     "calendar_events": {
@@ -102,14 +96,14 @@
         "temp_min": 9,
         "temp_max": 17,
         "icon": "09d",
-        "humidity": 87,
-        "wind_speed": 3,
-        "precipitation_mm": 0.8
+        "humidity": 65,
+        "wind_speed": 5,
+        "precipitation_mm": 1.0
       },
       "tomorrow": {
         "date": "2026-10-24",
         "description": "Nebbia",
-        "temp_min": 8,
+        "temp_min": 9,
         "temp_max": 19,
         "icon": "50d",
         "humidity": 0,
@@ -122,10 +116,10 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 21.1,
-        "humidity": 73,
+        "temp": 20.5,
+        "humidity": 70,
         "battery": 85,
-        "last_update": "2026-10-23 07:13:08",
+        "last_update": "2026-10-23 12:13:56",
         "battery_warning": false
       },
       {
@@ -133,19 +127,19 @@
         "name": "Studio",
         "icon": "💻",
         "temp": 19.9,
-        "humidity": 75,
-        "battery": 49,
-        "last_update": "2026-10-23 07:12:00",
+        "humidity": 74,
+        "battery": 44,
+        "last_update": "2026-10-23 12:12:41",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 21.4,
-        "humidity": 64,
+        "temp": 21.1,
+        "humidity": 63,
         "battery": 84,
-        "last_update": "2026-10-23 07:12:53",
+        "last_update": "2026-10-23 12:13:45",
         "battery_warning": false
       }
     ]
@@ -246,6 +240,145 @@
           }
         ],
         "status": "🏠 A casa"
+      },
+      "full_schedule": {
+        "updated": "2026-2027",
+        "school": "Scuola Valchiusa — Classi 1B e 2B (18 ore)",
+        "days": [
+          {
+            "day": "Lunedì",
+            "slots": [
+              {
+                "time": "08:00–09:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "09:00–10:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "10:00–11:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "11:00–12:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              }
+            ]
+          },
+          {
+            "day": "Martedì",
+            "slots": [
+              {
+                "time": "08:00–09:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "09:00–10:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "10:00–11:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              }
+            ]
+          },
+          {
+            "day": "Mercoledì",
+            "slots": [
+              {
+                "time": "08:00–09:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "09:00–10:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "12:00–13:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "13:00–14:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              }
+            ]
+          },
+          {
+            "day": "Giovedì",
+            "slots": [
+              {
+                "time": "10:00–11:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "11:00–12:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "13:00–14:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              }
+            ]
+          },
+          {
+            "day": "Venerdì",
+            "slots": [
+              {
+                "time": "09:00–10:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "10:00–11:00",
+                "subject": "2B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "11:00–12:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              },
+              {
+                "time": "12:00–13:00",
+                "subject": "1B",
+                "teacher": "",
+                "room": ""
+              }
+            ]
+          }
+        ]
       },
       "personal_notes": ""
     },
@@ -599,7 +732,7 @@
         "context": "Con Pat Metheny alla chitarra. Jazz contemporaneo elegante e accessibile.",
         "youtube_url": "https://www.youtube.com/watch?v=3vTD8rnrlYk"
       },
-      "personal_notes": "📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
+      "personal_notes": "📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
     },
     "ada": {
       "display_name": "Ada",
@@ -641,15 +774,54 @@
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro "
+          },
+          {
+            "ora": 3,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro "
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro "
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
-        "voti": [],
+        "voti": [
+          {
+            "data": "2026-10-20",
+            "materia": "GEOGRAFIA",
+            "voto": "ds",
+            "note": "Elementi e fattori climatici",
+            "colore": "green"
+          }
+        ],
         "assenze_count": 0,
         "bacheca": [],
         "note": []
       },
-      "personal_notes": ""
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro \n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro \n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }

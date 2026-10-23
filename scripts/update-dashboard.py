@@ -204,7 +204,7 @@ FLAVIO_ORARIO = {
         {"time": "11:10", "event": "Storia della Musica — Mascolo F."},
         {"time": "12:10", "event": "Religione — Battaglia M."},
         {"time": "14:10", "event": "Pianoforte (2° str.) — Pieruccioni L."},
-        {"time": "15:10", "event": "Sax — Mazzola M. 📍 Fillungo"},
+        {"time": "15:30", "event": "Sax — Mazzola M. 📍 Fillungo"},
     ],
     "Martedì": [
         {"time": "08:10", "event": "Scienze — Lovi I."},
@@ -217,8 +217,8 @@ FLAVIO_ORARIO = {
         {"time": "08:10", "event": "Scienze — Lovi I."},
         {"time": "09:10", "event": "Inglese — Febi R."},
         {"time": "10:10", "event": "Matematica (2h) — Marini F."},
-        {"time": "13:10", "event": "Sax — Mazzola M. 📍 Fillungo"},
-        {"time": "14:10", "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"},
+        {"time": "13:30", "event": "Sax — Mazzola M. 📍 Fillungo"},
+        {"time": "14:30", "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"},
     ],
     "Giovedì": [
         {"time": "08:10", "event": "TEM (2h) — Giusti M."},
@@ -239,16 +239,16 @@ FLAVIO_ORARIO = {
 }
 
 FLAVIO_TRASPORTI = {
-    "Lunedì": "🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)",
+    "Lunedì": "🚆 Treno 17:31 (Stazione FS → 17:40 Altopascio)",
     "Martedì": "🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)",
-    "Mercoledì": "🚆 Treno 15:31 (Stazione FS → 15:40 Altopascio)",
+    "Mercoledì": "🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)",
     "Giovedì": "🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)",
     "Venerdì": "🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)",
     "Sabato": "🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)",
 }
 
 FLAVIO_USCITA = {
-    "Lunedì": "~16:10", "Martedì": "~13:10", "Mercoledì": "~15:10",
+    "Lunedì": "~16:30", "Martedì": "~13:10", "Mercoledì": "~15:30",
     "Giovedì": "~14:10", "Venerdì": "~12:10", "Sabato": "~12:10",
 }
 
@@ -267,7 +267,7 @@ FLAVIO_FULL_SCHEDULE = {
                 {"time": "11:10–12:10", "subject": "Storia della Musica", "teacher": "Mascolo F.", "room": "S. Agostino 13"},
                 {"time": "12:10–13:10", "subject": "Religione", "teacher": "Battaglia M.", "room": "S. Agostino 04"},
                 {"time": "14:10–15:10", "subject": "Pianoforte (2° str.)", "teacher": "Pieruccioni L.", "room": "S. Agostino 01", "afternoon": True},
-                {"time": "15:10–16:10", "subject": "Sax", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
+                {"time": "15:30–16:30", "subject": "Sax", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
             ]
         },
         {
@@ -286,8 +286,8 @@ FLAVIO_FULL_SCHEDULE = {
                 {"time": "08:10–09:10", "subject": "Scienze", "teacher": "Lovi I.", "room": "S. Agostino 04"},
                 {"time": "09:10–10:10", "subject": "Inglese", "teacher": "Febi R.", "room": "S. Agostino 04"},
                 {"time": "10:10–12:10", "subject": "Matematica (2h)", "teacher": "Marini F.", "room": "S. Agostino 04"},
-                {"time": "13:10–14:10", "subject": "Sax", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
-                {"time": "14:10–15:10", "subject": "Quartetto Sax Junior", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
+                {"time": "13:30–14:30", "subject": "Sax", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
+                {"time": "14:30–15:30", "subject": "Quartetto Sax Junior", "teacher": "Mazzola M.", "room": "Fillungo", "afternoon": True},
             ]
         },
         {
@@ -321,16 +321,16 @@ FLAVIO_FULL_SCHEDULE = {
 FLAVIO_TRASPORTI_TABLE = [
     {
         "day": "Lunedì",
-        "exit_time": "~16:10",
+        "exit_time": "~16:30",
         "exit_place": "Fillungo",
         "mode": "train",
         "mode_label": "🚆 Treno",
-        "departure": "16:31",
+        "departure": "17:31",
         "departure_place": "Stazione FS Lucca",
-        "arrival": "16:40",
+        "arrival": "17:40",
         "arrival_place": "Altopascio",
         "line": "Treno regionale",
-        "notes": "20 min a piedi per stazione. Alternativa: bus 851 (16:35 P.le Verdi)",
+        "notes": "20 min a piedi per stazione. Treni 16:31 e 16:46 non raggiungibili! Alternativa: bus 851 (16:35, 10 min a piedi, stretto)",
     },
     {
         "day": "Martedì",
@@ -347,16 +347,16 @@ FLAVIO_TRASPORTI_TABLE = [
     },
     {
         "day": "Mercoledì",
-        "exit_time": "~15:10",
+        "exit_time": "~15:30",
         "exit_place": "Fillungo",
         "mode": "train",
         "mode_label": "🚆 Treno",
-        "departure": "15:31",
+        "departure": "16:31",
         "departure_place": "Stazione FS Lucca",
-        "arrival": "15:40",
+        "arrival": "16:40",
         "arrival_place": "Altopascio",
         "line": "Treno regionale",
-        "notes": "20 min a piedi per stazione. Alternativa: bus 851 (15:15 P.le Verdi, stretto) o treno 16:31",
+        "notes": "Sax 13:30 + Quartetto 14:30 a Fillungo. Uscita ~15:30, 20 min a piedi → stazione ~15:50. Treni 15:31 e 15:39 non raggiungibili! Backup: bus 851 16:35 (10 min a piedi)",
     },
     {
         "day": "Giovedì",
@@ -460,6 +460,58 @@ def get_alessandra_schedule(d):
     else:
         status = "🏠 A casa"
     return schedule, status
+
+
+# Alessandra full schedule for timetable view
+ALESSANDRA_FULL_SCHEDULE = {
+    "updated": "2026-2027",
+    "school": "Scuola Valchiusa — Classi 1B e 2B (18 ore)",
+    "days": [
+        {
+            "day": "Lunedì",
+            "slots": [
+                {"time": "08:00–09:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "09:00–10:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "10:00–11:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "11:00–12:00", "subject": "1B", "teacher": "", "room": ""},
+            ]
+        },
+        {
+            "day": "Martedì",
+            "slots": [
+                {"time": "08:00–09:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "09:00–10:00", "subject": "1B", "teacher": "", "room": ""},
+                {"time": "10:00–11:00", "subject": "1B", "teacher": "", "room": ""},
+            ]
+        },
+        {
+            "day": "Mercoledì",
+            "slots": [
+                {"time": "08:00–09:00", "subject": "1B", "teacher": "", "room": ""},
+                {"time": "09:00–10:00", "subject": "1B", "teacher": "", "room": ""},
+                {"time": "12:00–13:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "13:00–14:00", "subject": "2B", "teacher": "", "room": ""},
+            ]
+        },
+        {
+            "day": "Giovedì",
+            "slots": [
+                {"time": "10:00–11:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "11:00–12:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "13:00–14:00", "subject": "1B", "teacher": "", "room": ""},
+            ]
+        },
+        {
+            "day": "Venerdì",
+            "slots": [
+                {"time": "09:00–10:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "10:00–11:00", "subject": "2B", "teacher": "", "room": ""},
+                {"time": "11:00–12:00", "subject": "1B", "teacher": "", "room": ""},
+                {"time": "12:00–13:00", "subject": "1B", "teacher": "", "room": ""},
+            ]
+        },
+    ]
+}
 
 
 # ===== ADA SCHEDULE =====
@@ -1095,6 +1147,7 @@ def build_dashboard():
                     "schedule": ale_tomorrow_sched,
                     "status": ale_tomorrow_status
                 },
+                "full_schedule": ALESSANDRA_FULL_SCHEDULE,
                 "personal_notes": ""
             },
             "flavio": {
