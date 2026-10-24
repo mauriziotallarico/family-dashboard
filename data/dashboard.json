@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-23T15:00:36.897553",
+    "last_updated": "2026-10-24T07:30:31.763777",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-23",
+      "date": "2026-10-24",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -25,87 +25,69 @@
     "reminders": [
       {
         "id": "didup_0",
-        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
+        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T15:00:36.897200"
+        "added_at": "2026-10-24T07:30:31.763447"
       },
       {
         "id": "didup_1",
-        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
+        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T15:00:36.897302"
+        "added_at": "2026-10-24T07:30:31.763549"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T15:00:36.897334"
+        "added_at": "2026-10-24T07:30:31.763583"
       },
       {
         "id": "didup_3",
+        "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-24T07:30:31.763614"
+      },
+      {
+        "id": "didup_4",
         "text": "📚 2026-10-24 (09:00-11:00) — Verifica di Italiano (prova strutturata sui seguenti argomenti : schema narrativo, le sequenze, fabula e intreccio, analessi e prolessi) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-23T15:00:36.897363"
+        "added_at": "2026-10-24T07:30:31.763645"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "15:00",
-          "event": "📅 Batteria Flavio",
-          "all_day": false,
-          "summary": "Batteria Flavio"
-        },
-        {
-          "time": "16:10",
-          "event": "📅 Flavio Pallavolo",
-          "all_day": false,
-          "summary": "Flavio Pallavolo"
-        },
-        {
-          "time": "17:00",
-          "event": "📅 Ada ginnastica",
-          "all_day": false,
-          "summary": "Ada ginnastica"
-        },
-        {
-          "time": "18:30",
-          "event": "📅 Patrizia Mau",
-          "all_day": false,
-          "summary": "Patrizia Mau"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "11:00",
           "event": "📅 Catechismo Ada",
           "all_day": false,
           "summary": "Catechismo Ada"
         }
-      ]
+      ],
+      "tomorrow": []
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-23",
-        "description": "Pioggia leggera",
-        "temp_min": 9,
-        "temp_max": 17,
-        "icon": "10d",
-        "humidity": 86,
-        "wind_speed": 2,
-        "precipitation_mm": 1.8
-      },
-      "tomorrow": {
         "date": "2026-10-24",
         "description": "Nebbia",
-        "temp_min": 9,
+        "temp_min": 10,
         "temp_max": 19,
         "icon": "50d",
+        "humidity": 99,
+        "wind_speed": 3,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-25",
+        "description": "Nuvoloso",
+        "temp_min": 6,
+        "temp_max": 18,
+        "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -116,30 +98,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 20.3,
-        "humidity": 71,
+        "temp": 20.0,
+        "humidity": 75,
         "battery": 85,
-        "last_update": "2026-10-23 14:17:11",
+        "last_update": "2026-10-24 07:18:41",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 19.8,
+        "temp": 19.1,
         "humidity": 75,
-        "battery": 46,
-        "last_update": "2026-10-23 14:13:00",
+        "battery": 43,
+        "last_update": "2026-10-24 07:15:35",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 21.2,
+        "temp": 20.8,
         "humidity": 67,
-        "battery": 84,
-        "last_update": "2026-10-23 14:14:06",
+        "battery": 83,
+        "last_update": "2026-10-24 07:17:05",
         "battery_warning": false
       }
     ]
@@ -152,29 +134,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-23",
-        "schedule": [
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Patrizia Mau"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-24",
         "schedule": [
           {
@@ -182,6 +141,12 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-25",
+        "schedule": [],
         "status": ""
       },
       "personal_notes": ""
@@ -193,45 +158,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-23",
-        "schedule": [
-          {
-            "time": "09:00",
-            "event": "Scuola: 2B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 1B (4ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 1B (5ª ora)"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Patrizia Mau"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-24",
         "schedule": [
           {
@@ -239,6 +165,12 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-25",
+        "schedule": [],
         "status": "🏠 A casa"
       },
       "full_schedule": {
@@ -389,37 +321,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-23",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TAC (2h) — Meli A."
-          },
-          {
-            "time": "10:10",
-            "event": "Motorie (2h) — Tedeschi B."
-          },
-          {
-            "time": "12:10",
-            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Patrizia Mau"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~12:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-24",
         "schedule": [
           {
@@ -439,7 +340,13 @@
             "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~12:10"
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-25",
+        "schedule": [],
+        "status": "🏠 A casa"
       },
       "transport": [
         {
@@ -725,14 +632,14 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Joshua Redman",
-        "track": "Wish",
-        "album": "Wish",
-        "year": "1993",
-        "context": "Con Pat Metheny alla chitarra. Jazz contemporaneo elegante e accessibile.",
-        "youtube_url": "https://www.youtube.com/watch?v=3vTD8rnrlYk"
+        "artist": "Charlie Parker",
+        "track": "Confirmation",
+        "album": "Confirmation",
+        "year": "1953",
+        "context": "Bebop puro — Parker inventa un linguaggio che tutti i sassofonisti studiano ancora oggi.",
+        "youtube_url": "https://www.youtube.com/watch?v=yXK0pZx92MU"
       },
-      "personal_notes": "📝 2026-10-23: TEORIA, ANALISI E COMPOSIZIONE: SU CLASSROOM: leggere scheda \"Scale maggiori\"\n📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
+      "personal_notes": "📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
     },
     "ada": {
       "display_name": "Ada",
@@ -741,29 +648,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-23",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "12:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Patrizia Mau"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 12:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-24",
         "schedule": [
           {
@@ -771,53 +655,16 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-25",
+        "schedule": [],
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [
-          {
-            "ora": 1,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Interrogazione: Sumeri ( attività economiche, città-stato, piramide sociale, religione)"
-          },
-          {
-            "ora": 2,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro "
-          },
-          {
-            "ora": 2,
-            "materia": "MATEMATICA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro "
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro "
-          },
-          {
-            "ora": 4,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          }
-        ],
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -833,7 +680,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: STORIA (GOZZINI ANGELA)\n    → Interrogazione: Sumeri ( attività economiche, città-stato, piramide sociale, religione)\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro \n  Ora 2: MATEMATICA (GOZZINI ANGELA)\n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulla scomposizione  e sul confronto dei numeri grandi \nAttività sul libro \n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
