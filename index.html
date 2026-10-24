@@ -808,6 +808,76 @@
       50% { opacity:0.5; transform:scale(1.3); }
     }
 
+    /* ===== TRAIN TIMETABLE ===== */
+    .train-timetable-wrapper {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    @media (max-width: 768px) {
+      .train-timetable-wrapper { grid-template-columns: 1fr; }
+    }
+    .train-table-col h4 {
+      font-size: 0.85rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .train-table-col h4 .tt-direction { color: var(--text-secondary); }
+    .train-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.8rem;
+    }
+    .train-table thead th {
+      text-align: left;
+      font-size: 0.68rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-light);
+      font-weight: 700;
+      padding: 0.35rem 0.4rem;
+      border-bottom: 2px solid var(--border);
+    }
+    .train-table td {
+      padding: 0.35rem 0.4rem;
+      border-bottom: 1px solid var(--border);
+      font-variant-numeric: tabular-nums;
+    }
+    .train-table tr:last-child td { border-bottom: none; }
+    .train-table tr.tt-next {
+      background: #f0fdf4;
+      font-weight: 600;
+      border-left: 3px solid #22c55e;
+    }
+    [data-theme="dark"] .train-table tr.tt-next {
+      background: #1a3a2a;
+    }
+    .tt-dep { font-weight: 700; color: var(--text-primary); }
+    .tt-arr { color: var(--text-secondary); }
+    .tt-dur { font-size: 0.72rem; color: var(--text-light); }
+    .tt-badge-next {
+      display: inline-block;
+      font-size: 0.6rem;
+      font-weight: 700;
+      background: #22c55e;
+      color: white;
+      padding: 0.05rem 0.35rem;
+      border-radius: 8px;
+      margin-left: 0.3rem;
+    }
+    .tt-gap-row td {
+      padding: 0.15rem 0.4rem;
+      border-bottom: 1px dashed var(--border);
+      color: var(--text-light);
+      font-size: 0.68rem;
+      font-style: italic;
+    }
+
     /* ===== ALESSANDRA SCHEDULE TABLE ===== */
     .ale-badge-1b {
       display: inline-block;
@@ -1084,6 +1154,16 @@
       </div>
     </div>
 
+    <!-- Train Timetable Box (Altopascio ↔ Lucca) -->
+    <div id="train-timetable-box" class="card" style="display:none;">
+      <div class="card-header" style="background: linear-gradient(135deg, #3b82f6, #1e40af); color: white; border-bottom: none;">
+        <span class="icon">🚆</span>
+        <h3 style="color: white;">Orari Treni — Altopascio ↔ Lucca</h3>
+      </div>
+      <div class="card-body" id="train-timetable-body">
+      </div>
+    </div>
+
     <!-- Full Schedule Box (Flavio complete timetable) -->
     <div id="full-schedule-box" class="card" style="display:none;">
       <div class="card-header" style="background: linear-gradient(135deg, #3b82f6, #1d4ed8); color: white; border-bottom: none;">
@@ -1356,6 +1436,79 @@ function renderTransportBox(transport) {
       <span><span class="transport-mode-badge train" style="font-size:0.65rem">🚆 Treno</span> = Stazione FS Lucca</span>
       <span><span class="transport-mode-badge bus" style="font-size:0.65rem">🚌 Bus 851</span> = Piazzale Verdi</span>
       <span style="margin-left:auto">👉 = oggi</span>
+    </div>`;
+}
+
+// ===== TRAIN TIMETABLE (Altopascio ↔ Lucca) =====
+function renderTrainTimetable(tt) {
+  const box = document.getElementById('train-timetable-box');
+  const body = document.getElementById('train-timetable-body');
+  if (!tt || !tt.andata || !tt.ritorno) {
+    box.style.display = 'none';
+    return;
+  }
+  box.style.display = '';
+
+  const now = new Date();
+  const nowMin = now.getHours() * 60 + now.getMinutes();
+
+  function toMin(t) {
+    const [h, m] = t.split(':').map(Number);
+    return h * 60 + m;
+  }
+
+  function renderColumn(direction, trains) {
+    let foundNext = false;
+    let prevDepMin = -999;
+    let rows = '';
+
+    for (const t of trains) {
+      const depMin = toMin(t.dep);
+      const arrMin = toMin(t.arr);
+      const dur = arrMin - depMin;
+
+      // Gap indicator if >60 min gap
+      if (prevDepMin >= 0 && (depMin - prevDepMin) > 60) {
+        rows += `<tr class="tt-gap-row"><td colspan="3">— pausa ${Math.round((depMin - prevDepMin)/60)}h —</td></tr>`;
+      }
+      prevDepMin = depMin;
+
+      const isNext = !foundNext && depMin >= nowMin;
+      if (isNext) foundNext = true;
+
+      const rowClass = isNext ? 'tt-next' : '';
+      const badge = isNext ? '<span class="tt-badge-next">PROSSIMO</span>' : '';
+
+      rows += `<tr class="${rowClass}">
+        <td class="tt-dep">${t.dep}${badge}</td>
+        <td class="tt-arr">${t.arr}</td>
+        <td class="tt-dur">${dur}'</td>
+      </tr>`;
+    }
+
+    return `
+      <div class="train-table-col">
+        <h4><span class="tt-direction">${escapeHTML(direction)}</span></h4>
+        <table class="train-table">
+          <thead><tr><th>Partenza</th><th>Arrivo</th><th>Durata</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>
+      </div>`;
+  }
+
+  const andataHTML = renderColumn(tt.andata.label || 'Altopascio → Lucca', tt.andata.trains);
+  const ritornoHTML = renderColumn(tt.ritorno.label || 'Lucca → Altopascio', tt.ritorno.trains);
+
+  body.innerHTML = `
+    <div class="train-timetable-wrapper">
+      ${andataHTML}
+      ${ritornoHTML}
+    </div>
+    <div style="margin-top:0.75rem;font-size:0.7rem;color:var(--text-light);display:flex;gap:1rem;align-items:center;flex-wrap:wrap">
+      <span>🚆 Treni regionali Trenitalia</span>
+      <span>⏱️ Durata 9-26 min</span>
+      <span><span class="tt-badge-next" style="font-size:0.58rem">PROSSIMO</span> = prossimo treno disponibile</span>
+      <span style="margin-left:auto;font-style:italic">Fonte: oraritreniitalia.com — verificare su Trenitalia</span>
     </div>`;
 }
 
@@ -1856,6 +2009,11 @@ function renderDashboard(data) {
   // Transport standalone box (from flavio.transport)
   if (members.flavio && members.flavio.transport) {
     renderTransportBox(members.flavio.transport);
+  }
+
+  // Train timetable (Altopascio ↔ Lucca)
+  if (data.shared && data.shared.train_timetable) {
+    renderTrainTimetable(data.shared.train_timetable);
   }
 
   // Full schedule table (from flavio.full_schedule)
