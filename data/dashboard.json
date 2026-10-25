@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-25T07:30:46.816732",
+    "last_updated": "2026-10-25T15:00:42.990252",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,46 +28,40 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T07:30:46.816401"
+        "added_at": "2026-10-25T15:00:42.989922"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T07:30:46.816507"
+        "added_at": "2026-10-25T15:00:42.990025"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T07:30:46.816541"
+        "added_at": "2026-10-25T15:00:42.990059"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T07:30:46.816578"
+        "added_at": "2026-10-25T15:00:42.990089"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T07:30:46.816612"
+        "added_at": "2026-10-25T15:00:42.990122"
       }
     ],
     "calendar_events": {
       "today": [],
       "tomorrow": [
-        {
-          "time": "12:30",
-          "event": "📅 Ale",
-          "all_day": false,
-          "summary": "Ale"
-        },
         {
           "time": "17:30",
           "event": "📅 Piano Ada",
@@ -88,17 +82,17 @@
         "date": "2026-10-25",
         "description": "Rovesci leggeri",
         "temp_min": 6,
-        "temp_max": 17,
+        "temp_max": 16,
         "icon": "09d",
-        "humidity": 88,
-        "wind_speed": 3,
-        "precipitation_mm": 1.2
+        "humidity": 65,
+        "wind_speed": 4,
+        "precipitation_mm": 0.1
       },
       "tomorrow": {
         "date": "2026-10-26",
         "description": "Nuvoloso",
-        "temp_min": 12,
-        "temp_max": 21,
+        "temp_min": 11,
+        "temp_max": 20,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -110,30 +104,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.5,
-        "humidity": 74,
+        "temp": 18.8,
+        "humidity": 71,
         "battery": 84,
-        "last_update": "2026-10-25 07:29:14",
+        "last_update": "2026-10-25 14:30:08",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.4,
+        "temp": 17.9,
         "humidity": 74,
-        "battery": 43,
-        "last_update": "2026-10-25 07:19:00",
+        "battery": 45,
+        "last_update": "2026-10-25 14:20:19",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 20.3,
-        "humidity": 63,
+        "temp": 20.0,
+        "humidity": 66,
         "battery": 85,
-        "last_update": "2026-10-25 07:21:16",
+        "last_update": "2026-10-25 14:22:29",
         "battery_warning": false
       }
     ],
@@ -349,10 +343,6 @@
         "date": "2026-10-26",
         "schedule": [
           {
-            "time": "12:30",
-            "event": "📅 Ale"
-          },
-          {
             "time": "17:30",
             "event": "📅 Piano Ada"
           },
@@ -395,10 +385,6 @@
           {
             "time": "11:00",
             "event": "Scuola: 1B (4ª ora)"
-          },
-          {
-            "time": "12:30",
-            "event": "📅 Ale"
           },
           {
             "time": "17:30",
