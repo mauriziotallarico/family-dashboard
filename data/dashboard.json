@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-24T15:00:32.759141",
+    "last_updated": "2026-10-25T07:30:46.816732",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-24",
+      "date": "2026-10-25",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,65 +28,77 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-24T15:00:32.758750"
+        "added_at": "2026-10-25T07:30:46.816401"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-24T15:00:32.758841"
+        "added_at": "2026-10-25T07:30:46.816507"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-24T15:00:32.758874"
+        "added_at": "2026-10-25T07:30:46.816541"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
+        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-24T15:00:32.758904"
+        "added_at": "2026-10-25T07:30:46.816578"
       },
       {
         "id": "didup_4",
-        "text": "📚 2026-10-26 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-24T15:00:32.758935"
+        "added_at": "2026-10-25T07:30:46.816612"
       }
     ],
     "calendar_events": {
-      "today": [
+      "today": [],
+      "tomorrow": [
         {
-          "time": "11:00",
-          "event": "📅 Catechismo Ada",
+          "time": "12:30",
+          "event": "📅 Ale",
           "all_day": false,
-          "summary": "Catechismo Ada"
+          "summary": "Ale"
+        },
+        {
+          "time": "17:30",
+          "event": "📅 Piano Ada",
+          "all_day": false,
+          "summary": "Piano Ada"
+        },
+        {
+          "time": "19:00",
+          "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)",
+          "all_day": false,
+          "summary": "Prova d'Orchestra"
         }
-      ],
-      "tomorrow": []
+      ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-24",
-        "description": "Nebbia",
-        "temp_min": 9,
-        "temp_max": 19,
-        "icon": "50d",
-        "humidity": 56,
-        "wind_speed": 9,
-        "precipitation_mm": 0.0
+        "date": "2026-10-25",
+        "description": "Rovesci leggeri",
+        "temp_min": 6,
+        "temp_max": 17,
+        "icon": "09d",
+        "humidity": 88,
+        "wind_speed": 3,
+        "precipitation_mm": 1.2
       },
       "tomorrow": {
-        "date": "2026-10-25",
+        "date": "2026-10-26",
         "description": "Nuvoloso",
-        "temp_min": 5,
-        "temp_max": 18,
+        "temp_min": 12,
+        "temp_max": 21,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -98,30 +110,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.9,
-        "humidity": 70,
+        "temp": 19.5,
+        "humidity": 74,
         "battery": 84,
-        "last_update": "2026-10-24 14:19:11",
+        "last_update": "2026-10-25 07:29:14",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.6,
+        "temp": 18.4,
         "humidity": 74,
         "battery": 43,
-        "last_update": "2026-10-24 14:16:30",
+        "last_update": "2026-10-25 07:19:00",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 20.9,
-        "humidity": 65,
-        "battery": 84,
-        "last_update": "2026-10-24 14:18:18",
+        "temp": 20.3,
+        "humidity": 63,
+        "battery": 85,
+        "last_update": "2026-10-25 07:21:16",
         "battery_warning": false
       }
     ],
@@ -328,19 +340,27 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-24",
-        "schedule": [
-          {
-            "time": "11:00",
-            "event": "📅 Catechismo Ada"
-          }
-        ],
+        "date": "2026-10-25",
+        "schedule": [],
         "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
-        "date": "2026-10-25",
-        "schedule": [],
+        "date": "2026-10-26",
+        "schedule": [
+          {
+            "time": "12:30",
+            "event": "📅 Ale"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Piano Ada"
+          },
+          {
+            "time": "19:00",
+            "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -352,20 +372,44 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-24",
-        "schedule": [
-          {
-            "time": "11:00",
-            "event": "📅 Catechismo Ada"
-          }
-        ],
+        "date": "2026-10-25",
+        "schedule": [],
         "status": "🏠 A casa",
         "mood": ""
       },
       "tomorrow": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "🏠 A casa"
+        "date": "2026-10-26",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 2B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:30",
+            "event": "📅 Ale"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Piano Ada"
+          },
+          {
+            "time": "19:00",
+            "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -515,7 +559,13 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-24",
+        "date": "2026-10-25",
+        "schedule": [],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-26",
         "schedule": [
           {
             "time": "08:10",
@@ -523,24 +573,38 @@
           },
           {
             "time": "09:10",
-            "event": "Italiano (2h) — Moncini M."
+            "event": "TAC — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Inglese — Febi R."
           },
           {
             "time": "11:10",
-            "event": "Storia dell'Arte — Lorenzini M."
+            "event": "Storia della Musica — Mascolo F."
           },
           {
             "time": "12:10",
-            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+            "event": "Religione — Battaglia M."
+          },
+          {
+            "time": "14:10",
+            "event": "Pianoforte (2° str.) — Pieruccioni L."
+          },
+          {
+            "time": "15:30",
+            "event": "Sax — Mazzola M. 📍 Fillungo"
+          },
+          {
+            "time": "16:30",
+            "event": "Ritorno: 🚆 Treno 17:31 (Stazione FS → 17:40 Altopascio)"
+          },
+          {
+            "time": "19:00",
+            "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~12:10",
-        "mood": ""
-      },
-      "tomorrow": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "🏠 A casa"
+        "status": "🏫 Scuola — Uscita ~16:30"
       },
       "transport": [
         {
@@ -826,14 +890,14 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Charlie Parker",
-        "track": "Confirmation",
-        "album": "Confirmation",
-        "year": "1953",
-        "context": "Bebop puro — Parker inventa un linguaggio che tutti i sassofonisti studiano ancora oggi.",
-        "youtube_url": "https://www.youtube.com/watch?v=yXK0pZx92MU"
+        "artist": "Sonny Rollins",
+        "track": "The Bridge",
+        "album": "The Bridge",
+        "year": "1962",
+        "context": "Dopo 2 anni di ritiro a esercitarsi sul ponte di Williamsburg, Rollins torna con questo album.",
+        "youtube_url": "https://www.youtube.com/watch?v=7k2gO5VJzo4"
       },
-      "personal_notes": "📝 2026-10-24: STORIA DELL' ARTE: Studiare alle pagine  da 15 a 18.\n📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
+      "personal_notes": "📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
     },
     "ada": {
       "display_name": "Ada",
@@ -842,20 +906,32 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-24",
-        "schedule": [
-          {
-            "time": "11:00",
-            "event": "📅 Catechismo Ada"
-          }
-        ],
+        "date": "2026-10-25",
+        "schedule": [],
         "status": "🏠 A casa",
         "mood": ""
       },
       "tomorrow": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "🏠 A casa"
+        "date": "2026-10-26",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "16:15",
+            "event": "Uscita scuola (giorno lungo)"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Piano Ada"
+          },
+          {
+            "time": "19:00",
+            "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 16:15"
       },
       "school_data": {
         "lezioni_oggi": [],
