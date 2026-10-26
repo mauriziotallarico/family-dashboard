@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-26T07:30:35.506092",
+    "last_updated": "2026-10-26T15:00:54.022805",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,35 +28,35 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-26T07:30:35.505774"
+        "added_at": "2026-10-26T15:00:54.009789"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-26T07:30:35.505878"
+        "added_at": "2026-10-26T15:00:54.011847"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-26T07:30:35.505911"
+        "added_at": "2026-10-26T15:00:54.012667"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-26T07:30:35.505940"
+        "added_at": "2026-10-26T15:00:54.012707"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-26T07:30:35.505970"
+        "added_at": "2026-10-26T15:00:54.013221"
       }
     ],
     "calendar_events": {
@@ -106,11 +106,11 @@
       "today": {
         "date": "2026-10-26",
         "description": "Nuvoloso",
-        "temp_min": 10,
-        "temp_max": 21,
+        "temp_min": 9,
+        "temp_max": 20,
         "icon": "04d",
-        "humidity": 92,
-        "wind_speed": 3,
+        "humidity": 53,
+        "wind_speed": 2,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -129,30 +129,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.6,
-        "humidity": 74,
+        "temp": 18.9,
+        "humidity": 70,
         "battery": 84,
-        "last_update": "2026-10-26 06:31:38",
+        "last_update": "2026-10-26 14:32:57",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.2,
-        "humidity": 75,
-        "battery": 42,
-        "last_update": "2026-10-26 07:23:00",
+        "temp": 19.8,
+        "humidity": 74,
+        "battery": 46,
+        "last_update": "2026-10-26 14:23:59",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.6,
-        "humidity": 68,
+        "temp": 20.2,
+        "humidity": 60,
         "battery": 84,
-        "last_update": "2026-10-26 07:25:26",
+        "last_update": "2026-10-26 14:26:42",
         "battery_warning": false
       }
     ],
@@ -983,7 +983,7 @@
         "context": "Composizione angolare e affascinante — Henderson esplora forme inusuali.",
         "youtube_url": "https://www.youtube.com/watch?v=xtk_TIf8MSk"
       },
-      "personal_notes": "📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
+      "personal_notes": "📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23.\n📝 2026-10-27: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e"
     },
     "ada": {
       "display_name": "Ada",
@@ -1037,7 +1037,92 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Le frazioni : termini ,  rappresentazione , unità frazionaria e complementare. Attività sul quaderno e libro di testo.  Correzione compiti "
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Le frazioni : termini ,  rappresentazione , unità frazionaria e complementare. Attività sul quaderno e libro di testo.  Correzione compiti "
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "MENSA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 6,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          },
+          {
+            "ora": 6,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 7,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          },
+          {
+            "ora": 7,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 8,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1053,7 +1138,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Le frazioni : termini ,  rappresentazione , unità frazionaria e complementare. Attività sul quaderno e libro di testo.  \n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → Le frazioni : termini ,  rappresentazione , unità frazionaria e complementare. Attività sul quaderno e libro di testo.  \n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: ITALIANO (GOZZINI ANGELA)\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: ITALIANO (GOZZINI ANGELA)\n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n  Ora 5: MENSA (LETIZIA ELVIRA)\n  Ora 6: ITALIANO (GOZZINI ANGELA)\n  Ora 6: SOSTEGNO (IACOMINI VERONICA)\n  Ora 7: ITALIANO (GOZZINI ANGELA)\n  Ora 7: SOSTEGNO (IACOMINI VERONICA)\n  Ora 8: ITALIANO (GOZZINI ANGELA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
