@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-25T15:00:42.990252",
+    "last_updated": "2026-10-26T07:30:35.506092",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-25",
+      "date": "2026-10-26",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,40 +28,39 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T15:00:42.989922"
+        "added_at": "2026-10-26T07:30:35.505774"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T15:00:42.990025"
+        "added_at": "2026-10-26T07:30:35.505878"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T15:00:42.990059"
+        "added_at": "2026-10-26T07:30:35.505911"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T15:00:42.990089"
+        "added_at": "2026-10-26T07:30:35.505940"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-25T15:00:42.990122"
+        "added_at": "2026-10-26T07:30:35.505970"
       }
     ],
     "calendar_events": {
-      "today": [],
-      "tomorrow": [
+      "today": [
         {
           "time": "17:30",
           "event": "📅 Piano Ada",
@@ -74,26 +73,52 @@
           "all_day": false,
           "summary": "Prova d'Orchestra"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Maurizio Milano",
+          "all_day": true,
+          "summary": "Maurizio Milano"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Dentista Fla e Ada",
+          "all_day": false,
+          "summary": "Dentista Fla e Ada"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        },
+        {
+          "time": "17:30",
+          "event": "📅 Pallavolo Flavio",
+          "all_day": false,
+          "summary": "Pallavolo Flavio"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-25",
-        "description": "Rovesci leggeri",
-        "temp_min": 6,
-        "temp_max": 16,
-        "icon": "09d",
-        "humidity": 65,
-        "wind_speed": 4,
-        "precipitation_mm": 0.1
-      },
-      "tomorrow": {
         "date": "2026-10-26",
         "description": "Nuvoloso",
-        "temp_min": 11,
-        "temp_max": 20,
+        "temp_min": 10,
+        "temp_max": 21,
         "icon": "04d",
+        "humidity": 92,
+        "wind_speed": 3,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-27",
+        "description": "Nebbia",
+        "temp_min": 8,
+        "temp_max": 20,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -104,30 +129,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.8,
-        "humidity": 71,
+        "temp": 18.6,
+        "humidity": 74,
         "battery": 84,
-        "last_update": "2026-10-25 14:30:08",
+        "last_update": "2026-10-26 06:31:38",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.9,
-        "humidity": 74,
-        "battery": 45,
-        "last_update": "2026-10-25 14:20:19",
+        "temp": 17.2,
+        "humidity": 75,
+        "battery": 42,
+        "last_update": "2026-10-26 07:23:00",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 20.0,
-        "humidity": 66,
-        "battery": 85,
-        "last_update": "2026-10-25 14:22:29",
+        "temp": 19.6,
+        "humidity": 68,
+        "battery": 84,
+        "last_update": "2026-10-26 07:25:26",
         "battery_warning": false
       }
     ],
@@ -334,12 +359,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-26",
         "schedule": [
           {
@@ -349,6 +368,29 @@
           {
             "time": "19:00",
             "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-27",
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Maurizio Milano"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Dentista Fla e Ada"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": ""
@@ -362,12 +404,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-26",
         "schedule": [
           {
@@ -395,7 +431,42 @@
             "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-27",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 2B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 1B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 1B (3ª ora)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Maurizio Milano"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Dentista Fla e Ada"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -545,12 +616,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-26",
         "schedule": [
           {
@@ -590,7 +655,42 @@
             "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~16:30"
+        "status": "🏫 Scuola — Uscita ~16:30",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-27",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Scienze — Lovi I."
+          },
+          {
+            "time": "09:10",
+            "event": "Storia della Musica — Mascolo F."
+          },
+          {
+            "time": "10:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Matematica — Marini F."
+          },
+          {
+            "time": "13:10",
+            "event": "Ritorno: 🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~13:10"
       },
       "transport": [
         {
@@ -876,12 +976,12 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Sonny Rollins",
-        "track": "The Bridge",
-        "album": "The Bridge",
-        "year": "1962",
-        "context": "Dopo 2 anni di ritiro a esercitarsi sul ponte di Williamsburg, Rollins torna con questo album.",
-        "youtube_url": "https://www.youtube.com/watch?v=7k2gO5VJzo4"
+        "artist": "Joe Henderson",
+        "track": "Tetragon",
+        "album": "Tetragon",
+        "year": "1967",
+        "context": "Composizione angolare e affascinante — Henderson esplora forme inusuali.",
+        "youtube_url": "https://www.youtube.com/watch?v=xtk_TIf8MSk"
       },
       "personal_notes": "📝 2026-10-26: STORIA E GEOGRAFIA: Prepararsi per terminare il gioco sulle coordinate geografiche delle città\n📝 2026-10-26: STORIA DELLA MUSICA: Interrogazioni e spiegazione del perfezionamento della scrittura musicale: dall\n📝 2026-10-26: LINGUA STRANIERA-ING: studia p 196 il primo schema e fai p 198 n 1, p 199  e p 202  n1 n2 n3  n8\n📝 2026-10-26: STORIA E GEOGRAFIA: Gli argomenti della verifica di storia sono pubblicati su Classroom. Portare fog\n📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23."
     },
@@ -892,12 +992,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-25",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-26",
         "schedule": [
           {
@@ -917,7 +1011,30 @@
             "event": "📅 Prova d'Orchestra (Corpo Musicale Giuliano Zei, via Bientinese 19, Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-27",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "13:15",
+            "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Dentista Fla e Ada"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
         "lezioni_oggi": [],
