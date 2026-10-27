@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-27T07:30:33.254281",
+    "last_updated": "2026-10-27T15:00:33.042703",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,35 +28,49 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T07:30:33.253986"
+        "added_at": "2026-10-27T15:00:33.042290"
       },
       {
         "id": "didup_1",
-        "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
+        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T07:30:33.254084"
+        "added_at": "2026-10-27T15:00:33.042387"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
+        "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T07:30:33.254117"
+        "added_at": "2026-10-27T15:00:33.042420"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T07:30:33.254146"
+        "added_at": "2026-10-27T15:00:33.042449"
       },
       {
         "id": "didup_4",
+        "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-27T15:00:33.042480"
+      },
+      {
+        "id": "didup_5",
+        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-27T15:00:33.042509"
+      },
+      {
+        "id": "didup_6",
         "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T07:30:33.254176"
+        "added_at": "2026-10-27T15:00:33.042544"
       }
     ],
     "calendar_events": {
@@ -109,15 +123,15 @@
         "temp_min": 8,
         "temp_max": 20,
         "icon": "50d",
-        "humidity": 92,
-        "wind_speed": 2,
+        "humidity": 56,
+        "wind_speed": 1,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-28",
         "description": "Nuvoloso",
         "temp_min": 9,
-        "temp_max": 20,
+        "temp_max": 19,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -129,20 +143,20 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.2,
-        "humidity": 74,
+        "temp": 19.0,
+        "humidity": 71,
         "battery": 84,
-        "last_update": "2026-10-27 06:34:17",
+        "last_update": "2026-10-27 14:34:46",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.1,
-        "humidity": 76,
-        "battery": 43,
-        "last_update": "2026-10-27 07:26:32",
+        "temp": 17.5,
+        "humidity": 75,
+        "battery": 42,
+        "last_update": "2026-10-27 14:27:24",
         "battery_warning": false
       },
       {
@@ -150,9 +164,9 @@
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
         "temp": 19.7,
-        "humidity": 66,
+        "humidity": 68,
         "battery": 84,
-        "last_update": "2026-10-27 07:29:39",
+        "last_update": "2026-10-27 14:30:52",
         "battery_warning": false
       }
     ],
@@ -975,7 +989,7 @@
         "context": "Bebop veloce e brillante — Coltrane giovane e già in pieno controllo.",
         "youtube_url": "https://www.youtube.com/watch?v=wi0IwiQ7IqM"
       },
-      "personal_notes": "📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23.\n📝 2026-10-27: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e"
+      "personal_notes": "📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23.\n📝 2026-10-27: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e\n📝 2026-11-02: STORIA DELLA MUSICA: spiegazione dei primi esempi di Polifonia a due voci: organum parallelo, discan\n📝 2026-11-03: LING. LETT. ITALIANA: vol.narrativa pag.143/151 con tutti gli esercizi"
     },
     "ada": {
       "display_name": "Ada",
@@ -1029,7 +1043,32 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Le frazioni : esercitazione sul libro di testo"
+          },
+          {
+            "ora": 2,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla riga”."
+          },
+          {
+            "ora": 3,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla riga”."
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1045,7 +1084,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Le frazioni : esercitazione sul libro di testo\n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla riga”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla riga”.\n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
