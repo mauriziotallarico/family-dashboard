@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-28T07:30:31.799939",
+    "last_updated": "2026-10-28T15:00:34.083389",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,49 +28,49 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799586"
+        "added_at": "2026-10-28T15:00:34.082958"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799676"
+        "added_at": "2026-10-28T15:00:34.083059"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799710"
+        "added_at": "2026-10-28T15:00:34.083092"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799739"
+        "added_at": "2026-10-28T15:00:34.083128"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799768"
+        "added_at": "2026-10-28T15:00:34.083159"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799797"
+        "added_at": "2026-10-28T15:00:34.083189"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-28T07:30:31.799825"
+        "added_at": "2026-10-28T15:00:34.083217"
       }
     ],
     "calendar_events": {
@@ -115,17 +115,17 @@
         "date": "2026-10-28",
         "description": "Nuvoloso",
         "temp_min": 9,
-        "temp_max": 20,
+        "temp_max": 19,
         "icon": "04d",
-        "humidity": 85,
-        "wind_speed": 2,
+        "humidity": 56,
+        "wind_speed": 1,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-29",
         "description": "Nebbia",
-        "temp_min": 8,
-        "temp_max": 22,
+        "temp_min": 9,
+        "temp_max": 21,
         "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
@@ -138,9 +138,9 @@
         "name": "Corridoio",
         "icon": "🚪",
         "temp": 19.2,
-        "humidity": 72,
-        "battery": 84,
-        "last_update": "2026-10-28 07:00:53",
+        "humidity": 67,
+        "battery": 83,
+        "last_update": "2026-10-28 14:01:36",
         "battery_warning": false
       },
       {
@@ -149,18 +149,18 @@
         "icon": "💻",
         "temp": 17.4,
         "humidity": 75,
-        "battery": 46,
-        "last_update": "2026-10-28 07:01:19",
+        "battery": 42,
+        "last_update": "2026-10-28 14:02:22",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.6,
-        "humidity": 66,
+        "temp": 19.8,
+        "humidity": 61,
         "battery": 83,
-        "last_update": "2026-10-28 07:01:26",
+        "last_update": "2026-10-28 14:02:39",
         "battery_warning": false
       }
     ],
@@ -1041,7 +1041,56 @@
         "status": "🏫 Scuola — Uscita 16:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Il discorso diretto e indiretto"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Interrogazione: scrittura cuneiforme, gli scribi, un popolo di inventori"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Rappresentazione pittorica del quadro di Paul klee \" Parco vicino a Lu\" "
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "FONTANA ROBERTO",
+            "argomento": "Continuazione del lavoro di immagine su Paul Klee"
+          },
+          {
+            "ora": 5,
+            "materia": "MUSICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1064,7 +1113,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il discorso diretto e indiretto\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: STORIA (GOZZINI ANGELA)\n    → Interrogazione: scrittura cuneiforme, gli scribi, un popolo di inventori\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Rappresentazione pittorica del quadro di Paul klee \" Parco vicino a Lu\" \n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n    → Continuazione del lavoro di immagine su Paul Klee\n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
