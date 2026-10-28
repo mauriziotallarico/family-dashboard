@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-27T15:00:33.042703",
+    "last_updated": "2026-10-28T07:30:31.799939",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-27",
+      "date": "2026-10-28",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,79 +28,53 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042290"
+        "added_at": "2026-10-28T07:30:31.799586"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042387"
+        "added_at": "2026-10-28T07:30:31.799676"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
+        "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042420"
+        "added_at": "2026-10-28T07:30:31.799710"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
+        "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042449"
+        "added_at": "2026-10-28T07:30:31.799739"
       },
       {
         "id": "didup_4",
-        "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
+        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042480"
+        "added_at": "2026-10-28T07:30:31.799768"
       },
       {
         "id": "didup_5",
-        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042509"
+        "added_at": "2026-10-28T07:30:31.799797"
       },
       {
         "id": "didup_6",
-        "text": "📚 2026-10-27 (07:00-07:30) — Scienze : verifica ( definizione materia, elementi/composti/miscugli, struttura atomica, numero atomico, distribuzione elettroni, legame ionico e covalente, stati fisici mat",
+        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-27T15:00:33.042544"
+        "added_at": "2026-10-28T07:30:31.799825"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "tutto il giorno",
-          "event": "📅 Maurizio Milano",
-          "all_day": true,
-          "summary": "Maurizio Milano"
-        },
-        {
-          "time": "15:00",
-          "event": "📅 Dentista Fla e Ada",
-          "all_day": false,
-          "summary": "Dentista Fla e Ada"
-        },
-        {
-          "time": "17:00",
-          "event": "📅 Ada ginnastica",
-          "all_day": false,
-          "summary": "Ada ginnastica"
-        },
-        {
-          "time": "17:30",
-          "event": "📅 Pallavolo Flavio",
-          "all_day": false,
-          "summary": "Pallavolo Flavio"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "tutto il giorno",
           "event": "📅 Onomastico Zia Simona",
@@ -113,26 +87,46 @@
           "all_day": false,
           "summary": "Teatro Ada"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "08:00",
+          "event": "📅 Gomme invernali",
+          "all_day": false,
+          "summary": "Gomme invernali"
+        },
+        {
+          "time": "10:00",
+          "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))",
+          "all_day": false,
+          "summary": "Concerto a Lucca"
+        },
+        {
+          "time": "14:30",
+          "event": "📅 Google Moduli + Valutazione — sessione 2",
+          "all_day": false,
+          "summary": "Google Moduli + Valutazione — sessione 2"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-27",
-        "description": "Nebbia",
-        "temp_min": 8,
-        "temp_max": 20,
-        "icon": "50d",
-        "humidity": 56,
-        "wind_speed": 1,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-28",
         "description": "Nuvoloso",
         "temp_min": 9,
-        "temp_max": 19,
+        "temp_max": 20,
         "icon": "04d",
+        "humidity": 85,
+        "wind_speed": 2,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-29",
+        "description": "Nebbia",
+        "temp_min": 8,
+        "temp_max": 22,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -143,30 +137,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.0,
-        "humidity": 71,
+        "temp": 19.2,
+        "humidity": 72,
         "battery": 84,
-        "last_update": "2026-10-27 14:34:46",
+        "last_update": "2026-10-28 07:00:53",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.5,
+        "temp": 17.4,
         "humidity": 75,
-        "battery": 42,
-        "last_update": "2026-10-27 14:27:24",
+        "battery": 46,
+        "last_update": "2026-10-28 07:01:19",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.7,
-        "humidity": 68,
-        "battery": 84,
-        "last_update": "2026-10-27 14:30:52",
+        "temp": 19.6,
+        "humidity": 66,
+        "battery": 83,
+        "last_update": "2026-10-28 07:01:26",
         "battery_warning": false
       }
     ],
@@ -373,29 +367,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-27",
-        "schedule": [
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Maurizio Milano"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Dentista Fla e Ada"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-28",
         "schedule": [
           {
@@ -405,6 +376,25 @@
           {
             "time": "16:45",
             "event": "📅 Teatro Ada"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-29",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "📅 Gomme invernali"
+          },
+          {
+            "time": "10:00",
+            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
+          },
+          {
+            "time": "14:30",
+            "event": "📅 Google Moduli + Valutazione — sessione 2"
           }
         ],
         "status": ""
@@ -418,41 +408,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-27",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 2B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 1B (3ª ora)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Maurizio Milano"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Dentista Fla e Ada"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-28",
         "schedule": [
           {
@@ -480,7 +435,38 @@
             "event": "📅 Teatro Ada"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-29",
+        "schedule": [
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 2B (4ª ora)"
+          },
+          {
+            "time": "13:00",
+            "event": "Scuola: 1B (6ª ora)"
+          },
+          {
+            "time": "08:00",
+            "event": "📅 Gomme invernali"
+          },
+          {
+            "time": "10:00",
+            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
+          },
+          {
+            "time": "14:30",
+            "event": "📅 Google Moduli + Valutazione — sessione 2"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -630,41 +616,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-27",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Storia della Musica — Mascolo F."
-          },
-          {
-            "time": "10:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "11:10",
-            "event": "Storia dell'Arte — Lorenzini M."
-          },
-          {
-            "time": "12:10",
-            "event": "Matematica — Marini F."
-          },
-          {
-            "time": "13:10",
-            "event": "Ritorno: 🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Pallavolo Flavio"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~13:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-28",
         "schedule": [
           {
@@ -696,7 +647,50 @@
             "event": "📅 Onomastico Zia Simona"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~15:30"
+        "status": "🏫 Scuola — Uscita ~15:30",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-29",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TEM (2h) — Giusti M."
+          },
+          {
+            "time": "10:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "11:10",
+            "event": "Inglese — Febi R."
+          },
+          {
+            "time": "12:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "14:10",
+            "event": "Orchestra di Fiati — Cesari D., Fortino S., Gaggini E., Manente D."
+          },
+          {
+            "time": "14:10",
+            "event": "Ritorno: 🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)"
+          },
+          {
+            "time": "08:00",
+            "event": "📅 Gomme invernali"
+          },
+          {
+            "time": "10:00",
+            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
+          },
+          {
+            "time": "14:30",
+            "event": "📅 Google Moduli + Valutazione — sessione 2"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~14:10"
       },
       "transport": [
         {
@@ -982,14 +976,14 @@
         ]
       },
       "jazz_pick": {
-        "artist": "John Coltrane",
-        "track": "Lazy Bird",
-        "album": "Blue Train",
-        "year": "1957",
-        "context": "Bebop veloce e brillante — Coltrane giovane e già in pieno controllo.",
-        "youtube_url": "https://www.youtube.com/watch?v=wi0IwiQ7IqM"
+        "artist": "Wayne Shorter",
+        "track": "Witch Hunt",
+        "album": "Speak No Evil",
+        "year": "1964",
+        "context": "Drammatico e cinematografico — Shorter è un compositore che pensa per immagini.",
+        "youtube_url": "https://www.youtube.com/watch?v=oJoSrQ6iP0c"
       },
-      "personal_notes": "📝 2026-10-27: LING. LETT. ITALIANA: vol.narrativa pag.125/131\n📝 2026-10-27: STORIA DELL' ARTE: studiare pg da 21 a 23.\n📝 2026-10-27: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e\n📝 2026-11-02: STORIA DELLA MUSICA: spiegazione dei primi esempi di Polifonia a due voci: organum parallelo, discan\n📝 2026-11-03: LING. LETT. ITALIANA: vol.narrativa pag.143/151 con tutti gli esercizi"
+      "personal_notes": "📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e\n📝 2026-11-02: STORIA DELLA MUSICA: spiegazione dei primi esempi di Polifonia a due voci: organum parallelo, discan\n📝 2026-11-03: LING. LETT. ITALIANA: vol.narrativa pag.143/151 con tutti gli esercizi\n📝 2026-11-03: STORIA DELL' ARTE: Studiare da pg 20 a 24, da 29 a 33.\n📝 2026-11-04: LABORATORIO DI MUSICA D'INSIEME: CORO BIENNIO:  studiare tutto il brano Ave Verum"
     },
     "ada": {
       "display_name": "Ada",
@@ -998,29 +992,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-27",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Dentista Fla e Ada"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-28",
         "schedule": [
           {
@@ -1040,38 +1011,47 @@
             "event": "📅 Teatro Ada"
           }
         ],
-        "status": "🏫 Scuola — Uscita 13:15"
+        "status": "🏫 Scuola — Uscita 13:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-29",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Le frazioni : esercitazione sul libro di testo"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 2,
-            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
-            "docente": "LEONI MARTINA",
-            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla riga”."
+            "time": "16:15",
+            "event": "Uscita scuola (giorno lungo)"
           },
           {
-            "ora": 3,
-            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
-            "docente": "LEONI MARTINA",
-            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla riga”."
+            "time": "08:00",
+            "event": "📅 Gomme invernali"
           },
           {
-            "ora": 4,
-            "materia": "ITALIANO",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "10:00",
+            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
+          },
+          {
+            "time": "14:30",
+            "event": "📅 Google Moduli + Valutazione — sessione 2"
           }
         ],
+        "status": "🏫 Scuola — Uscita 16:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
+          {
+            "data": "2026-10-27",
+            "materia": "GEOGRAFIA",
+            "voto": "ds",
+            "note": "Interrogazione orale: centri abitati (città e paesi)",
+            "colore": "green"
+          },
           {
             "data": "2026-10-20",
             "materia": "GEOGRAFIA",
@@ -1084,7 +1064,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Le frazioni : esercitazione sul libro di testo\n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla riga”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla riga”.\n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
