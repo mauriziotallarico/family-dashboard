@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-10-29T07:32:33.457432",
+    "last_updated": "2026-10-29T15:00:26.597262",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Flavio (Argo Didup)",
         "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-29T07:31:45.935308"
+        "timestamp": "2026-10-29T15:00:14.075292"
       }
     ]
   },
@@ -77,17 +77,17 @@
         "date": "2026-10-29",
         "description": "Nebbia",
         "temp_min": 9,
-        "temp_max": 22,
+        "temp_max": 21,
         "icon": "50d",
-        "humidity": 96,
-        "wind_speed": 2,
+        "humidity": 48,
+        "wind_speed": 17,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-10-30",
         "description": "Prevalentemente sereno",
-        "temp_min": 11,
-        "temp_max": 20,
+        "temp_min": 10,
+        "temp_max": 19,
         "icon": "02d",
         "humidity": 0,
         "wind_speed": 0,
@@ -99,30 +99,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.2,
-        "humidity": 72,
+        "temp": 19.5,
+        "humidity": 65,
         "battery": 83,
-        "last_update": "2026-10-29 07:02:56",
+        "last_update": "2026-10-29 14:03:27",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.6,
-        "humidity": 76,
-        "battery": 44,
-        "last_update": "2026-10-29 07:05:12",
+        "temp": 20.7,
+        "humidity": 71,
+        "battery": 45,
+        "last_update": "2026-10-29 14:06:15",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.5,
-        "humidity": 66,
+        "temp": 19.7,
+        "humidity": 63,
         "battery": 83,
-        "last_update": "2026-10-29 07:05:36",
+        "last_update": "2026-10-29 14:06:50",
         "battery_warning": false
       }
     ],
@@ -937,7 +937,14 @@
           }
         ]
       },
-      "jazz_pick": null,
+      "jazz_pick": {
+        "artist": "Sonny Rollins",
+        "track": "God Bless the Child",
+        "album": "The Bridge",
+        "year": "1962",
+        "context": "La ballad di Billie Holiday reinterpretata con dolcezza e potenza al tempo stesso.",
+        "youtube_url": "https://www.youtube.com/watch?v=B0qWAPe_uAw"
+      },
       "personal_notes": "Nessun compito registrato"
     },
     "ada": {
@@ -992,7 +999,32 @@
         "status": "🏫 Scuola — Uscita 12:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 3,
+            "materia": "SCIENZE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di stato"
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "SCIENZE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di stato"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1022,7 +1054,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 3: SCIENZE (LETIZIA ELVIRA)\n    → Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SCIENZE (LETIZIA ELVIRA)\n    → Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di \n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
