@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "last_updated": "2026-10-28T15:00:34.083389",
+    "last_updated": "2026-10-29T07:32:33.457432",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "source": "Registro Flavio (Argo Didup)",
+        "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
+        "timestamp": "2026-10-29T07:31:45.935308"
+      }
+    ]
   },
   "config": {
     "family_name": "Tallarico",
@@ -17,78 +23,14 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-28",
+      "date": "2026-10-29",
       "lunch": "",
       "dinner": "",
       "notes": ""
     },
-    "reminders": [
-      {
-        "id": "didup_0",
-        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.082958"
-      },
-      {
-        "id": "didup_1",
-        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.083059"
-      },
-      {
-        "id": "didup_2",
-        "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.083092"
-      },
-      {
-        "id": "didup_3",
-        "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.083128"
-      },
-      {
-        "id": "didup_4",
-        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.083159"
-      },
-      {
-        "id": "didup_5",
-        "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.083189"
-      },
-      {
-        "id": "didup_6",
-        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-10-28T15:00:34.083217"
-      }
-    ],
+    "reminders": [],
     "calendar_events": {
       "today": [
-        {
-          "time": "tutto il giorno",
-          "event": "📅 Onomastico Zia Simona",
-          "all_day": true,
-          "summary": "Onomastico Zia Simona"
-        },
-        {
-          "time": "16:45",
-          "event": "📅 Teatro Ada",
-          "all_day": false,
-          "summary": "Teatro Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "08:00",
           "event": "📅 Gomme invernali",
@@ -107,26 +49,46 @@
           "all_day": false,
           "summary": "Google Moduli + Valutazione — sessione 2"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-28",
-        "description": "Nuvoloso",
-        "temp_min": 9,
-        "temp_max": 19,
-        "icon": "04d",
-        "humidity": 56,
-        "wind_speed": 1,
-        "precipitation_mm": 0.0
-      },
-      "tomorrow": {
         "date": "2026-10-29",
         "description": "Nebbia",
         "temp_min": 9,
-        "temp_max": 21,
+        "temp_max": 22,
         "icon": "50d",
+        "humidity": 96,
+        "wind_speed": 2,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-10-30",
+        "description": "Prevalentemente sereno",
+        "temp_min": 11,
+        "temp_max": 20,
+        "icon": "02d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -138,29 +100,29 @@
         "name": "Corridoio",
         "icon": "🚪",
         "temp": 19.2,
-        "humidity": 67,
+        "humidity": 72,
         "battery": 83,
-        "last_update": "2026-10-28 14:01:36",
+        "last_update": "2026-10-29 07:02:56",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.4,
-        "humidity": 75,
-        "battery": 42,
-        "last_update": "2026-10-28 14:02:22",
+        "temp": 17.6,
+        "humidity": 76,
+        "battery": 44,
+        "last_update": "2026-10-29 07:05:12",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.8,
-        "humidity": 61,
+        "temp": 19.5,
+        "humidity": 66,
         "battery": 83,
-        "last_update": "2026-10-28 14:02:39",
+        "last_update": "2026-10-29 07:05:36",
         "battery_warning": false
       }
     ],
@@ -367,21 +329,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-28",
-        "schedule": [
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Onomastico Zia Simona"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-29",
         "schedule": [
           {
@@ -397,6 +344,25 @@
             "event": "📅 Google Moduli + Valutazione — sessione 2"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-30",
+        "schedule": [
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -408,37 +374,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-28",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Onomastico Zia Simona"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-29",
         "schedule": [
           {
@@ -466,7 +401,42 @@
             "event": "📅 Google Moduli + Valutazione — sessione 2"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-30",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -616,41 +586,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-28",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "13:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "14:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Onomastico Zia Simona"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-29",
         "schedule": [
           {
@@ -690,7 +625,34 @@
             "event": "📅 Google Moduli + Valutazione — sessione 2"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-30",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -975,15 +937,8 @@
           }
         ]
       },
-      "jazz_pick": {
-        "artist": "Wayne Shorter",
-        "track": "Witch Hunt",
-        "album": "Speak No Evil",
-        "year": "1964",
-        "context": "Drammatico e cinematografico — Shorter è un compositore che pensa per immagini.",
-        "youtube_url": "https://www.youtube.com/watch?v=oJoSrQ6iP0c"
-      },
-      "personal_notes": "📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e\n📝 2026-11-02: STORIA DELLA MUSICA: spiegazione dei primi esempi di Polifonia a due voci: organum parallelo, discan\n📝 2026-11-03: LING. LETT. ITALIANA: vol.narrativa pag.143/151 con tutti gli esercizi\n📝 2026-11-03: STORIA DELL' ARTE: Studiare da pg 20 a 24, da 29 a 33.\n📝 2026-11-04: LABORATORIO DI MUSICA D'INSIEME: CORO BIENNIO:  studiare tutto il brano Ave Verum"
+      "jazz_pick": null,
+      "personal_notes": "Nessun compito registrato"
     },
     "ada": {
       "display_name": "Ada",
@@ -992,29 +947,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-28",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Onomastico Zia Simona"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-29",
         "schedule": [
           {
@@ -1038,62 +970,39 @@
             "event": "📅 Google Moduli + Valutazione — sessione 2"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-30",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Il discorso diretto e indiretto"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 2,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Interrogazione: scrittura cuneiforme, gli scribi, un popolo di inventori"
-          },
-          {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Rappresentazione pittorica del quadro di Paul klee \" Parco vicino a Lu\" "
-          },
-          {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "FONTANA ROBERTO",
-            "argomento": "Continuazione del lavoro di immagine su Paul Klee"
-          },
-          {
-            "ora": 5,
-            "materia": "MUSICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
+          {
+            "data": "2026-10-28",
+            "materia": "STORIA",
+            "voto": "ds",
+            "note": "I Sumeri: interrogazione",
+            "colore": "green"
+          },
           {
             "data": "2026-10-27",
             "materia": "GEOGRAFIA",
@@ -1113,7 +1022,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Il discorso diretto e indiretto\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: STORIA (GOZZINI ANGELA)\n    → Interrogazione: scrittura cuneiforme, gli scribi, un popolo di inventori\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (FONTANA ROBERTO)\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Rappresentazione pittorica del quadro di Paul klee \" Parco vicino a Lu\" \n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n    → Continuazione del lavoro di immagine su Paul Klee\n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
