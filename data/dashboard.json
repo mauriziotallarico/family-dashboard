@@ -1,15 +1,9 @@
 {
   "_meta": {
-    "last_updated": "2026-10-29T15:00:26.597262",
+    "last_updated": "2026-10-30T07:30:31.860603",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": [
-      {
-        "source": "Registro Flavio (Argo Didup)",
-        "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-10-29T15:00:14.075292"
-      }
-    ]
+    "fetch_errors": []
   },
   "config": {
     "family_name": "Tallarico",
@@ -23,34 +17,64 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-10-29",
+      "date": "2026-10-30",
       "lunch": "",
       "dinner": "",
       "notes": ""
     },
-    "reminders": [],
+    "reminders": [
+      {
+        "id": "didup_0",
+        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860228"
+      },
+      {
+        "id": "didup_1",
+        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860322"
+      },
+      {
+        "id": "didup_2",
+        "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860355"
+      },
+      {
+        "id": "didup_3",
+        "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860385"
+      },
+      {
+        "id": "didup_4",
+        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860420"
+      },
+      {
+        "id": "didup_5",
+        "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860451"
+      },
+      {
+        "id": "didup_6",
+        "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-10-30T07:30:31.860479"
+      }
+    ],
     "calendar_events": {
       "today": [
-        {
-          "time": "08:00",
-          "event": "📅 Gomme invernali",
-          "all_day": false,
-          "summary": "Gomme invernali"
-        },
-        {
-          "time": "10:00",
-          "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))",
-          "all_day": false,
-          "summary": "Concerto a Lucca"
-        },
-        {
-          "time": "14:30",
-          "event": "📅 Google Moduli + Valutazione — sessione 2",
-          "all_day": false,
-          "summary": "Google Moduli + Valutazione — sessione 2"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "15:00",
           "event": "📅 Batteria Flavio",
@@ -69,26 +93,34 @@
           "all_day": false,
           "summary": "Ada ginnastica"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "11:00",
+          "event": "📅 Catechismo Ada",
+          "all_day": false,
+          "summary": "Catechismo Ada"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-10-29",
-        "description": "Nebbia",
+        "date": "2026-10-30",
+        "description": "Sereno",
         "temp_min": 9,
-        "temp_max": 21,
-        "icon": "50d",
-        "humidity": 48,
-        "wind_speed": 17,
+        "temp_max": 20,
+        "icon": "01d",
+        "humidity": 78,
+        "wind_speed": 3,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-10-30",
-        "description": "Prevalentemente sereno",
-        "temp_min": 10,
+        "date": "2026-10-31",
+        "description": "Parzialmente nuvoloso",
+        "temp_min": 8,
         "temp_max": 19,
-        "icon": "02d",
+        "icon": "03d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -99,30 +131,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.5,
-        "humidity": 65,
+        "temp": 19.3,
+        "humidity": 74,
         "battery": 83,
-        "last_update": "2026-10-29 14:03:27",
+        "last_update": "2026-10-30 07:05:23",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 20.7,
-        "humidity": 71,
-        "battery": 45,
-        "last_update": "2026-10-29 14:06:15",
+        "temp": 17.8,
+        "humidity": 75,
+        "battery": 42,
+        "last_update": "2026-10-30 07:08:39",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.7,
-        "humidity": 63,
+        "temp": 19.5,
+        "humidity": 64,
         "battery": 83,
-        "last_update": "2026-10-29 14:06:50",
+        "last_update": "2026-10-30 07:09:49",
         "battery_warning": false
       }
     ],
@@ -329,25 +361,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-10-29",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "📅 Gomme invernali"
-          },
-          {
-            "time": "10:00",
-            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Google Moduli + Valutazione — sessione 2"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-10-30",
         "schedule": [
           {
@@ -363,6 +376,17 @@
             "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-10-31",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -374,37 +398,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-10-29",
-        "schedule": [
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 2B (4ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 1B (6ª ora)"
-          },
-          {
-            "time": "08:00",
-            "event": "📅 Gomme invernali"
-          },
-          {
-            "time": "10:00",
-            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Google Moduli + Valutazione — sessione 2"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-30",
         "schedule": [
           {
@@ -436,7 +429,18 @@
             "event": "📅 Ada ginnastica"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-31",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
+        "status": "🏠 A casa"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -586,49 +590,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-10-29",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TEM (2h) — Giusti M."
-          },
-          {
-            "time": "10:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "11:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "12:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "14:10",
-            "event": "Orchestra di Fiati — Cesari D., Fortino S., Gaggini E., Manente D."
-          },
-          {
-            "time": "14:10",
-            "event": "Ritorno: 🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)"
-          },
-          {
-            "time": "08:00",
-            "event": "📅 Gomme invernali"
-          },
-          {
-            "time": "10:00",
-            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Google Moduli + Valutazione — sessione 2"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~14:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-30",
         "schedule": [
           {
@@ -650,6 +611,29 @@
           {
             "time": "16:10",
             "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-10-31",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "09:10",
+            "event": "Italiano (2h) — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10"
@@ -938,14 +922,14 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Sonny Rollins",
-        "track": "God Bless the Child",
-        "album": "The Bridge",
+        "artist": "Stan Getz",
+        "track": "Desafinado",
+        "album": "Jazz Samba",
         "year": "1962",
-        "context": "La ballad di Billie Holiday reinterpretata con dolcezza e potenza al tempo stesso.",
-        "youtube_url": "https://www.youtube.com/watch?v=B0qWAPe_uAw"
+        "context": "Il brano che ha lanciato la bossa nova negli USA. Cool jazz incontra il Brasile.",
+        "youtube_url": "https://www.youtube.com/watch?v=npKGdsiQz9Q"
       },
-      "personal_notes": "Nessun compito registrato"
+      "personal_notes": "📝 2026-11-02: LINGUA STRANIERA-ING: preparati per la prova orale.   se non le hai gia fatte fai p 200, 202 n1-5, e\n📝 2026-11-02: STORIA DELLA MUSICA: spiegazione dei primi esempi di Polifonia a due voci: organum parallelo, discan\n📝 2026-11-03: LING. LETT. ITALIANA: vol.narrativa pag.143/151 con tutti gli esercizi\n📝 2026-11-03: STORIA DELL' ARTE: Studiare da pg 20 a 24, da 29 a 33.\n📝 2026-11-04: LABORATORIO DI MUSICA D'INSIEME: CORO BIENNIO:  studiare tutto il brano Ave Verum\n📝 2026-11-05: LABORATORIO DI MUSICA D'INSIEME: VERIFICA: O Love e And so it goes"
     },
     "ada": {
       "display_name": "Ada",
@@ -954,33 +938,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-10-29",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "16:15",
-            "event": "Uscita scuola (giorno lungo)"
-          },
-          {
-            "time": "08:00",
-            "event": "📅 Gomme invernali"
-          },
-          {
-            "time": "10:00",
-            "event": "📅 Concerto a Lucca (Padiglione UST, Mura di Lucca (tra Caffè delle Mura e Baluardo San Paolino))"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 Google Moduli + Valutazione — sessione 2"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 16:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-10-30",
         "schedule": [
           {
@@ -996,35 +953,21 @@
             "event": "📅 Ada ginnastica"
           }
         ],
-        "status": "🏫 Scuola — Uscita 12:15"
+        "status": "🏫 Scuola — Uscita 12:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-10-31",
+        "schedule": [
           {
-            "ora": 3,
-            "materia": "SCIENZE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di stato"
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "SCIENZE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di stato"
-          },
-          {
-            "ora": 4,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1054,7 +997,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 3: SCIENZE (LETIZIA ELVIRA)\n    → Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SCIENZE (LETIZIA ELVIRA)\n    → Interrogazione orale : la materia \nLettura ,spiegazione e visione di un video sugli stati della materia e i passaggi di \n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
