@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-10-31T07:30:35.210322",
+    "last_updated": "2026-10-31T15:00:40.894132",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,49 +28,49 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.209949"
+        "added_at": "2026-10-31T15:00:40.893751"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.210039"
+        "added_at": "2026-10-31T15:00:40.893854"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.210078"
+        "added_at": "2026-10-31T15:00:40.893889"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.210109"
+        "added_at": "2026-10-31T15:00:40.893920"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.210139"
+        "added_at": "2026-10-31T15:00:40.893949"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.210169"
+        "added_at": "2026-10-31T15:00:40.893979"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-10-31T07:30:35.210197"
+        "added_at": "2026-10-31T15:00:40.894006"
       }
     ],
     "calendar_events": {
@@ -90,18 +90,18 @@
         "date": "2026-10-31",
         "description": "Nuvoloso",
         "temp_min": 8,
-        "temp_max": 19,
+        "temp_max": 20,
         "icon": "04d",
-        "humidity": 75,
-        "wind_speed": 3,
+        "humidity": 47,
+        "wind_speed": 14,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-11-01",
-        "description": "Nuvoloso",
+        "description": "Pioggia leggera",
         "temp_min": 9,
-        "temp_max": 15,
-        "icon": "04d",
+        "temp_max": 14,
+        "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -112,30 +112,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.1,
-        "humidity": 73,
+        "temp": 19.4,
+        "humidity": 67,
         "battery": 83,
-        "last_update": "2026-10-31 07:07:38",
+        "last_update": "2026-10-31 14:08:05",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.8,
-        "humidity": 75,
-        "battery": 42,
-        "last_update": "2026-10-31 07:12:20",
+        "temp": 17.4,
+        "humidity": 73,
+        "battery": 41,
+        "last_update": "2026-10-31 14:13:19",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.5,
-        "humidity": 63,
+        "temp": 20.4,
+        "humidity": 53,
         "battery": 83,
-        "last_update": "2026-10-31 07:14:00",
+        "last_update": "2026-10-31 14:15:13",
         "battery_warning": false
       }
     ],
