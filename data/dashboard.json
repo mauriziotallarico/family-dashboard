@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-01T08:13:25.719464",
+    "last_updated": "2026-11-01T15:00:35.106227",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,49 +28,49 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719090"
+        "added_at": "2026-11-01T15:00:35.105842"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719181"
+        "added_at": "2026-11-01T15:00:35.105941"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719214"
+        "added_at": "2026-11-01T15:00:35.105975"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719244"
+        "added_at": "2026-11-01T15:00:35.106006"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719274"
+        "added_at": "2026-11-01T15:00:35.106035"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719304"
+        "added_at": "2026-11-01T15:00:35.106066"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-11-02 (08:10-09:10) — Verifica di storia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-01T08:13:25.719332"
+        "added_at": "2026-11-01T15:00:35.106094"
       }
     ],
     "calendar_events": {
@@ -94,13 +94,13 @@
     "weather": {
       "today": {
         "date": "2026-11-01",
-        "description": "Nuvoloso",
+        "description": "Rovesci leggeri",
         "temp_min": 8,
-        "temp_max": 14,
-        "icon": "04d",
-        "humidity": 59,
-        "wind_speed": 10,
-        "precipitation_mm": 0.0
+        "temp_max": 15,
+        "icon": "09d",
+        "humidity": 52,
+        "wind_speed": 13,
+        "precipitation_mm": 0.3
       },
       "tomorrow": {
         "date": "2026-11-02",
@@ -118,30 +118,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.8,
-        "humidity": 73,
+        "temp": 18.2,
+        "humidity": 70,
         "battery": 83,
-        "last_update": "2026-11-01 08:01:12",
+        "last_update": "2026-11-01 14:01:37",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 16.9,
+        "temp": 17.4,
         "humidity": 74,
-        "battery": 40,
-        "last_update": "2026-11-01 08:01:40",
+        "battery": 32,
+        "last_update": "2026-11-01 14:02:37",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.3,
-        "humidity": 61,
-        "battery": 83,
-        "last_update": "2026-11-01 08:01:55",
+        "temp": 19.1,
+        "humidity": 58,
+        "battery": 82,
+        "last_update": "2026-11-01 14:02:58",
         "battery_warning": false
       }
     ],
