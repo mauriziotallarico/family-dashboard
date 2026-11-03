@@ -318,6 +318,74 @@
     }
     .personal-notes-label { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; color: var(--member-color); margin-bottom: 0.3rem; }
 
+    /* ===== VOTI TABLE (Flavio grades) ===== */
+    .voti-header {
+      display: flex; gap: 0.5rem; flex-wrap: wrap;
+      margin-bottom: 0.9rem;
+    }
+    .voti-header-item {
+      flex: 1; min-width: 80px;
+      display: flex; flex-direction: column; gap: 0.15rem;
+      padding: 0.5rem 0.6rem;
+      border-radius: var(--radius-sm);
+      background: var(--member-light);
+      text-align: center;
+    }
+    .voti-header-label {
+      font-size: 0.62rem; text-transform: uppercase; letter-spacing: 0.5px;
+      color: var(--text-light); font-weight: 700;
+    }
+    .voti-header-value { font-size: 1.1rem; font-weight: 800; color: var(--member-color); }
+    .voti-table {
+      width: 100%; border-collapse: collapse; font-size: 0.8rem;
+    }
+    .voti-table th {
+      text-align: left; font-size: 0.66rem; text-transform: uppercase;
+      letter-spacing: 0.5px; color: var(--text-light); font-weight: 700;
+      padding: 0.4rem 0.5rem; border-bottom: 2px solid var(--border);
+    }
+    .voti-table th:nth-child(2), .voti-table th:nth-child(4) { text-align: center; }
+    .voti-table td {
+      padding: 0.5rem 0.5rem; border-bottom: 1px solid var(--border);
+      vertical-align: middle;
+    }
+    .voti-table tr:last-child td { border-bottom: none; }
+    .voto-materia { font-weight: 600; color: var(--text-primary); line-height: 1.25; }
+    .voto-media-cell { text-align: center; }
+    .voto-count { text-align: center; color: var(--text-light); font-size: 0.72rem; font-weight: 700; }
+    .voto-media {
+      display: inline-block; padding: 0.15rem 0.5rem; border-radius: 10px;
+      font-weight: 800; font-size: 0.82rem; font-variant-numeric: tabular-nums;
+    }
+    .voto-media-lg { font-size: 1.1rem; padding: 0.2rem 0.7rem; }
+    .voto-good { background: #dcfce7; color: #15803d; }
+    .voto-ok   { background: #fef9c3; color: #a16207; }
+    .voto-low  { background: #fee2e2; color: #b91c1c; }
+    .voto-na   { background: var(--border); color: var(--text-light); }
+    [data-theme="dark"] .voto-good { background: #14532d; color: #86efac; }
+    [data-theme="dark"] .voto-ok   { background: #422006; color: #fde047; }
+    [data-theme="dark"] .voto-low  { background: #450a0a; color: #fca5a5; }
+    .voto-chips-cell { display: flex; flex-wrap: wrap; gap: 0.25rem; align-items: center; }
+    .voto-chip {
+      display: inline-block; padding: 0.12rem 0.4rem; border-radius: 8px;
+      font-size: 0.72rem; font-weight: 700; white-space: nowrap;
+      font-variant-numeric: tabular-nums;
+    }
+    .voto-chip-good { background: #dcfce7; color: #15803d; }
+    .voto-chip-ok   { background: #fef9c3; color: #a16207; }
+    .voto-chip-low  { background: #fee2e2; color: #b91c1c; }
+    .voto-chip-na   { background: var(--border); color: var(--text-secondary); }
+    [data-theme="dark"] .voto-chip-good { background: #14532d; color: #86efac; }
+    [data-theme="dark"] .voto-chip-ok   { background: #422006; color: #fde047; }
+    [data-theme="dark"] .voto-chip-low  { background: #450a0a; color: #fca5a5; }
+    .voto-chip-more { font-size: 0.68rem; color: var(--text-light); font-weight: 700; }
+    .voti-legend {
+      display: flex; gap: 0.75rem; flex-wrap: wrap; align-items: center;
+      margin-top: 0.75rem; font-size: 0.68rem; color: var(--text-light);
+    }
+    .voti-legend .voto-media { font-size: 0.66rem; padding: 0.1rem 0.4rem; }
+    .voti-updated { margin-top: 0.4rem; font-size: 0.65rem; color: var(--text-light); text-align: right; }
+
     /* ===== TRANSPORT TABLE ===== */
     .transport-section { margin-top: 1rem; }
     .transport-table {
@@ -1692,8 +1760,9 @@ function renderMemberCard(id, member) {
       <div class="member-card-body">
         ${member.jazz_pick ? renderJazzPick(member.jazz_pick) : ''}
         <div class="schedule-tabs">
-          <button class="schedule-tab active" onclick="switchTab(this,'today-${id}','tomorrow-${id}')">📅 Oggi</button>
-          <button class="schedule-tab" onclick="switchTab(this,'tomorrow-${id}','today-${id}')">📆 Domani</button>
+          <button class="schedule-tab active" onclick="switchTab(this,'today-${id}')">📅 Oggi</button>
+          <button class="schedule-tab" onclick="switchTab(this,'tomorrow-${id}')">📆 Domani</button>
+          ${member.voti ? `<button class="schedule-tab" onclick="switchTab(this,'voti-${id}')">🎯 Voti</button>` : ''}
         </div>
         <div id="today-${id}" class="schedule-panel">
           <div class="section-title">🕐 Programma</div>
@@ -1704,6 +1773,7 @@ function renderMemberCard(id, member) {
           <div class="section-title">🕐 Programma</div>
           ${tomorrowSched}
         </div>
+        ${member.voti ? `<div id="voti-${id}" class="schedule-panel" style="display:none">${renderVoti(member.voti)}</div>` : ''}
         ${schoolHTML}
         ${member.personal_notes && member.personal_notes.trim() !== '' ? `
           <div class="member-divider"></div>
@@ -1835,12 +1905,92 @@ function renderSchoolData(sd, colorTheme) {
     </div>`;
 }
 
-function switchTab(btn, showId, hideId) {
-  document.getElementById(showId).style.display = '';
-  document.getElementById(hideId).style.display = 'none';
+// ===== VOTI (Flavio grades summary table) =====
+function votoColorClass(media) {
+  if (media === null || media === undefined) return 'voto-na';
+  if (media >= 7) return 'voto-good';
+  if (media >= 6) return 'voto-ok';
+  return 'voto-low';
+}
+function votoChipClass(val) {
+  if (val === null || val === undefined) return 'voto-chip-na';
+  if (val >= 7) return 'voto-chip-good';
+  if (val >= 6) return 'voto-chip-ok';
+  return 'voto-chip-low';
+}
+
+function renderVoti(voti) {
+  if (!voti || !voti.materie || voti.materie.length === 0) {
+    return `<div class="section-title">🎯 Voti</div>
+      <p class="schedule-empty">Nessun voto registrato</p>`;
+  }
+
+  const mediaGen = voti.media_generale;
+  const mediaGenStr = (mediaGen !== null && mediaGen !== undefined) ? mediaGen.toFixed(2) : '—';
+
+  const rows = voti.materie.map(m => {
+    const mediaStr = (m.media !== null && m.media !== undefined) ? m.media.toFixed(2) : '—';
+    // Individual grade chips (most recent first, max 6)
+    const chips = (m.voti || []).slice(0, 6).map(v => {
+      const cls = votoChipClass(v.valore);
+      const tipoIcon = v.tipo === 'S' ? '✍️' : (v.tipo === 'N' ? '🗣️' : '');
+      const title = `${v.data}${v.commento ? ' — ' + v.commento : ''}`;
+      return `<span class="voto-chip ${cls}" title="${escapeHTML(title)}">${escapeHTML(String(v.voto))}${tipoIcon ? ' ' + tipoIcon : ''}</span>`;
+    }).join('');
+    const extra = (m.voti || []).length > 6 ? `<span class="voto-chip-more">+${m.voti.length - 6}</span>` : '';
+    return `
+      <tr>
+        <td class="voto-materia">${escapeHTML(m.materia)}</td>
+        <td class="voto-media-cell"><span class="voto-media ${votoColorClass(m.media)}">${mediaStr}</span></td>
+        <td class="voto-chips-cell">${chips}${extra}</td>
+        <td class="voto-count">${m.n_voti}</td>
+      </tr>`;
+  }).join('');
+
+  return `
+    <div class="voti-header">
+      <div class="voti-header-item">
+        <span class="voti-header-label">Media generale</span>
+        <span class="voto-media voto-media-lg ${votoColorClass(mediaGen)}">${mediaGenStr}</span>
+      </div>
+      <div class="voti-header-item">
+        <span class="voti-header-label">Voti totali</span>
+        <span class="voti-header-value">${voti.totale_voti}</span>
+      </div>
+      <div class="voti-header-item">
+        <span class="voti-header-label">Materie</span>
+        <span class="voti-header-value">${voti.materie.length}</span>
+      </div>
+    </div>
+    <table class="voti-table">
+      <thead>
+        <tr>
+          <th>Materia</th>
+          <th>Media</th>
+          <th>Voti (recenti)</th>
+          <th>N°</th>
+        </tr>
+      </thead>
+      <tbody>${rows}</tbody>
+    </table>
+    <div class="voti-legend">
+      <span><span class="voto-media voto-good">≥7</span> ottimo</span>
+      <span><span class="voto-media voto-ok">6–7</span> sufficiente</span>
+      <span><span class="voto-media voto-low">&lt;6</span> insufficiente</span>
+      <span style="margin-left:auto">✍️ scritto · 🗣️ orale</span>
+    </div>
+    <div class="voti-updated">Aggiornato: ${escapeHTML(voti.updated || '')}</div>`;
+}
+
+function switchTab(btn, showId) {
   const tabs = btn.closest('.schedule-tabs').querySelectorAll('.schedule-tab');
   tabs.forEach(t => t.classList.remove('active'));
   btn.classList.add('active');
+  // Hide all schedule panels in the same member card, then show the target
+  const cardBody = btn.closest('.member-card-body');
+  cardBody.querySelectorAll('.schedule-panel').forEach(p => { p.style.display = 'none'; });
+  const target = document.getElementById(showId);
+  if (target) target.style.display = '';
 }
 
 // ===== HELPERS =====
