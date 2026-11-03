@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-03T14:52:46.104471",
+    "last_updated": "2026-11-03T15:00:42.874451",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,42 +28,42 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-03T14:52:46.104082"
+        "added_at": "2026-11-03T15:00:42.873926"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-03T14:52:46.104174"
+        "added_at": "2026-11-03T15:00:42.874135"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-03T14:52:46.104207"
+        "added_at": "2026-11-03T15:00:42.874171"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-03T14:52:46.104237"
+        "added_at": "2026-11-03T15:00:42.874202"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-03T14:52:46.104266"
+        "added_at": "2026-11-03T15:00:42.874232"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-03 (12:00-13:00) — Interrogazione di recupero per F. A., C. G. e T. F. [F. MARINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-03T14:52:46.104295"
+        "added_at": "2026-11-03T15:00:42.874261"
       }
     ],
     "calendar_events": {
@@ -98,8 +98,8 @@
         "temp_min": 7,
         "temp_max": 17,
         "icon": "04d",
-        "humidity": 47,
-        "wind_speed": 16,
+        "humidity": 48,
+        "wind_speed": 15,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
