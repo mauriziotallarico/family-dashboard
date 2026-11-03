@@ -653,6 +653,116 @@ def fetch_classeviva_data():
 
 # ===== DIDUP (Flavio's school data) =====
 
+def _parse_voto_numeric(voto_str, valore):
+    """Return a float for the grade if it is numeric, else None.
+    Handles Italian formats like '8-', '7+', '6½', '6.5'.
+    Non-numeric marks (e.g. '+', '-', 'ds') return None.
+    """
+    s = (voto_str or "").strip()
+    if not s:
+        return None
+    # Must contain at least one digit to be a numeric grade
+    if not any(ch.isdigit() for ch in s):
+        return None
+    # Use the API-provided numeric value when available
+    if isinstance(valore, (int, float)) and valore:
+        return float(valore)
+    # Fallback: parse the display string
+    s = s.replace("½", ".5").replace(",", ".")
+    s = s.replace("+", "").replace("-", "").strip()
+    try:
+        return float(s)
+    except ValueError:
+        return None
+
+
+def fetch_didup_voti():
+    """Fetch Flavio's grades from Didup and build a per-subject summary.
+
+    Returns a dict:
+      {
+        "updated": "YYYY-MM-DD",
+        "media_generale": float | None,
+        "totale_voti": int,
+        "materie": [
+          {"materia": str, "media": float|None, "n_voti": int,
+           "ultimo_voto": str, "ultimo_data": str,
+           "voti": [{"data","voto","tipo","commento","valore"}]},
+          ...
+        ]
+      }
+    """
+    result = {"updated": date.today().isoformat(), "media_generale": None,
+              "totale_voti": 0, "materie": []}
+    didup_cmd = "python3 skills/didup/didup-query"
+    try:
+        out = subprocess.run(
+            f"{didup_cmd} voti-json".split(),
+            capture_output=True, text=True, timeout=60,
+            cwd=str(WORKSPACE)
+        )
+        if out.returncode != 0:
+            print(f"⚠️  Didup voti-json failed (rc={out.returncode}): {out.stderr[:200]}")
+            return result
+        # Last non-empty line is the JSON payload
+        payload = None
+        for line in reversed(out.stdout.strip().splitlines()):
+            line = line.strip()
+            if line.startswith("["):
+                payload = json.loads(line)
+                break
+        if payload is None:
+            return result
+
+        # Group by subject
+        by_materia = {}
+        for v in payload:
+            materia = (v.get("materia") or "?").strip()
+            by_materia.setdefault(materia, []).append(v)
+
+        all_numeric = []
+        materie_out = []
+        for materia, voti in by_materia.items():
+            # Sort by date descending (most recent first)
+            voti_sorted = sorted(voti, key=lambda x: x.get("data", ""), reverse=True)
+            numeric = []
+            for v in voti_sorted:
+                val = _parse_voto_numeric(v.get("voto"), v.get("valore"))
+                if val is not None and not v.get("fa_meno_media"):
+                    numeric.append(val)
+            media = round(sum(numeric) / len(numeric), 2) if numeric else None
+            all_numeric.extend(numeric)
+            ultimo = voti_sorted[0] if voti_sorted else {}
+            materie_out.append({
+                "materia": materia,
+                "media": media,
+                "n_voti": len(voti),
+                "ultimo_voto": ultimo.get("voto", ""),
+                "ultimo_data": ultimo.get("data", ""),
+                "voti": [
+                    {
+                        "data": v.get("data", ""),
+                        "voto": v.get("voto", ""),
+                        "tipo": v.get("tipo", ""),
+                        "commento": v.get("commento", ""),
+                        "valore": _parse_voto_numeric(v.get("voto"), v.get("valore")),
+                    }
+                    for v in voti_sorted
+                ],
+            })
+
+        # Sort subjects alphabetically
+        materie_out.sort(key=lambda m: m["materia"])
+        result["materie"] = materie_out
+        result["totale_voti"] = len(payload)
+        result["media_generale"] = round(sum(all_numeric) / len(all_numeric), 2) if all_numeric else None
+
+    except Exception as e:
+        print(f"⚠️  Didup voti fetch failed: {e}")
+
+    return result
+
+
 def fetch_didup_data():
     """Fetch homework and reminders from Didup."""
     didup_cmd = "python3 skills/didup/didup-query"
@@ -893,6 +1003,11 @@ def build_dashboard():
             "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
             "timestamp": datetime.now().isoformat(),
         })
+
+    # Didup voti (Flavio) — tabella riepilogo voti
+    print("🎯 Fetching Didup voti (Flavio)...")
+    flavio_voti = fetch_didup_voti()
+    print(f"   {flavio_voti['totale_voti']} voti in {len(flavio_voti['materie'])} materie — media {flavio_voti['media_generale']}")
     
     # ClasseViva (Ada)
     print("🎨 Fetching ClasseViva data (Ada)...")
@@ -1210,6 +1325,7 @@ def build_dashboard():
                 "transport": FLAVIO_TRASPORTI_TABLE,
                 "full_schedule": FLAVIO_FULL_SCHEDULE,
                 "jazz_pick": jazz_pick,
+                "voti": flavio_voti,
                 "personal_notes": flavio_notes
             },
             "ada": {
