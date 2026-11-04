@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-04T07:30:47.079194",
+    "last_updated": "2026-11-04T15:00:43.400859",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,42 +28,42 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T07:30:47.078846"
+        "added_at": "2026-11-04T15:00:43.400440"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T07:30:47.078941"
+        "added_at": "2026-11-04T15:00:43.400538"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T07:30:47.078975"
+        "added_at": "2026-11-04T15:00:43.400572"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T07:30:47.079005"
+        "added_at": "2026-11-04T15:00:43.400602"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T07:30:47.079035"
+        "added_at": "2026-11-04T15:00:43.400632"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T07:30:47.079065"
+        "added_at": "2026-11-04T15:00:43.400661"
       }
     ],
     "calendar_events": {
@@ -90,11 +90,11 @@
         "date": "2026-11-04",
         "description": "Rovesci leggeri",
         "temp_min": 8,
-        "temp_max": 17,
+        "temp_max": 16,
         "icon": "09d",
-        "humidity": 74,
-        "wind_speed": 3,
-        "precipitation_mm": 0.0
+        "humidity": 60,
+        "wind_speed": 8,
+        "precipitation_mm": 0.1
       },
       "tomorrow": {
         "date": "2026-11-05",
@@ -112,10 +112,10 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.0,
-        "humidity": 75,
-        "battery": 77,
-        "last_update": "2026-11-04 07:09:10",
+        "temp": 16.7,
+        "humidity": 66,
+        "battery": 81,
+        "last_update": "2026-11-04 14:09:30",
         "battery_warning": false
       },
       {
@@ -123,9 +123,9 @@
         "name": "Studio",
         "icon": "💻",
         "temp": 15.1,
-        "humidity": 74,
-        "battery": 42,
-        "last_update": "2026-11-04 07:11:32",
+        "humidity": 71,
+        "battery": 41,
+        "last_update": "2026-11-04 14:12:43",
         "battery_warning": false
       },
       {
@@ -133,9 +133,9 @@
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
         "temp": 17.6,
-        "humidity": 64,
-        "battery": 80,
-        "last_update": "2026-11-04 07:14:10",
+        "humidity": 56,
+        "battery": 79,
+        "last_update": "2026-11-04 14:15:24",
         "battery_warning": false
       }
     ],
@@ -1046,7 +1046,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-04: LABORATORIO DI MUSICA D'INSIEME: CORO BIENNIO:  studiare tutto il brano Ave Verum\n📝 2026-11-04: LINGUA STRANIERA-ING: preparati per la prova orale. p 41 n2\n📝 2026-11-04: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p, 15-16 + esercizi assegnati in\n📝 2026-11-05: LABORATORIO DI MUSICA D'INSIEME: VERIFICA: O Love e And so it goes\n📝 2026-11-05: LING. LETT. ITALIANA: vol.narrativa pag.79/83 (analisi delle sequenze, dei personaggi e tipologia di\n📝 2026-11-07: STORIA DELL' ARTE: Studiare alle pagine  da 25 a 29.  e sui video  caricati su classroom.\n📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq"
+      "personal_notes": "📝 2026-11-04: LABORATORIO DI MUSICA D'INSIEME: CORO BIENNIO:  studiare tutto il brano Ave Verum\n📝 2026-11-04: LINGUA STRANIERA-ING: preparati per la prova orale. p 41 n2\n📝 2026-11-04: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p, 15-16 + esercizi assegnati in\n📝 2026-11-05: LABORATORIO DI MUSICA D'INSIEME: VERIFICA: O Love e And so it goes\n📝 2026-11-05: LING. LETT. ITALIANA: vol.narrativa pag.79/83 (analisi delle sequenze, dei personaggi e tipologia di\n📝 2026-11-07: STORIA DELL' ARTE: Studiare alle pagine  da 25 a 29.  e sui video  caricati su classroom.\n📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117"
     },
     "ada": {
       "display_name": "Ada",
@@ -1092,7 +1092,56 @@
         "status": "🏫 Scuola — Uscita 16:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Domande orali sui Babilonesi. Visione dal \" Bosco del Sapere\" i Babilonesi"
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Colori primari, secondari e terziari"
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "FONTANA ROBERTO",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "MUSICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1122,7 +1171,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Domande orali sui Babilonesi. Visione dal \" Bosco del Sapere\" i Babilonesi\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Colori primari, secondari e terziari\n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
