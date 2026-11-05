@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-04T15:00:43.400859",
+    "last_updated": "2026-11-05T07:30:42.125740",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-04",
+      "date": "2026-11-05",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -25,86 +25,104 @@
     "reminders": [
       {
         "id": "didup_0",
-        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica [B. TEDESCHI]",
+        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T15:00:43.400440"
+        "added_at": "2026-11-05T07:30:42.125405"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T15:00:43.400538"
+        "added_at": "2026-11-05T07:30:42.125501"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T15:00:43.400572"
+        "added_at": "2026-11-05T07:30:42.125535"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T15:00:43.400602"
+        "added_at": "2026-11-05T07:30:42.125565"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T15:00:43.400632"
+        "added_at": "2026-11-05T07:30:42.125595"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-04T15:00:43.400661"
+        "added_at": "2026-11-05T07:30:42.125623"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "16:45",
-          "event": "📅 Teatro Ada",
-          "all_day": false,
-          "summary": "Teatro Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "16:30",
           "event": "📅 Google Moduli + Valutazione (2) — sessione 1",
           "all_day": false,
           "summary": "Google Moduli + Valutazione (2) — sessione 1"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "10:20",
+          "event": "📅 Appuntamento da Dott. Alessandro Fulceri (Via Giovanni Paolo, 55011 Altopascio)",
+          "all_day": false,
+          "summary": "Appuntamento da Dott. Alessandro Fulceri"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-04",
-        "description": "Rovesci leggeri",
-        "temp_min": 8,
-        "temp_max": 16,
-        "icon": "09d",
-        "humidity": 60,
-        "wind_speed": 8,
-        "precipitation_mm": 0.1
-      },
-      "tomorrow": {
         "date": "2026-11-05",
         "description": "Nuvoloso",
         "temp_min": 10,
         "temp_max": 18,
         "icon": "04d",
+        "humidity": 78,
+        "wind_speed": 5,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-11-06",
+        "description": "Pioggia leggera",
+        "temp_min": 10,
+        "temp_max": 13,
+        "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.0
+        "precipitation_mm": 11.07
       }
     },
     "sensors": [
@@ -112,30 +130,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 16.7,
-        "humidity": 66,
-        "battery": 81,
-        "last_update": "2026-11-04 14:09:30",
+        "temp": 16.8,
+        "humidity": 73,
+        "battery": 80,
+        "last_update": "2026-11-05 07:14:03",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 15.1,
-        "humidity": 71,
-        "battery": 41,
-        "last_update": "2026-11-04 14:12:43",
+        "temp": 15.6,
+        "humidity": 74,
+        "battery": 43,
+        "last_update": "2026-11-05 07:15:18",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 17.6,
-        "humidity": 56,
+        "temp": 17.4,
+        "humidity": 65,
         "battery": 79,
-        "last_update": "2026-11-04 14:15:24",
+        "last_update": "2026-11-05 07:18:20",
         "battery_warning": false
       }
     ],
@@ -342,22 +360,34 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-04",
+        "date": "2026-11-05",
         "schedule": [
           {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
+            "time": "16:30",
+            "event": "📅 Google Moduli + Valutazione (2) — sessione 1"
           }
         ],
         "status": "💼 Lavoro",
         "mood": "😊"
       },
       "tomorrow": {
-        "date": "2026-11-05",
+        "date": "2026-11-06",
         "schedule": [
           {
-            "time": "16:30",
-            "event": "📅 Google Moduli + Valutazione (2) — sessione 1"
+            "time": "10:20",
+            "event": "📅 Appuntamento da Dott. Alessandro Fulceri (Via Giovanni Paolo, 55011 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
         "status": ""
@@ -371,33 +401,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-04",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-05",
         "schedule": [
           {
@@ -417,7 +420,46 @@
             "event": "📅 Google Moduli + Valutazione (2) — sessione 1"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-06",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "10:20",
+            "event": "📅 Appuntamento da Dott. Alessandro Fulceri (Via Giovanni Paolo, 55011 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -567,37 +609,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-04",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "13:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "14:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-05",
         "schedule": [
           {
@@ -629,7 +640,34 @@
             "event": "📅 Google Moduli + Valutazione (2) — sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-06",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -915,15 +953,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Wayne Shorter",
-        "track": "Sanctuary",
-        "album": "Bitches Brew",
-        "year": "1970",
-        "context": "Shorter con Miles Davis nell'album che ha inventato il jazz-rock. Composizione eterea.",
-        "youtube_url": "https://www.youtube.com/watch?v=w8qXWg0cD-M"
+        "artist": "Cannonball Adderley",
+        "track": "Mercy, Mercy, Mercy",
+        "album": "Mercy, Mercy, Mercy!",
+        "year": "1966",
+        "context": "Soul jazz dal vivo — il pubblico impazzisce. Composto da Joe Zawinul.",
+        "youtube_url": "https://www.youtube.com/watch?v=y7FFLYXEOqA"
       },
       "voti": {
-        "updated": "2026-11-04",
+        "updated": "2026-11-05",
         "media_generale": 6.53,
         "totale_voti": 9,
         "materie": [
@@ -1046,7 +1084,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-04: LABORATORIO DI MUSICA D'INSIEME: CORO BIENNIO:  studiare tutto il brano Ave Verum\n📝 2026-11-04: LINGUA STRANIERA-ING: preparati per la prova orale. p 41 n2\n📝 2026-11-04: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare p, 15-16 + esercizi assegnati in\n📝 2026-11-05: LABORATORIO DI MUSICA D'INSIEME: VERIFICA: O Love e And so it goes\n📝 2026-11-05: LING. LETT. ITALIANA: vol.narrativa pag.79/83 (analisi delle sequenze, dei personaggi e tipologia di\n📝 2026-11-07: STORIA DELL' ARTE: Studiare alle pagine  da 25 a 29.  e sui video  caricati su classroom.\n📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117"
+      "personal_notes": "📝 2026-11-05: LABORATORIO DI MUSICA D'INSIEME: VERIFICA: O Love e And so it goes\n📝 2026-11-05: LING. LETT. ITALIANA: vol.narrativa pag.79/83 (analisi delle sequenze, dei personaggi e tipologia di\n📝 2026-11-07: STORIA DELL' ARTE: Studiare alle pagine  da 25 a 29.  e sui video  caricati su classroom.\n📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117"
     },
     "ada": {
       "display_name": "Ada",
@@ -1055,25 +1093,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-04",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-05",
         "schedule": [
           {
@@ -1089,59 +1108,29 @@
             "event": "📅 Google Moduli + Valutazione (2) — sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-11-06",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 2,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante"
-          },
-          {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Domande orali sui Babilonesi. Visione dal \" Bosco del Sapere\" i Babilonesi"
-          },
-          {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Colori primari, secondari e terziari"
-          },
-          {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "FONTANA ROBERTO",
-            "argomento": ""
-          },
-          {
-            "ora": 5,
-            "materia": "MUSICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1171,7 +1160,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Attività sul libro delle verifiche: 2^ prova guidata dall'insegnante\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Domande orali sui Babilonesi. Visione dal \" Bosco del Sapere\" i Babilonesi\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Colori primari, secondari e terziari\n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
