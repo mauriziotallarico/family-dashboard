@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-06T07:30:47.827481",
+    "last_updated": "2026-11-06T15:00:39.183894",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,42 +28,42 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T07:30:47.827094"
+        "added_at": "2026-11-06T15:00:39.183517"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T07:30:47.827224"
+        "added_at": "2026-11-06T15:00:39.183608"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T07:30:47.827259"
+        "added_at": "2026-11-06T15:00:39.183642"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T07:30:47.827289"
+        "added_at": "2026-11-06T15:00:39.183672"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T07:30:47.827319"
+        "added_at": "2026-11-06T15:00:39.183702"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T07:30:47.827348"
+        "added_at": "2026-11-06T15:00:39.183738"
       }
     ],
     "calendar_events": {
@@ -106,13 +106,13 @@
     "weather": {
       "today": {
         "date": "2026-11-06",
-        "description": "Pioggia leggera",
+        "description": "Rovesci leggeri",
         "temp_min": 10,
         "temp_max": 13,
-        "icon": "10d",
-        "humidity": 92,
-        "wind_speed": 0,
-        "precipitation_mm": 5.4
+        "icon": "09d",
+        "humidity": 87,
+        "wind_speed": 3,
+        "precipitation_mm": 4.4
       },
       "tomorrow": {
         "date": "2026-11-07",
@@ -130,30 +130,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.0,
-        "humidity": 73,
+        "temp": 17.3,
+        "humidity": 71,
         "battery": 81,
-        "last_update": "2026-11-06 07:17:37",
+        "last_update": "2026-11-06 14:19:35",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.7,
-        "humidity": 74,
-        "battery": 49,
-        "last_update": "2026-11-06 07:18:54",
+        "temp": 19.3,
+        "humidity": 70,
+        "battery": 46,
+        "last_update": "2026-11-06 14:19:50",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.2,
-        "humidity": 65,
+        "temp": 18.1,
+        "humidity": 69,
         "battery": 79,
-        "last_update": "2026-11-06 07:22:33",
+        "last_update": "2026-11-06 14:23:47",
         "battery_warning": false
       }
     ],
@@ -1114,7 +1114,44 @@
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "I Babilonesi"
+          },
+          {
+            "ora": 2,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Confrontare le frazioni"
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Confrontare le frazioni"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1144,7 +1181,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: STORIA (GOZZINI ANGELA)\n    → I Babilonesi\n  Ora 2: ITALIANO (LETIZIA ELVIRA)\n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → Confrontare le frazioni\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → Confrontare le frazioni\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
