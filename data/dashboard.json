@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-06T15:00:39.183894",
+    "last_updated": "2026-11-07T07:30:36.953483",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-06",
+      "date": "2026-11-07",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,66 +28,39 @@
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T15:00:39.183517"
+        "added_at": "2026-11-07T07:30:36.953182"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T15:00:39.183608"
+        "added_at": "2026-11-07T07:30:36.953278"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T15:00:39.183642"
+        "added_at": "2026-11-07T07:30:36.953312"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T15:00:39.183672"
+        "added_at": "2026-11-07T07:30:36.953342"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-06T15:00:39.183702"
-      },
-      {
-        "id": "didup_5",
-        "text": "📚 2026-11-06 (08:00-10:00) — Verifica scritta TAC [A. MELI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-06T15:00:39.183738"
+        "added_at": "2026-11-07T07:30:36.953372"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "15:00",
-          "event": "📅 Batteria Flavio",
-          "all_day": false,
-          "summary": "Batteria Flavio"
-        },
-        {
-          "time": "16:10",
-          "event": "📅 Flavio Pallavolo",
-          "all_day": false,
-          "summary": "Flavio Pallavolo"
-        },
-        {
-          "time": "17:00",
-          "event": "📅 Ada ginnastica",
-          "all_day": false,
-          "summary": "Ada ginnastica"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "10:30",
           "event": "📅 Ale da Patrizia",
@@ -100,25 +73,26 @@
           "all_day": false,
           "summary": "Catechismo Ada"
         }
-      ]
+      ],
+      "tomorrow": []
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-06",
+        "date": "2026-11-07",
         "description": "Rovesci leggeri",
-        "temp_min": 10,
-        "temp_max": 13,
+        "temp_min": 7,
+        "temp_max": 16,
         "icon": "09d",
-        "humidity": 87,
-        "wind_speed": 3,
-        "precipitation_mm": 4.4
+        "humidity": 94,
+        "wind_speed": 2,
+        "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-11-07",
+        "date": "2026-11-08",
         "description": "Nuvoloso",
-        "temp_min": 8,
-        "temp_max": 16,
+        "temp_min": 6,
+        "temp_max": 15,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -130,30 +104,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.3,
-        "humidity": 71,
+        "temp": 17.9,
+        "humidity": 74,
         "battery": 81,
-        "last_update": "2026-11-06 14:19:35",
+        "last_update": "2026-11-07 07:21:40",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 19.3,
-        "humidity": 70,
-        "battery": 46,
-        "last_update": "2026-11-06 14:19:50",
+        "temp": 18.4,
+        "humidity": 74,
+        "battery": 48,
+        "last_update": "2026-11-07 07:22:27",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.1,
+        "temp": 18.4,
         "humidity": 69,
         "battery": 79,
-        "last_update": "2026-11-06 14:23:47",
+        "last_update": "2026-11-07 07:26:46",
         "battery_warning": false
       }
     ],
@@ -360,25 +334,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-06",
-        "schedule": [
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-07",
         "schedule": [
           {
@@ -390,6 +345,12 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-08",
+        "schedule": [],
         "status": ""
       },
       "personal_notes": ""
@@ -401,41 +362,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-06",
-        "schedule": [
-          {
-            "time": "09:00",
-            "event": "Scuola: 2B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 1B (4ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 1B (5ª ora)"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-07",
         "schedule": [
           {
@@ -447,6 +373,12 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-08",
+        "schedule": [],
         "status": "🏠 A casa"
       },
       "full_schedule": {
@@ -597,33 +529,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-06",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TAC (2h) — Meli A."
-          },
-          {
-            "time": "10:10",
-            "event": "Motorie (2h) — Tedeschi B."
-          },
-          {
-            "time": "12:10",
-            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~12:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-07",
         "schedule": [
           {
@@ -643,7 +548,13 @@
             "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~12:10"
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-08",
+        "schedule": [],
+        "status": "🏠 A casa"
       },
       "transport": [
         {
@@ -929,15 +840,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Joe Henderson",
-        "track": "Isotope",
-        "album": "Inner Urge",
-        "year": "1964",
-        "context": "Blues moderno e sofisticato — perfetto per studiare come Henderson costruisce un assolo.",
-        "youtube_url": "https://www.youtube.com/watch?v=Z8aVzyBc7z0"
+        "artist": "Sonny Rollins",
+        "track": "Pent-Up House",
+        "album": "Clifford Brown and Max Roach at Basin Street",
+        "year": "1956",
+        "context": "Rollins con Clifford Brown: due giganti insieme, energia esplosiva.",
+        "youtube_url": "https://www.youtube.com/watch?v=rSjx3KEI_fM"
       },
       "voti": {
-        "updated": "2026-11-06",
+        "updated": "2026-11-07",
         "media_generale": 6.5,
         "totale_voti": 10,
         "materie": [
@@ -1085,25 +996,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-06",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "12:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 12:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-07",
         "schedule": [
           {
@@ -1111,47 +1003,16 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-08",
+        "schedule": [],
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [
-          {
-            "ora": 1,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "I Babilonesi"
-          },
-          {
-            "ora": 2,
-            "materia": "ITALIANO",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Confrontare le frazioni"
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "MATEMATICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Confrontare le frazioni"
-          },
-          {
-            "ora": 4,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          }
-        ],
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1181,7 +1042,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: STORIA (GOZZINI ANGELA)\n    → I Babilonesi\n  Ora 2: ITALIANO (LETIZIA ELVIRA)\n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → Confrontare le frazioni\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → Confrontare le frazioni\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
