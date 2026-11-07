@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-07T07:30:36.953483",
+    "last_updated": "2026-11-07T15:00:38.043977",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -25,38 +25,108 @@
     "reminders": [
       {
         "id": "didup_0",
-        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
+        "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-07T07:30:36.953182"
+        "added_at": "2026-11-07T15:00:38.043365"
       },
       {
         "id": "didup_1",
-        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
+        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-07T07:30:36.953278"
+        "added_at": "2026-11-07T15:00:38.043467"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) [M. LORENZINI]",
+        "text": "📚 2026-12-15 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-07T07:30:36.953312"
+        "added_at": "2026-11-07T15:00:38.043501"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
+        "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato  Bacci [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-07T07:30:36.953342"
+        "added_at": "2026-11-07T15:00:38.043531"
       },
       {
         "id": "didup_4",
+        "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e Bertoli [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043561"
+      },
+      {
+        "id": "didup_5",
+        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Damazzi [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043591"
+      },
+      {
+        "id": "didup_6",
+        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043619"
+      },
+      {
+        "id": "didup_7",
+        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043654"
+      },
+      {
+        "id": "didup_8",
+        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043684"
+      },
+      {
+        "id": "didup_9",
+        "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043713"
+      },
+      {
+        "id": "didup_10",
+        "text": "📚 2026-11-17 (11:30-12:00) — Arte ver orali programmate (Onesti, Focosi) [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043741"
+      },
+      {
+        "id": "didup_11",
+        "text": "📚 2026-11-14 (11:00-11:30) — ARTE INTERROGAZIONI PROGRAMMATE (Bonuccelli,  Zhang Yun Christian [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043771"
+      },
+      {
+        "id": "didup_12",
+        "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043799"
+      },
+      {
+        "id": "didup_13",
+        "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) alunni programmati: Macchia, Pasquini [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-07T15:00:38.043828"
+      },
+      {
+        "id": "didup_14",
         "text": "📚 2026-11-07 (09:00-11:00) — Verifica di Italiano scritto [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-07T07:30:36.953372"
+        "added_at": "2026-11-07T15:00:38.043856"
       }
     ],
     "calendar_events": {
@@ -81,11 +151,11 @@
       "today": {
         "date": "2026-11-07",
         "description": "Rovesci leggeri",
-        "temp_min": 7,
+        "temp_min": 8,
         "temp_max": 16,
         "icon": "09d",
-        "humidity": 94,
-        "wind_speed": 2,
+        "humidity": 66,
+        "wind_speed": 11,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
@@ -104,30 +174,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.9,
-        "humidity": 74,
+        "temp": 18.2,
+        "humidity": 67,
         "battery": 81,
-        "last_update": "2026-11-07 07:21:40",
+        "last_update": "2026-11-07 14:22:26",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.4,
+        "temp": 18.0,
         "humidity": 74,
-        "battery": 48,
-        "last_update": "2026-11-07 07:22:27",
+        "battery": 43,
+        "last_update": "2026-11-07 14:23:23",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.4,
-        "humidity": 69,
+        "temp": 18.6,
+        "humidity": 61,
         "battery": 79,
-        "last_update": "2026-11-07 07:26:46",
+        "last_update": "2026-11-07 14:28:00",
         "battery_warning": false
       }
     ],
@@ -987,7 +1057,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-07: STORIA DELL' ARTE: Studiare alle pagine  da 25 a 29.  e sui video  caricati su classroom.\n📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-09: LINGUA STRANIERA-ING: studia p 196, fai p 198 n1,  fai p 201 tutta. test orale studia anche le cose \n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117"
+      "personal_notes": "📝 2026-11-07: STORIA DELL' ARTE: Studiare alle pagine  da 25 a 29.  e sui video  caricati su classroom.\n📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-09: LINGUA STRANIERA-ING: studia p 196, fai p 198 n1,  fai p 201 tutta. test orale studia anche le cose \n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117\n📝 2026-11-14: STORIA DELL' ARTE: Il materiale didattico per studiare gli argomenti spiegati oggi è tutto caricato "
     },
     "ada": {
       "display_name": "Ada",
