@@ -864,6 +864,37 @@
     .link-arrow { font-size: 1.1rem; color: var(--text-light); transition: color var(--transition); }
     .link-item:hover .link-arrow { color: var(--accent); }
 
+    /* ===== RICEVIMENTI LINK (in Flavio card) ===== */
+    .ricevimenti-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border: 1px solid #bfdbfe;
+      text-decoration: none;
+      color: var(--text-primary);
+      transition: all var(--transition);
+      margin-top: 0.5rem;
+    }
+    .ricevimenti-link:hover {
+      border-color: #3b82f6;
+      box-shadow: 0 2px 12px rgba(59,130,246,0.15);
+      transform: translateX(4px);
+    }
+    [data-theme="dark"] .ricevimenti-link {
+      background: linear-gradient(135deg, #1e3a5f, #172554);
+      border-color: #1e40af;
+    }
+    .ricevimenti-link-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .ricevimenti-link-text { flex: 1; display: flex; flex-direction: column; gap: 0.1rem; }
+    .ricevimenti-link-title { font-size: 0.88rem; font-weight: 700; color: #1d4ed8; }
+    [data-theme="dark"] .ricevimenti-link-title { color: #93c5fd; }
+    .ricevimenti-link-desc { font-size: 0.72rem; color: var(--text-light); }
+    .ricevimenti-link-arrow { font-size: 1.1rem; color: var(--text-light); transition: color var(--transition); }
+    .ricevimenti-link:hover .ricevimenti-link-arrow { color: #3b82f6; }
+
     /* ===== PULSE dot ===== */
     .live-dot {
       display: inline-block; width: 8px; height: 8px;
@@ -1775,6 +1806,16 @@ function renderMemberCard(id, member) {
         </div>
         ${member.voti ? `<div id="voti-${id}" class="schedule-panel" style="display:none">${renderVoti(member.voti)}</div>` : ''}
         ${schoolHTML}
+        ${id === 'flavio' ? `
+          <div class="member-divider"></div>
+          <a href="ricevimenti.html" class="ricevimenti-link" target="_blank" rel="noopener">
+            <span class="ricevimenti-link-icon">🗓️</span>
+            <span class="ricevimenti-link-text">
+              <span class="ricevimenti-link-title">Ricevimenti Docenti</span>
+              <span class="ricevimenti-link-desc">Disponibilità e prenotazioni colloqui</span>
+            </span>
+            <span class="ricevimenti-link-arrow">→</span>
+          </a>` : ''}
         ${member.personal_notes && member.personal_notes.trim() !== '' ? `
           <div class="member-divider"></div>
           <div class="personal-notes">
