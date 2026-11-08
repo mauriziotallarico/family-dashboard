@@ -1,0 +1,1873 @@
+{
+  "generato": "2026-11-08T23:24",
+  "docenti": [
+    {
+      "nome": "ALBERTO (coord.) MELI",
+      "email": "a.meli@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "TEORIA ANALISI E COM"
+      ],
+      "materia_orario": "TAC",
+      "date": [
+        {
+          "data": "2026-11-21",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-14",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-19",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-28",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-21",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-26",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-05",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-28",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-03",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-12",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-05",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-10",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-19",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-12",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-17",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-02",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-26",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-31",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-09",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2027-01-02",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-07",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-16",
+          "giorno": "Sab",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2027-01-09",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-14",
+          "orari": [
+            "10:15-10:27",
+            "10:27-10:39",
+            "10:39-10:51",
+            "10:51-11:03"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "BARBARA TEDESCHI",
+      "email": "b.tedeschi@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "SCIENZE MOTORIE"
+      ],
+      "materia_orario": "Motorie",
+      "date": [
+        {
+          "data": "2026-11-12",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2026-11-06",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-11",
+          "orari": [
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-19",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2026-11-13",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-18",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-26",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2026-11-20",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-25",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-03",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2026-11-27",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-02",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-10",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2026-12-04",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-09",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-17",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2026-12-11",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-16",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-07",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2027-01-01",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-06",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-14",
+          "giorno": "Gio",
+          "luogo": "Piattaforma Google Meet",
+          "inizio_prenotazione": "2027-01-08",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-13",
+          "orari": [
+            "12:15-12:27",
+            "12:27-12:39",
+            "12:39-12:51",
+            "12:51-13:03",
+            "13:03-13:15"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "DANIELE CESARI",
+      "email": "d.cesari@liceopassaglia.edu.it",
+      "materie": [
+        "LAB MUS D'INSIEME"
+      ],
+      "materia_orario": "Orchestra di Fiati",
+      "date": [
+        {
+          "data": "2026-11-09",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-04",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-08",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-16",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-11",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-15",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-23",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-18",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-22",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-30",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-25",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-29",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-07",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-02",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-06",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-14",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-09",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-13",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-21",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-16",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-20",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-28",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-23",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-27",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-04",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-30",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-03",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-11",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2027-01-06",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-10",
+          "orari": [
+            "11:10-12:10"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "DAVIDE MANENTE",
+      "email": "d.manente@liceopassaglia.edu.it",
+      "materie": [
+        "EI1 MANENTE CORNO",
+        "LAB MUS D'INSIEME"
+      ],
+      "materia_orario": "Orchestra di Fiati",
+      "date": []
+    },
+    {
+      "nome": "EMANUELE GAGGINI",
+      "email": "e.gaggini@liceopassaglia.edu.it",
+      "materie": [
+        "EI1 GAGGINI CLARINET",
+        "LAB MUS D'INSIEME"
+      ],
+      "materia_orario": "Orchestra di Fiati",
+      "date": [
+        {
+          "data": "2026-11-09",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-02",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-07",
+          "orari": [
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-16",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-09",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-14",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-23",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-16",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-21",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-30",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-23",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-28",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-07",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-11-30",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-05",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-14",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-07",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-12",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-21",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-14",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-19",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-28",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-21",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-26",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-04",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2026-12-28",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-02",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-11",
+          "giorno": "Lun",
+          "luogo": "Google meet",
+          "inizio_prenotazione": "2027-01-04",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-09",
+          "orari": [
+            "16:30-16:42",
+            "16:42-16:54",
+            "16:54-17:06",
+            "17:06-17:18",
+            "17:18-17:30"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "FILIPPO MARINI",
+      "email": "f.marini@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "MATEMATICA"
+      ],
+      "materia_orario": "Matematica",
+      "date": [
+        {
+          "data": "2026-11-19",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-12",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-11-17",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-26",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-19",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-11-24",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-03",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-26",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-01",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-10",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-03",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-08",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-17",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-10",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-15",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-24",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-17",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-22",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-31",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-24",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-29",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-07",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-31",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2027-01-05",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-14",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2027-01-07",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2027-01-12",
+          "orari": [
+            "11:10-11:25",
+            "11:25-11:40",
+            "11:40-11:55",
+            "11:55-12:10"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "FRANCESCA MASCOLO",
+      "email": "f.mascolo@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "STORIA DELLA MUSICA"
+      ],
+      "materia_orario": "Storia della Musica",
+      "date": [
+        {
+          "data": "2026-11-17",
+          "giorno": "Mar",
+          "luogo": "piattaforma google meet",
+          "inizio_prenotazione": "2026-11-10",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-15",
+          "orari": [
+            "11:15-11:27",
+            "11:27-11:39",
+            "11:39-11:51",
+            "11:51-12:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-24",
+          "giorno": "Mar",
+          "luogo": "piattaforma google meet",
+          "inizio_prenotazione": "2026-11-17",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-22",
+          "orari": [
+            "11:15-11:27",
+            "11:27-11:39",
+            "11:39-11:51",
+            "11:51-12:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-01",
+          "giorno": "Mar",
+          "luogo": "piattaforma google meet",
+          "inizio_prenotazione": "2026-11-24",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-29",
+          "orari": [
+            "11:15-11:27",
+            "11:27-11:39",
+            "11:39-11:51",
+            "11:51-12:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-15",
+          "giorno": "Mar",
+          "luogo": "piattaforma google meet",
+          "inizio_prenotazione": "2026-12-08",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-13",
+          "orari": [
+            "11:15-11:27",
+            "11:27-11:39",
+            "11:39-11:51",
+            "11:51-12:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-22",
+          "giorno": "Mar",
+          "luogo": "piattaforma google meet",
+          "inizio_prenotazione": "2026-12-15",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-20",
+          "orari": [
+            "11:15-11:27",
+            "11:27-11:39",
+            "11:39-11:51",
+            "11:51-12:03"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-12",
+          "giorno": "Mar",
+          "luogo": "piattaforma google meet",
+          "inizio_prenotazione": "2027-01-05",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-10",
+          "orari": [
+            "11:15-11:27",
+            "11:27-11:39",
+            "11:39-11:51",
+            "11:51-12:03"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "ILARIA LOVI",
+      "email": "i.lovi@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "SCIENZE NATURALI"
+      ],
+      "materia_orario": "Scienze",
+      "date": [
+        {
+          "data": "2026-11-17",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-11-10",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-15",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-24",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-11-17",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-22",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-01",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-11-24",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-29",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-08",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-12-01",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-06",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-15",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-12-08",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-13",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-22",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-12-15",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-20",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-29",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-12-22",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-27",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-05",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2026-12-29",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-03",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-12",
+          "giorno": "Mar",
+          "luogo": "su piattaforma meet",
+          "inizio_prenotazione": "2027-01-05",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-10",
+          "orari": [
+            "10:10-10:22",
+            "10:22-10:34",
+            "10:34-10:46",
+            "10:46-10:58",
+            "10:58-11:10"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "LUCA PIERUCCIONI",
+      "email": "l.pieruccioni@liceopassaglia.edu.it",
+      "materie": [
+        "EI2 PIERUCCIONI PIAN"
+      ],
+      "materia_orario": "Pianoforte (2° str.)",
+      "date": []
+    },
+    {
+      "nome": "MARIO BATTAGLIA",
+      "email": "m.battaglia@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "RELIGIONE"
+      ],
+      "materia_orario": "Religione",
+      "date": [
+        {
+          "data": "2026-11-10",
+          "giorno": "Mar",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-05",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-09",
+          "orari": [
+            "11:50-12:40"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "MARTINA ROSSI",
+      "email": "m.rossi@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "STO E GEO"
+      ],
+      "materia_orario": "Storia e Geografia",
+      "date": [
+        {
+          "data": "2026-11-27",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-12",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-11-25",
+          "orari": [
+            "09:15-09:25",
+            "09:25-09:35",
+            "09:35-09:45",
+            "09:45-09:55",
+            "09:55-10:05"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-04",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-19",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-02",
+          "orari": [
+            "09:15-09:25",
+            "09:25-09:35",
+            "09:35-09:45",
+            "09:45-09:55",
+            "09:55-10:05"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-11",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-26",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-09",
+          "orari": [
+            "09:15-09:25",
+            "09:25-09:35",
+            "09:35-09:45",
+            "09:45-09:55",
+            "09:55-10:05"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-18",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-03",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2026-12-16",
+          "orari": [
+            "09:15-09:25",
+            "09:25-09:35",
+            "09:35-09:45",
+            "09:45-09:55",
+            "09:55-10:05"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-08",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-24",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2027-01-06",
+          "orari": [
+            "09:15-09:25",
+            "09:25-09:35",
+            "09:35-09:45",
+            "09:45-09:55",
+            "09:55-10:05"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-15",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-31",
+          "ora_inizio_prenotazione": "07:00",
+          "scadenza": "2027-01-13",
+          "orari": [
+            "09:15-09:25",
+            "09:25-09:35",
+            "09:35-09:45",
+            "09:45-09:55",
+            "09:55-10:05"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "MASSIMILIANO GIUSTI",
+      "email": "m.giusti@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "TECNOLOGIE MUSICALI"
+      ],
+      "materia_orario": "TEM",
+      "date": [
+        {
+          "data": "2026-11-13",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2026-11-08",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2026-11-12",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-20",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2026-11-15",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2026-11-19",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-27",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2026-11-22",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2026-11-26",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-04",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2026-11-29",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2026-12-03",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-11",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2026-12-06",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2026-12-10",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-18",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2026-12-13",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2026-12-17",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-08",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2027-01-03",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2027-01-07",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-15",
+          "giorno": "Ven",
+          "luogo": "Google Meet",
+          "inizio_prenotazione": "2027-01-10",
+          "ora_inizio_prenotazione": "00:00",
+          "scadenza": "2027-01-14",
+          "orari": [
+            "12:40-13:40"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "MATTIA MAZZOLA",
+      "email": "m.mazzola@liceopassaglia.edu.it",
+      "materie": [
+        "EI1 MAZZOLA SAX",
+        "LAB MUS D'INSIEME"
+      ],
+      "materia_orario": "Sax / Quartetto",
+      "date": [
+        {
+          "data": "2026-11-11",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2026-11-07",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-09",
+          "orari": [
+            "18:30-18:42",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-18",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2026-11-14",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-16",
+          "orari": [
+            "18:30-18:42",
+            "18:42-18:54",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-25",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2026-11-21",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-23",
+          "orari": [
+            "18:30-18:42",
+            "18:42-18:54",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-02",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2026-11-28",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-30",
+          "orari": [
+            "18:30-18:42",
+            "18:42-18:54",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-09",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2026-12-05",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-07",
+          "orari": [
+            "18:30-18:42",
+            "18:42-18:54",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-16",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2026-12-12",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-14",
+          "orari": [
+            "18:30-18:42",
+            "18:42-18:54",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-13",
+          "giorno": "Mer",
+          "luogo": "Online",
+          "inizio_prenotazione": "2027-01-09",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-11",
+          "orari": [
+            "18:30-18:42",
+            "18:42-18:54",
+            "18:54-19:06",
+            "19:06-19:18",
+            "19:18-19:30"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "MONICA MARIA TERESA LORENZINI",
+      "email": "m.m.t.lorenzini@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "STORIA DELL`ARTE"
+      ],
+      "materia_orario": "Storia dell'Arte",
+      "date": [
+        {
+          "data": "2026-11-16",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-11",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-15",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-23",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-18",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-22",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-30",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-25",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-29",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-07",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-02",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-06",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-14",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-09",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-13",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-21",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-16",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-20",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-28",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-23",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-27",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-04",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-30",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-03",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-11",
+          "giorno": "Lun",
+          "luogo": "",
+          "inizio_prenotazione": "2027-01-06",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-10",
+          "orari": [
+            "12:10-12:25",
+            "12:25-12:40",
+            "12:40-12:55",
+            "12:55-13:10"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "MORENA MARIA MONCINI",
+      "email": "m.m.moncini@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "ITALIANO"
+      ],
+      "materia_orario": "Italiano",
+      "date": [
+        {
+          "data": "2026-11-13",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-08",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-11",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-20",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-15",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-18",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-27",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-22",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-25",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-04",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-29",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-02",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-11",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-06",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-09",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-18",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-13",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-16",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-08",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2027-01-03",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-06",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-15",
+          "giorno": "Ven",
+          "luogo": "",
+          "inizio_prenotazione": "2027-01-10",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-13",
+          "orari": [
+            "09:15-10:00"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "RAFFAELLA LIBERATA FEBI",
+      "email": "r.febi@liceopassaglia.edu.it",
+      "materie": [
+        "EDUCAZIONE CIVICA",
+        "LINGUA STRANIERA-ING"
+      ],
+      "materia_orario": "Inglese",
+      "date": [
+        {
+          "data": "2026-11-19",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-12",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-17",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-26",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-19",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-24",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-03",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-11-26",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-01",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-10",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-03",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-08",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-17",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-10",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-15",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-07",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2026-12-31",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-05",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-14",
+          "giorno": "Gio",
+          "luogo": "",
+          "inizio_prenotazione": "2027-01-07",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-12",
+          "orari": [
+            "09:10-09:22",
+            "09:22-09:34",
+            "09:34-09:46",
+            "09:46-09:58"
+          ],
+          "url": ""
+        }
+      ]
+    },
+    {
+      "nome": "SABRINA MARIANNA FORTINO",
+      "email": "s.m.fortino@liceopassaglia.edu.it",
+      "materie": [
+        "LAB MUS D'INSIEME"
+      ],
+      "materia_orario": "Orchestra di Fiati",
+      "date": [
+        {
+          "data": "2026-11-09",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-11-04",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-08",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-16",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-11-11",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-15",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-23",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-11-18",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-22",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-11-30",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-11-25",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-11-29",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-07",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-12-02",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-06",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-14",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-12-09",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-13",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-21",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-12-16",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-20",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2026-12-28",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-12-23",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2026-12-27",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-04",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2026-12-30",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-03",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        },
+        {
+          "data": "2027-01-11",
+          "giorno": "Lun",
+          "luogo": "online -Google meet",
+          "inizio_prenotazione": "2027-01-06",
+          "ora_inizio_prenotazione": "08:00",
+          "scadenza": "2027-01-10",
+          "orari": [
+            "12:00-12:12",
+            "12:12-12:24",
+            "12:24-12:36"
+          ],
+          "url": ""
+        }
+      ]
+    }
+  ]
+}

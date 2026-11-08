@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ricevimenti Docenti — Flavio 1M</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --font-main: 'Inter', sans-serif;
+      --font-display: 'Playfair Display', serif;
+      --radius: 16px;
+      --radius-sm: 10px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+      --shadow-lg: 0 8px 40px rgba(0,0,0,0.12);
+      --transition: 0.25s ease;
+      --bg: #f8f5f0;
+      --bg-card: #ffffff;
+      --bg-header: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+      --text-primary: #1a1a2e;
+      --text-secondary: #6b7280;
+      --text-light: #9ca3af;
+      --border: #e8e1d8;
+      --accent: #3b82f6;
+      --member-color: #3b82f6;
+      --member-light: #eff6ff;
+      --member-gradient: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    }
+    [data-theme="cool"] {
+      --bg: #f0f4ff; --bg-header: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --border: #dde3f0; --accent: #667eea;
+    }
+    [data-theme="nature"] {
+      --bg: #f0f7f0; --bg-header: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+      --border: #d8ecd8; --accent: #56ab2f;
+    }
+    [data-theme="dark"] {
+      --bg: #0f172a; --bg-card: #1e293b;
+      --bg-header: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      --text-primary: #f1f5f9; --text-secondary: #94a3b8;
+      --text-light: #64748b; --border: #334155; --accent: #60a5fa;
+      --member-light: #1e3a5f;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    /* Header */
+    .site-header {
+      background: var(--bg-header);
+      color: white;
+      padding: 2rem 2rem 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .site-header::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -10%;
+      width: 120%; height: 200%;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+    .header-title { font-family: var(--font-display); font-size: clamp(1.5rem, 3.5vw, 2.4rem); letter-spacing: -0.5px; }
+    .header-subtitle { font-size: 0.9rem; opacity: 0.8; margin-top: 0.25rem; }
+    .header-meta { text-align: right; font-size: 0.85rem; opacity: 0.85; }
+    .header-controls { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .theme-btn, .back-btn {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: white;
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background var(--transition);
+      font-family: var(--font-main);
+      text-decoration: none;
+    }
+    .theme-btn:hover, .back-btn:hover { background: rgba(255,255,255,0.3); }
+    .back-btn { font-weight: 600; }
+
+    /* Main */
+    .main-wrapper {
+      max-width: 1200px;
+      margin: -1.5rem auto 0;
+      padding: 0 1.5rem 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Summary bar */
+    .summary-bar {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+    .summary-item {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 1rem 1.25rem;
+      text-align: center;
+    }
+    .summary-label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      color: var(--text-light);
+      font-weight: 700;
+      margin-bottom: 0.3rem;
+    }
+    .summary-value {
+      font-size: 1.6rem;
+      font-weight: 800;
+      color: var(--accent);
+    }
+
+    /* Filter */
+    .filter-bar {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      padding: 1rem 1.25rem;
+      margin-bottom: 1.5rem;
+      display: flex;
+      gap: 1rem;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .filter-bar label {
+      font-size: 0.82rem;
+      font-weight: 600;
+      color: var(--text-secondary);
+    }
+    .filter-bar input, .filter-bar select {
+      font-family: var(--font-main);
+      font-size: 0.85rem;
+      padding: 0.4rem 0.7rem;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--border);
+      background: var(--bg);
+      color: var(--text-primary);
+      transition: border-color var(--transition);
+    }
+    .filter-bar input:focus, .filter-bar select:focus {
+      outline: none;
+      border-color: var(--accent);
+    }
+
+    /* Docente cards */
+    .docenti-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 1.25rem;
+    }
+    .docente-card {
+      background: var(--bg-card);
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+      transition: box-shadow var(--transition), transform var(--transition);
+    }
+    .docente-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-2px); }
+    .docente-card.no-future { opacity: 0.5; }
+    .docente-header {
+      padding: 1rem 1.25rem;
+      background: var(--member-light);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+    .docente-icon {
+      width: 44px; height: 44px;
+      border-radius: 50%;
+      background: var(--member-gradient);
+      color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      font-weight: 800;
+      flex-shrink: 0;
+    }
+    .docente-info { flex: 1; }
+    .docente-name {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+    .docente-materia {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      margin-top: 0.1rem;
+    }
+    .docente-email {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      margin-top: 0.1rem;
+    }
+    .docente-email a { color: var(--accent); text-decoration: none; }
+    .docente-email a:hover { text-decoration: underline; }
+    .docente-body { padding: 1rem 1.25rem; }
+
+    /* Date list */
+    .date-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .date-item {
+      padding: 0.6rem 0.75rem;
+      border-radius: var(--radius-sm);
+      background: var(--bg);
+      border-left: 3px solid var(--accent);
+      transition: all var(--transition);
+    }
+    .date-item:hover { background: var(--member-light); }
+    .date-item.bookable { border-left-color: #22c55e; }
+    .date-item.upcoming { border-left-color: #f59e0b; }
+    .date-item.expired { border-left-color: var(--border); opacity: 0.5; }
+    .date-top {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+    .date-day {
+      font-weight: 700;
+      font-size: 0.9rem;
+      color: var(--text-primary);
+    }
+    .date-badge {
+      display: inline-block;
+      padding: 0.1rem 0.45rem;
+      border-radius: 12px;
+      font-size: 0.68rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+    .badge-bookable { background: #dcfce7; color: #15803d; }
+    .badge-upcoming { background: #fef3c7; color: #92400e; }
+    .badge-expired { background: var(--border); color: var(--text-light); }
+    .badge-meet { background: #dbeafe; color: #1d4ed8; }
+    [data-theme="dark"] .badge-bookable { background: #14532d; color: #86efac; }
+    [data-theme="dark"] .badge-upcoming { background: #422006; color: #fde047; }
+    [data-theme="dark"] .badge-meet { background: #1e3a5f; color: #93c5fd; }
+    .date-details {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      margin-top: 0.3rem;
+      line-height: 1.5;
+    }
+    .date-slots {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.3rem;
+      margin-top: 0.35rem;
+    }
+    .slot-chip {
+      display: inline-block;
+      padding: 0.15rem 0.45rem;
+      border-radius: 8px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      background: var(--member-light);
+      color: var(--accent);
+      font-variant-numeric: tabular-nums;
+    }
+    .date-booking-info {
+      font-size: 0.72rem;
+      color: var(--text-light);
+      margin-top: 0.25rem;
+      font-style: italic;
+    }
+
+    /* No dates */
+    .no-dates {
+      text-align: center;
+      color: var(--text-light);
+      font-size: 0.85rem;
+      padding: 0.75rem;
+    }
+
+    /* Footer */
+    .site-footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+
+    /* Responsive */
+    @media (max-width: 768px) {
+      .main-wrapper { padding: 0 1rem 2rem; }
+      .site-header { padding: 1.5rem 1rem 3rem; }
+      .header-inner { flex-direction: column; align-items: flex-start; }
+      .docenti-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body data-theme="warm">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div>
+      <h1 class="header-title">🗓️ Ricevimenti Docenti</h1>
+      <p class="header-subtitle">Flavio Tallarico — Liceo Musicale Passaglia, Classe 1M</p>
+    </div>
+    <div class="header-meta">
+      <div id="generated-date">—</div>
+    </div>
+    <div class="header-controls">
+      <a href="index.html" class="back-btn">← Dashboard</a>
+      <button class="theme-btn" onclick="setTheme('warm')">🌅</button>
+      <button class="theme-btn" onclick="setTheme('cool')">🌊</button>
+      <button class="theme-btn" onclick="setTheme('nature')">🌿</button>
+      <button class="theme-btn" onclick="setTheme('dark')">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="main-wrapper">
+
+  <!-- Summary -->
+  <div class="summary-bar" id="summary-bar">
+    <div class="summary-item">
+      <div class="summary-label">Docenti</div>
+      <div class="summary-value" id="stat-docenti">—</div>
+    </div>
+    <div class="summary-item">
+      <div class="summary-label">Prenotabili ora</div>
+      <div class="summary-value" id="stat-bookable" style="color:#22c55e">—</div>
+    </div>
+    <div class="summary-item">
+      <div class="summary-label">Prossime date</div>
+      <div class="summary-value" id="stat-upcoming" style="color:#f59e0b">—</div>
+    </div>
+    <div class="summary-item">
+      <div class="summary-label">Totale date</div>
+      <div class="summary-value" id="stat-total">—</div>
+    </div>
+  </div>
+
+  <!-- Filter -->
+  <div class="filter-bar">
+    <label>🔍 Cerca docente:</label>
+    <input type="text" id="filter-name" placeholder="Nome o materia..." oninput="applyFilter()" />
+    <label>Stato:</label>
+    <select id="filter-status" onchange="applyFilter()">
+      <option value="all">Tutti</option>
+      <option value="bookable">Prenotabili ora</option>
+      <option value="future">Con date future</option>
+      <option value="none">Senza date future</option>
+    </select>
+  </div>
+
+  <!-- Docenti grid -->
+  <div class="docenti-grid" id="docenti-grid">
+    <p style="text-align:center;color:var(--text-light);padding:2rem">Caricamento...</p>
+  </div>
+
+  <div style="margin-top:1.5rem;padding:1rem;background:var(--bg-card);border-radius:var(--radius);border:1px solid var(--border);font-size:0.82rem;color:var(--text-secondary);line-height:1.6">
+    <strong>ℹ️ Come prenotare:</strong> La prenotazione va fatta dalla <strong>web app Argo DidUP Famiglia</strong> o dall'app mobile (menu "Ricevimento Docenti" → seleziona docente → Salva/Prenota). I ricevimenti sono quasi tutti su <strong>Google Meet</strong>.
+    <br><span style="color:var(--text-light);font-size:0.75rem">⚠️ I dati mostrati sono aggiornati all'ultimo fetch automatico. Verificare su Argo per disponibilità in tempo reale.</span>
+  </div>
+
+</main>
+
+<footer class="site-footer">
+  Family Dashboard &bull; Ricevimenti Docenti &bull; Dati da Argo DidUP
+</footer>
+
+<script>
+// Theme
+function setTheme(t) {
+  document.body.setAttribute('data-theme', t);
+  localStorage.setItem('fd-theme', t);
+}
+(function() {
+  const saved = localStorage.getItem('fd-theme');
+  if (saved) setTheme(saved);
+})();
+
+function escapeHTML(str) {
+  return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function formatDate(iso) {
+  try {
+    const d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('it-IT', { weekday: 'short', day: 'numeric', month: 'long', year: 'numeric' });
+  } catch(e) { return iso; }
+}
+
+let allDocenti = [];
+let generato = '';
+
+function classifyDate(dateObj) {
+  const now = new Date();
+  const today = now.toISOString().split('T')[0];
+  const dataStr = dateObj.data;
+  const scadenza = dateObj.scadenza;
+  const inizio = dateObj.inizio_prenotazione;
+
+  if (dataStr < today) return 'expired';
+  if (inizio <= today && today <= scadenza) return 'bookable';
+  if (dataStr >= today) return 'upcoming';
+  return 'expired';
+}
+
+function renderDocente(doc) {
+  const now = new Date();
+  const today = now.toISOString().split('T')[0];
+  const futureDates = doc.date.filter(d => d.data >= today);
+  const hasFuture = futureDates.length > 0;
+  const initials = doc.nome.split(' ').filter(w => w.length > 1).map(w => w[0]).slice(0, 2).join('');
+
+  let datesHTML = '';
+  if (futureDates.length === 0) {
+    datesHTML = '<p class="no-dates">Nessuna data futura disponibile</p>';
+  } else {
+    datesHTML = '<div class="date-list">' + futureDates.map(d => {
+      const status = classifyDate(d);
+      let badgeHTML = '';
+      if (status === 'bookable') badgeHTML = '<span class="date-badge badge-bookable">✅ PRENOTABILE</span>';
+      else if (status === 'upcoming') badgeHTML = '<span class="date-badge badge-upcoming">⏳ In arrivo</span>';
+      else badgeHTML = '<span class="date-badge badge-expired">Scaduto</span>';
+
+      const meetBadge = d.luogo && d.luogo.toLowerCase().includes('meet')
+        ? ' <span class="date-badge badge-meet">📹 Meet</span>' : '';
+
+      const slotsHTML = d.orari.map(o => `<span class="slot-chip">${escapeHTML(o)}</span>`).join('');
+      const bookingInfo = `Prenotazione dal ${escapeHTML(d.inizio_prenotazione)} ore ${escapeHTML(d.ora_inizio_prenotazione || '08:00')} — scadenza ${escapeHTML(d.scadenza)}`;
+
+      return `
+        <div class="date-item ${status}">
+          <div class="date-top">
+            <span class="date-day">${escapeHTML(d.giorno)} ${formatDate(d.data)}</span>
+            ${badgeHTML}${meetBadge}
+          </div>
+          <div class="date-slots">${slotsHTML}</div>
+          <div class="date-details">📍 ${escapeHTML(d.luogo)}</div>
+          <div class="date-booking-info">🔑 ${bookingInfo}</div>
+        </div>`;
+    }).join('') + '</div>';
+  }
+
+  return `
+    <div class="docente-card ${hasFuture ? '' : 'no-future'}" data-name="${escapeHTML(doc.nome.toLowerCase())}" data-materia="${escapeHTML((doc.materie || []).join(' ').toLowerCase())}" data-materia-orario="${escapeHTML((doc.materia_orario || '').toLowerCase())}" data-has-future="${hasFuture}" data-bookable="${futureDates.some(d => classifyDate(d) === 'bookable')}">
+      <div class="docente-header">
+        <div class="docente-icon">${escapeHTML(initials)}</div>
+        <div class="docente-info">
+          <div class="docente-name">${escapeHTML(doc.nome)}</div>
+          <div class="docente-materia">${escapeHTML(doc.materia_orario || doc.materie.join(', '))}</div>
+          ${doc.email ? `<div class="docente-email"><a href="mailto:${escapeHTML(doc.email)}">${escapeHTML(doc.email)}</a></div>` : ''}
+        </div>
+      </div>
+      <div class="docente-body">
+        ${datesHTML}
+      </div>
+    </div>`;
+}
+
+function applyFilter() {
+  const nameFilter = document.getElementById('filter-name').value.toLowerCase().trim();
+  const statusFilter = document.getElementById('filter-status').value;
+  const cards = document.querySelectorAll('.docente-card');
+  cards.forEach(card => {
+    const name = card.dataset.name || '';
+    const materia = card.dataset.materia || '';
+    const materiaOrario = card.dataset.materiaOrario || '';
+    const hasFuture = card.dataset.hasFuture === 'true';
+    const isBookable = card.dataset.bookable === 'true';
+
+    let nameMatch = true;
+    if (nameFilter) {
+      nameMatch = name.includes(nameFilter) || materia.includes(nameFilter) || materiaOrario.includes(nameFilter);
+    }
+
+    let statusMatch = true;
+    if (statusFilter === 'bookable') statusMatch = isBookable;
+    else if (statusFilter === 'future') statusMatch = hasFuture;
+    else if (statusFilter === 'none') statusMatch = !hasFuture;
+
+    card.style.display = (nameMatch && statusMatch) ? '' : 'none';
+  });
+}
+
+async function loadData() {
+  try {
+    const cacheBust = `?t=${Math.floor(Date.now()/60000)}`;
+    const res = await fetch(`data/ricevimenti.json${cacheBust}`);
+    if (!res.ok) throw new Error('Fetch failed');
+    const data = await res.json();
+    allDocenti = data.docenti || [];
+    generato = data.generato || '';
+
+    // Header
+    if (generato) {
+      document.getElementById('generated-date').textContent = `Aggiornato: ${generato.replace('T', ' ')}`;
+    }
+
+    // Sort: bookable first, then by next date
+    const now = new Date();
+    const today = now.toISOString().split('T')[0];
+    allDocenti.sort((a, b) => {
+      const aFuture = a.date.filter(d => d.data >= today);
+      const bFuture = b.date.filter(d => d.data >= today);
+      const aBookable = aFuture.some(d => classifyDate(d) === 'bookable') ? 0 : 1;
+      const bBookable = bFuture.some(d => classifyDate(d) === 'bookable') ? 0 : 1;
+      if (aBookable !== bBookable) return aBookable - bBookable;
+      const aNext = aFuture.length > 0 ? aFuture[0].data : '9999';
+      const bNext = bFuture.length > 0 ? bFuture[0].data : '9999';
+      return aNext.localeCompare(bNext);
+    });
+
+    // Stats
+    const totalDates = allDocenti.reduce((sum, d) => sum + d.date.filter(x => x.data >= today).length, 0);
+    const bookableNow = allDocenti.filter(d => d.date.some(x => classifyDate(x) === 'bookable')).length;
+    const withFuture = allDocenti.filter(d => d.date.some(x => x.data >= today)).length;
+
+    document.getElementById('stat-docenti').textContent = allDocenti.length;
+    document.getElementById('stat-bookable').textContent = bookableNow;
+    document.getElementById('stat-upcoming').textContent = withFuture;
+    document.getElementById('stat-total').textContent = totalDates;
+
+    // Render
+    const grid = document.getElementById('docenti-grid');
+    grid.innerHTML = allDocenti.map(d => renderDocente(d)).join('');
+
+  } catch(e) {
+    console.error('Load error:', e);
+    document.getElementById('docenti-grid').innerHTML =
+      '<p style="text-align:center;color:var(--text-secondary);padding:2rem">⚠️ Impossibile caricare i dati dei ricevimenti.</p>';
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
