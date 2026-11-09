@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-09T07:30:36.384315",
+    "last_updated": "2026-11-09T15:00:46.997350",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,98 +28,112 @@
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383599"
+        "added_at": "2026-11-09T15:00:46.996643"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383778"
+        "added_at": "2026-11-09T15:00:46.996742"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-15 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383815"
+        "added_at": "2026-11-09T15:00:46.996774"
       },
       {
         "id": "didup_3",
-        "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato  Bacci [M. LORENZINI]",
+        "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383845"
+        "added_at": "2026-11-09T15:00:46.996804"
       },
       {
         "id": "didup_4",
-        "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e Bertoli [M. LORENZINI]",
+        "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato  Bacci [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383875"
+        "added_at": "2026-11-09T15:00:46.996834"
       },
       {
         "id": "didup_5",
-        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Damazzi [M. LORENZINI]",
+        "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383904"
+        "added_at": "2026-11-09T15:00:46.996863"
       },
       {
         "id": "didup_6",
-        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
+        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383932"
+        "added_at": "2026-11-09T15:00:46.996891"
       },
       {
         "id": "didup_7",
-        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
+        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383960"
+        "added_at": "2026-11-09T15:00:46.996919"
       },
       {
         "id": "didup_8",
-        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
+        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.383989"
+        "added_at": "2026-11-09T15:00:46.996946"
       },
       {
         "id": "didup_9",
-        "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate [M. LORENZINI]",
+        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.384018"
+        "added_at": "2026-11-09T15:00:46.996981"
       },
       {
         "id": "didup_10",
-        "text": "📚 2026-11-17 (11:30-12:00) — Arte ver orali programmate (Onesti, Focosi) [M. LORENZINI]",
+        "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.384046"
+        "added_at": "2026-11-09T15:00:46.997011"
       },
       {
         "id": "didup_11",
-        "text": "📚 2026-11-14 (11:00-11:30) — ARTE INTERROGAZIONI PROGRAMMATE (Bonuccelli,  Zhang Yun Christian [M. LORENZINI]",
+        "text": "📚 2026-11-17 (11:30-12:00) — Arte ver orali programmate (Onesti, Focosi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.384093"
+        "added_at": "2026-11-09T15:00:46.997040"
       },
       {
         "id": "didup_12",
-        "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
+        "text": "📚 2026-11-16 (09:00-09:30) — Interrogazioni programmate TAC : Giorgi, Vignozzi [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.384123"
+        "added_at": "2026-11-09T15:00:46.997068"
       },
       {
         "id": "didup_13",
+        "text": "📚 2026-11-14 (11:00-11:30) — ARTE INTERROGAZIONI PROGRAMMATE (Bonuccelli,  Zhang Yun Christian [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-09T15:00:46.997096"
+      },
+      {
+        "id": "didup_14",
+        "text": "📚 2026-11-10 (10:00-11:00) — Inizio verifiche orali di Italiano (tre alunni) [M. MONCINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-09T15:00:46.997122"
+      },
+      {
+        "id": "didup_15",
         "text": "📚 2026-11-10 (11:00-11:30) — ST ARTE INIZIO INTERROGAZIONI: COMPILARE CALENDARIO DELLE PROGRAMMAZIONI (2 ALLA VOLTA) alunni programmati: Macchia, Pasquini [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-09T07:30:36.384152"
+        "added_at": "2026-11-09T15:00:46.997151"
       }
     ],
     "calendar_events": {
@@ -156,23 +170,23 @@
     "weather": {
       "today": {
         "date": "2026-11-09",
-        "description": "Rovesci leggeri",
+        "description": "Pioggia leggera",
         "temp_min": 11,
-        "temp_max": 15,
-        "icon": "09d",
+        "temp_max": 14,
+        "icon": "10d",
         "humidity": 86,
-        "wind_speed": 3,
-        "precipitation_mm": 0.9
+        "wind_speed": 4,
+        "precipitation_mm": 2.1
       },
       "tomorrow": {
         "date": "2026-11-10",
         "description": "Rovesci leggeri",
         "temp_min": 13,
-        "temp_max": 15,
+        "temp_max": 16,
         "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 8.03
+        "precipitation_mm": 3.0
       }
     },
     "sensors": [
@@ -180,30 +194,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 19.0,
-        "humidity": 73,
+        "temp": 18.2,
+        "humidity": 72,
         "battery": 81,
-        "last_update": "2026-11-09 07:22:56",
+        "last_update": "2026-11-09 14:24:45",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.0,
+        "temp": 18.9,
         "humidity": 75,
-        "battery": 43,
-        "last_update": "2026-11-09 07:16:36",
+        "battery": 42,
+        "last_update": "2026-11-09 14:17:40",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.7,
-        "humidity": 70,
+        "temp": 19.1,
+        "humidity": 71,
         "battery": 79,
-        "last_update": "2026-11-09 07:15:12",
+        "last_update": "2026-11-09 14:16:26",
         "battery_warning": false
       }
     ],
@@ -1012,12 +1026,12 @@
         "album": "The Epic",
         "year": "2015",
         "context": "13 minuti di viaggio sonoro — dai sussurri all'esplosione.",
-        "youtube_url": "https://www.youtube.com/watch?v=rtW1S5EbHgU"
+        "youtube_url": "https://www.youtube.com/watch?v=DEkg0Sf836k"
       },
       "voti": {
         "updated": "2026-11-09",
-        "media_generale": 6.42,
-        "totale_voti": 11,
+        "media_generale": 6.66,
+        "totale_voti": 12,
         "materie": [
           {
             "materia": "ES.INT.2 PIERUCCIONI PIANOFORTE",
@@ -1037,11 +1051,18 @@
           },
           {
             "materia": "LINGUA STRANIERA-ING",
-            "media": 6.5,
-            "n_voti": 1,
-            "ultimo_voto": "6½",
-            "ultimo_data": "2026-10-14",
+            "media": 7.75,
+            "n_voti": 2,
+            "ultimo_voto": "9",
+            "ultimo_data": "2026-11-09",
             "voti": [
+              {
+                "data": "2026-11-09",
+                "voto": "9",
+                "tipo": "N",
+                "commento": "",
+                "valore": 9.0
+              },
               {
                 "data": "2026-10-14",
                 "voto": "6½",
@@ -1161,7 +1182,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-09: LINGUA STRANIERA-ING: studia p 196, fai p 198 n1,  fai p 201 tutta. test orale studia anche le cose \n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117\n📝 2026-11-12: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom per lunedì 16 novembre. \n📝 2026-11-14: STORIA DELL' ARTE: Il materiale didattico per studiare gli argomenti spiegati oggi è tutto caricato \n📝 2026-11-16: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom"
+      "personal_notes": "📝 2026-11-09: STORIA DELLA MUSICA: Proseguono le interrogazioni; Monodia, Polifonia, Scrittura musicale, Ars Antiq\n📝 2026-11-09: LINGUA STRANIERA-ING: studia p 196, fai p 198 n1,  fai p 201 tutta. test orale studia anche le cose \n📝 2026-11-10: MATEMATICA: Es. 24, 27 pag. 108, es. 134 e 138 pag. 117\n📝 2026-11-11: LABORATORIO DI MUSICA D'INSIEME: Ripasso Ave Verum di Mozart. Come già anticipato a lezione, ci sarà\n📝 2026-11-11: LINGUA STRANIERA-ING: studia  e sottolinea p 197 fai p 202 n6,7,8\n📝 2026-11-12: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom per lunedì 16 novembre. \n📝 2026-11-14: STORIA DELL' ARTE: Il materiale didattico per studiare gli argomenti spiegati oggi è tutto caricato \n📝 2026-11-16: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom"
     },
     "ada": {
       "display_name": "Ada",
@@ -1207,7 +1228,62 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Verifica sulle frazioni .\nRiconoscere le frazioni, l'unità frazionaria e la frazione di un numero"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Geometria : le linee e gli angoli . Attività sul libro di testo"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "MENSA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 7,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1237,7 +1313,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Verifica sulle frazioni .\nRiconoscere le frazioni, l'unità frazionaria e la frazione di un numero\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → Geometria : le linee e gli angoli . Attività sul libro di testo\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n  Ora 5: MENSA (LETIZIA ELVIRA)\n  Ora 7: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
