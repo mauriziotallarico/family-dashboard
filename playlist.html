@@ -276,6 +276,14 @@
       padding-left: 0.2rem;
     }
     .group-head:first-child { margin-top: 0; }
+    .group-sub {
+      font-size: 0.72rem;
+      font-weight: 700;
+      color: var(--text-light);
+      margin: 0.7rem 0 0.3rem 0.2rem;
+      padding-bottom: 0.2rem;
+      border-bottom: 1px dashed var(--border);
+    }
 
     .empty-state {
       text-align: center;
@@ -381,12 +389,18 @@ function applyMemberTheme(memberId) {
   document.documentElement.style.setProperty('--accent', m.grad.match(/#[0-9a-f]{6}/i)[0]);
 }
 
+function countItems(pl) {
+  if (!pl) return 0;
+  return (pl.tracks ? pl.tracks.length : 0)
+       + (pl.albums ? pl.albums.length : 0)
+       + (pl.artists ? pl.artists.length : 0);
+}
+
 function renderTabs() {
   const tabs = document.getElementById('member-tabs');
   tabs.innerHTML = MEMBER_ORDER.map(id => {
     const m = MEMBERS[id];
-    const pl = allPlaylists[id];
-    const n = pl ? pl.tracks.length : 0;
+    const n = countItems(allPlaylists[id]);
     const active = id === currentMember ? 'active' : '';
     return `<button class="member-tab ${active}" style="--tab-grad:${m.grad}"
               onclick="selectMember('${id}')">${m.emoji} ${m.label}
@@ -402,6 +416,20 @@ function selectMember(id) {
 }
 
 function renderTrack(t, idx) {
+  // --- Artista preferito (link a sito ufficiale) ---
+  if (t.type === 'artist') {
+    return `
+      <div class="track-item">
+        <span class="track-num">${idx + 1}</span>
+        <span class="track-cover placeholder">🎤</span>
+        <div class="track-info">
+          <div class="track-title">${escapeHTML(t.artist)}</div>
+          <div class="track-meta"><span class="track-source">${escapeHTML(t.source || '')}</span></div>
+        </div>
+        <a class="track-play" href="${escapeHTML(t.link)}" target="_blank" rel="noopener" title="Sito ufficiale">🔗</a>
+      </div>`;
+  }
+
   // --- Album dal sito (sorgente esterna) ---
   if (t.type === 'album') {
     const cover = t.cover
@@ -456,7 +484,12 @@ function renderPlaylist() {
   const pl = allPlaylists[currentMember];
   const container = document.getElementById('playlist-content');
 
-  if (!pl || !pl.tracks || pl.tracks.length === 0) {
+  const albums = (pl && pl.albums) ? pl.albums : [];
+  const artists = (pl && pl.artists) ? pl.artists : [];
+  const tracks = (pl && pl.tracks) ? pl.tracks : [];
+  const total = tracks.length + albums.length + artists.length;
+
+  if (!pl || total === 0) {
     container.innerHTML = `
       <div class="empty-state">
         <span class="emoji">${m.emoji}</span>
@@ -475,20 +508,36 @@ function renderPlaylist() {
         <div class="playlist-head-title">${escapeHTML(pl.title || m.label)}</div>
         <div class="playlist-head-sub">${escapeHTML(pl.subtitle || '')}</div>
       </div>
-      <div class="playlist-count">${pl.tracks.length} brani</div>
+      <div class="playlist-count">${total} voci</div>
     </div>`;
 
-  // Costruisci la lista, inserendo un'intestazione di gruppo quando cambia il mese
-  // (solo per gli elementi 'album' che hanno il campo month).
   let html = '';
-  let lastMonth = null;
-  pl.tracks.forEach((t, idx) => {
-    if (t.type === 'album' && t.month && t.month !== lastMonth) {
-      html += `<div class="group-head">${escapeHTML(t.month)}</div>`;
-      lastMonth = t.month;
-    }
-    html += renderTrack(t, idx);
-  });
+  let n = 0;
+
+  // 1. Brani consigliati (con data)
+  if (tracks.length) {
+    html += `<div class="group-head">💡 Consigli d'ascolto</div>`;
+    tracks.forEach(t => { html += renderTrack(t, n++); });
+  }
+
+  // 2. Album ascoltati (raggruppati per mese)
+  if (albums.length) {
+    html += `<div class="group-head">💿 Album ascoltati</div>`;
+    let lastMonth = null;
+    albums.forEach(t => {
+      if (t.month && t.month !== lastMonth) {
+        html += `<div class="group-sub">${escapeHTML(t.month)}</div>`;
+        lastMonth = t.month;
+      }
+      html += renderTrack(t, n++);
+    });
+  }
+
+  // 3. Artisti preferiti
+  if (artists.length) {
+    html += `<div class="group-head">🎤 Artisti preferiti (${artists.length})</div>`;
+    artists.forEach(t => { html += renderTrack(t, n++); });
+  }
 
   const list = `<div class="track-list">${html}</div>`;
   container.innerHTML = head + list;
@@ -508,7 +557,7 @@ async function loadData() {
 
     // Scegli come default il primo membro con brani
     for (const id of MEMBER_ORDER) {
-      if (allPlaylists[id] && allPlaylists[id].tracks && allPlaylists[id].tracks.length > 0) {
+      if (countItems(allPlaylists[id]) > 0) {
         currentMember = id;
         break;
       }
