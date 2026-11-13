@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-13 15:02",
+  "generated": "2026-11-13 15:57",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
@@ -369,8 +369,9 @@
     },
     "maurizio": {
       "title": "🎧 Playlist di Maurizio",
-      "subtitle": "Consigli d'ascolto — dal sito & dal cuore",
-      "tracks": [
+      "subtitle": "Consigli d'ascolto, album ascoltati e artisti preferiti",
+      "tracks": [],
+      "albums": [
         {
           "type": "album",
           "date": "",
@@ -1588,6 +1589,876 @@
           "link": "",
           "cover": "https://time-means-nothing.it/wp-content/uploads/cache/2018/02/a-deeper-understanding-the-war-on-drugs-cover-ts1503914555/1000239699.jpeg",
           "source": "time-means-nothing.it"
+        }
+      ],
+      "artists": [
+        {
+          "type": "artist",
+          "artist": "Adrianne Lenker",
+          "track": "Adrianne Lenker",
+          "link": "https://www.adriannelenker.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Aldous Harding",
+          "track": "Aldous Harding",
+          "link": "https://www.aldousharding.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Alex Banks",
+          "track": "Alex Banks",
+          "link": "http://alexbanksmusic.co.uk/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Algiers",
+          "track": "Algiers",
+          "link": "http://algierstheband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Alice in Chains",
+          "track": "Alice in Chains",
+          "link": "http://aliceinchains.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Alt-J",
+          "track": "Alt-J",
+          "link": "http://it.wikipedia.org/wiki/Alt-J",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "ARAB STRAP",
+          "track": "ARAB STRAP",
+          "link": "https://www.arabstrap.scot",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Arooj Aftab",
+          "track": "Arooj Aftab",
+          "link": "http://aroojaftab.com",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "BADBADNOTGOOD",
+          "track": "BADBADNOTGOOD",
+          "link": "https://tv.badbadnotgood.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "BDRMM",
+          "track": "BDRMM",
+          "link": "https://bdrmm.co.uk/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Beach House",
+          "track": "Beach House",
+          "link": "http://www.beachhousebaltimore.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Belle&Sebastian",
+          "track": "Belle&Sebastian",
+          "link": "http://www.belleandsebastian.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Big Thief",
+          "track": "Big Thief",
+          "link": "https://bigthief.net/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Bill Ryder-Jones",
+          "track": "Bill Ryder-Jones",
+          "link": "https://billryderjones.co.uk",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Bleechers",
+          "track": "Bleechers",
+          "link": "https://www.bleachersmusic.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Blue Pills",
+          "track": "Blue Pills",
+          "link": "https://bluespills.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "boygenius",
+          "track": "boygenius",
+          "link": "https://xboygeniusx.bandcamp.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Calcutta",
+          "track": "Calcutta",
+          "link": "http://www.bombadischi.it/calcutta/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Cassandra Jenkins",
+          "track": "Cassandra Jenkins",
+          "link": "https://cassandrajenkins.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Cat Power",
+          "track": "Cat Power",
+          "link": "https://www.catpowermusic.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Celebrating 20 years of Deftones’ masterpiece ‘White Pony’",
+          "track": "Celebrating 20 years of Deftones’ masterpiece ‘White Pony’",
+          "link": "https://www.nme.com/features/deftones-white-pony-20-year-anniversary-interview-chvrches-fever-333-chino-radiohead-2692262",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Chat Pile",
+          "track": "Chat Pile",
+          "link": "https://chatpile.net/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Cigarettes After Sex",
+          "track": "Cigarettes After Sex",
+          "link": "http://www.cigarettesaftersex.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Cloud Nothings",
+          "track": "Cloud Nothings",
+          "link": "http://www.cloudnothings.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Cocteau Twins",
+          "track": "Cocteau Twins",
+          "link": "https://cocteautwins.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Courtney Barnett - Tell Me How You Really Feel",
+          "track": "Courtney Barnett - Tell Me How You Really Feel",
+          "link": "https://courtneybarnett.com.au",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Daughter",
+          "track": "Daughter",
+          "link": "http://daughter.sandbaghq.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "DeafHeaven",
+          "track": "DeafHeaven",
+          "link": "http://deafheaven.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Dean Blunt",
+          "track": "Dean Blunt",
+          "link": "https://en.wikipedia.org/wiki/Dean_Blunt",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "DIIV",
+          "track": "DIIV",
+          "link": "https://diiv.net",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Dirty Projectors",
+          "track": "Dirty Projectors",
+          "link": "https://dirtyprojectors.net",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Dry Cleaning",
+          "track": "Dry Cleaning",
+          "link": "https://drycleaningband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Elbow",
+          "track": "Elbow",
+          "link": "https://elbow.co.uk/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "ELEANOR FRIEDBERGER",
+          "track": "ELEANOR FRIEDBERGER",
+          "link": "https://www.eleanorfriedberger.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Emiliana Torrini",
+          "track": "Emiliana Torrini",
+          "link": "https://emilianatorrini.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "English teacher",
+          "track": "English teacher",
+          "link": "https://www.englishteacherband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "ER Jurken",
+          "track": "ER Jurken",
+          "link": "https://erjurken.bandcamp.com/",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Explosions in the sky",
+          "track": "Explosions in the sky",
+          "link": "http://www.explosionsinthesky.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Father John Misty",
+          "track": "Father John Misty",
+          "link": "http://www.fatherjohnmisty.com/tv/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Firenzerocks",
+          "track": "Firenzerocks",
+          "link": "http://www.firenzerocks.it",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Fontaines D.C.",
+          "track": "Fontaines D.C.",
+          "link": "https://fontainesdc.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Frightened Rabbit",
+          "track": "Frightened Rabbit",
+          "link": "https://www.frightenedrabbit.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Fujiya & Miyagi",
+          "track": "Fujiya & Miyagi",
+          "link": "https://www.fujiya-miyagi.co.uk",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Gazebo Penguins",
+          "track": "Gazebo Penguins",
+          "link": "http://www.gazebopenguins.com/raudo/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Glass Beams",
+          "track": "Glass Beams",
+          "link": "https://glassbeams.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Grizzly Bear - 'Painted Ruins' out now.",
+          "track": "Grizzly Bear - 'Painted Ruins' out now.",
+          "link": "http://grizzly-bear.net",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Harp",
+          "track": "Harp",
+          "link": "https://harpband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Heartworms",
+          "track": "Heartworms",
+          "link": "https://www.iamheartworms.com/",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "HOME",
+          "track": "HOME",
+          "link": "https://www.kellyleeowens.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Home",
+          "track": "Home",
+          "link": "http://www.dillonwork.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Homepage - The War On Drugs",
+          "track": "Homepage - The War On Drugs",
+          "link": "http://www.thewarondrugs.net",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "https://www.fleetfoxes.co/shore/live-on-boston-harbor",
+          "track": "https://www.fleetfoxes.co/shore/live-on-boston-harbor",
+          "link": "https://www.fleetfoxes.co/shore/live-on-boston-harbor",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Hurray for the riff raff",
+          "track": "Hurray for the riff raff",
+          "link": "https://www.hurrayfortheriffraff.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Iceage",
+          "track": "Iceage",
+          "link": "http://iceagecopenhagen.eu",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Indigo de Souza",
+          "track": "Indigo de Souza",
+          "link": "https://www.indigodesouza.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Islands",
+          "track": "Islands",
+          "link": "http://islandsareforever.com/news/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Japandroids",
+          "track": "Japandroids",
+          "link": "http://japandroids.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Jono McCleery",
+          "track": "Jono McCleery",
+          "link": "https://www.jonomccleery.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "KIT SEBASTIAN",
+          "track": "KIT SEBASTIAN",
+          "link": "https://www.kitsebastian.com/",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "La Sera",
+          "track": "La Sera",
+          "link": "http://iamkatygoodman.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Lael Neale",
+          "track": "Lael Neale",
+          "link": "https://laelneale.com/home",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Lali Puna",
+          "track": "Lali Puna",
+          "link": "http://www.lalipuna.de/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Lana Del Rey - Let Me Love You Like A Woman",
+          "track": "Lana Del Rey - Let Me Love You Like A Woman",
+          "link": "https://lanadelrey.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "LCD Soundsystem",
+          "track": "LCD Soundsystem",
+          "link": "https://lcdsoundsystem.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Le luci della centrale elettrica",
+          "track": "Le luci della centrale elettrica",
+          "link": "http://www.leluci.org/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Living Hour",
+          "track": "Living Hour",
+          "link": "https://www.livinghourband.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Local Natives",
+          "track": "Local Natives",
+          "link": "http://thelocalnatives.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Lomelda",
+          "track": "Lomelda",
+          "link": "https://lomelda.bandcamp.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Low Roar official",
+          "track": "Low Roar official",
+          "link": "https://www.lowroarmusic.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "lowtheband",
+          "track": "lowtheband",
+          "link": "https://www.chairkickers.com/home",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Lucio Corsi",
+          "track": "Lucio Corsi",
+          "link": "https://www.luciocorsi.it/?fbclid=IwAR0PWvMrYYeYPcvskl7HccIq3lMLiCin4bA0kUJbv0kmVymM7hqgjz8mnHk",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Lucy Dacus",
+          "track": "Lucy Dacus",
+          "link": "https://lucydacus.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "M83",
+          "track": "M83",
+          "link": "https://ilovem83.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Malena Zavala | Aliso",
+          "track": "Malena Zavala | Aliso",
+          "link": "http://malenazavala.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Marissa Nadler",
+          "track": "Marissa Nadler",
+          "link": "http://www.marissanadler.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Marta Del Grandi",
+          "track": "Marta Del Grandi",
+          "link": "https://martadelgrandi.bandcamp.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Midlake",
+          "track": "Midlake",
+          "link": "https://midlakeband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "MISSINCAT",
+          "track": "MISSINCAT",
+          "link": "http://www.missincat.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Moderat",
+          "track": "Moderat",
+          "link": "http://moderat.fm/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Modern Nature",
+          "track": "Modern Nature",
+          "link": "https://modernnature.band",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Mogwai",
+          "track": "Mogwai",
+          "link": "http://www.mogwai.co.uk/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Music | Negazione",
+          "track": "Music | Negazione",
+          "link": "https://negazione.bandcamp.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "nilüfer Yanya",
+          "track": "nilüfer Yanya",
+          "link": "https://niluferyanya.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Nothing",
+          "track": "Nothing",
+          "link": "http://www.bandofnothing.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Nubiyan Twist",
+          "track": "Nubiyan Twist",
+          "link": "https://www.nubiyantwist.co.uk",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Official Website, Fan Club, and Store | Meg Myers",
+          "track": "Official Website, Fan Club, and Store | Meg Myers",
+          "link": "https://www.megmyers.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "ONEOHTRIX POINT NEVER",
+          "track": "ONEOHTRIX POINT NEVER",
+          "link": "http://www.pointnever.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Overmono",
+          "track": "Overmono",
+          "link": "https://overmono.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "P.W. ELVERUM & SUN, LTD. - MOUNT EERIE",
+          "track": "P.W. ELVERUM & SUN, LTD. - MOUNT EERIE",
+          "link": "http://www.pwelverumandsun.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Pearl Jam",
+          "track": "Pearl Jam",
+          "link": "http://pearljam.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "perfumegenius",
+          "track": "perfumegenius",
+          "link": "https://perfumegenius.org",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Perturbazione",
+          "track": "Perturbazione",
+          "link": "http://www.perturbazione.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Piano Magic",
+          "track": "Piano Magic",
+          "link": "https://www.piano-magic.co.uk/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Queens of the stona age",
+          "track": "Queens of the stona age",
+          "link": "http://www.qotsa.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Rolo Tomassi",
+          "track": "Rolo Tomassi",
+          "link": "https://www.rolotomassiband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Ryley Walker",
+          "track": "Ryley Walker",
+          "link": "https://www.ryleywalker.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Scacco Matto | Lorenzo Senni",
+          "track": "Scacco Matto | Lorenzo Senni",
+          "link": "https://lorenzosenni.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Scisma",
+          "track": "Scisma",
+          "link": "https://www.facebook.com/Scismaofficial",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Shame",
+          "track": "Shame",
+          "link": "https://shame.world",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Slowdive",
+          "track": "Slowdive",
+          "link": "https://slowdiveofficial.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "slowthai",
+          "track": "slowthai",
+          "link": "https://www.slowthai.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Soundgarden",
+          "track": "Soundgarden",
+          "link": "http://soundgardenworld.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Stone Temple Pilots",
+          "track": "Stone Temple Pilots",
+          "link": "http://stonetemplepilots.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "STORMZY - HEAVY IS THE HEAD",
+          "track": "STORMZY - HEAVY IS THE HEAD",
+          "link": "https://www.stormzy.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Sufjan Stevens",
+          "track": "Sufjan Stevens",
+          "link": "https://sufjan.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Sun Kil Moon",
+          "track": "Sun Kil Moon",
+          "link": "http://www.sunkilmoon.com/bio.html",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "Tapir!",
+          "track": "Tapir!",
+          "link": "https://tapirband.co.uk",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "The Afghan Whigs - How Do You Burn?",
+          "track": "The Afghan Whigs - How Do You Burn?",
+          "link": "https://www.sentireascoltare.com/recensioni/the-afghan-whigs-how-do-you-burn",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "The Beths",
+          "track": "The Beths",
+          "link": "https://thebeths.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The Builders and the Butchers",
+          "track": "The Builders and the Butchers",
+          "link": "https://www.thebuildersandthebutchers.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "The Cure",
+          "track": "The Cure",
+          "link": "https://www.thecure.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The Japanese House",
+          "track": "The Japanese House",
+          "link": "https://thejapanesehouse.co.uk",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "The Last Dinner Party",
+          "track": "The Last Dinner Party",
+          "link": "https://www.thelastdinnerparty.co.uk/#home",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The National",
+          "track": "The National",
+          "link": "http://www.americanmary.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The Necks - One of the Great Cult Bands of Australia",
+          "track": "The Necks - One of the Great Cult Bands of Australia",
+          "link": "https://thenecks.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "The Prettiost",
+          "track": "The Prettiost",
+          "link": "http://www.theprettiots.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The Smile",
+          "track": "The Smile",
+          "link": "https://thesmiletheband.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The Waeve",
+          "track": "The Waeve",
+          "link": "https://www.thewaeveofficial.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "The Weather Station",
+          "track": "The Weather Station",
+          "link": "http://www.theweatherstation.net/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "THEODORE-MUSIC",
+          "track": "THEODORE-MUSIC",
+          "link": "https://www.theodore-music.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Tool",
+          "track": "Tool",
+          "link": "https://www.toolband.com",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Turnstile | Official UK & EU Merchandise",
+          "track": "Turnstile | Official UK & EU Merchandise",
+          "link": "https://turnstilehardcore.eu/",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Verdena",
+          "track": "Verdena",
+          "link": "https://www.verdena.com/",
+          "source": "sidebar sito"
+        },
+        {
+          "type": "artist",
+          "artist": "White Lung",
+          "track": "White Lung",
+          "link": "http://www.whitelung.ca/",
+          "source": "sidebar sito"
         }
       ]
     }
