@@ -895,6 +895,52 @@
     .ricevimenti-link-arrow { font-size: 1.1rem; color: var(--text-light); transition: color var(--transition); }
     .ricevimenti-link:hover .ricevimenti-link-arrow { color: #3b82f6; }
 
+    /* ===== PLAYLIST LINK (in Flavio / Maurizio card) ===== */
+    .playlist-link {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.75rem 1rem;
+      border-radius: var(--radius-sm);
+      background: linear-gradient(135deg, #eff6ff, #dbeafe);
+      border: 1px solid #bfdbfe;
+      text-decoration: none;
+      color: var(--text-primary);
+      transition: all var(--transition);
+      margin-top: 0.5rem;
+    }
+    .playlist-link:hover {
+      border-color: #3b82f6;
+      box-shadow: 0 2px 12px rgba(59,130,246,0.15);
+      transform: translateX(4px);
+    }
+    .playlist-link.green {
+      background: linear-gradient(135deg, #f0fdf4, #dcfce7);
+      border-color: #bbf7d0;
+    }
+    .playlist-link.green:hover {
+      border-color: #22c55e;
+      box-shadow: 0 2px 12px rgba(34,197,94,0.15);
+    }
+    [data-theme="dark"] .playlist-link {
+      background: linear-gradient(135deg, #1e3a5f, #172554);
+      border-color: #1e40af;
+    }
+    [data-theme="dark"] .playlist-link.green {
+      background: linear-gradient(135deg, #14532d, #052e16);
+      border-color: #166534;
+    }
+    .playlist-link-icon { font-size: 1.5rem; flex-shrink: 0; }
+    .playlist-link-text { flex: 1; display: flex; flex-direction: column; gap: 0.1rem; }
+    .playlist-link-title { font-size: 0.88rem; font-weight: 700; color: #1d4ed8; }
+    .playlist-link.green .playlist-link-title { color: #15803d; }
+    [data-theme="dark"] .playlist-link-title { color: #93c5fd; }
+    [data-theme="dark"] .playlist-link.green .playlist-link-title { color: #86efac; }
+    .playlist-link-desc { font-size: 0.72rem; color: var(--text-light); }
+    .playlist-link-arrow { font-size: 1.1rem; color: var(--text-light); transition: color var(--transition); }
+    .playlist-link:hover .playlist-link-arrow { color: #3b82f6; }
+    .playlist-link.green:hover .playlist-link-arrow { color: #22c55e; }
+
     /* ===== PULSE dot ===== */
     .live-dot {
       display: inline-block; width: 8px; height: 8px;
@@ -1808,6 +1854,14 @@ function renderMemberCard(id, member) {
         ${schoolHTML}
         ${id === 'flavio' ? `
           <div class="member-divider"></div>
+          <a href="playlist.html#flavio" class="playlist-link green" target="_blank" rel="noopener">
+            <span class="playlist-link-icon">🎷</span>
+            <span class="playlist-link-text">
+              <span class="playlist-link-title">La mia Playlist</span>
+              <span class="playlist-link-desc">Tutti i brani consigliati — Ascolto del giorno</span>
+            </span>
+            <span class="playlist-link-arrow">→</span>
+          </a>
           <a href="ricevimenti.html" class="ricevimenti-link" target="_blank" rel="noopener">
             <span class="ricevimenti-link-icon">🗓️</span>
             <span class="ricevimenti-link-text">
@@ -1815,6 +1869,16 @@ function renderMemberCard(id, member) {
               <span class="ricevimenti-link-desc">Disponibilità e prenotazioni colloqui</span>
             </span>
             <span class="ricevimenti-link-arrow">→</span>
+          </a>` : ''}
+        ${id === 'maurizio' ? `
+          <div class="member-divider"></div>
+          <a href="playlist.html#maurizio" class="playlist-link" target="_blank" rel="noopener">
+            <span class="playlist-link-icon">🎧</span>
+            <span class="playlist-link-text">
+              <span class="playlist-link-title">La mia Playlist</span>
+              <span class="playlist-link-desc">I miei consigli d'ascolto</span>
+            </span>
+            <span class="playlist-link-arrow">→</span>
           </a>` : ''}
         ${member.personal_notes && member.personal_notes.trim() !== '' ? `
           <div class="member-divider"></div>
