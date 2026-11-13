@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Playlist — Family Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --font-main: 'Inter', sans-serif;
+      --font-display: 'Playfair Display', serif;
+      --radius: 16px;
+      --radius-sm: 10px;
+      --shadow: 0 4px 24px rgba(0,0,0,0.08);
+      --shadow-lg: 0 8px 40px rgba(0,0,0,0.12);
+      --transition: 0.25s ease;
+      --bg: #f8f5f0;
+      --bg-card: #ffffff;
+      --bg-header: linear-gradient(135deg, #3b82f6 0%, #1d4ed8 100%);
+      --text-primary: #1a1a2e;
+      --text-secondary: #6b7280;
+      --text-light: #9ca3af;
+      --border: #e8e1d8;
+      --accent: #3b82f6;
+      --member-color: #3b82f6;
+      --member-light: #eff6ff;
+      --member-gradient: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    }
+    [data-theme="cool"] {
+      --bg: #f0f4ff; --bg-header: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      --border: #dde3f0; --accent: #667eea;
+    }
+    [data-theme="nature"] {
+      --bg: #f0f7f0; --bg-header: linear-gradient(135deg, #56ab2f 0%, #a8e063 100%);
+      --border: #d8ecd8; --accent: #56ab2f;
+    }
+    [data-theme="dark"] {
+      --bg: #0f172a; --bg-card: #1e293b;
+      --bg-header: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+      --text-primary: #f1f5f9; --text-secondary: #94a3b8;
+      --text-light: #64748b; --border: #334155; --accent: #60a5fa;
+      --member-light: #1e3a5f;
+    }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-main);
+      background: var(--bg);
+      color: var(--text-primary);
+      min-height: 100vh;
+      transition: background var(--transition), color var(--transition);
+    }
+
+    /* Header */
+    .site-header {
+      background: var(--bg-header);
+      color: white;
+      padding: 2rem 2rem 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .site-header::before {
+      content: '';
+      position: absolute;
+      top: -50%; left: -10%;
+      width: 120%; height: 200%;
+      background: radial-gradient(ellipse, rgba(255,255,255,0.08) 0%, transparent 60%);
+      pointer-events: none;
+    }
+    .header-inner {
+      max-width: 1000px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 1rem;
+      position: relative;
+      z-index: 1;
+    }
+    .header-title { font-family: var(--font-display); font-size: clamp(1.5rem, 3.5vw, 2.4rem); letter-spacing: -0.5px; }
+    .header-subtitle { font-size: 0.9rem; opacity: 0.8; margin-top: 0.25rem; }
+    .header-meta { text-align: right; font-size: 0.85rem; opacity: 0.85; }
+    .header-controls { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+    .theme-btn, .back-btn {
+      background: rgba(255,255,255,0.2);
+      border: 1px solid rgba(255,255,255,0.3);
+      color: white;
+      padding: 0.4rem 0.9rem;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background var(--transition);
+      font-family: var(--font-main);
+      text-decoration: none;
+    }
+    .theme-btn:hover, .back-btn:hover { background: rgba(255,255,255,0.3); }
+    .back-btn { font-weight: 600; }
+
+    /* Main */
+    .main-wrapper {
+      max-width: 1000px;
+      margin: -1.5rem auto 0;
+      padding: 0 1.5rem 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    /* Member tabs */
+    .member-tabs {
+      display: flex;
+      gap: 0.6rem;
+      margin-bottom: 1.25rem;
+      flex-wrap: wrap;
+    }
+    .member-tab {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.55rem 1.2rem;
+      font-family: var(--font-main);
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: var(--text-secondary);
+      cursor: pointer;
+      box-shadow: var(--shadow);
+      transition: all var(--transition);
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+    .member-tab:hover { transform: translateY(-1px); }
+    .member-tab.active {
+      color: white;
+      border-color: transparent;
+      background: var(--tab-grad, var(--member-gradient));
+    }
+
+    /* Playlist header */
+    .playlist-head {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .playlist-head-icon {
+      width: 56px; height: 56px;
+      border-radius: 50%;
+      background: var(--member-gradient);
+      color: white;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.6rem;
+      flex-shrink: 0;
+    }
+    .playlist-head-text { flex: 1; }
+    .playlist-head-title { font-size: 1.15rem; font-weight: 800; }
+    .playlist-head-sub { font-size: 0.82rem; color: var(--text-secondary); margin-top: 0.15rem; }
+    .playlist-count {
+      font-size: 0.75rem;
+      font-weight: 700;
+      color: var(--accent);
+      background: var(--member-light);
+      padding: 0.3rem 0.7rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    /* Track list */
+    .track-list { display: flex; flex-direction: column; gap: 0.6rem; }
+    .track-item {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--accent);
+      border-radius: var(--radius-sm);
+      box-shadow: var(--shadow);
+      padding: 0.85rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.9rem;
+      transition: all var(--transition);
+    }
+    .track-item:hover { box-shadow: var(--shadow-lg); transform: translateX(3px); }
+    .track-num {
+      font-size: 0.8rem;
+      font-weight: 800;
+      color: var(--text-light);
+      min-width: 1.6rem;
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+    }
+    .track-info { flex: 1; min-width: 0; }
+    .track-title { font-size: 0.95rem; font-weight: 700; color: var(--text-primary); }
+    .track-title .track-artist { font-weight: 500; color: var(--text-secondary); }
+    .track-meta {
+      font-size: 0.76rem;
+      color: var(--text-light);
+      margin-top: 0.15rem;
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .track-context {
+      font-size: 0.78rem;
+      color: var(--text-secondary);
+      margin-top: 0.3rem;
+      line-height: 1.45;
+    }
+    .track-date {
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--text-light);
+      background: var(--member-light);
+      padding: 0.12rem 0.5rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .track-play {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 40px; height: 40px;
+      border-radius: 50%;
+      background: var(--member-gradient);
+      color: white;
+      text-decoration: none;
+      font-size: 1rem;
+      transition: transform var(--transition), box-shadow var(--transition);
+    }
+    .track-play:hover { transform: scale(1.1); box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
+    .track-play.disabled { background: var(--border); color: var(--text-light); pointer-events: none; }
+
+    .empty-state {
+      text-align: center;
+      padding: 3rem 1.5rem;
+      background: var(--bg-card);
+      border: 1px dashed var(--border);
+      border-radius: var(--radius);
+      color: var(--text-secondary);
+      line-height: 1.7;
+    }
+    .empty-state .emoji { font-size: 2.4rem; display: block; margin-bottom: 0.6rem; }
+
+    /* Footer */
+    .site-footer {
+      text-align: center;
+      padding: 2rem;
+      color: var(--text-light);
+      font-size: 0.8rem;
+      border-top: 1px solid var(--border);
+    }
+
+    @media (max-width: 768px) {
+      .main-wrapper { padding: 0 1rem 2rem; }
+      .site-header { padding: 1.5rem 1rem 3rem; }
+      .header-inner { flex-direction: column; align-items: flex-start; }
+      .header-meta { text-align: left; }
+      .track-context { display: none; }
+    }
+  </style>
+</head>
+<body data-theme="warm">
+
+<header class="site-header">
+  <div class="header-inner">
+    <div>
+      <h1 class="header-title">🎵 Playlist di Famiglia</h1>
+      <p class="header-subtitle">I brani consigliati, giorno dopo giorno</p>
+    </div>
+    <div class="header-meta">
+      <div id="generated-date">—</div>
+    </div>
+    <div class="header-controls">
+      <a href="index.html" class="back-btn">← Dashboard</a>
+      <button class="theme-btn" onclick="setTheme('warm')">🌅</button>
+      <button class="theme-btn" onclick="setTheme('cool')">🌊</button>
+      <button class="theme-btn" onclick="setTheme('nature')">🌿</button>
+      <button class="theme-btn" onclick="setTheme('dark')">🌙</button>
+    </div>
+  </div>
+</header>
+
+<main class="main-wrapper">
+  <div class="member-tabs" id="member-tabs"></div>
+  <div id="playlist-content">
+    <p style="text-align:center;color:var(--text-light);padding:2rem">Caricamento...</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  Family Dashboard &bull; Playlist &bull; Generato da PicoClaw 🦞
+</footer>
+
+<script>
+// ===== THEME =====
+function setTheme(t) {
+  document.body.setAttribute('data-theme', t);
+  localStorage.setItem('fd-theme', t);
+}
+(function() {
+  const saved = localStorage.getItem('fd-theme');
+  if (saved) setTheme(saved);
+})();
+
+function escapeHTML(str) {
+  return String(str == null ? '' : str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function formatDate(iso) {
+  if (!iso) return '';
+  try {
+    const d = new Date(iso + 'T00:00:00');
+    return d.toLocaleDateString('it-IT', { day: 'numeric', month: 'short', year: 'numeric' });
+  } catch(e) { return iso; }
+}
+
+// ===== MEMBER CONFIG =====
+const MEMBERS = {
+  flavio:   { label: 'Flavio',   emoji: '🎷', grad: 'linear-gradient(135deg,#22c55e,#15803d)', light: '#dcfce7' },
+  maurizio: { label: 'Maurizio', emoji: '🎧', grad: 'linear-gradient(135deg,#3b82f6,#1d4ed8)', light: '#dbeafe' }
+};
+const MEMBER_ORDER = ['flavio', 'maurizio'];
+
+let allPlaylists = {};
+let currentMember = 'flavio';
+
+function applyMemberTheme(memberId) {
+  const m = MEMBERS[memberId];
+  if (!m) return;
+  document.documentElement.style.setProperty('--member-gradient', m.grad);
+  document.documentElement.style.setProperty('--member-light', m.light);
+  document.documentElement.style.setProperty('--accent', m.grad.match(/#[0-9a-f]{6}/i)[0]);
+}
+
+function renderTabs() {
+  const tabs = document.getElementById('member-tabs');
+  tabs.innerHTML = MEMBER_ORDER.map(id => {
+    const m = MEMBERS[id];
+    const pl = allPlaylists[id];
+    const n = pl ? pl.tracks.length : 0;
+    const active = id === currentMember ? 'active' : '';
+    return `<button class="member-tab ${active}" style="--tab-grad:${m.grad}"
+              onclick="selectMember('${id}')">${m.emoji} ${m.label}
+              <span style="opacity:0.75;font-weight:600">(${n})</span></button>`;
+  }).join('');
+}
+
+function selectMember(id) {
+  currentMember = id;
+  applyMemberTheme(id);
+  renderTabs();
+  renderPlaylist();
+}
+
+function renderTrack(t, idx) {
+  const hasUrl = t.youtube_url && t.youtube_url.trim() !== '';
+  const playBtn = hasUrl
+    ? `<a class="track-play" href="${escapeHTML(t.youtube_url)}" target="_blank" rel="noopener" title="Ascolta su YouTube">▶</a>`
+    : `<span class="track-play disabled" title="Link non disponibile">♪</span>`;
+
+  const metaBits = [];
+  if (t.album) metaBits.push(escapeHTML(t.album));
+  if (t.year) metaBits.push(escapeHTML(t.year));
+  const dateChip = t.date ? `<span class="track-date">${formatDate(t.date)}</span>` : '';
+
+  return `
+    <div class="track-item">
+      <span class="track-num">${idx + 1}</span>
+      <div class="track-info">
+        <div class="track-title">"${escapeHTML(t.track)}"
+          <span class="track-artist">— ${escapeHTML(t.artist)}</span></div>
+        ${metaBits.length ? `<div class="track-meta">${dateChip}${metaBits.join(' · ')}</div>`
+                          : (dateChip ? `<div class="track-meta">${dateChip}</div>` : '')}
+        ${t.context ? `<div class="track-context">${escapeHTML(t.context)}</div>` : ''}
+      </div>
+      ${playBtn}
+    </div>`;
+}
+
+function renderPlaylist() {
+  const m = MEMBERS[currentMember];
+  const pl = allPlaylists[currentMember];
+  const container = document.getElementById('playlist-content');
+
+  if (!pl || !pl.tracks || pl.tracks.length === 0) {
+    container.innerHTML = `
+      <div class="empty-state">
+        <span class="emoji">${m.emoji}</span>
+        <strong>Nessun brano ancora in playlist</strong><br>
+        ${currentMember === 'maurizio'
+          ? 'In attesa della sorgente: aggiungi i brani in <code>memory/maurizio_playlist.md</code>.'
+          : 'La playlist si popola automaticamente con l\'ascolto del giorno.'}
+      </div>`;
+    return;
+  }
+
+  const head = `
+    <div class="playlist-head">
+      <div class="playlist-head-icon">${m.emoji}</div>
+      <div class="playlist-head-text">
+        <div class="playlist-head-title">${escapeHTML(pl.title || m.label)}</div>
+        <div class="playlist-head-sub">${escapeHTML(pl.subtitle || '')}</div>
+      </div>
+      <div class="playlist-count">${pl.tracks.length} brani</div>
+    </div>`;
+
+  const list = `<div class="track-list">${pl.tracks.map(renderTrack).join('')}</div>`;
+  container.innerHTML = head + list;
+}
+
+async function loadData() {
+  try {
+    const cacheBust = `?t=${Math.floor(Date.now()/60000)}`;
+    const res = await fetch(`data/playlist.json${cacheBust}`);
+    if (!res.ok) throw new Error('Fetch failed');
+    const data = await res.json();
+    allPlaylists = data.playlists || {};
+
+    if (data.generated) {
+      document.getElementById('generated-date').textContent = `Aggiornato: ${data.generated}`;
+    }
+
+    // Scegli come default il primo membro con brani
+    for (const id of MEMBER_ORDER) {
+      if (allPlaylists[id] && allPlaylists[id].tracks && allPlaylists[id].tracks.length > 0) {
+        currentMember = id;
+        break;
+      }
+    }
+    // Override con l'hash dell'URL (es. playlist.html#maurizio)
+    const hash = (location.hash || '').replace('#', '').toLowerCase();
+    if (hash && MEMBERS[hash]) currentMember = hash;
+
+    applyMemberTheme(currentMember);
+    renderTabs();
+    renderPlaylist();
+  } catch(e) {
+    console.error('Load error:', e);
+    document.getElementById('playlist-content').innerHTML =
+      '<div class="empty-state"><span class="emoji">⚠️</span>Impossibile caricare le playlist.</div>';
+  }
+}
+
+loadData();
+</script>
+</body>
+</html>
