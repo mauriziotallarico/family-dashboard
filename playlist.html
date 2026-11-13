@@ -239,6 +239,44 @@
     .track-play:hover { transform: scale(1.1); box-shadow: 0 4px 16px rgba(0,0,0,0.2); }
     .track-play.disabled { background: var(--border); color: var(--text-light); pointer-events: none; }
 
+    /* Album (sorgente sito) */
+    .track-cover {
+      width: 48px; height: 48px;
+      border-radius: 8px;
+      object-fit: cover;
+      flex-shrink: 0;
+      border: 1px solid var(--border);
+      background: var(--member-light);
+    }
+    .track-cover.placeholder {
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem;
+    }
+    .track-month {
+      font-size: 0.68rem;
+      font-weight: 700;
+      color: var(--accent);
+      background: var(--member-light);
+      padding: 0.12rem 0.5rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+    .track-source {
+      font-size: 0.66rem;
+      color: var(--text-light);
+      font-style: italic;
+    }
+    .group-head {
+      font-size: 0.78rem;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--text-secondary);
+      margin: 1.1rem 0 0.4rem;
+      padding-left: 0.2rem;
+    }
+    .group-head:first-child { margin-top: 0; }
+
     .empty-state {
       text-align: center;
       padding: 3rem 1.5rem;
@@ -364,6 +402,31 @@ function selectMember(id) {
 }
 
 function renderTrack(t, idx) {
+  // --- Album dal sito (sorgente esterna) ---
+  if (t.type === 'album') {
+    const cover = t.cover
+      ? `<img class="track-cover" src="${escapeHTML(t.cover)}" alt="" loading="lazy"
+              onerror="this.style.display='none'">`
+      : `<span class="track-cover placeholder">💿</span>`;
+    const playBtn = (t.link && t.link.trim() !== '')
+      ? `<a class="track-play" href="${escapeHTML(t.link)}" target="_blank" rel="noopener" title="Apri link">🔗</a>`
+      : (t.youtube_url && t.youtube_url.trim() !== ''
+          ? `<a class="track-play" href="${escapeHTML(t.youtube_url)}" target="_blank" rel="noopener" title="Ascolta su YouTube">▶</a>`
+          : `<span class="track-play disabled" title="Link non disponibile">♪</span>`);
+    const monthChip = t.month ? `<span class="track-month">${escapeHTML(t.month)}</span>` : '';
+    return `
+      <div class="track-item">
+        <span class="track-num">${idx + 1}</span>
+        ${cover}
+        <div class="track-info">
+          <div class="track-title">${escapeHTML(t.track)}</div>
+          <div class="track-meta">${monthChip}<span class="track-source">da time-means-nothing.it</span></div>
+        </div>
+        ${playBtn}
+      </div>`;
+  }
+
+  // --- Brano (consiglio / ascolto del giorno) ---
   const hasUrl = t.youtube_url && t.youtube_url.trim() !== '';
   const playBtn = hasUrl
     ? `<a class="track-play" href="${escapeHTML(t.youtube_url)}" target="_blank" rel="noopener" title="Ascolta su YouTube">▶</a>`
@@ -415,7 +478,19 @@ function renderPlaylist() {
       <div class="playlist-count">${pl.tracks.length} brani</div>
     </div>`;
 
-  const list = `<div class="track-list">${pl.tracks.map(renderTrack).join('')}</div>`;
+  // Costruisci la lista, inserendo un'intestazione di gruppo quando cambia il mese
+  // (solo per gli elementi 'album' che hanno il campo month).
+  let html = '';
+  let lastMonth = null;
+  pl.tracks.forEach((t, idx) => {
+    if (t.type === 'album' && t.month && t.month !== lastMonth) {
+      html += `<div class="group-head">${escapeHTML(t.month)}</div>`;
+      lastMonth = t.month;
+    }
+    html += renderTrack(t, idx);
+  });
+
+  const list = `<div class="track-list">${html}</div>`;
   container.innerHTML = head + list;
 }
 
