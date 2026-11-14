@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-13 16:06",
+  "generated": "2026-11-14 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-14",
+          "artist": "Sonny Rollins",
+          "track": "Oleo",
+          "album": "Sonny Rollins with the Modern Jazz Quartet",
+          "year": "1953",
+          "context": "Uno dei contrafact più suonati nella storia del jazz, basato su \"I Got Rhythm\".",
+          "youtube_url": "https://www.youtube.com/watch?v=C5-r2X5oJDE"
+        },
         {
           "type": "track",
           "date": "2026-11-13",
