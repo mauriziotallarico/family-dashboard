@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-14 15:01",
+  "generated": "2026-11-15 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-15",
+          "artist": "Wayne Shorter",
+          "track": "E.S.P.",
+          "album": "E.S.P.",
+          "year": "1965",
+          "context": "Il brano che apre la nuova era del secondo quintetto di Miles Davis.",
+          "youtube_url": "https://www.youtube.com/watch?v=lRhqn21-xeg"
+        },
         {
           "type": "track",
           "date": "2026-11-14",
