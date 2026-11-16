@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-16T07:30:38.939470",
+    "last_updated": "2026-11-16T15:00:39.562997",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,147 +28,147 @@
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938723"
+        "added_at": "2026-11-16T15:00:39.562156"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938817"
+        "added_at": "2026-11-16T15:00:39.562255"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-15 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938850"
+        "added_at": "2026-11-16T15:00:39.562288"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938878"
+        "added_at": "2026-11-16T15:00:39.562317"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato  Bacci [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938907"
+        "added_at": "2026-11-16T15:00:39.562347"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938936"
+        "added_at": "2026-11-16T15:00:39.562375"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938964"
+        "added_at": "2026-11-16T15:00:39.562403"
       },
       {
         "id": "didup_7",
-        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.938991"
-      },
-      {
-        "id": "didup_8",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939019"
+        "added_at": "2026-11-16T15:00:39.562432"
+      },
+      {
+        "id": "didup_8",
+        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-16T15:00:39.562459"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939048"
+        "added_at": "2026-11-16T15:00:39.562488"
       },
       {
         "id": "didup_10",
         "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939076"
+        "added_at": "2026-11-16T15:00:39.562516"
       },
       {
         "id": "didup_11",
-        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939105"
-      },
-      {
-        "id": "didup_12",
         "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L e D.T. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939133"
+        "added_at": "2026-11-16T15:00:39.562544"
+      },
+      {
+        "id": "didup_12",
+        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-16T15:00:39.562573"
       },
       {
         "id": "didup_13",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939162"
+        "added_at": "2026-11-16T15:00:39.562601"
       },
       {
         "id": "didup_14",
         "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939189"
+        "added_at": "2026-11-16T15:00:39.562629"
       },
       {
         "id": "didup_15",
         "text": "📚 2026-11-19 — Verifica orale per D.T. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939222"
+        "added_at": "2026-11-16T15:00:39.562656"
       },
       {
         "id": "didup_16",
         "text": "📚 2026-11-19 — Interrogazione di recupero di storia: Pasquini [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939251"
+        "added_at": "2026-11-16T15:00:39.562683"
       },
       {
         "id": "didup_17",
         "text": "📚 2026-11-18 — Verifica orale per B.L. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939278"
+        "added_at": "2026-11-16T15:00:39.562717"
       },
       {
         "id": "didup_18",
         "text": "📚 2026-11-17 (11:30-12:00) — Arte ver orali programmate (Onesti, Focosi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939305"
+        "added_at": "2026-11-16T15:00:39.562745"
       },
       {
         "id": "didup_19",
         "text": "📚 2026-11-16 (09:00-09:30) — Interrogazioni programmate TAC : Giorgi, Vignozzi [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939332"
+        "added_at": "2026-11-16T15:00:39.562773"
       },
       {
         "id": "didup_20",
         "text": "📚 2026-11-16 — verifica orale per B.M. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T07:30:38.939359"
+        "added_at": "2026-11-16T15:00:39.562800"
       }
     ],
     "calendar_events": {
@@ -219,21 +219,21 @@
         "date": "2026-11-16",
         "description": "Rovesci leggeri",
         "temp_min": 11,
-        "temp_max": 17,
+        "temp_max": 16,
         "icon": "09d",
-        "humidity": 97,
-        "wind_speed": 5,
+        "humidity": 74,
+        "wind_speed": 11,
         "precipitation_mm": 4.0
       },
       "tomorrow": {
         "date": "2026-11-17",
-        "description": "Pioggia leggera",
-        "temp_min": 12,
+        "description": "Rovesci leggeri",
+        "temp_min": 14,
         "temp_max": 17,
-        "icon": "10d",
+        "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 8.5
+        "precipitation_mm": 19.13
       }
     },
     "sensors": [
@@ -242,29 +242,29 @@
         "name": "Corridoio",
         "icon": "🚪",
         "temp": 17.9,
-        "humidity": 79,
+        "humidity": 75,
         "battery": 79,
-        "last_update": "2026-11-16 07:28:50",
+        "last_update": "2026-11-16 14:30:05",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 16.9,
-        "humidity": 77,
-        "battery": 34,
-        "last_update": "2026-11-16 07:29:52",
+        "temp": 18.4,
+        "humidity": 78,
+        "battery": 45,
+        "last_update": "2026-11-16 14:30:55",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.7,
+        "temp": 18.6,
         "humidity": 72,
         "battery": 76,
-        "last_update": "2026-11-16 07:29:58",
+        "last_update": "2026-11-16 14:31:12",
         "battery_warning": false
       }
     ],
@@ -1093,20 +1093,27 @@
         "album": "Heaven and Earth",
         "year": "2018",
         "context": "Apertura esplosiva con coro e messaggio sociale. Jazz come protesta e celebrazione.",
-        "youtube_url": "https://www.youtube.com/watch?v=YFe5a66BuCw"
+        "youtube_url": "https://www.youtube.com/watch?v=u-e6mOTK__Y"
       },
       "voti": {
         "updated": "2026-11-16",
-        "media_generale": 6.48,
-        "totale_voti": 15,
+        "media_generale": 6.52,
+        "totale_voti": 16,
         "materie": [
           {
             "materia": "ES.INT.2 PIERUCCIONI PIANOFORTE",
-            "media": 6.0,
-            "n_voti": 1,
-            "ultimo_voto": "6",
-            "ultimo_data": "2026-11-02",
+            "media": 6.5,
+            "n_voti": 2,
+            "ultimo_voto": "7",
+            "ultimo_data": "2026-11-16",
             "voti": [
+              {
+                "data": "2026-11-16",
+                "voto": "7",
+                "tipo": "N",
+                "commento": "",
+                "valore": 7.0
+              },
               {
                 "data": "2026-11-02",
                 "voto": "6",
@@ -1279,7 +1286,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-16: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom\n📝 2026-11-16: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-17: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare ph sul libro p.16 + esercizi p.1\n📝 2026-11-17: LING. LETT. ITALIANA: vol.Narrativa pag.178/181 con esercizi"
+      "personal_notes": "📝 2026-11-16: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom\n📝 2026-11-16: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-17: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare ph sul libro p.16 + esercizi p.1\n📝 2026-11-17: LING. LETT. ITALIANA: vol.Narrativa pag.178/181 con esercizi\n📝 2026-11-17: STORIA DELLA MUSICA: Interrogazioni e ascolto e visione di alcuni strumenti medievali come la Ribeca\n📝 2026-11-18: LINGUA STRANIERA-ING: tets orale, p 39 n4 crea una conversazione su quaderno usando le espressione d\n📝 2026-11-23: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca"
     },
     "ada": {
       "display_name": "Ada",
@@ -1333,7 +1340,62 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "PROGETTI / POTENZIAMENTO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Partecipazione assemblea sindacale "
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": "Partecipazione all'assemblea sindacale "
+          },
+          {
+            "ora": 2,
+            "materia": "PROGETTI / POTENZIAMENTO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Partecipazione assemblea sindacale "
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": "Partecipazione all'assemblea sindacale "
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": "Partecipazione all'assemblea sindacale "
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "MENSA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 6,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 7,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1370,7 +1432,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-13 | STORIA | ds\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: PROGETTI / POTENZIAMENTO (LETIZIA ELVIRA)\n    → Partecipazione assemblea sindacale \n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n    → Partecipazione all'assemblea sindacale \n  Ora 2: PROGETTI / POTENZIAMENTO (LETIZIA ELVIRA)\n    → Partecipazione assemblea sindacale \n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n    → Partecipazione all'assemblea sindacale \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n    → Partecipazione all'assemblea sindacale \n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n  Ora 5: MENSA (LETIZIA ELVIRA)\n  Ora 6: SOSTEGNO (IACOMINI VERONICA)\n  Ora 7: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-11-13 | STORIA | ds\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
