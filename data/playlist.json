@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-15 15:00",
+  "generated": "2026-11-16 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-16",
+          "artist": "Kamasi Washington",
+          "track": "Fists of Fury",
+          "album": "Heaven and Earth",
+          "year": "2018",
+          "context": "Apertura esplosiva con coro e messaggio sociale. Jazz come protesta e celebrazione.",
+          "youtube_url": "https://www.youtube.com/watch?v=u-e6mOTK__Y"
+        },
         {
           "type": "track",
           "date": "2026-11-15",
