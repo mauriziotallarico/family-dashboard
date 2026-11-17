@@ -1,9 +1,15 @@
 {
   "_meta": {
-    "last_updated": "2026-11-17T07:30:47.319709",
+    "last_updated": "2026-11-17T15:00:44.649186",
     "version": "2.1",
     "updated_by": "picoclaw",
-    "fetch_errors": []
+    "fetch_errors": [
+      {
+        "source": "Registro Flavio (Argo Didup)",
+        "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
+        "timestamp": "2026-11-17T15:00:22.728102"
+      }
+    ]
   },
   "config": {
     "family_name": "Tallarico",
@@ -22,141 +28,7 @@
       "dinner": "",
       "notes": ""
     },
-    "reminders": [
-      {
-        "id": "didup_0",
-        "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.318997"
-      },
-      {
-        "id": "didup_1",
-        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319097"
-      },
-      {
-        "id": "didup_2",
-        "text": "📚 2026-12-15 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319130"
-      },
-      {
-        "id": "didup_3",
-        "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319159"
-      },
-      {
-        "id": "didup_4",
-        "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato  Bacci [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319188"
-      },
-      {
-        "id": "didup_5",
-        "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e Bertoli [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319217"
-      },
-      {
-        "id": "didup_6",
-        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Damazzi [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319245"
-      },
-      {
-        "id": "didup_7",
-        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319273"
-      },
-      {
-        "id": "didup_8",
-        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319300"
-      },
-      {
-        "id": "didup_9",
-        "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319329"
-      },
-      {
-        "id": "didup_10",
-        "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319357"
-      },
-      {
-        "id": "didup_11",
-        "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L e D.T. [M. MONCINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319385"
-      },
-      {
-        "id": "didup_12",
-        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319413"
-      },
-      {
-        "id": "didup_13",
-        "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319441"
-      },
-      {
-        "id": "didup_14",
-        "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319469"
-      },
-      {
-        "id": "didup_15",
-        "text": "📚 2026-11-19 — Verifica orale per D.T. [R. FEBI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319496"
-      },
-      {
-        "id": "didup_16",
-        "text": "📚 2026-11-19 — Interrogazione di recupero di storia: Pasquini [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319523"
-      },
-      {
-        "id": "didup_17",
-        "text": "📚 2026-11-18 — Verifica orale per B.L. [R. FEBI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319556"
-      },
-      {
-        "id": "didup_18",
-        "text": "📚 2026-11-17 (11:30-12:00) — Arte ver orali programmate (Onesti, Focosi) [M. LORENZINI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-17T07:30:47.319585"
-      }
-    ],
+    "reminders": [],
     "calendar_events": {
       "today": [
         {
@@ -197,23 +69,23 @@
     "weather": {
       "today": {
         "date": "2026-11-17",
-        "description": "Rovesci",
+        "description": "Rovesci leggeri",
         "temp_min": 13,
         "temp_max": 17,
         "icon": "09d",
-        "humidity": 91,
-        "wind_speed": 4,
-        "precipitation_mm": 13.3
+        "humidity": 88,
+        "wind_speed": 6,
+        "precipitation_mm": 17.4
       },
       "tomorrow": {
         "date": "2026-11-18",
-        "description": "Nuvoloso",
-        "temp_min": 16,
-        "temp_max": 20,
-        "icon": "04d",
+        "description": "Rovesci leggeri",
+        "temp_min": 15,
+        "temp_max": 19,
+        "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.0
+        "precipitation_mm": 0.1
       }
     },
     "sensors": [
@@ -221,30 +93,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.2,
-        "humidity": 79,
-        "battery": 79,
-        "last_update": "2026-11-17 06:31:40",
+        "temp": 17.7,
+        "humidity": 77,
+        "battery": 78,
+        "last_update": "2026-11-17 14:32:26",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.7,
-        "humidity": 79,
-        "battery": 42,
-        "last_update": "2026-11-17 06:33:19",
+        "temp": 17.2,
+        "humidity": 78,
+        "battery": 40,
+        "last_update": "2026-11-17 14:34:24",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.7,
-        "humidity": 73,
+        "temp": 18.6,
+        "humidity": 75,
         "battery": 76,
-        "last_update": "2026-11-17 06:33:58",
+        "last_update": "2026-11-17 14:35:22",
         "battery_warning": false
       }
     ],
@@ -1061,196 +933,11 @@
       },
       "voti": {
         "updated": "2026-11-17",
-        "media_generale": 6.52,
-        "totale_voti": 16,
-        "materie": [
-          {
-            "materia": "ES.INT.2 PIERUCCIONI PIANOFORTE",
-            "media": 6.5,
-            "n_voti": 2,
-            "ultimo_voto": "7",
-            "ultimo_data": "2026-11-16",
-            "voti": [
-              {
-                "data": "2026-11-16",
-                "voto": "7",
-                "tipo": "N",
-                "commento": "",
-                "valore": 7.0
-              },
-              {
-                "data": "2026-11-02",
-                "voto": "6",
-                "tipo": "N",
-                "commento": "",
-                "valore": 6.0
-              }
-            ]
-          },
-          {
-            "materia": "LING. LETT. ITALIANA",
-            "media": 6.25,
-            "n_voti": 2,
-            "ultimo_voto": "7½",
-            "ultimo_data": "2026-11-14",
-            "voti": [
-              {
-                "data": "2026-11-14",
-                "voto": "7½",
-                "tipo": "N",
-                "commento": "",
-                "valore": 7.5
-              },
-              {
-                "data": "2026-11-07",
-                "voto": "5",
-                "tipo": "S",
-                "commento": "",
-                "valore": 5.0
-              }
-            ]
-          },
-          {
-            "materia": "LINGUA STRANIERA-ING",
-            "media": 7.75,
-            "n_voti": 2,
-            "ultimo_voto": "9",
-            "ultimo_data": "2026-11-09",
-            "voti": [
-              {
-                "data": "2026-11-09",
-                "voto": "9",
-                "tipo": "N",
-                "commento": "",
-                "valore": 9.0
-              },
-              {
-                "data": "2026-10-14",
-                "voto": "6½",
-                "tipo": "S",
-                "commento": "",
-                "valore": 6.5
-              }
-            ]
-          },
-          {
-            "materia": "MATEMATICA",
-            "media": 6.75,
-            "n_voti": 2,
-            "ultimo_voto": "8-",
-            "ultimo_data": "2026-11-03",
-            "voti": [
-              {
-                "data": "2026-11-03",
-                "voto": "8-",
-                "tipo": "N",
-                "commento": "",
-                "valore": 7.75
-              },
-              {
-                "data": "2026-10-21",
-                "voto": "6-",
-                "tipo": "S",
-                "commento": "",
-                "valore": 5.75
-              }
-            ]
-          },
-          {
-            "materia": "SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA)",
-            "media": 6.25,
-            "n_voti": 1,
-            "ultimo_voto": "6+",
-            "ultimo_data": "2026-10-27",
-            "voti": [
-              {
-                "data": "2026-10-27",
-                "voto": "6+",
-                "tipo": "S",
-                "commento": "",
-                "valore": 6.25
-              }
-            ]
-          },
-          {
-            "materia": "STORIA DELLA MUSICA",
-            "media": 6.25,
-            "n_voti": 3,
-            "ultimo_voto": "7",
-            "ultimo_data": "2026-10-20",
-            "voti": [
-              {
-                "data": "2026-10-20",
-                "voto": "7",
-                "tipo": "N",
-                "commento": "Le novità dell'Ars Nova",
-                "valore": 7.0
-              },
-              {
-                "data": "2026-10-19",
-                "voto": "+",
-                "tipo": "N",
-                "commento": "",
-                "valore": null
-              },
-              {
-                "data": "2026-10-12",
-                "voto": "5½",
-                "tipo": "N",
-                "commento": "La linea del tempo e la classificazione delle voci: incertezze",
-                "valore": 5.5
-              }
-            ]
-          },
-          {
-            "materia": "STORIA E GEOGRAFIA",
-            "media": 5.75,
-            "n_voti": 2,
-            "ultimo_voto": "5",
-            "ultimo_data": "2026-11-02",
-            "voti": [
-              {
-                "data": "2026-11-02",
-                "voto": "5",
-                "tipo": "S",
-                "commento": "",
-                "valore": 5.0
-              },
-              {
-                "data": "2026-09-28",
-                "voto": "6½",
-                "tipo": "S",
-                "commento": "",
-                "valore": 6.5
-              }
-            ]
-          },
-          {
-            "materia": "TEORIA, ANALISI E COMPOSIZIONE",
-            "media": 6.5,
-            "n_voti": 2,
-            "ultimo_voto": "6-",
-            "ultimo_data": "2026-11-06",
-            "voti": [
-              {
-                "data": "2026-11-06",
-                "voto": "6-",
-                "tipo": "S",
-                "commento": "",
-                "valore": 5.75
-              },
-              {
-                "data": "2026-10-19",
-                "voto": "7+",
-                "tipo": "N",
-                "commento": "",
-                "valore": 7.25
-              }
-            ]
-          }
-        ]
+        "media_generale": null,
+        "totale_voti": 0,
+        "materie": []
       },
-      "personal_notes": "📝 2026-11-17: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare ph sul libro p.16 + esercizi p.1\n📝 2026-11-17: LING. LETT. ITALIANA: vol.Narrativa pag.178/181 con esercizi\n📝 2026-11-17: STORIA DELLA MUSICA: Interrogazioni e ascolto e visione di alcuni strumenti medievali come la Ribeca\n📝 2026-11-18: LINGUA STRANIERA-ING: tets orale, p 39 n4 crea una conversazione su quaderno usando le espressione d\n📝 2026-11-23: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca"
+      "personal_notes": "Nessun compito registrato"
     },
     "ada": {
       "display_name": "Ada",
@@ -1300,10 +987,42 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Consolidamento sulle frazioni\nCorrezione compito"
+          },
+          {
+            "ora": 2,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla prigioniera”."
+          },
+          {
+            "ora": 3,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria: “Palla prigioniera”."
+          },
+          {
+            "ora": 4,
+            "materia": "ITALIANO",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
+          {
+            "data": "2026-11-17",
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "voto": "+",
+            "note": "",
+            "colore": "blue"
+          },
           {
             "data": "2026-11-13",
             "materia": "STORIA",
@@ -1337,7 +1056,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-13 | STORIA | ds\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Consolidamento sulle frazioni\nCorrezione compito\n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla prigioniera”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria: “Palla prigioniera”.\n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }
