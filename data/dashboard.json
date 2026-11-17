@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-16T15:00:39.562997",
+    "last_updated": "2026-11-17T07:30:47.319709",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-16",
+      "date": "2026-11-17",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,171 +28,137 @@
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562156"
+        "added_at": "2026-11-17T07:30:47.318997"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562255"
+        "added_at": "2026-11-17T07:30:47.319097"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-15 (11:00-11:30) — arte interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562288"
+        "added_at": "2026-11-17T07:30:47.319130"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562317"
+        "added_at": "2026-11-17T07:30:47.319159"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato  Bacci [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562347"
+        "added_at": "2026-11-17T07:30:47.319188"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562375"
+        "added_at": "2026-11-17T07:30:47.319217"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562403"
+        "added_at": "2026-11-17T07:30:47.319245"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562432"
+        "added_at": "2026-11-17T07:30:47.319273"
       },
       {
         "id": "didup_8",
         "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562459"
+        "added_at": "2026-11-17T07:30:47.319300"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562488"
+        "added_at": "2026-11-17T07:30:47.319329"
       },
       {
         "id": "didup_10",
         "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562516"
+        "added_at": "2026-11-17T07:30:47.319357"
       },
       {
         "id": "didup_11",
         "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L e D.T. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562544"
+        "added_at": "2026-11-17T07:30:47.319385"
       },
       {
         "id": "didup_12",
         "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562573"
+        "added_at": "2026-11-17T07:30:47.319413"
       },
       {
         "id": "didup_13",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562601"
+        "added_at": "2026-11-17T07:30:47.319441"
       },
       {
         "id": "didup_14",
         "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562629"
+        "added_at": "2026-11-17T07:30:47.319469"
       },
       {
         "id": "didup_15",
         "text": "📚 2026-11-19 — Verifica orale per D.T. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562656"
+        "added_at": "2026-11-17T07:30:47.319496"
       },
       {
         "id": "didup_16",
         "text": "📚 2026-11-19 — Interrogazione di recupero di storia: Pasquini [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562683"
+        "added_at": "2026-11-17T07:30:47.319523"
       },
       {
         "id": "didup_17",
         "text": "📚 2026-11-18 — Verifica orale per B.L. [R. FEBI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562717"
+        "added_at": "2026-11-17T07:30:47.319556"
       },
       {
         "id": "didup_18",
         "text": "📚 2026-11-17 (11:30-12:00) — Arte ver orali programmate (Onesti, Focosi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562745"
-      },
-      {
-        "id": "didup_19",
-        "text": "📚 2026-11-16 (09:00-09:30) — Interrogazioni programmate TAC : Giorgi, Vignozzi [A. MELI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562773"
-      },
-      {
-        "id": "didup_20",
-        "text": "📚 2026-11-16 — verifica orale per B.M. [R. FEBI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-16T15:00:39.562800"
+        "added_at": "2026-11-17T07:30:47.319585"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "14:30",
-          "event": "📅 SECONDARIA: Consigli di classe (con genitori)",
-          "all_day": false,
-          "summary": "SECONDARIA: Consigli di classe (con genitori)"
-        },
-        {
-          "time": "17:30",
-          "event": "📅 Piano Ada",
-          "all_day": false,
-          "summary": "Piano Ada"
-        },
-        {
-          "time": "18:30",
-          "event": "📅 Pediatra Ada",
-          "all_day": false,
-          "summary": "Pediatra Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "tutto il giorno",
           "event": "📅 Maurizio Milano",
@@ -211,29 +177,43 @@
           "all_day": false,
           "summary": "Pallavolo Flavio"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Visita Medica ADV",
+          "all_day": true,
+          "summary": "Visita Medica ADV"
+        },
+        {
+          "time": "16:45",
+          "event": "📅 Teatro Ada",
+          "all_day": false,
+          "summary": "Teatro Ada"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-16",
-        "description": "Rovesci leggeri",
-        "temp_min": 11,
-        "temp_max": 16,
-        "icon": "09d",
-        "humidity": 74,
-        "wind_speed": 11,
-        "precipitation_mm": 4.0
-      },
-      "tomorrow": {
         "date": "2026-11-17",
-        "description": "Rovesci leggeri",
-        "temp_min": 14,
+        "description": "Rovesci",
+        "temp_min": 13,
         "temp_max": 17,
         "icon": "09d",
+        "humidity": 91,
+        "wind_speed": 4,
+        "precipitation_mm": 13.3
+      },
+      "tomorrow": {
+        "date": "2026-11-18",
+        "description": "Nuvoloso",
+        "temp_min": 16,
+        "temp_max": 20,
+        "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 19.13
+        "precipitation_mm": 0.0
       }
     },
     "sensors": [
@@ -241,30 +221,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.9,
-        "humidity": 75,
+        "temp": 18.2,
+        "humidity": 79,
         "battery": 79,
-        "last_update": "2026-11-16 14:30:05",
+        "last_update": "2026-11-17 06:31:40",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.4,
-        "humidity": 78,
-        "battery": 45,
-        "last_update": "2026-11-16 14:30:55",
+        "temp": 17.7,
+        "humidity": 79,
+        "battery": 42,
+        "last_update": "2026-11-17 06:33:19",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.6,
-        "humidity": 72,
+        "temp": 18.7,
+        "humidity": 73,
         "battery": 76,
-        "last_update": "2026-11-16 14:31:12",
+        "last_update": "2026-11-17 06:33:58",
         "battery_warning": false
       }
     ],
@@ -471,25 +451,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-16",
-        "schedule": [
-          {
-            "time": "14:30",
-            "event": "📅 SECONDARIA: Consigli di classe (con genitori)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Piano Ada"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Pediatra Ada"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-17",
         "schedule": [
           {
@@ -505,6 +466,21 @@
             "event": "📅 Pallavolo Flavio"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-18",
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Visita Medica ADV"
+          },
+          {
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -516,41 +492,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-16",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 2B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 2B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 1B (4ª ora)"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 SECONDARIA: Consigli di classe (con genitori)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Piano Ada"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Pediatra Ada"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-17",
         "schedule": [
           {
@@ -578,7 +519,38 @@
             "event": "📅 Pallavolo Flavio"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-18",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 1B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 1B (2ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 2B (5ª ora)"
+          },
+          {
+            "time": "13:00",
+            "event": "Scuola: 2B (6ª ora)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Visita Medica ADV"
+          },
+          {
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -728,49 +700,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-16",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "09:10",
-            "event": "TAC — Meli A."
-          },
-          {
-            "time": "10:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "11:10",
-            "event": "Storia della Musica — Mascolo F."
-          },
-          {
-            "time": "12:10",
-            "event": "Religione — Battaglia M."
-          },
-          {
-            "time": "14:10",
-            "event": "Pianoforte (2° str.) — Pieruccioni L."
-          },
-          {
-            "time": "15:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "16:30",
-            "event": "Ritorno: 🚆 Treno 17:31 (Stazione FS → 17:40 Altopascio)"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 SECONDARIA: Consigli di classe (con genitori)"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~16:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-17",
         "schedule": [
           {
@@ -802,7 +731,42 @@
             "event": "📅 Pallavolo Flavio"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~13:10"
+        "status": "🏫 Scuola — Uscita ~13:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-18",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Scienze — Lovi I."
+          },
+          {
+            "time": "09:10",
+            "event": "Inglese — Febi R."
+          },
+          {
+            "time": "10:10",
+            "event": "Matematica (2h) — Marini F."
+          },
+          {
+            "time": "13:30",
+            "event": "Sax — Mazzola M. 📍 Fillungo"
+          },
+          {
+            "time": "14:30",
+            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
+          },
+          {
+            "time": "15:30",
+            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Visita Medica ADV"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~15:30"
       },
       "transport": [
         {
@@ -1088,15 +1052,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Kamasi Washington",
-        "track": "Fists of Fury",
-        "album": "Heaven and Earth",
-        "year": "2018",
-        "context": "Apertura esplosiva con coro e messaggio sociale. Jazz come protesta e celebrazione.",
-        "youtube_url": "https://www.youtube.com/watch?v=u-e6mOTK__Y"
+        "artist": "John Coltrane",
+        "track": "A Love Supreme, Pt. 2: Resolution",
+        "album": "A Love Supreme",
+        "year": "1964",
+        "context": "Determinazione e fuoco sacro — il tema è un inno di fede e ricerca.",
+        "youtube_url": "https://www.youtube.com/watch?v=hIZFqMR1cuM"
       },
       "voti": {
-        "updated": "2026-11-16",
+        "updated": "2026-11-17",
         "media_generale": 6.52,
         "totale_voti": 16,
         "materie": [
@@ -1286,7 +1250,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-16: STORIA E GEOGRAFIA: Svolgere il compito di geostoria assegnato su Classroom\n📝 2026-11-16: STORIA DELLA MUSICA: Interrogazioni\n📝 2026-11-17: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare ph sul libro p.16 + esercizi p.1\n📝 2026-11-17: LING. LETT. ITALIANA: vol.Narrativa pag.178/181 con esercizi\n📝 2026-11-17: STORIA DELLA MUSICA: Interrogazioni e ascolto e visione di alcuni strumenti medievali come la Ribeca\n📝 2026-11-18: LINGUA STRANIERA-ING: tets orale, p 39 n4 crea una conversazione su quaderno usando le espressione d\n📝 2026-11-23: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca"
+      "personal_notes": "📝 2026-11-17: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare ph sul libro p.16 + esercizi p.1\n📝 2026-11-17: LING. LETT. ITALIANA: vol.Narrativa pag.178/181 con esercizi\n📝 2026-11-17: STORIA DELLA MUSICA: Interrogazioni e ascolto e visione di alcuni strumenti medievali come la Ribeca\n📝 2026-11-18: LINGUA STRANIERA-ING: tets orale, p 39 n4 crea una conversazione su quaderno usando le espressione d\n📝 2026-11-23: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca"
     },
     "ada": {
       "display_name": "Ada",
@@ -1295,33 +1259,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-16",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "16:15",
-            "event": "Uscita scuola (giorno lungo)"
-          },
-          {
-            "time": "14:30",
-            "event": "📅 SECONDARIA: Consigli di classe (con genitori)"
-          },
-          {
-            "time": "17:30",
-            "event": "📅 Piano Ada"
-          },
-          {
-            "time": "18:30",
-            "event": "📅 Pediatra Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 16:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-17",
         "schedule": [
           {
@@ -1337,65 +1274,33 @@
             "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 13:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-18",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "13:15",
+            "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Visita Medica ADV"
+          },
+          {
+            "time": "16:45",
+            "event": "📅 Teatro Ada"
+          }
+        ],
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [
-          {
-            "ora": 1,
-            "materia": "PROGETTI / POTENZIAMENTO",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Partecipazione assemblea sindacale "
-          },
-          {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": "Partecipazione all'assemblea sindacale "
-          },
-          {
-            "ora": 2,
-            "materia": "PROGETTI / POTENZIAMENTO",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Partecipazione assemblea sindacale "
-          },
-          {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": "Partecipazione all'assemblea sindacale "
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": "Partecipazione all'assemblea sindacale "
-          },
-          {
-            "ora": 4,
-            "materia": "ITALIANO",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
-          },
-          {
-            "ora": 5,
-            "materia": "MENSA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
-          },
-          {
-            "ora": 6,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 7,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          }
-        ],
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1432,7 +1337,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: PROGETTI / POTENZIAMENTO (LETIZIA ELVIRA)\n    → Partecipazione assemblea sindacale \n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n    → Partecipazione all'assemblea sindacale \n  Ora 2: PROGETTI / POTENZIAMENTO (LETIZIA ELVIRA)\n    → Partecipazione assemblea sindacale \n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n    → Partecipazione all'assemblea sindacale \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n    → Partecipazione all'assemblea sindacale \n  Ora 4: ITALIANO (LETIZIA ELVIRA)\n  Ora 5: MENSA (LETIZIA ELVIRA)\n  Ora 6: SOSTEGNO (IACOMINI VERONICA)\n  Ora 7: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-11-13 | STORIA | ds\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-13 | STORIA | ds\n  2026-10-28 | STORIA | ds\n  2026-10-27 | GEOGRAFIA | ds\n  2026-10-20 | GEOGRAFIA | ds"
     }
   }
 }

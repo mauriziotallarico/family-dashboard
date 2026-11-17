@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-16 15:00",
+  "generated": "2026-11-17 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-17",
+          "artist": "John Coltrane",
+          "track": "A Love Supreme, Pt. 2: Resolution",
+          "album": "A Love Supreme",
+          "year": "1964",
+          "context": "Determinazione e fuoco sacro — il tema è un inno di fede e ricerca.",
+          "youtube_url": "https://www.youtube.com/watch?v=hIZFqMR1cuM"
+        },
         {
           "type": "track",
           "date": "2026-11-16",
