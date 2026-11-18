@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-17 15:02",
+  "generated": "2026-11-18 07:54",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-18",
+          "artist": "Joe Henderson",
+          "track": "A Shade of Jade",
+          "album": "Mode for Joe",
+          "year": "1966",
+          "context": "Atmosfere esotiche e swing — uno dei migliori brani Blue Note di sempre.",
+          "youtube_url": "https://www.youtube.com/watch?v=UENHNWfeSpg"
+        },
         {
           "type": "track",
           "date": "2026-11-17",
