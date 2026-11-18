@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-11-18T07:54:50.606721",
+    "last_updated": "2026-11-18T15:00:32.887491",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Flavio (Argo Didup)",
         "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-11-18T07:54:35.467218"
+        "timestamp": "2026-11-18T15:00:15.028633"
       }
     ]
   },
@@ -46,6 +46,12 @@
       ],
       "tomorrow": [
         {
+          "time": "11:40",
+          "event": "📅 Marini mate Flavio",
+          "all_day": false,
+          "summary": "Marini mate Flavio"
+        },
+        {
           "time": "16:30",
           "event": "📅 Accessibilità",
           "all_day": false,
@@ -67,19 +73,19 @@
         "temp_min": 15,
         "temp_max": 19,
         "icon": "09d",
-        "humidity": 89,
-        "wind_speed": 2,
+        "humidity": 75,
+        "wind_speed": 26,
         "precipitation_mm": 1.1
       },
       "tomorrow": {
         "date": "2026-11-19",
         "description": "Rovesci leggeri",
-        "temp_min": 12,
+        "temp_min": 13,
         "temp_max": 18,
         "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 18.98
+        "precipitation_mm": 23.7
       }
     },
     "sensors": [
@@ -87,10 +93,10 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.0,
-        "humidity": 81,
-        "battery": 79,
-        "last_update": "2026-11-18 07:00:28",
+        "temp": 18.2,
+        "humidity": 77,
+        "battery": 78,
+        "last_update": "2026-11-18 14:01:32",
         "battery_warning": false
       },
       {
@@ -98,19 +104,19 @@
         "name": "Studio",
         "icon": "💻",
         "temp": 17.6,
-        "humidity": 81,
-        "battery": 40,
-        "last_update": "2026-11-18 07:00:32",
+        "humidity": 79,
+        "battery": 42,
+        "last_update": "2026-11-18 14:01:35",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.5,
-        "humidity": 74,
+        "temp": 18.8,
+        "humidity": 71,
         "battery": 76,
-        "last_update": "2026-11-18 06:38:10",
+        "last_update": "2026-11-18 14:01:35",
         "battery_warning": false
       }
     ],
@@ -335,6 +341,10 @@
         "date": "2026-11-19",
         "schedule": [
           {
+            "time": "11:40",
+            "event": "📅 Marini mate Flavio"
+          },
+          {
             "time": "16:30",
             "event": "📅 Accessibilità"
           },
@@ -398,6 +408,10 @@
           {
             "time": "13:00",
             "event": "Scuola: 1B (6ª ora)"
+          },
+          {
+            "time": "11:40",
+            "event": "📅 Marini mate Flavio"
           },
           {
             "time": "16:30",
@@ -618,6 +632,10 @@
           {
             "time": "14:10",
             "event": "Ritorno: 🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)"
+          },
+          {
+            "time": "11:40",
+            "event": "📅 Marini mate Flavio"
           },
           {
             "time": "16:30",
@@ -919,7 +937,7 @@
         "album": "Mode for Joe",
         "year": "1966",
         "context": "Atmosfere esotiche e swing — uno dei migliori brani Blue Note di sempre.",
-        "youtube_url": "https://www.youtube.com/watch?v=UENHNWfeSpg"
+        "youtube_url": "https://www.youtube.com/watch?v=_Wq45frkd6c"
       },
       "voti": {
         "updated": "2026-11-18",
@@ -981,7 +999,62 @@
         "status": "🏫 Scuola — Uscita 16:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce"
+          },
+          {
+            "ora": 1,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 2,
+            "materia": "ITALIANO",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce"
+          },
+          {
+            "ora": 2,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Questionario orale sui Babilonesi"
+          },
+          {
+            "ora": 3,
+            "materia": "STORIA",
+            "docente": "FONTANA ROBERTO",
+            "argomento": "Ripasso dei Babilonesi."
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Laboratorio per il progetto Scrittori di classe"
+          },
+          {
+            "ora": 4,
+            "materia": "ARTE E IMMAGINE",
+            "docente": "FONTANA ROBERTO",
+            "argomento": "Riproduzione grafica su cartellone della nave con le farfalle."
+          },
+          {
+            "ora": 5,
+            "materia": "MUSICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1042,11 +1115,11 @@
             "colore": "green"
           }
         ],
-        "assenze_count": 1,
+        "assenze_count": 2,
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-29 | LINGUA INGLESE | b\n  2026-10-29 | LINGUA INGLESE | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Questionario orale sui Babilonesi\n  Ora 3: STORIA (FONTANA ROBERTO)\n    → Ripasso dei Babilonesi.\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Laboratorio per il progetto Scrittori di classe\n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n    → Riproduzione grafica su cartellone della nave con le farfalle.\n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-29 | LINGUA INGLESE | b\n  2026-10-29 | LINGUA INGLESE | ds"
     }
   }
 }
