@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-11-18T15:00:32.887491",
+    "last_updated": "2026-11-19T07:30:34.946445",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Flavio (Argo Didup)",
         "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-11-18T15:00:15.028633"
+        "timestamp": "2026-11-19T07:30:17.835412"
       }
     ]
   },
@@ -23,7 +23,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-18",
+      "date": "2026-11-19",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -31,20 +31,6 @@
     "reminders": [],
     "calendar_events": {
       "today": [
-        {
-          "time": "tutto il giorno",
-          "event": "📅 Visita Medica ADV",
-          "all_day": true,
-          "summary": "Visita Medica ADV"
-        },
-        {
-          "time": "16:45",
-          "event": "📅 Teatro Ada",
-          "all_day": false,
-          "summary": "Teatro Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "11:40",
           "event": "📅 Marini mate Flavio",
@@ -63,29 +49,55 @@
           "all_day": false,
           "summary": "TIELLE Arredamenti"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "tutto il giorno",
+          "event": "📅 Maurizio Calabria",
+          "all_day": true,
+          "summary": "Maurizio Calabria"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-18",
-        "description": "Rovesci leggeri",
-        "temp_min": 15,
-        "temp_max": 19,
-        "icon": "09d",
-        "humidity": 75,
-        "wind_speed": 26,
-        "precipitation_mm": 1.1
-      },
-      "tomorrow": {
         "date": "2026-11-19",
         "description": "Rovesci leggeri",
-        "temp_min": 13,
-        "temp_max": 18,
+        "temp_min": 11,
+        "temp_max": 19,
         "icon": "09d",
+        "humidity": 99,
+        "wind_speed": 7,
+        "precipitation_mm": 14.9
+      },
+      "tomorrow": {
+        "date": "2026-11-20",
+        "description": "Nebbia",
+        "temp_min": 10,
+        "temp_max": 17,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 23.7
+        "precipitation_mm": 0.0
       }
     },
     "sensors": [
@@ -93,30 +105,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.2,
-        "humidity": 77,
+        "temp": 18.7,
+        "humidity": 81,
         "battery": 78,
-        "last_update": "2026-11-18 14:01:32",
+        "last_update": "2026-11-19 07:04:11",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.6,
+        "temp": 18.0,
         "humidity": 79,
-        "battery": 42,
-        "last_update": "2026-11-18 14:01:35",
+        "battery": 39,
+        "last_update": "2026-11-19 07:04:20",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.8,
-        "humidity": 71,
+        "temp": 19.0,
+        "humidity": 75,
         "battery": 76,
-        "last_update": "2026-11-18 14:01:35",
+        "last_update": "2026-11-19 07:04:33",
         "battery_warning": false
       }
     ],
@@ -323,21 +335,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-18",
-        "schedule": [
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Visita Medica ADV"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-19",
         "schedule": [
           {
@@ -353,6 +350,29 @@
             "event": "📅 TIELLE Arredamenti"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-20",
+        "schedule": [
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Maurizio Calabria"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -364,37 +384,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-18",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Visita Medica ADV"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-19",
         "schedule": [
           {
@@ -422,7 +411,46 @@
             "event": "📅 TIELLE Arredamenti"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-20",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "tutto il giorno",
+            "event": "📅 Maurizio Calabria"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -572,41 +600,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-18",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "13:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "14:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Visita Medica ADV"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-19",
         "schedule": [
           {
@@ -646,7 +639,34 @@
             "event": "📅 TIELLE Arredamenti"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-20",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -932,15 +952,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Joe Henderson",
-        "track": "A Shade of Jade",
-        "album": "Mode for Joe",
-        "year": "1966",
-        "context": "Atmosfere esotiche e swing — uno dei migliori brani Blue Note di sempre.",
-        "youtube_url": "https://www.youtube.com/watch?v=_Wq45frkd6c"
+        "artist": "John Coltrane",
+        "track": "Central Park West",
+        "album": "Coltrane's Sound",
+        "year": "1960",
+        "context": "Ballad dedicata a un amico. Armonie sofisticate ma accessibili, melodia indimenticabile.",
+        "youtube_url": "https://www.youtube.com/watch?v=euE0wyRmyZs"
       },
       "voti": {
-        "updated": "2026-11-18",
+        "updated": "2026-11-19",
         "media_generale": null,
         "totale_voti": 0,
         "materie": []
@@ -954,29 +974,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-18",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Visita Medica ADV"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-19",
         "schedule": [
           {
@@ -996,65 +993,29 @@
             "event": "📅 TIELLE Arredamenti"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-11-20",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce"
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 2,
-            "materia": "ITALIANO",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce"
-          },
-          {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "GOZZINI ANGELA",
-            "argomento": "Questionario orale sui Babilonesi"
-          },
-          {
-            "ora": 3,
-            "materia": "STORIA",
-            "docente": "FONTANA ROBERTO",
-            "argomento": "Ripasso dei Babilonesi."
-          },
-          {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Laboratorio per il progetto Scrittori di classe"
-          },
-          {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "FONTANA ROBERTO",
-            "argomento": "Riproduzione grafica su cartellone della nave con le farfalle."
-          },
-          {
-            "ora": 5,
-            "materia": "MUSICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1119,7 +1080,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: ITALIANO (GOZZINI ANGELA)\n    → Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: ITALIANO (GOZZINI ANGELA)\n    → Attività laboratoriale in piccoli gruppi: produzione scritta guidata a partire da tracce\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: STORIA (GOZZINI ANGELA)\n    → Questionario orale sui Babilonesi\n  Ora 3: STORIA (FONTANA ROBERTO)\n    → Ripasso dei Babilonesi.\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Laboratorio per il progetto Scrittori di classe\n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n    → Riproduzione grafica su cartellone della nave con le farfalle.\n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-29 | LINGUA INGLESE | b\n  2026-10-29 | LINGUA INGLESE | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-29 | LINGUA INGLESE | b\n  2026-10-29 | LINGUA INGLESE | ds"
     }
   }
 }

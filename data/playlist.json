@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-18 15:00",
+  "generated": "2026-11-19 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-19",
+          "artist": "John Coltrane",
+          "track": "Central Park West",
+          "album": "Coltrane's Sound",
+          "year": "1960",
+          "context": "Ballad dedicata a un amico. Armonie sofisticate ma accessibili, melodia indimenticabile.",
+          "youtube_url": "https://www.youtube.com/watch?v=euE0wyRmyZs"
+        },
         {
           "type": "track",
           "date": "2026-11-18",
