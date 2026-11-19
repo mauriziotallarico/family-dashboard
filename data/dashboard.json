@@ -1,13 +1,13 @@
 {
   "_meta": {
-    "last_updated": "2026-11-19T07:30:34.946445",
+    "last_updated": "2026-11-19T15:00:31.804760",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": [
       {
         "source": "Registro Flavio (Argo Didup)",
         "message": "Nessun dato ricevuto — il registro potrebbe essere irraggiungibile",
-        "timestamp": "2026-11-19T07:30:17.835412"
+        "timestamp": "2026-11-19T15:00:14.995461"
       }
     ]
   },
@@ -82,12 +82,12 @@
       "today": {
         "date": "2026-11-19",
         "description": "Rovesci leggeri",
-        "temp_min": 11,
-        "temp_max": 19,
+        "temp_min": 12,
+        "temp_max": 18,
         "icon": "09d",
-        "humidity": 99,
-        "wind_speed": 7,
-        "precipitation_mm": 14.9
+        "humidity": 75,
+        "wind_speed": 14,
+        "precipitation_mm": 12.7
       },
       "tomorrow": {
         "date": "2026-11-20",
@@ -106,29 +106,29 @@
         "name": "Corridoio",
         "icon": "🚪",
         "temp": 18.7,
-        "humidity": 81,
+        "humidity": 80,
         "battery": 78,
-        "last_update": "2026-11-19 07:04:11",
+        "last_update": "2026-11-19 14:05:04",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.0,
-        "humidity": 79,
-        "battery": 39,
-        "last_update": "2026-11-19 07:04:20",
+        "temp": 18.9,
+        "humidity": 81,
+        "battery": 40,
+        "last_update": "2026-11-19 14:05:24",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.0,
-        "humidity": 75,
+        "temp": 19.5,
+        "humidity": 76,
         "battery": 76,
-        "last_update": "2026-11-19 07:04:33",
+        "last_update": "2026-11-19 14:05:47",
         "battery_warning": false
       }
     ],
@@ -1015,7 +1015,44 @@
         "status": "🏫 Scuola — Uscita 12:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "RELIGIONE",
+            "docente": "ORABONA MARIA",
+            "argomento": "I Profeti: conversazione guidata"
+          },
+          {
+            "ora": 2,
+            "materia": "RELIGIONE",
+            "docente": "ORABONA MARIA",
+            "argomento": "I Profeti: conversazione guidata"
+          },
+          {
+            "ora": 3,
+            "materia": "SCIENZE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Miscugli e soluzioni \nLe reazioni chimiche"
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "SCIENZE",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Miscugli e soluzioni \nLe reazioni chimiche"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1076,11 +1113,11 @@
             "colore": "green"
           }
         ],
-        "assenze_count": 2,
+        "assenze_count": 3,
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-29 | LINGUA INGLESE | b\n  2026-10-29 | LINGUA INGLESE | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: RELIGIONE (ORABONA MARIA)\n    → I Profeti: conversazione guidata\n  Ora 2: RELIGIONE (ORABONA MARIA)\n    → I Profeti: conversazione guidata\n  Ora 3: SCIENZE (LETIZIA ELVIRA)\n    → Miscugli e soluzioni \nLe reazioni chimiche\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SCIENZE (LETIZIA ELVIRA)\n    → Miscugli e soluzioni \nLe reazioni chimiche\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-10-29 | LINGUA INGLESE | b\n  2026-10-29 | LINGUA INGLESE | ds"
     }
   }
 }
