@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-19 21:41",
+  "generated": "2026-11-20 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-20",
+          "artist": "Sonny Rollins",
+          "track": "Freedom Suite",
+          "album": "Freedom Suite",
+          "year": "1958",
+          "context": "Una suite di 19 minuti — tra le prime dichiarazioni politiche nel jazz strumentale.",
+          "youtube_url": "https://www.youtube.com/watch?v=9GldoGTxN6Y"
+        },
         {
           "type": "track",
           "date": "2026-11-19",
