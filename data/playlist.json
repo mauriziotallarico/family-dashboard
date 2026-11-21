@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-20 15:00",
+  "generated": "2026-11-21 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-21",
+          "artist": "Wayne Shorter",
+          "track": "Juju",
+          "album": "JuJu",
+          "year": "1964",
+          "context": "Hard bop con Elvin Jones alla batteria — energia tribale e melodia affilata.",
+          "youtube_url": "https://www.youtube.com/watch?v=-l8pkVPYykE"
+        },
         {
           "type": "track",
           "date": "2026-11-20",
