@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-21T07:30:36.178645",
+    "last_updated": "2026-11-21T15:00:36.491519",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,119 +28,112 @@
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.177963"
+        "added_at": "2026-11-21T15:00:36.490842"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178059"
+        "added_at": "2026-11-21T15:00:36.490952"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178092"
-      },
-      {
-        "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178122"
+        "added_at": "2026-11-21T15:00:36.490986"
       },
       {
-        "id": "didup_4",
+        "id": "didup_3",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178152"
+        "added_at": "2026-11-21T15:00:36.491016"
       },
       {
-        "id": "didup_5",
+        "id": "didup_4",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178181"
+        "added_at": "2026-11-21T15:00:36.491045"
       },
       {
-        "id": "didup_6",
+        "id": "didup_5",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178208"
+        "added_at": "2026-11-21T15:00:36.491074"
       },
       {
-        "id": "didup_7",
+        "id": "didup_6",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178237"
+        "added_at": "2026-11-21T15:00:36.491103"
       },
       {
-        "id": "didup_8",
+        "id": "didup_7",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178264"
+        "added_at": "2026-11-21T15:00:36.491131"
       },
       {
-        "id": "didup_9",
+        "id": "didup_8",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178293"
+        "added_at": "2026-11-21T15:00:36.491159"
       },
       {
-        "id": "didup_10",
+        "id": "didup_9",
         "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178321"
+        "added_at": "2026-11-21T15:00:36.491188"
       },
       {
-        "id": "didup_11",
+        "id": "didup_10",
         "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178350"
+        "added_at": "2026-11-21T15:00:36.491216"
       },
       {
-        "id": "didup_12",
+        "id": "didup_11",
         "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178378"
+        "added_at": "2026-11-21T15:00:36.491245"
       },
       {
-        "id": "didup_13",
+        "id": "didup_12",
         "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178405"
+        "added_at": "2026-11-21T15:00:36.491279"
       },
       {
-        "id": "didup_14",
+        "id": "didup_13",
         "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L, D.T., P.N.e C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178433"
+        "added_at": "2026-11-21T15:00:36.491308"
       },
       {
-        "id": "didup_15",
+        "id": "didup_14",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178460"
+        "added_at": "2026-11-21T15:00:36.491335"
       },
       {
-        "id": "didup_16",
+        "id": "didup_15",
         "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate  Di Tofori, Bacci [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-21T07:30:36.178487"
+        "added_at": "2026-11-21T15:00:36.491363"
       }
     ],
     "calendar_events": {
@@ -168,19 +161,19 @@
         "temp_min": 10,
         "temp_max": 17,
         "icon": "50d",
-        "humidity": 94,
-        "wind_speed": 4,
+        "humidity": 67,
+        "wind_speed": 14,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-11-22",
         "description": "Rovesci leggeri",
-        "temp_min": 10,
-        "temp_max": 15,
+        "temp_min": 9,
+        "temp_max": 14,
         "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 10.98
+        "precipitation_mm": 5.55
       }
     },
     "sensors": [
@@ -188,30 +181,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.1,
-        "humidity": 82,
-        "battery": 78,
-        "last_update": "2026-11-21 07:09:38",
+        "temp": 18.0,
+        "humidity": 79,
+        "battery": 77,
+        "last_update": "2026-11-21 14:10:08",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.7,
-        "humidity": 79,
-        "battery": 23,
-        "last_update": "2026-11-21 07:11:24",
+        "temp": 17.3,
+        "humidity": 78,
+        "battery": 32,
+        "last_update": "2026-11-21 14:12:15",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.8,
-        "humidity": 74,
+        "temp": 18.6,
+        "humidity": 71,
         "battery": 76,
-        "last_update": "2026-11-21 07:13:01",
+        "last_update": "2026-11-21 14:14:13",
         "battery_warning": false
       }
     ],
