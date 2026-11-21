@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-20T15:00:43.624634",
+    "last_updated": "2026-11-21T07:30:36.178645",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-20",
+      "date": "2026-11-21",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,149 +28,123 @@
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.623885"
+        "added_at": "2026-11-21T07:30:36.177963"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.623991"
+        "added_at": "2026-11-21T07:30:36.178059"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-18 (10:10-12:00) — Incontro con la polizia municipale per attività di prevenzione al Bullismo e Cyberbullismo, Ed.Civica, Progetto Scuole Sicure. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624026"
+        "added_at": "2026-11-21T07:30:36.178092"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624057"
+        "added_at": "2026-11-21T07:30:36.178122"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624087"
+        "added_at": "2026-11-21T07:30:36.178152"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624115"
+        "added_at": "2026-11-21T07:30:36.178181"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624143"
+        "added_at": "2026-11-21T07:30:36.178208"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624172"
+        "added_at": "2026-11-21T07:30:36.178237"
       },
       {
         "id": "didup_8",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624199"
+        "added_at": "2026-11-21T07:30:36.178264"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624229"
+        "added_at": "2026-11-21T07:30:36.178293"
       },
       {
         "id": "didup_10",
         "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624257"
+        "added_at": "2026-11-21T07:30:36.178321"
       },
       {
         "id": "didup_11",
         "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624293"
+        "added_at": "2026-11-21T07:30:36.178350"
       },
       {
         "id": "didup_12",
         "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624322"
+        "added_at": "2026-11-21T07:30:36.178378"
       },
       {
         "id": "didup_13",
         "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624351"
+        "added_at": "2026-11-21T07:30:36.178405"
       },
       {
         "id": "didup_14",
         "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L, D.T., P.N.e C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624380"
+        "added_at": "2026-11-21T07:30:36.178433"
       },
       {
         "id": "didup_15",
         "text": "📚 2026-11-21 (09:00-11:00) — Verifica di Italiano ( Autore, narratore, personaggi e focalizzazione) [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624408"
+        "added_at": "2026-11-21T07:30:36.178460"
       },
       {
         "id": "didup_16",
         "text": "📚 2026-11-21 (11:30-12:00) — Arte verifiche orali programmate  Di Tofori, Bacci [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-20T15:00:43.624436"
+        "added_at": "2026-11-21T07:30:36.178487"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "tutto il giorno",
-          "event": "📅 Maurizio Calabria",
-          "all_day": true,
-          "summary": "Maurizio Calabria"
-        },
-        {
-          "time": "15:00",
-          "event": "📅 Batteria Flavio",
-          "all_day": false,
-          "summary": "Batteria Flavio"
-        },
-        {
-          "time": "16:10",
-          "event": "📅 Flavio Pallavolo",
-          "all_day": false,
-          "summary": "Flavio Pallavolo"
-        },
-        {
-          "time": "17:00",
-          "event": "📅 Ada ginnastica",
-          "all_day": false,
-          "summary": "Ada ginnastica"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "11:00",
           "event": "📅 Catechismo Ada",
@@ -183,29 +157,30 @@
           "all_day": false,
           "summary": "Ale da Patrizia"
         }
-      ]
+      ],
+      "tomorrow": []
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-20",
+        "date": "2026-11-21",
         "description": "Nebbia",
         "temp_min": 10,
         "temp_max": 17,
         "icon": "50d",
-        "humidity": 69,
-        "wind_speed": 19,
+        "humidity": 94,
+        "wind_speed": 4,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
-        "date": "2026-11-21",
-        "description": "Nebbia",
-        "temp_min": 9,
-        "temp_max": 17,
-        "icon": "50d",
+        "date": "2026-11-22",
+        "description": "Rovesci leggeri",
+        "temp_min": 10,
+        "temp_max": 15,
+        "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 0.0
+        "precipitation_mm": 10.98
       }
     },
     "sensors": [
@@ -213,30 +188,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.3,
-        "humidity": 79,
+        "temp": 18.1,
+        "humidity": 82,
         "battery": 78,
-        "last_update": "2026-11-20 14:08:11",
+        "last_update": "2026-11-21 07:09:38",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 19.3,
-        "humidity": 78,
-        "battery": 32,
-        "last_update": "2026-11-20 14:08:53",
+        "temp": 17.7,
+        "humidity": 79,
+        "battery": 23,
+        "last_update": "2026-11-21 07:11:24",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 19.1,
-        "humidity": 75,
+        "temp": 18.8,
+        "humidity": 74,
         "battery": 76,
-        "last_update": "2026-11-20 14:10:01",
+        "last_update": "2026-11-21 07:13:01",
         "battery_warning": false
       }
     ],
@@ -443,29 +418,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-20",
-        "schedule": [
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Maurizio Calabria"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-21",
         "schedule": [
           {
@@ -477,6 +429,12 @@
             "event": "📅 Ale da Patrizia"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-22",
+        "schedule": [],
         "status": ""
       },
       "personal_notes": ""
@@ -488,45 +446,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-20",
-        "schedule": [
-          {
-            "time": "09:00",
-            "event": "Scuola: 2B (2ª ora)"
-          },
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 1B (4ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 1B (5ª ora)"
-          },
-          {
-            "time": "tutto il giorno",
-            "event": "📅 Maurizio Calabria"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-21",
         "schedule": [
           {
@@ -538,6 +457,12 @@
             "event": "📅 Ale da Patrizia"
           }
         ],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-22",
+        "schedule": [],
         "status": "🏠 A casa"
       },
       "full_schedule": {
@@ -688,33 +613,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-20",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TAC (2h) — Meli A."
-          },
-          {
-            "time": "10:10",
-            "event": "Motorie (2h) — Tedeschi B."
-          },
-          {
-            "time": "12:10",
-            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
-          },
-          {
-            "time": "15:00",
-            "event": "📅 Batteria Flavio"
-          },
-          {
-            "time": "16:10",
-            "event": "📅 Flavio Pallavolo"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~12:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-21",
         "schedule": [
           {
@@ -734,7 +632,13 @@
             "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~12:10"
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-22",
+        "schedule": [],
+        "status": "🏠 A casa"
       },
       "transport": [
         {
@@ -1020,15 +924,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Sonny Rollins",
-        "track": "Freedom Suite",
-        "album": "Freedom Suite",
-        "year": "1958",
-        "context": "Una suite di 19 minuti — tra le prime dichiarazioni politiche nel jazz strumentale.",
-        "youtube_url": "https://www.youtube.com/watch?v=9GldoGTxN6Y"
+        "artist": "Wayne Shorter",
+        "track": "Juju",
+        "album": "JuJu",
+        "year": "1964",
+        "context": "Hard bop con Elvin Jones alla batteria — energia tribale e melodia affilata.",
+        "youtube_url": "https://www.youtube.com/watch?v=-l8pkVPYykE"
       },
       "voti": {
-        "updated": "2026-11-20",
+        "updated": "2026-11-21",
         "media_generale": 6.52,
         "totale_voti": 16,
         "materie": [
@@ -1227,25 +1131,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-20",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "12:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "17:00",
-            "event": "📅 Ada ginnastica"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 12:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-21",
         "schedule": [
           {
@@ -1253,6 +1138,12 @@
             "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-22",
+        "schedule": [],
         "status": "🏠 A casa"
       },
       "school_data": {
