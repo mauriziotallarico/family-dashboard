@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-21 15:00",
+  "generated": "2026-11-22 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-22",
+          "artist": "Wayne Shorter",
+          "track": "Mysterious Traveller",
+          "album": "Mysterious Traveller",
+          "year": "1974",
+          "context": "Shorter con i Weather Report — fusion visionario e avventuroso.",
+          "youtube_url": "https://www.youtube.com/watch?v=dVFmQDsRCFQ"
+        },
         {
           "type": "track",
           "date": "2026-11-21",
