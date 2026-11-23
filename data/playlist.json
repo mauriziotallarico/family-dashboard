@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-22 15:00",
+  "generated": "2026-11-23 07:35",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-23",
+          "artist": "Joe Henderson",
+          "track": "Inner Urge",
+          "album": "Inner Urge",
+          "year": "1964",
+          "context": "Modale, potente, libero — Henderson al suo più avventuroso con McCoy Tyner al piano.",
+          "youtube_url": "https://www.youtube.com/watch?v=k4I2T8vZwmA"
+        },
         {
           "type": "track",
           "date": "2026-11-22",
