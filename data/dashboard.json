@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-22T15:00:39.409768",
+    "last_updated": "2026-11-23T07:35:26.147196",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-22",
+      "date": "2026-11-23",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,110 +28,109 @@
         "text": "📚 2027-01-15 (10:10-12:10) — Incontro Scuole Sicure, intervento sulla prevenzione al bullismo e al cyberbullismo. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409141"
+        "added_at": "2026-11-23T07:35:26.146574"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409232"
+        "added_at": "2026-11-23T07:35:26.146664"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409265"
+        "added_at": "2026-11-23T07:35:26.146703"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409296"
+        "added_at": "2026-11-23T07:35:26.146734"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409325"
+        "added_at": "2026-11-23T07:35:26.146763"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409354"
+        "added_at": "2026-11-23T07:35:26.146792"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409382"
+        "added_at": "2026-11-23T07:35:26.146819"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409416"
+        "added_at": "2026-11-23T07:35:26.146847"
       },
       {
         "id": "didup_8",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409445"
+        "added_at": "2026-11-23T07:35:26.146875"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409474"
+        "added_at": "2026-11-23T07:35:26.146902"
       },
       {
         "id": "didup_10",
         "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409502"
+        "added_at": "2026-11-23T07:35:26.146930"
       },
       {
         "id": "didup_11",
         "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409531"
+        "added_at": "2026-11-23T07:35:26.146958"
       },
       {
         "id": "didup_12",
         "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409561"
+        "added_at": "2026-11-23T07:35:26.146986"
       },
       {
         "id": "didup_13",
         "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409589"
+        "added_at": "2026-11-23T07:35:26.147014"
       },
       {
         "id": "didup_14",
         "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L, D.T., P.N.e C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-22T15:00:39.409618"
+        "added_at": "2026-11-23T07:35:26.147042"
       }
     ],
     "calendar_events": {
-      "today": [],
-      "tomorrow": [
+      "today": [
         {
           "time": "14:30",
           "event": "📅 Accessibilità DSA/BES (2) — sessione 2",
@@ -144,26 +143,58 @@
           "all_day": false,
           "summary": "Piano Ada"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "09:15",
+          "event": "📅 Visita Dermatologica (Via Gavinana, 69B, 55011 Altopascio LU)",
+          "all_day": false,
+          "summary": "Visita Dermatologica"
+        },
+        {
+          "time": "10:50",
+          "event": "📅 Colloquio Lovi e Mascolo Flavio",
+          "all_day": false,
+          "summary": "Colloquio Lovi e Mascolo Flavio"
+        },
+        {
+          "time": "15:15",
+          "event": "📅 Dentista Flavio",
+          "all_day": false,
+          "summary": "Dentista Flavio"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        },
+        {
+          "time": "17:30",
+          "event": "📅 Pallavolo Flavio",
+          "all_day": false,
+          "summary": "Pallavolo Flavio"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-22",
-        "description": "Rovesci leggeri",
-        "temp_min": 8,
-        "temp_max": 14,
-        "icon": "09d",
-        "humidity": 93,
-        "wind_speed": 3,
-        "precipitation_mm": 3.1
-      },
-      "tomorrow": {
         "date": "2026-11-23",
         "description": "Nebbia",
-        "temp_min": 8,
-        "temp_max": 16,
+        "temp_min": 6,
+        "temp_max": 15,
         "icon": "50d",
+        "humidity": 100,
+        "wind_speed": 3,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-11-24",
+        "description": "Rovesci leggeri",
+        "temp_min": 5,
+        "temp_max": 13,
+        "icon": "09d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -174,30 +205,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.8,
-        "humidity": 78,
-        "battery": 70,
-        "last_update": "2026-11-22 14:13:43",
+        "temp": 17.4,
+        "humidity": 80,
+        "battery": 61,
+        "last_update": "2026-11-23 07:01:10",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 17.0,
+        "temp": 16.4,
         "humidity": 80,
-        "battery": 31,
-        "last_update": "2026-11-22 14:15:54",
+        "battery": 37,
+        "last_update": "2026-11-23 07:02:00",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.3,
-        "humidity": 77,
+        "temp": 17.9,
+        "humidity": 74,
         "battery": 75,
-        "last_update": "2026-11-22 14:18:27",
+        "last_update": "2026-11-23 07:02:18",
         "battery_warning": false
       }
     ],
@@ -404,12 +435,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-22",
-        "schedule": [],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-23",
         "schedule": [
           {
@@ -419,6 +444,33 @@
           {
             "time": "17:30",
             "event": "📅 Piano Ada"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-24",
+        "schedule": [
+          {
+            "time": "09:15",
+            "event": "📅 Visita Dermatologica (Via Gavinana, 69B, 55011 Altopascio LU)"
+          },
+          {
+            "time": "10:50",
+            "event": "📅 Colloquio Lovi e Mascolo Flavio"
+          },
+          {
+            "time": "15:15",
+            "event": "📅 Dentista Flavio"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
           }
         ],
         "status": ""
@@ -432,12 +484,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-22",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-23",
         "schedule": [
           {
@@ -465,7 +511,46 @@
             "event": "📅 Piano Ada"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-24",
+        "schedule": [
+          {
+            "time": "08:00",
+            "event": "Scuola: 2B (1ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "Scuola: 1B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 1B (3ª ora)"
+          },
+          {
+            "time": "09:15",
+            "event": "📅 Visita Dermatologica (Via Gavinana, 69B, 55011 Altopascio LU)"
+          },
+          {
+            "time": "10:50",
+            "event": "📅 Colloquio Lovi e Mascolo Flavio"
+          },
+          {
+            "time": "15:15",
+            "event": "📅 Dentista Flavio"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -615,12 +700,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-22",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-23",
         "schedule": [
           {
@@ -660,7 +739,54 @@
             "event": "📅 Accessibilità DSA/BES (2) — sessione 2"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~16:30"
+        "status": "🏫 Scuola — Uscita ~16:30",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-24",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Scienze — Lovi I."
+          },
+          {
+            "time": "09:10",
+            "event": "Storia della Musica — Mascolo F."
+          },
+          {
+            "time": "10:10",
+            "event": "Italiano — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Matematica — Marini F."
+          },
+          {
+            "time": "13:10",
+            "event": "Ritorno: 🚆 Treno 13:31 (Stazione FS → 13:40 Altopascio)"
+          },
+          {
+            "time": "09:15",
+            "event": "📅 Visita Dermatologica (Via Gavinana, 69B, 55011 Altopascio LU)"
+          },
+          {
+            "time": "10:50",
+            "event": "📅 Colloquio Lovi e Mascolo Flavio"
+          },
+          {
+            "time": "15:15",
+            "event": "📅 Dentista Flavio"
+          },
+          {
+            "time": "17:30",
+            "event": "📅 Pallavolo Flavio"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~13:10"
       },
       "transport": [
         {
@@ -946,15 +1072,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Wayne Shorter",
-        "track": "Mysterious Traveller",
-        "album": "Mysterious Traveller",
-        "year": "1974",
-        "context": "Shorter con i Weather Report — fusion visionario e avventuroso.",
-        "youtube_url": "https://www.youtube.com/watch?v=dVFmQDsRCFQ"
+        "artist": "Joe Henderson",
+        "track": "Inner Urge",
+        "album": "Inner Urge",
+        "year": "1964",
+        "context": "Modale, potente, libero — Henderson al suo più avventuroso con McCoy Tyner al piano.",
+        "youtube_url": "https://www.youtube.com/watch?v=k4I2T8vZwmA"
       },
       "voti": {
-        "updated": "2026-11-22",
+        "updated": "2026-11-23",
         "media_generale": 6.52,
         "totale_voti": 16,
         "materie": [
@@ -1153,12 +1279,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-22",
-        "schedule": [],
-        "status": "🏠 A casa",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-23",
         "schedule": [
           {
@@ -1178,7 +1298,30 @@
             "event": "📅 Piano Ada"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-24",
+        "schedule": [
+          {
+            "time": "08:15",
+            "event": "Ingresso scuola"
+          },
+          {
+            "time": "13:15",
+            "event": "Uscita scuola (giorno corto)"
+          },
+          {
+            "time": "09:15",
+            "event": "📅 Visita Dermatologica (Via Gavinana, 69B, 55011 Altopascio LU)"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
         "lezioni_oggi": [],
