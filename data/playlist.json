@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-23 15:00",
+  "generated": "2026-11-24 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-24",
+          "artist": "Kamasi Washington",
+          "track": "The Epic",
+          "album": "The Epic",
+          "year": "2015",
+          "context": "La title track di un triplo album che ha riportato il jazz al grande pubblico. Epico davvero.",
+          "youtube_url": "https://www.youtube.com/watch?v=uz2nxBio2gg"
+        },
         {
           "type": "track",
           "date": "2026-11-23",
