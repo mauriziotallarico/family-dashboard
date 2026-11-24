@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-24T07:30:37.661965",
+    "last_updated": "2026-11-24T15:02:23.303497",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,105 +28,112 @@
         "text": "📚 2027-01-15 (10:10-12:10) — Incontro Scuole Sicure, intervento sulla prevenzione al bullismo e al cyberbullismo. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661336"
+        "added_at": "2026-11-24T15:02:23.302764"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661432"
+        "added_at": "2026-11-24T15:02:23.302867"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661466"
+        "added_at": "2026-11-24T15:02:23.302901"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661496"
+        "added_at": "2026-11-24T15:02:23.302931"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661526"
+        "added_at": "2026-11-24T15:02:23.302961"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661555"
+        "added_at": "2026-11-24T15:02:23.302990"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661582"
+        "added_at": "2026-11-24T15:02:23.303018"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661610"
+        "added_at": "2026-11-24T15:02:23.303046"
       },
       {
         "id": "didup_8",
-        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
+        "text": "📚 2026-12-02 (07:30-08:00) — Scienze: inizio giro interrogazioni [I. LOVI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661638"
+        "added_at": "2026-11-24T15:02:23.303074"
       },
       {
         "id": "didup_9",
-        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
+        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661666"
+        "added_at": "2026-11-24T15:02:23.303102"
       },
       {
         "id": "didup_10",
-        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
+        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661694"
+        "added_at": "2026-11-24T15:02:23.303130"
       },
       {
         "id": "didup_11",
-        "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
+        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661724"
+        "added_at": "2026-11-24T15:02:23.303159"
       },
       {
         "id": "didup_12",
-        "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
+        "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661752"
+        "added_at": "2026-11-24T15:02:23.303187"
       },
       {
         "id": "didup_13",
-        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
+        "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661786"
+        "added_at": "2026-11-24T15:02:23.303216"
       },
       {
         "id": "didup_14",
+        "text": "📚 2026-11-24 (11:00-11:30) — Arte verifiche orali programmate (Tuccori, Vignozzi) [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-24T15:02:23.303250"
+      },
+      {
+        "id": "didup_15",
         "text": "📚 2026-11-24 (10:00-11:00) — Italiano verifica orale programmata per gli alunni B.L, D.T., P.N.e C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-24T07:30:37.661816"
+        "added_at": "2026-11-24T15:02:23.303279"
       }
     ],
     "calendar_events": {
@@ -183,21 +190,21 @@
         "date": "2026-11-24",
         "description": "Nebbia",
         "temp_min": 6,
-        "temp_max": 14,
+        "temp_max": 13,
         "icon": "50d",
-        "humidity": 99,
+        "humidity": 81,
         "wind_speed": 3,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-11-25",
-        "description": "Rovesci leggeri",
+        "description": "Pioggia leggera",
         "temp_min": 11,
         "temp_max": 14,
-        "icon": "09d",
+        "icon": "10d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 3.73
+        "precipitation_mm": 4.9
       }
     },
     "sensors": [
@@ -205,30 +212,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.0,
-        "humidity": 82,
-        "battery": 71,
-        "last_update": "2026-11-24 07:03:27",
+        "temp": 16.9,
+        "humidity": 79,
+        "battery": 73,
+        "last_update": "2026-11-24 14:04:14",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 16.8,
-        "humidity": 79,
-        "battery": 30,
-        "last_update": "2026-11-24 07:05:15",
+        "temp": 18.6,
+        "humidity": 77,
+        "battery": 38,
+        "last_update": "2026-11-24 14:06:10",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 17.6,
-        "humidity": 74,
+        "temp": 17.9,
+        "humidity": 76,
         "battery": 74,
-        "last_update": "2026-11-24 07:06:26",
+        "last_update": "2026-11-24 14:07:39",
         "battery_warning": false
       }
     ],
@@ -1262,7 +1269,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-24: MATEMATICA: Es. 276 pag. 128, es. 322 e 323 pag. 131\n📝 2026-11-24: LING. LETT. ITALIANA: You tube \"Pierino e il lupo\" orchestrata e recitata da Lucio Dalla\n📝 2026-11-24: STORIA DELLA MUSICA: Controllo quaderni; lettura della descrizione degli strumenti medievali e ulter\n📝 2026-11-24: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare sul libro p.56-59;70-71 + ppt re\n📝 2026-11-25: LINGUA STRANIERA-ING: fai p 211\n📝 2026-11-25: LABORATORIO DI MUSICA D'INSIEME: Studiare benissimo, a memoria le singole parti dell’Ave Verum di Mo\n📝 2026-11-26: LABORATORIO DI MUSICA D'INSIEME: Verifica per gli assenti e per coloro che non hanno eseguito tutti \n📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34"
+      "personal_notes": "📝 2026-11-24: MATEMATICA: Es. 276 pag. 128, es. 322 e 323 pag. 131\n📝 2026-11-24: LING. LETT. ITALIANA: You tube \"Pierino e il lupo\" orchestrata e recitata da Lucio Dalla\n📝 2026-11-24: STORIA DELLA MUSICA: Controllo quaderni; lettura della descrizione degli strumenti medievali e ulter\n📝 2026-11-24: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare sul libro p.56-59;70-71 + ppt re\n📝 2026-11-25: LINGUA STRANIERA-ING: fai p 211\n📝 2026-11-25: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare sul libro pag. 70-72 (bigbang ed\n📝 2026-11-25: LABORATORIO DI MUSICA D'INSIEME: Studiare benissimo, a memoria le singole parti dell’Ave Verum di Mo\n📝 2026-11-26: LABORATORIO DI MUSICA D'INSIEME: Verifica per gli assenti e per coloro che non hanno eseguito tutti "
     },
     "ada": {
       "display_name": "Ada",
@@ -1316,7 +1323,44 @@
         "status": "🏫 Scuola — Uscita 13:15"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Dalla frazione  al numero decimale e viceversa.  Attività sul quaderno "
+          },
+          {
+            "ora": 2,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria e la capacità di orientamento spazio-tempo: “Palla-stop”."
+          },
+          {
+            "ora": 3,
+            "materia": "ATTIVITA' MOTORIE E SPORTIVE",
+            "docente": "LEONI MARTINA",
+            "argomento": "Giochi per sviluppare la coordinazione motoria e la capacità di orientamento spazio-tempo: “Palla-stop”."
+          },
+          {
+            "ora": 4,
+            "materia": "GEOGRAFIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Correzione dei compiti. Ripasso: gli Appennini"
+          },
+          {
+            "ora": 4,
+            "materia": "GEOGRAFIA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": ""
+          },
+          {
+            "ora": 5,
+            "materia": "GEOGRAFIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "Correzione dei compiti. Ripasso: gli Appennini"
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1395,7 +1439,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: MATEMATICA (LETIZIA ELVIRA)\n    → Dalla frazione  al numero decimale e viceversa.  Attività sul quaderno \n  Ora 2: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria e la capacità di orientamento spazio-tempo: “Palla-stop”.\n  Ora 3: ATTIVITA' MOTORIE E SPORTIVE (LEONI MARTINA)\n    → Giochi per sviluppare la coordinazione motoria e la capacità di orientamento spazio-tempo: “Palla-stop”.\n  Ora 4: GEOGRAFIA (GOZZINI ANGELA)\n    → Correzione dei compiti. Ripasso: gli Appennini\n  Ora 4: GEOGRAFIA (LETIZIA ELVIRA)\n  Ora 5: GEOGRAFIA (GOZZINI ANGELA)\n    → Correzione dei compiti. Ripasso: gli Appennini\n\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
     }
   }
 }
