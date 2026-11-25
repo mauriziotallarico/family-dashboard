@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-24 15:02",
+  "generated": "2026-11-25 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-25",
+          "artist": "Dexter Gordon",
+          "track": "Cheese Cake",
+          "album": "Go!",
+          "year": "1962",
+          "context": "Swing rilassato e melodia deliziosa — Dexter al suo meglio al Village Vanguard.",
+          "youtube_url": "https://www.youtube.com/watch?v=a9HP9p3GXg8"
+        },
         {
           "type": "track",
           "date": "2026-11-24",
