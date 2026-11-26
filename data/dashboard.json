@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-25T15:03:20.498167",
+    "last_updated": "2026-11-26T07:30:37.750255",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-25",
+      "date": "2026-11-26",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,116 +28,95 @@
         "text": "📚 2027-01-15 (10:10-12:10) — Incontro Scuole Sicure, intervento sulla prevenzione al bullismo e al cyberbullismo. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497521"
+        "added_at": "2026-11-26T07:30:37.749684"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497618"
+        "added_at": "2026-11-26T07:30:37.749784"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497651"
+        "added_at": "2026-11-26T07:30:37.749818"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497681"
+        "added_at": "2026-11-26T07:30:37.749848"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497710"
+        "added_at": "2026-11-26T07:30:37.749877"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497738"
+        "added_at": "2026-11-26T07:30:37.749905"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497766"
+        "added_at": "2026-11-26T07:30:37.749932"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497800"
+        "added_at": "2026-11-26T07:30:37.749967"
       },
       {
         "id": "didup_8",
         "text": "📚 2026-12-02 (07:30-08:00) — Scienze: inizio giro interrogazioni secondo calendario ( reazioni chimiche/fisiche, soluzioni e ph. Le distanze in astronomia. Il Bigbang e l'evoluzione universo. Le galassi",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497829"
+        "added_at": "2026-11-26T07:30:37.749996"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497858"
+        "added_at": "2026-11-26T07:30:37.750024"
       },
       {
         "id": "didup_10",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497886"
+        "added_at": "2026-11-26T07:30:37.750052"
       },
       {
         "id": "didup_11",
         "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497915"
+        "added_at": "2026-11-26T07:30:37.750081"
       },
       {
         "id": "didup_12",
         "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497943"
-      },
-      {
-        "id": "didup_13",
-        "text": "📚 2026-11-25 — Inglese verifica orale per P.N. sull'uso del present simple  con frasi affermative/ interrogative/ negative,  saper raccontare la propria routine quotidiana ed i  propri hobbies. [R. FEBI",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-25T15:03:20.497971"
+        "added_at": "2026-11-26T07:30:37.750110"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "16:30",
-          "event": "📅 Consiglio di classe 1M",
-          "all_day": false,
-          "summary": "Consiglio di classe 1M"
-        },
-        {
-          "time": "16:45",
-          "event": "📅 Teatro Ada",
-          "all_day": false,
-          "summary": "Teatro Ada"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "15:15",
           "event": "📅 Flavio Guida Capannori",
@@ -150,29 +129,67 @@
           "all_day": false,
           "summary": "Apps Script / creazione app — sessione 1"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "09:00",
+          "event": "📅 Esame PCR Sangue Mau Capannori",
+          "all_day": false,
+          "summary": "Esame PCR Sangue Mau Capannori"
+        },
+        {
+          "time": "15:00",
+          "event": "📅 Batteria Flavio",
+          "all_day": false,
+          "summary": "Batteria Flavio"
+        },
+        {
+          "time": "15:35",
+          "event": "📅 Visita sportiva Ada",
+          "all_day": false,
+          "summary": "Visita sportiva Ada"
+        },
+        {
+          "time": "16:10",
+          "event": "📅 Flavio Pallavolo",
+          "all_day": false,
+          "summary": "Flavio Pallavolo"
+        },
+        {
+          "time": "17:00",
+          "event": "📅 Ada ginnastica",
+          "all_day": false,
+          "summary": "Ada ginnastica"
+        },
+        {
+          "time": "21:00",
+          "event": "📅 Sessione D&D",
+          "all_day": false,
+          "summary": "Sessione D&D"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-25",
-        "description": "Rovesci leggeri",
-        "temp_min": 11,
-        "temp_max": 14,
-        "icon": "09d",
-        "humidity": 83,
-        "wind_speed": 9,
-        "precipitation_mm": 7.2
-      },
-      "tomorrow": {
         "date": "2026-11-26",
         "description": "Rovesci leggeri",
-        "temp_min": 8,
+        "temp_min": 7,
         "temp_max": 13,
         "icon": "09d",
+        "humidity": 96,
+        "wind_speed": 4,
+        "precipitation_mm": 9.0
+      },
+      "tomorrow": {
+        "date": "2026-11-27",
+        "description": "Nebbia",
+        "temp_min": 6,
+        "temp_max": 14,
+        "icon": "50d",
         "humidity": 0,
         "wind_speed": 0,
-        "precipitation_mm": 1.2
+        "precipitation_mm": 0.0
       }
     },
     "sensors": [
@@ -180,30 +197,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.5,
-        "humidity": 79,
-        "battery": 76,
-        "last_update": "2026-11-25 14:53:31",
+        "temp": 17.9,
+        "humidity": 81,
+        "battery": 77,
+        "last_update": "2026-11-26 06:55:28",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 19.2,
-        "humidity": 76,
-        "battery": 28,
-        "last_update": "2026-11-25 14:13:02",
+        "temp": 19.1,
+        "humidity": 78,
+        "battery": 32,
+        "last_update": "2026-11-26 07:15:31",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.3,
-        "humidity": 73,
+        "temp": 18.4,
+        "humidity": 76,
         "battery": 75,
-        "last_update": "2026-11-25 14:11:50",
+        "last_update": "2026-11-26 07:14:48",
         "battery_warning": false
       }
     ],
@@ -410,21 +427,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-25",
-        "schedule": [
-          {
-            "time": "16:30",
-            "event": "📅 Consiglio di classe 1M"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-26",
         "schedule": [
           {
@@ -434,6 +436,37 @@
           {
             "time": "16:30",
             "event": "📅 Apps Script / creazione app — sessione 1"
+          }
+        ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-27",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "📅 Esame PCR Sangue Mau Capannori"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "15:35",
+            "event": "📅 Visita sportiva Ada"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "21:00",
+            "event": "📅 Sessione D&D"
           }
         ],
         "status": ""
@@ -447,37 +480,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-25",
-        "schedule": [
-          {
-            "time": "08:00",
-            "event": "Scuola: 1B (1ª ora)"
-          },
-          {
-            "time": "09:00",
-            "event": "Scuola: 1B (2ª ora)"
-          },
-          {
-            "time": "12:00",
-            "event": "Scuola: 2B (5ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 2B (6ª ora)"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Consiglio di classe 1M"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-26",
         "schedule": [
           {
@@ -501,7 +503,54 @@
             "event": "📅 Apps Script / creazione app — sessione 1"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-27",
+        "schedule": [
+          {
+            "time": "09:00",
+            "event": "Scuola: 2B (2ª ora)"
+          },
+          {
+            "time": "10:00",
+            "event": "Scuola: 2B (3ª ora)"
+          },
+          {
+            "time": "11:00",
+            "event": "Scuola: 1B (4ª ora)"
+          },
+          {
+            "time": "12:00",
+            "event": "Scuola: 1B (5ª ora)"
+          },
+          {
+            "time": "09:00",
+            "event": "📅 Esame PCR Sangue Mau Capannori"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "15:35",
+            "event": "📅 Visita sportiva Ada"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
+          },
+          {
+            "time": "21:00",
+            "event": "📅 Sessione D&D"
+          }
+        ],
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -651,41 +700,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-25",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "Scienze — Lovi I."
-          },
-          {
-            "time": "09:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "10:10",
-            "event": "Matematica (2h) — Marini F."
-          },
-          {
-            "time": "13:30",
-            "event": "Sax — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "14:30",
-            "event": "Quartetto Sax Junior — Mazzola M. 📍 Fillungo"
-          },
-          {
-            "time": "15:30",
-            "event": "Ritorno: 🚆 Treno 16:31 (Stazione FS → 16:40 Altopascio)"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Consiglio di classe 1M"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~15:30",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-26",
         "schedule": [
           {
@@ -721,7 +735,42 @@
             "event": "📅 Apps Script / creazione app — sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita ~14:10"
+        "status": "🏫 Scuola — Uscita ~14:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-27",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "TAC (2h) — Meli A."
+          },
+          {
+            "time": "10:10",
+            "event": "Motorie (2h) — Tedeschi B."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "09:00",
+            "event": "📅 Esame PCR Sangue Mau Capannori"
+          },
+          {
+            "time": "15:00",
+            "event": "📅 Batteria Flavio"
+          },
+          {
+            "time": "16:10",
+            "event": "📅 Flavio Pallavolo"
+          },
+          {
+            "time": "21:00",
+            "event": "📅 Sessione D&D"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10"
       },
       "transport": [
         {
@@ -1007,15 +1056,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Dexter Gordon",
-        "track": "Cheese Cake",
-        "album": "Go!",
-        "year": "1962",
-        "context": "Swing rilassato e melodia deliziosa — Dexter al suo meglio al Village Vanguard.",
-        "youtube_url": "https://www.youtube.com/watch?v=a9HP9p3GXg8"
+        "artist": "Cannonball Adderley",
+        "track": "Autumn Leaves",
+        "album": "Somethin' Else",
+        "year": "1958",
+        "context": "Con Miles Davis. La versione definitiva di questo standard immortale.",
+        "youtube_url": "https://www.youtube.com/watch?v=CpB7-8SGlJ0"
       },
       "voti": {
-        "updated": "2026-11-25",
+        "updated": "2026-11-26",
         "media_generale": 6.52,
         "totale_voti": 16,
         "materie": [
@@ -1205,7 +1254,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-25: LINGUA STRANIERA-ING: fai p 211\n📝 2026-11-25: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare sul libro pag. 70-72 (bigbang ed\n📝 2026-11-25: LABORATORIO DI MUSICA D'INSIEME: Studiare benissimo, a memoria le singole parti dell’Ave Verum di Mo\n📝 2026-11-26: LING. LETT. ITALIANA: Biografia di Sergej Prokofev\n📝 2026-11-26: LABORATORIO DI MUSICA D'INSIEME: Verifica per gli assenti e per coloro che non hanno eseguito tutti \n📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca"
+      "personal_notes": "📝 2026-11-26: LING. LETT. ITALIANA: Biografia di Sergej Prokofev\n📝 2026-11-26: LABORATORIO DI MUSICA D'INSIEME: Verifica per gli assenti e per coloro che non hanno eseguito tutti \n📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma\n📝 2026-12-02: MATEMATICA: Es. 368, 369 pag. 137, es. 404 e 407 pag. 140"
     },
     "ada": {
       "display_name": "Ada",
@@ -1214,29 +1263,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-25",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "13:15",
-            "event": "Uscita scuola (giorno corto)"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Consiglio di classe 1M"
-          },
-          {
-            "time": "16:45",
-            "event": "📅 Teatro Ada"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 13:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-26",
         "schedule": [
           {
@@ -1252,47 +1278,41 @@
             "event": "📅 Apps Script / creazione app — sessione 1"
           }
         ],
-        "status": "🏫 Scuola — Uscita 16:15"
+        "status": "🏫 Scuola — Uscita 16:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-11-27",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "08:15",
+            "event": "Ingresso scuola"
           },
           {
-            "ora": 2,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "12:15",
+            "event": "Uscita scuola (giorno corto)"
           },
           {
-            "ora": 3,
-            "materia": "ITALIANO",
-            "docente": "FONTANA ROBERTO",
-            "argomento": "Scrittura di una storia fantastica abiantata su una nave."
+            "time": "09:00",
+            "event": "📅 Esame PCR Sangue Mau Capannori"
           },
           {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Rappresentazione grafica in gruppo per il progetto Scrittori di classe"
+            "time": "15:35",
+            "event": "📅 Visita sportiva Ada"
           },
           {
-            "ora": 4,
-            "materia": "ARTE E IMMAGINE",
-            "docente": "FONTANA ROBERTO",
-            "argomento": "Continuazione del lavoro la nave delle farfalle "
+            "time": "17:00",
+            "event": "📅 Ada ginnastica"
           },
           {
-            "ora": 5,
-            "materia": "MUSICA",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": ""
+            "time": "21:00",
+            "event": "📅 Sessione D&D"
           }
         ],
+        "status": "🏫 Scuola — Uscita 12:15"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1371,7 +1391,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: SOSTEGNO (IACOMINI VERONICA)\n  Ora 2: SOSTEGNO (IACOMINI VERONICA)\n  Ora 3: ITALIANO (FONTANA ROBERTO)\n    → Scrittura di una storia fantastica abiantata su una nave.\n  Ora 4: ARTE E IMMAGINE (LETIZIA ELVIRA)\n    → Rappresentazione grafica in gruppo per il progetto Scrittori di classe\n  Ora 4: ARTE E IMMAGINE (FONTANA ROBERTO)\n    → Continuazione del lavoro la nave delle farfalle \n  Ora 5: MUSICA (LETIZIA ELVIRA)\n\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
     }
   }
 }
