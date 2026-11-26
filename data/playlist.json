@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-25 15:03",
+  "generated": "2026-11-26 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-26",
+          "artist": "Cannonball Adderley",
+          "track": "Autumn Leaves",
+          "album": "Somethin' Else",
+          "year": "1958",
+          "context": "Con Miles Davis. La versione definitiva di questo standard immortale.",
+          "youtube_url": "https://www.youtube.com/watch?v=CpB7-8SGlJ0"
+        },
         {
           "type": "track",
           "date": "2026-11-25",
