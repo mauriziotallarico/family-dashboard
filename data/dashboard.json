@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-26T15:00:36.631081",
+    "last_updated": "2026-11-27T07:30:35.447503",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -17,7 +17,7 @@
   },
   "shared": {
     "menu_of_the_day": {
-      "date": "2026-11-26",
+      "date": "2026-11-27",
       "lunch": "",
       "dinner": "",
       "notes": ""
@@ -28,116 +28,95 @@
         "text": "📚 2027-01-15 (10:10-12:10) — Incontro Scuole Sicure, intervento sulla prevenzione al bullismo e al cyberbullismo. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630433"
+        "added_at": "2026-11-27T07:30:35.446852"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630527"
+        "added_at": "2026-11-27T07:30:35.447025"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630566"
+        "added_at": "2026-11-27T07:30:35.447062"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630597"
+        "added_at": "2026-11-27T07:30:35.447092"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630626"
+        "added_at": "2026-11-27T07:30:35.447123"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630655"
+        "added_at": "2026-11-27T07:30:35.447151"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630683"
+        "added_at": "2026-11-27T07:30:35.447179"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630711"
+        "added_at": "2026-11-27T07:30:35.447207"
       },
       {
         "id": "didup_8",
         "text": "📚 2026-12-02 (07:30-08:00) — Scienze: inizio giro interrogazioni secondo calendario ( reazioni chimiche/fisiche, soluzioni e ph. Le distanze in astronomia. Il Bigbang e l'evoluzione universo. Le galassi",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630739"
+        "added_at": "2026-11-27T07:30:35.447236"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630767"
+        "added_at": "2026-11-27T07:30:35.447264"
       },
       {
         "id": "didup_10",
         "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630796"
+        "added_at": "2026-11-27T07:30:35.447291"
       },
       {
         "id": "didup_11",
         "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630825"
+        "added_at": "2026-11-27T07:30:35.447320"
       },
       {
         "id": "didup_12",
         "text": "📚 2026-11-28 (09:00-10:00) — Verifica orale programmata di Italiano per l'alunno C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630853"
-      },
-      {
-        "id": "didup_13",
-        "text": "📚 2026-11-26 — Recupero di storia: Acci, Cortopassi, Lin, Onesti (orale);  Giorgi (scritto) [M. ROSSI]",
-        "priority": "high",
-        "added_by": "picoclaw",
-        "added_at": "2026-11-26T15:00:36.630882"
+        "added_at": "2026-11-27T07:30:35.447354"
       }
     ],
     "calendar_events": {
       "today": [
-        {
-          "time": "15:15",
-          "event": "📅 Flavio Guida Capannori",
-          "all_day": false,
-          "summary": "Flavio Guida Capannori"
-        },
-        {
-          "time": "16:30",
-          "event": "📅 Apps Script / creazione app — sessione 1",
-          "all_day": false,
-          "summary": "Apps Script / creazione app — sessione 1"
-        }
-      ],
-      "tomorrow": [
         {
           "time": "09:00",
           "event": "📅 Esame PCR Sangue Mau Capannori",
@@ -174,26 +153,34 @@
           "all_day": false,
           "summary": "Sessione D&D"
         }
+      ],
+      "tomorrow": [
+        {
+          "time": "11:00",
+          "event": "📅 Catechismo Ada",
+          "all_day": false,
+          "summary": "Catechismo Ada"
+        }
       ]
     },
     "notes": "",
     "weather": {
       "today": {
-        "date": "2026-11-26",
-        "description": "Rovesci leggeri",
-        "temp_min": 8,
-        "temp_max": 13,
-        "icon": "09d",
-        "humidity": 87,
-        "wind_speed": 2,
-        "precipitation_mm": 10.8
-      },
-      "tomorrow": {
         "date": "2026-11-27",
-        "description": "Nuvoloso",
+        "description": "Nebbia",
         "temp_min": 6,
         "temp_max": 14,
-        "icon": "04d",
+        "icon": "50d",
+        "humidity": 96,
+        "wind_speed": 1,
+        "precipitation_mm": 0.0
+      },
+      "tomorrow": {
+        "date": "2026-11-28",
+        "description": "Sereno",
+        "temp_min": 4,
+        "temp_max": 13,
+        "icon": "01d",
         "humidity": 0,
         "wind_speed": 0,
         "precipitation_mm": 0.0
@@ -204,30 +191,30 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 17.2,
-        "humidity": 78,
+        "temp": 18.1,
+        "humidity": 81,
         "battery": 76,
-        "last_update": "2026-11-26 14:19:12",
+        "last_update": "2026-11-27 07:00:58",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 19.1,
-        "humidity": 78,
-        "battery": 28,
-        "last_update": "2026-11-26 14:19:36",
+        "temp": 18.7,
+        "humidity": 79,
+        "battery": 30,
+        "last_update": "2026-11-27 07:01:58",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.2,
-        "humidity": 74,
+        "temp": 18.6,
+        "humidity": 76,
         "battery": 75,
-        "last_update": "2026-11-26 14:19:36",
+        "last_update": "2026-11-27 07:02:05",
         "battery_warning": false
       }
     ],
@@ -434,21 +421,6 @@
       "bio": "Software Engineer. Papà di Flavio e Ada. Creatore di PicoClaw 🦞",
       "avatar": "assets/images/maurizio.jpg",
       "today": {
-        "date": "2026-11-26",
-        "schedule": [
-          {
-            "time": "15:15",
-            "event": "📅 Flavio Guida Capannori"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Apps Script / creazione app — sessione 1"
-          }
-        ],
-        "status": "💼 Lavoro",
-        "mood": "😊"
-      },
-      "tomorrow": {
         "date": "2026-11-27",
         "schedule": [
           {
@@ -476,6 +448,17 @@
             "event": "📅 Sessione D&D"
           }
         ],
+        "status": "💼 Lavoro",
+        "mood": "😊"
+      },
+      "tomorrow": {
+        "date": "2026-11-28",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
         "status": ""
       },
       "personal_notes": ""
@@ -487,33 +470,6 @@
       "bio": "Prof.ssa — Classi 1B e 2B, Scuola Valchiusa. Mamma di Flavio e Ada.",
       "avatar": "assets/images/alessandra.jpg",
       "today": {
-        "date": "2026-11-26",
-        "schedule": [
-          {
-            "time": "10:00",
-            "event": "Scuola: 2B (3ª ora)"
-          },
-          {
-            "time": "11:00",
-            "event": "Scuola: 2B (4ª ora)"
-          },
-          {
-            "time": "13:00",
-            "event": "Scuola: 1B (6ª ora)"
-          },
-          {
-            "time": "15:15",
-            "event": "📅 Flavio Guida Capannori"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Apps Script / creazione app — sessione 1"
-          }
-        ],
-        "status": "👩‍🏫 Scuola Valchiusa — 3 ore",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-27",
         "schedule": [
           {
@@ -557,7 +513,18 @@
             "event": "📅 Sessione D&D"
           }
         ],
-        "status": "👩‍🏫 Scuola Valchiusa — 4 ore"
+        "status": "👩‍🏫 Scuola Valchiusa — 4 ore",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-28",
+        "schedule": [
+          {
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
+          }
+        ],
+        "status": "🏠 A casa"
       },
       "full_schedule": {
         "updated": "2026-2027",
@@ -707,45 +674,6 @@
       "bio": "Liceo Artistico Musicale Passaglia, Classe 1M. Sax e Pianoforte.",
       "avatar": "assets/images/flavio.jpg",
       "today": {
-        "date": "2026-11-26",
-        "schedule": [
-          {
-            "time": "08:10",
-            "event": "TEM (2h) — Giusti M."
-          },
-          {
-            "time": "10:10",
-            "event": "Storia e Geografia — Rossi M."
-          },
-          {
-            "time": "11:10",
-            "event": "Inglese — Febi R."
-          },
-          {
-            "time": "12:10",
-            "event": "Italiano — Moncini M."
-          },
-          {
-            "time": "14:10",
-            "event": "Orchestra di Fiati — Cesari D., Fortino S., Gaggini E., Manente D."
-          },
-          {
-            "time": "14:10",
-            "event": "Ritorno: 🚆 Treno 14:31 (Stazione FS → 14:40 Altopascio)"
-          },
-          {
-            "time": "15:15",
-            "event": "📅 Flavio Guida Capannori"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Apps Script / creazione app — sessione 1"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita ~14:10",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-27",
         "schedule": [
           {
@@ -775,6 +703,29 @@
           {
             "time": "21:00",
             "event": "📅 Sessione D&D"
+          }
+        ],
+        "status": "🏫 Scuola — Uscita ~12:10",
+        "mood": ""
+      },
+      "tomorrow": {
+        "date": "2026-11-28",
+        "schedule": [
+          {
+            "time": "08:10",
+            "event": "Storia e Geografia — Rossi M."
+          },
+          {
+            "time": "09:10",
+            "event": "Italiano (2h) — Moncini M."
+          },
+          {
+            "time": "11:10",
+            "event": "Storia dell'Arte — Lorenzini M."
+          },
+          {
+            "time": "12:10",
+            "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10"
@@ -1063,15 +1014,15 @@
         ]
       },
       "jazz_pick": {
-        "artist": "Cannonball Adderley",
-        "track": "Autumn Leaves",
-        "album": "Somethin' Else",
-        "year": "1958",
-        "context": "Con Miles Davis. La versione definitiva di questo standard immortale.",
-        "youtube_url": "https://www.youtube.com/watch?v=tguu4m38U78"
+        "artist": "Pharoah Sanders",
+        "track": "You've Got to Have Freedom",
+        "album": "Rejoice",
+        "year": "1981",
+        "context": "Tema gioioso e liberatorio — il free jazz diventa accessibile e festoso.",
+        "youtube_url": "https://www.youtube.com/watch?v=bYKHCvmu1z4"
       },
       "voti": {
-        "updated": "2026-11-26",
+        "updated": "2026-11-27",
         "media_generale": 6.52,
         "totale_voti": 16,
         "materie": [
@@ -1261,7 +1212,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-26: LING. LETT. ITALIANA: Biografia di Sergej Prokofev\n📝 2026-11-26: LABORATORIO DI MUSICA D'INSIEME: Verifica per gli assenti e per coloro che non hanno eseguito tutti \n📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34\n📝 2026-11-30: LINGUA STRANIERA-ING: FAI P 49 N6 E STUDIA BENE IL TESTO A  P 48\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma"
+      "personal_notes": "📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34\n📝 2026-11-30: LINGUA STRANIERA-ING: FAI P 49 N6 E STUDIA BENE IL TESTO A  P 48\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma\n📝 2026-12-02: MATEMATICA: Es. 368, 369 pag. 137, es. 404 e 407 pag. 140\n📝 2026-12-02: LABORATORIO DI MUSICA D'INSIEME: Studiare a memoria le parti singole dell’Ave Verum, per facilitare "
     },
     "ada": {
       "display_name": "Ada",
@@ -1270,25 +1221,6 @@
       "bio": "Scuola primaria IC Altopascio. Ama disegnare e giocare.",
       "avatar": "assets/images/ada.jpg",
       "today": {
-        "date": "2026-11-26",
-        "schedule": [
-          {
-            "time": "08:15",
-            "event": "Ingresso scuola"
-          },
-          {
-            "time": "16:15",
-            "event": "Uscita scuola (giorno lungo)"
-          },
-          {
-            "time": "16:30",
-            "event": "📅 Apps Script / creazione app — sessione 1"
-          }
-        ],
-        "status": "🏫 Scuola — Uscita 16:15",
-        "mood": ""
-      },
-      "tomorrow": {
         "date": "2026-11-27",
         "schedule": [
           {
@@ -1316,47 +1248,21 @@
             "event": "📅 Sessione D&D"
           }
         ],
-        "status": "🏫 Scuola — Uscita 12:15"
+        "status": "🏫 Scuola — Uscita 12:15",
+        "mood": ""
       },
-      "school_data": {
-        "lezioni_oggi": [
+      "tomorrow": {
+        "date": "2026-11-28",
+        "schedule": [
           {
-            "ora": 1,
-            "materia": "RELIGIONE",
-            "docente": "ORABONA MARIA",
-            "argomento": "I Profeti"
-          },
-          {
-            "ora": 2,
-            "materia": "RELIGIONE",
-            "docente": "ORABONA MARIA",
-            "argomento": "I Profeti"
-          },
-          {
-            "ora": 3,
-            "materia": "SCIENZE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Interrogazione orale sui miscugli e soluzioni\nLettura e spiegazione delle proprietà dell'acqua con relativo esperimento della capillarita'"
-          },
-          {
-            "ora": 3,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
-          },
-          {
-            "ora": 4,
-            "materia": "SCIENZE",
-            "docente": "LETIZIA ELVIRA",
-            "argomento": "Interrogazione orale sui miscugli e soluzioni\nLettura e spiegazione delle proprietà dell'acqua con relativo esperimento della capillarita'"
-          },
-          {
-            "ora": 4,
-            "materia": "SOSTEGNO",
-            "docente": "IACOMINI VERONICA",
-            "argomento": ""
+            "time": "11:00",
+            "event": "📅 Catechismo Ada"
           }
         ],
+        "status": "🏠 A casa"
+      },
+      "school_data": {
+        "lezioni_oggi": [],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1435,7 +1341,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: RELIGIONE (ORABONA MARIA)\n    → I Profeti\n  Ora 2: RELIGIONE (ORABONA MARIA)\n    → I Profeti\n  Ora 3: SCIENZE (LETIZIA ELVIRA)\n    → Interrogazione orale sui miscugli e soluzioni\nLettura e spiegazione delle proprietà dell'acqua con relativo esperimento \n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: SCIENZE (LETIZIA ELVIRA)\n    → Interrogazione orale sui miscugli e soluzioni\nLettura e spiegazione delle proprietà dell'acqua con relativo esperimento \n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
+      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
     }
   }
 }

@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-26 15:00",
+  "generated": "2026-11-27 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-27",
+          "artist": "Pharoah Sanders",
+          "track": "You've Got to Have Freedom",
+          "album": "Rejoice",
+          "year": "1981",
+          "context": "Tema gioioso e liberatorio — il free jazz diventa accessibile e festoso.",
+          "youtube_url": "https://www.youtube.com/watch?v=prGeZ0ocsnA"
+        },
         {
           "type": "track",
           "date": "2026-11-26",
