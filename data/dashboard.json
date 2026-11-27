@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-27T07:30:35.447503",
+    "last_updated": "2026-11-27T15:02:03.115464",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,91 +28,98 @@
         "text": "📚 2027-01-15 (10:10-12:10) — Incontro Scuole Sicure, intervento sulla prevenzione al bullismo e al cyberbullismo. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.446852"
+        "added_at": "2026-11-27T15:02:03.114754"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447025"
+        "added_at": "2026-11-27T15:02:03.114878"
       },
       {
         "id": "didup_2",
         "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447062"
+        "added_at": "2026-11-27T15:02:03.114913"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447092"
+        "added_at": "2026-11-27T15:02:03.114943"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447123"
+        "added_at": "2026-11-27T15:02:03.114972"
       },
       {
         "id": "didup_5",
         "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447151"
+        "added_at": "2026-11-27T15:02:03.115002"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447179"
+        "added_at": "2026-11-27T15:02:03.115030"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447207"
+        "added_at": "2026-11-27T15:02:03.115058"
       },
       {
         "id": "didup_8",
         "text": "📚 2026-12-02 (07:30-08:00) — Scienze: inizio giro interrogazioni secondo calendario ( reazioni chimiche/fisiche, soluzioni e ph. Le distanze in astronomia. Il Bigbang e l'evoluzione universo. Le galassi",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447236"
+        "added_at": "2026-11-27T15:02:03.115091"
       },
       {
         "id": "didup_9",
         "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447264"
+        "added_at": "2026-11-27T15:02:03.115120"
       },
       {
         "id": "didup_10",
-        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
+        "text": "📚 2026-11-30 (09:00-10:00) — Interrogazioni programmate TAC: Tuccori; Da Tofori [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447291"
+        "added_at": "2026-11-27T15:02:03.115148"
       },
       {
         "id": "didup_11",
-        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
+        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447320"
+        "added_at": "2026-11-27T15:02:03.115177"
       },
       {
         "id": "didup_12",
+        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-27T15:02:03.115206"
+      },
+      {
+        "id": "didup_13",
         "text": "📚 2026-11-28 (09:00-10:00) — Verifica orale programmata di Italiano per l'alunno C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-27T07:30:35.447354"
+        "added_at": "2026-11-27T15:02:03.115234"
       }
     ],
     "calendar_events": {
@@ -156,6 +163,12 @@
       ],
       "tomorrow": [
         {
+          "time": "10:51",
+          "event": "📅 Colloquio TAC",
+          "all_day": false,
+          "summary": "Colloquio TAC"
+        },
+        {
           "time": "11:00",
           "event": "📅 Catechismo Ada",
           "all_day": false,
@@ -168,17 +181,17 @@
       "today": {
         "date": "2026-11-27",
         "description": "Nebbia",
-        "temp_min": 6,
+        "temp_min": 7,
         "temp_max": 14,
         "icon": "50d",
-        "humidity": 96,
-        "wind_speed": 1,
+        "humidity": 70,
+        "wind_speed": 7,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-11-28",
         "description": "Sereno",
-        "temp_min": 4,
+        "temp_min": 5,
         "temp_max": 13,
         "icon": "01d",
         "humidity": 0,
@@ -192,29 +205,29 @@
         "name": "Corridoio",
         "icon": "🚪",
         "temp": 18.1,
-        "humidity": 81,
+        "humidity": 76,
         "battery": 76,
-        "last_update": "2026-11-27 07:00:58",
+        "last_update": "2026-11-27 15:00:23",
         "battery_warning": false
       },
       {
         "id": "3",
         "name": "Studio",
         "icon": "💻",
-        "temp": 18.7,
-        "humidity": 79,
-        "battery": 30,
-        "last_update": "2026-11-27 07:01:58",
+        "temp": 18.2,
+        "humidity": 78,
+        "battery": 31,
+        "last_update": "2026-11-27 15:00:20",
         "battery_warning": false
       },
       {
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.6,
-        "humidity": 76,
+        "temp": 18.5,
+        "humidity": 73,
         "battery": 75,
-        "last_update": "2026-11-27 07:02:05",
+        "last_update": "2026-11-27 14:03:19",
         "battery_warning": false
       }
     ],
@@ -455,6 +468,10 @@
         "date": "2026-11-28",
         "schedule": [
           {
+            "time": "10:51",
+            "event": "📅 Colloquio TAC"
+          },
+          {
             "time": "11:00",
             "event": "📅 Catechismo Ada"
           }
@@ -519,6 +536,10 @@
       "tomorrow": {
         "date": "2026-11-28",
         "schedule": [
+          {
+            "time": "10:51",
+            "event": "📅 Colloquio TAC"
+          },
           {
             "time": "11:00",
             "event": "📅 Catechismo Ada"
@@ -726,6 +747,10 @@
           {
             "time": "12:10",
             "event": "Ritorno: 🚆 Treno 12:31 (Stazione FS → 12:40 Altopascio)"
+          },
+          {
+            "time": "10:51",
+            "event": "📅 Colloquio TAC"
           }
         ],
         "status": "🏫 Scuola — Uscita ~12:10"
@@ -1019,7 +1044,7 @@
         "album": "Rejoice",
         "year": "1981",
         "context": "Tema gioioso e liberatorio — il free jazz diventa accessibile e festoso.",
-        "youtube_url": "https://www.youtube.com/watch?v=bYKHCvmu1z4"
+        "youtube_url": "https://www.youtube.com/watch?v=prGeZ0ocsnA"
       },
       "voti": {
         "updated": "2026-11-27",
@@ -1212,7 +1237,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34\n📝 2026-11-30: LINGUA STRANIERA-ING: FAI P 49 N6 E STUDIA BENE IL TESTO A  P 48\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma\n📝 2026-12-02: MATEMATICA: Es. 368, 369 pag. 137, es. 404 e 407 pag. 140\n📝 2026-12-02: LABORATORIO DI MUSICA D'INSIEME: Studiare a memoria le parti singole dell’Ave Verum, per facilitare "
+      "personal_notes": "📝 2026-11-27: TEORIA, ANALISI E COMPOSIZIONE: Teoria musicale (Rossi): studiare pp.32-34\n📝 2026-11-30: LINGUA STRANIERA-ING: FAI P 49 N6 E STUDIA BENE IL TESTO A  P 48\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: TEORIA, ANALISI E COMPOSIZIONE: CLASSROOM: studiare scheda \"Solfeggi ritmici in 6/8\".\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma\n📝 2026-12-02: MATEMATICA: Es. 368, 369 pag. 137, es. 404 e 407 pag. 140"
     },
     "ada": {
       "display_name": "Ada",
@@ -1255,6 +1280,10 @@
         "date": "2026-11-28",
         "schedule": [
           {
+            "time": "10:51",
+            "event": "📅 Colloquio TAC"
+          },
+          {
             "time": "11:00",
             "event": "📅 Catechismo Ada"
           }
@@ -1262,7 +1291,50 @@
         "status": "🏠 A casa"
       },
       "school_data": {
-        "lezioni_oggi": [],
+        "lezioni_oggi": [
+          {
+            "ora": 1,
+            "materia": "STORIA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": "I popoli della Mesopotamia: ripasso e consolidamento"
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "La frazione del numero nei problemi"
+          },
+          {
+            "ora": 2,
+            "materia": "MATEMATICA",
+            "docente": "GOZZINI ANGELA",
+            "argomento": ""
+          },
+          {
+            "ora": 3,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Scomposizione dei numeri decimali in tabella e sulla linea dei numeri\nLe parti di un poligono : definizioni"
+          },
+          {
+            "ora": 3,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          },
+          {
+            "ora": 4,
+            "materia": "MATEMATICA",
+            "docente": "LETIZIA ELVIRA",
+            "argomento": "Scomposizione dei numeri decimali in tabella e sulla linea dei numeri\nLe parti di un poligono : definizioni"
+          },
+          {
+            "ora": 4,
+            "materia": "SOSTEGNO",
+            "docente": "IACOMINI VERONICA",
+            "argomento": ""
+          }
+        ],
         "lezioni_domani": [],
         "agenda": [],
         "voti": [
@@ -1341,7 +1413,7 @@
         "bacheca": [],
         "note": []
       },
-      "personal_notes": "\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
+      "personal_notes": "📚 Lezioni di oggi:\n  Ora 1: STORIA (GOZZINI ANGELA)\n    → I popoli della Mesopotamia: ripasso e consolidamento\n  Ora 2: MATEMATICA (LETIZIA ELVIRA)\n    → La frazione del numero nei problemi\n  Ora 2: MATEMATICA (GOZZINI ANGELA)\n  Ora 3: MATEMATICA (LETIZIA ELVIRA)\n    → Scomposizione dei numeri decimali in tabella e sulla linea dei numeri\nLe parti di un poligono : definizioni\n  Ora 3: SOSTEGNO (IACOMINI VERONICA)\n  Ora 4: MATEMATICA (LETIZIA ELVIRA)\n    → Scomposizione dei numeri decimali in tabella e sulla linea dei numeri\nLe parti di un poligono : definizioni\n  Ora 4: SOSTEGNO (IACOMINI VERONICA)\n\n🎯 Voti recenti:\n  2026-11-23 | MATEMATICA | ds\n  2026-11-17 | GEOGRAFIA | ds\n  2026-11-17 | ATTIVITA' MOTORIE E SPORTIVE | +\n  2026-11-13 | STORIA | ds\n  2026-11-12 | SCIENZE | ds"
     }
   }
 }
