@@ -1,10 +1,20 @@
 {
-  "generated": "2026-11-27 15:02",
+  "generated": "2026-11-28 07:30",
   "playlists": {
     "flavio": {
       "title": "🎷 Playlist di Flavio",
       "subtitle": "Ascolto del giorno — Jazz & Sax",
       "tracks": [
+        {
+          "type": "track",
+          "date": "2026-11-28",
+          "artist": "Stan Getz",
+          "track": "The Girl from Ipanema",
+          "album": "Getz/Gilberto",
+          "year": "1964",
+          "context": "Il brano bossa nova più famoso al mondo. Getz al sax tenore con Astrud Gilberto alla voce.",
+          "youtube_url": "https://www.youtube.com/watch?v=sx0TLkdWFEU"
+        },
         {
           "type": "track",
           "date": "2026-11-27",
@@ -2087,6 +2097,13 @@
           "artist": "Homepage - The War On Drugs",
           "track": "Homepage - The War On Drugs",
           "link": "http://www.thewarondrugs.net",
+          "source": "Raindrop"
+        },
+        {
+          "type": "artist",
+          "artist": "Hotel Usona",
+          "track": "Hotel Usona",
+          "link": "https://protomartyrband.com/",
           "source": "Raindrop"
         },
         {
