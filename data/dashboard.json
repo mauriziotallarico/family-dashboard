@@ -1,6 +1,6 @@
 {
   "_meta": {
-    "last_updated": "2026-11-28T07:30:38.376648",
+    "last_updated": "2026-11-28T15:01:40.525742",
     "version": "2.1",
     "updated_by": "picoclaw",
     "fetch_errors": []
@@ -28,98 +28,105 @@
         "text": "📚 2027-01-15 (10:10-12:10) — Incontro Scuole Sicure, intervento sulla prevenzione al bullismo e al cyberbullismo. [B. TEDESCHI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376033"
+        "added_at": "2026-11-28T15:01:40.525128"
       },
       {
         "id": "didup_1",
         "text": "📚 2026-12-22 (11:00-11:30) — St arte interrogazioni Satta e Pisanu [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376140"
+        "added_at": "2026-11-28T15:01:40.525219"
       },
       {
         "id": "didup_2",
-        "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli [M. LORENZINI]",
+        "text": "📚 2026-12-19 (11:00-11:30) — arte interrogazioni Acci e Brunelli Rucher [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376174"
+        "added_at": "2026-11-28T15:01:40.525251"
       },
       {
         "id": "didup_3",
         "text": "📚 2026-12-15 (11:00-11:30) — arte No interrogazioni [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376203"
+        "added_at": "2026-11-28T15:01:40.525282"
       },
       {
         "id": "didup_4",
         "text": "📚 2026-12-14 (08:10-09:10) — Verifica di geografia [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376233"
+        "added_at": "2026-11-28T15:01:40.525312"
       },
       {
         "id": "didup_5",
-        "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , S. Rucher [M. LORENZINI]",
+        "text": "📚 2026-12-12 (11:30-12:00) — st arte programmato Lin Ting E. , Giorgi [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376263"
+        "added_at": "2026-11-28T15:01:40.525341"
       },
       {
         "id": "didup_6",
         "text": "📚 2026-12-08 (11:00-11:30) — Arte programmato [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376290"
+        "added_at": "2026-11-28T15:01:40.525370"
       },
       {
         "id": "didup_7",
         "text": "📚 2026-12-05 (11:30-12:00) — Arte programmato Cortopassi e  Tallarico [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376319"
+        "added_at": "2026-11-28T15:01:40.525398"
       },
       {
         "id": "didup_8",
-        "text": "📚 2026-12-02 (07:30-08:00) — Scienze: inizio giro interrogazioni secondo calendario ( reazioni chimiche/fisiche, soluzioni e ph. Le distanze in astronomia. Il Bigbang e l'evoluzione universo. Le galassi",
+        "text": "📚 2026-12-05 — Recupero di storia: Acci, Damazzi (orale). [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376347"
+        "added_at": "2026-11-28T15:01:40.525426"
       },
       {
         "id": "didup_9",
-        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
+        "text": "📚 2026-12-02 (07:30-08:00) — Scienze: inizio giro interrogazioni secondo calendario ( reazioni chimiche/fisiche, soluzioni e ph. Le distanze in astronomia. Il Bigbang e l'evoluzione universo. Le galassi",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376375"
+        "added_at": "2026-11-28T15:01:40.525461"
       },
       {
         "id": "didup_10",
-        "text": "📚 2026-11-30 (09:00-10:00) — Interrogazioni programmate TAC: Tuccori; Da Tofori [A. MELI]",
+        "text": "📚 2026-11-30 (11:00-11:30) — Arte programmata Paleari e Bertoli [M. LORENZINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376403"
+        "added_at": "2026-11-28T15:01:40.525489"
       },
       {
         "id": "didup_11",
-        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
+        "text": "📚 2026-11-30 (09:00-10:00) — Interrogazioni programmate TAC: Tuccori; Da Tofori [A. MELI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376431"
+        "added_at": "2026-11-28T15:01:40.525518"
       },
       {
         "id": "didup_12",
-        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
+        "text": "📚 2026-11-28 — Recupero di storia: Bertoli, Damazzi, Rucher (orale); Bonuccelli, Tallarico, Vignozzi e Zhang  (scritto) [M. ROSSI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376459"
+        "added_at": "2026-11-28T15:01:40.525545"
       },
       {
         "id": "didup_13",
+        "text": "📚 2026-11-28 (11:30-12:00) — Arte programmata  Giorgi, Damazzi [M. LORENZINI]",
+        "priority": "high",
+        "added_by": "picoclaw",
+        "added_at": "2026-11-28T15:01:40.525573"
+      },
+      {
+        "id": "didup_14",
         "text": "📚 2026-11-28 (09:00-10:00) — Verifica orale programmata di Italiano per l'alunno C.G. [M. MONCINI]",
         "priority": "high",
         "added_by": "picoclaw",
-        "added_at": "2026-11-28T07:30:38.376486"
+        "added_at": "2026-11-28T15:01:40.525600"
       }
     ],
     "calendar_events": {
@@ -147,15 +154,15 @@
         "temp_min": 4,
         "temp_max": 13,
         "icon": "03d",
-        "humidity": 80,
-        "wind_speed": 4,
+        "humidity": 53,
+        "wind_speed": 12,
         "precipitation_mm": 0.0
       },
       "tomorrow": {
         "date": "2026-11-29",
         "description": "Nuvoloso",
         "temp_min": 4,
-        "temp_max": 13,
+        "temp_max": 12,
         "icon": "04d",
         "humidity": 0,
         "wind_speed": 0,
@@ -167,10 +174,10 @@
         "id": "2",
         "name": "Corridoio",
         "icon": "🚪",
-        "temp": 18.9,
-        "humidity": 78,
-        "battery": 76,
-        "last_update": "2026-11-28 07:06:05",
+        "temp": 18.0,
+        "humidity": 70,
+        "battery": 75,
+        "last_update": "2026-11-28 14:06:54",
         "battery_warning": false
       },
       {
@@ -187,10 +194,10 @@
         "id": "4",
         "name": "Camera Matrimoniale",
         "icon": "🛏️",
-        "temp": 18.4,
-        "humidity": 73,
+        "temp": 18.8,
+        "humidity": 71,
         "battery": 75,
-        "last_update": "2026-11-28 07:03:03",
+        "last_update": "2026-11-28 14:04:16",
         "battery_warning": false
       }
     ],
@@ -1121,7 +1128,7 @@
           }
         ]
       },
-      "personal_notes": "📝 2026-11-30: LINGUA STRANIERA-ING: FAI P 49 N6 E STUDIA BENE IL TESTO A  P 48\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: TEORIA, ANALISI E COMPOSIZIONE: CLASSROOM: studiare scheda \"Solfeggi ritmici in 6/8\".\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma\n📝 2026-12-02: MATEMATICA: Es. 368, 369 pag. 137, es. 404 e 407 pag. 140\n📝 2026-12-02: LABORATORIO DI MUSICA D'INSIEME: Studiare a memoria le parti singole dell’Ave Verum, per facilitare "
+      "personal_notes": "📝 2026-11-30: LINGUA STRANIERA-ING: FAI P 49 N6 E STUDIA BENE IL TESTO A  P 48\n📝 2026-11-30: STORIA DELLA MUSICA: Controllo quaderni e descrizione degli strumenti medievali; il Rinascimento e i\n📝 2026-11-30: STORIA E GEOGRAFIA: Geografia: studiare le carte geografiche: definizione e caratteristiche e la sca\n📝 2026-11-30: TEORIA, ANALISI E COMPOSIZIONE: CLASSROOM: studiare scheda \"Solfeggi ritmici in 6/8\".\n📝 2026-11-30: LABORATORIO DI MUSICA D'INSIEME: Wicked: Studio dei brani scelti\n📝 2026-12-01: LING. LETT. ITALIANA: Vol.narrativa pag.168/171\n📝 2026-12-01: SCIENZE NATURALI (BIOLOGIA, CHIMICA, SCIENZE DELLA TERRA): studiare evoluzione stellare 62-67 + doma\n📝 2026-12-02: MATEMATICA: Es. 368, 369 pag. 137, es. 404 e 407 pag. 140"
     },
     "ada": {
       "display_name": "Ada",
